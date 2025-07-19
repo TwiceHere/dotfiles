@@ -1,0 +1,1 @@
+packages = ["shell","tmux","alacritty","nvim","starship"]

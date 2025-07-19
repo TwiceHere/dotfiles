@@ -1,0 +1,15 @@
+[shell.files] 
+"shell" = "~" 
+
+[tmux.files] 
+"tmux" = { target = "~/.config/tmux", type = "symbolic", recurse = false}
+
+[alacritty.files] 
+"alacritty" = {target = "~/.config/alacritty", type = "symbolic" , recurse = false}
+
+[nvim.files] 
+"nvim" = {target = "~/.config/nvim", type = "symbolic" , recurse = false} 
+
+
+[starship.files] 
+"starship" = "~/.config" 
