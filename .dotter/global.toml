@@ -13,3 +13,8 @@
 
 [starship.files] 
 "starship" = "~/.config" 
+
+[myscripts.files] 
+"myscripts/code_runner.sh" = "~/.local/bin/run"
+"myscripts/copy_clip.sh" = "~/.local/bin/copy" 
+"myscripts/vmux.sh" = "~/.local/bin/vmux"
