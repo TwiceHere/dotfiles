@@ -9,7 +9,7 @@ py)
   uv run $filepath
   ;;
 c)
-  gcc "$filepath" -o "$filename" && ./"$filename" && rm $filename
+  gcc "$filepath" -o "$filename" -lm && ./"$filename" && rm $filename
   ;;
 cpp)
   g++ "$filepath" -o "$filename" && ./"$filename" && rm $filename
