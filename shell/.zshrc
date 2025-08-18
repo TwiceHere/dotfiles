@@ -110,7 +110,7 @@ source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions/zsh-autosu
 source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions/zsh-completions.plugin.zsh
 source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Anki setup 
-alias anki="~/.local/anki/anki"
+alias anki="~/.local/anki/anki-launcher-25.07.5-linux/anki"
 
 
 

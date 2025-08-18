@@ -119,5 +119,5 @@ eval "$(starship init bash)"
 # anki setup
 alias anki="~/.local/anki/anki"
 
-export PATH="$HOME/.local/bin:$PATH"
-. "$HOME/.cargo/env"
+# User-local binaries first
+export PATH="$HOME/.cargo/bin:$HOME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
