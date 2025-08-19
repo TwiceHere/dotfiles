@@ -109,8 +109,9 @@ plugins=(zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
 source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions/zsh-completions.plugin.zsh
 source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# Anki setup 
+# Anki setup  + alias
 alias anki="~/.local/anki/anki-launcher-25.07.5-linux/anki"
+alias cdf='cd "$(fd -t d . ~ | fzf)"'
 
 
 
