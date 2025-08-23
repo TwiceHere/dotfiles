@@ -65,3 +65,281 @@ ls
 tp
 ls
 clear
+git add .
+git commit -m "added nushell" 
+git push
+clear
+ls
+l
+clear
+ls
+ls | sort 
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+cd dotfiles/
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+eza
+ls
+eza
+clear
+eza
+cdf
+ls
+clear
+ls
+l
+clear
+ez
+eza -a 
+clear
+ls
+cd ..
+ls
+clear
+eza
+cd ..
+ls
+exit
+ls
+exit
+l
+ls
+clear
+ls
+cdf
+clear
+ls
+cd ..
+ls
+cler
+clear
+ls
+eza 
+eza --help
+eza -l
+clear
+ls
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+btop
+clear
+ls
+nu --version
+clear
+ls
+nu --version
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+exit
+eza
+tp
+ls
+eza
+clear
+eza
+eza -l
+clear
+ls
+clear
+eza
+nvim
+rg source
+grep source config.nu
+clear
+ls
+clear
+ls
+ls | sort-by size
+clear
+ls | sort-by name
+ls | sort-by modified
+clear
+ls
+eza
+clear
+eza
+tp
+ls
+eza
+clear
+eza
+clear
+eza
+ls
+clear
+ls
+clear
+fastfetch 
+clear
+ls
+fastfetch
+clear
+fastfetch
+clear
+fastfetch 
+clear
+fastfetch 
+clear
+cdf
+ls
+clear
+exit
+tp
+ls
+ls | sort-by modified
+clear
+ls
+clear
+exit
+ls
+clear
+ls
+clear
+eza
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+tp
+clear
+ls
+pwd 
+clear
+ls
+grep config.nu
+clear
+ls
+clear
+ls
+clear
+eza
+ls
+clear
+pwd | copy
+mkdir colorschemes
+ls
+cdf
+pwd | copy 
+ls
+cd ..
+ls
+clear
+ls
+cd colorschemes/
+ls
+tp
+ls
+mv catppuccin_frappe.nu ~/dotfiles/nushell/colorschemes/
+tp
+clear
+ls
+cd ..
+ls
+nvim
+clear
+ls
+tree . | copy 
+nvim
+ls
+clear
+exit
+sl
+ls
+clear
+ls
+eza
+clear
+ls
+tp
+nvim
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+tp
+nvim
+clear
+source ~/dotfiles/nushell/
+source ~/dotfiles/nushell/config.nu
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+nvim
+source ~/dotfiles/nushell/config.nu
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+nvim 
+source ~/dotfiles/nushell/config.nu
+clear
+ls
+exit
+ls
+tp
+ls
+clear
+ls
+tp
+ls
+clear
+eza
+clear
+ls
+bash
+clear
+ls
+exit
+ls
+tp
+ls

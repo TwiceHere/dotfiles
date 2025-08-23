@@ -8,4 +8,4 @@ $env.config = {
     max_size: 10000
   }
 }
-
+source ~/dotfiles/nushell/colorschemes/catppuccin_mocha.nu
