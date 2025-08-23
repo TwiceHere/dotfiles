@@ -104,6 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH=$PATH:~/go/bin
 eval "$(starship init zsh)"
 plugins=(zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
 source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -111,7 +112,8 @@ source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions/zsh-completion
 source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Anki setup  + alias
 alias anki="~/.local/anki/anki-launcher-25.07.5-linux/anki"
-alias cdf='cd "$(fd -t d . ~ | fzf)"'
+alias tp='cd "$(fd -t d . ~ | fzf)"'
+alias cdf='cd "$(fd -t d . | fzf)"'
 
 
 
