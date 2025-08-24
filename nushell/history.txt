@@ -343,3 +343,123 @@ exit
 ls
 tp
 ls
+git add .
+git commit -m "(nushell) : added colorschemes" 
+git push
+clear
+ls
+clear
+exit
+ls
+tp
+ls
+clear
+tp
+ls
+tp
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+exit
+;s
+ls
+clear
+ls
+cargo install sd
+clear
+ls
+sd --help
+sd --help | grep flags
+ls
+clear
+ls
+celar
+clear
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+nvim history.txt
+ls
+clear
+ls
+sd "anki" "" history.txt
+sd history.txt "anki" ""
+clear
+ls
+grep anki history.txt
+nvim history.txt
+clear
+ls
+clear
+exit
+tp
+ls
+clear
+ls
+nvim progress.md
+clear
+vmux
+tmux ls
+clear
+tp
+ls
+tp
+ls
+ls -l
+ls --help
+clear
+ls -a
+which nu
+exit
+nvim .tmux.conf
+clear
+vmux
+clera
+clear
+ls
+ls -a
+nvim .tmux.conf
+clear
+ls
+exit
+tmux
+nvim
+clear
+ls
+clear
+ls
+clear
+which nu
+clear
+exit
+tmux
+nvim
+exit
+nvim
+tp
+ls
+clear
+sl
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+eza
+clear
+tmux detach
+vmux
+clear
+tp
+ls
