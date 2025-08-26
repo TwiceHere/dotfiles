@@ -1,0 +1,61 @@
+#!/bin/bash
+
+# Parse colors from pywal's JSON output
+COLOR0=$(jq -r '.colors.color0' ~/.cache/wal/colors.json)
+COLOR1=$(jq -r '.colors.color1' ~/.cache/wal/colors.json)
+COLOR2=$(jq -r '.colors.color2' ~/.cache/wal/colors.json)
+COLOR3=$(jq -r '.colors.color3' ~/.cache/wal/colors.json)
+COLOR4=$(jq -r '.colors.color4' ~/.cache/wal/colors.json)
+COLOR5=$(jq -r '.colors.color5' ~/.cache/wal/colors.json)
+COLOR6=$(jq -r '.colors.color6' ~/.cache/wal/colors.json)
+COLOR7=$(jq -r '.colors.color7' ~/.cache/wal/colors.json)
+COLOR8=$(jq -r '.colors.color8' ~/.cache/wal/colors.json)
+COLOR9=$(jq -r '.colors.color9' ~/.cache/wal/colors.json)
+COLOR10=$(jq -r '.colors.color10' ~/.cache/wal/colors.json)
+COLOR11=$(jq -r '.colors.color11' ~/.cache/wal/colors.json)
+COLOR12=$(jq -r '.colors.color12' ~/.cache/wal/colors.json)
+COLOR13=$(jq -r '.colors.color13' ~/.cache/wal/colors.json)
+COLOR14=$(jq -r '.colors.color14' ~/.cache/wal/colors.json)
+COLOR15=$(jq -r '.colors.color15' ~/.cache/wal/colors.json)
+
+# Process alacritty template
+sed -e "s/{color0}/$COLOR0/g" \
+  -e "s/{color1}/$COLOR1/g" \
+  -e "s/{color2}/$COLOR2/g" \
+  -e "s/{color3}/$COLOR3/g" \
+  -e "s/{color4}/$COLOR4/g" \
+  -e "s/{color5}/$COLOR5/g" \
+  -e "s/{color6}/$COLOR6/g" \
+  -e "s/{color7}/$COLOR7/g" \
+  -e "s/{color8}/$COLOR8/g" \
+  -e "s/{color9}/$COLOR9/g" \
+  -e "s/{color10}/$COLOR10/g" \
+  -e "s/{color11}/$COLOR11/g" \
+  -e "s/{color12}/$COLOR12/g" \
+  -e "s/{color13}/$COLOR13/g" \
+  -e "s/{color14}/$COLOR14/g" \
+  -e "s/{color15}/$COLOR15/g" \
+  ~/dofiles/pywal_templates/colors-alacritty.toml >~/dotfiles/alacritty/catppuccin/pywal.toml
+
+# Process starship template
+sed -e "s/{color0}/$COLOR0/g" \
+  -e "s/{color1}/$COLOR1/g" \
+  -e "s/{color2}/$COLOR2/g" \
+  -e "s/{color3}/$COLOR3/g" \
+  -e "s/{color4}/$COLOR4/g" \
+  -e "s/{color5}/$COLOR5/g" \
+  -e "s/{color6}/$COLOR6/g" \
+  -e "s/{color7}/$COLOR7/g" \
+  -e "s/{color8}/$COLOR8/g" \
+  -e "s/{color9}/$COLOR9/g" \
+  -e "s/{color10}/$COLOR10/g" \
+  -e "s/{color11}/$COLOR11/g" \
+  -e "s/{color12}/$COLOR12/g" \
+  -e "s/{color13}/$COLOR13/g" \
+  -e "s/{color14}/$COLOR14/g" \
+  -e "s/{color15}/$COLOR15/g" \
+  ~/dofiles/pywal_templates/starship.toml >~/dotfiles/starship/starship.toml
+
+echo "Configs updated!"
+echo "Alacritty: ~/dotfiles/alacritty/catppuccin/pywal.toml"
+echo "Starship: ~/dotfiles/starship/starship.toml"

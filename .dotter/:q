@@ -18,7 +18,6 @@
 "myscripts/code_runner.sh" = "~/.local/bin/run"
 "myscripts/copy_clip.sh" = "~/.local/bin/copy" 
 "myscripts/vmux.sh" = "~/.local/bin/vmux"
-"myscripts/postrun" = "~/.local/bin/syncwal"
 
 [nushell.files]
 "nushell" = {target = "~/.config/nushell", type = "symbolic" , recurse = false}

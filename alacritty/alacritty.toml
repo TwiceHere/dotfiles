@@ -8,7 +8,7 @@ title = "Terminal" # Alacritty
 dynamic_title = false
 
 [general]
-import = ["/home/sonu/.config/alacritty/catppuccin/catppuccin-mocha.toml"]  # Change to latte, frappe, or macchiato if preferred
+import = ["/home/sonu/.config/alacritty/catppuccin/pywal.toml"]  # Change to latte, frappe, or macchiato if preferred
 
 [terminal] 
 shell = { program = "/usr/bin/nu", args = [] }

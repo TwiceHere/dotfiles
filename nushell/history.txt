@@ -390,11 +390,11 @@ nvim history.txt
 ls
 clear
 ls
-sd "anki" "" history.txt
-sd history.txt "anki" ""
+sd "" "" history.txt
+sd history.txt "" ""
 clear
 ls
-grep anki history.txt
+grep  history.txt
 nvim history.txt
 clear
 ls
@@ -462,4 +462,1464 @@ tmux detach
 vmux
 clear
 tp
+ls
+git add .
+git commit -m "(tmux) : added nushell as default shell" 
+git push
+clear
+tp
+ls
+clear
+clear
+mkdir 18_rest_api_project
+cdf
+ls
+clear
+tmux attach -t coding
+tp
+ls
+tp
+ls
+cdf
+ls
+ls -a
+nvim .tmux.conf
+clear
+tp
+ls
+clear
+ls
+clear
+ls
+s
+clear
+ls
+clear
+ls
+clear
+nu --version
+clear
+ls
+go run main.go
+clear
+go run main.go
+zsh
+clear
+ls
+clear
+tmux --version
+tmux -v
+tmux --version
+clear
+tmux --help
+clear
+go version
+go mod init github.com/TwiceHere/students_api
+clear
+ls
+clear
+ls
+rm tmux-client-13524.log
+ls
+clear
+go run main.go
+clear
+ls
+run main.go
+clear
+go build
+ls
+./students_api
+ls
+clear
+rm students_api
+ls
+clear
+eza
+clear
+ls
+go get github.com/shihanng/gig
+clear
+gig --help
+which gig
+clear
+nvim
+tmux kill-server
+tmux attach -t coding
+sl
+clear
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+nvim env.nu
+clear
+gig
+echo $PATH
+echo $env.PATH
+echo $env.PATH | copy
+clear
+gig --help
+echo $env.PATH
+ls /home/sonu/go/bin | where name =~ gig
+go install github.com/shihanng/gig@latest
+gig --help
+clear
+ls
+clear
+ls
+clear
+tmux ls
+clear
+tp
+ls
+clear
+ls
+clear
+ls
+sl
+ls
+clear
+ls
+cdf
+ls
+clear
+gig --help
+clear
+gig search
+gig repo set https://github.com/github/gitignore.git
+clear
+gig update
+rm ~/go/bin/gig
+gig --help
+clear
+ls
+clear
+go install github.com/shihanng/gig@latest
+gig --help
+clear
+gig search
+clear
+rm ~/go/bin/gig
+gig --help
+clear
+cargo install gitnr
+clear
+gitnr --help
+clear
+gitnr search
+clear
+ls
+gitnr create
+clear
+gitnr create go
+clear
+gitnr --help
+clear
+gitnr search
+clear
+gitnr search
+ls -a
+clear
+ls
+gitnr search
+gitnr create gh:Go
+clear
+ls
+ls -a
+gitnr create gh:Go | save ".gitignore"
+ls
+clear
+ls
+clear
+npm -v
+clear
+npx gitignore go,linux,vscode,python
+npx gitignore --types
+npx gitignore --types  | grep -i go
+clear
+npx gitignore Go
+clear
+ls
+rm .gitignore
+clear
+npx gitignore Go
+clear
+npx gitignore --types | grep -i python
+clear
+ls
+clear
+cargo install --list
+cargo install --list | nr
+cargo install --list | search nr
+cargo install --list | grep nr
+clear
+cargo uninstall --help
+clear
+cargo uninstall gitnr
+clear
+ls
+cargo install --list
+clear
+npx gitignore Python Linux
+clear
+ls
+rm .gitignore
+clear
+npx gitignore Go
+clear
+mkdir config
+cdf
+ls
+clear
+touch local.yaml
+s
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+mkdir storage
+npx gitignore --types | grep -i sql
+clear
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+clear
+tmux ls
+clear
+tp
+ls
+ls -a
+nvim
+ls
+claer
+ls
+clear
+ls
+clear
+tmux kill-server
+vmux
+exit
+tp
+ls
+clear
+nvim
+clear
+ls
+clear
+ls
+clear
+exit
+vmux
+clear
+exit
+sl
+ls
+clear
+history
+which history
+clear
+ls
+tp
+ls
+clear
+ls
+nvim history.txt
+clear
+ls
+sd "" "" history.txt
+grep  history.txt
+sd --help
+clear
+sd --help | fzf
+clear
+sd --help | bat
+clear
+sed --help
+clear
+exit
+sed --help | bat
+cler
+clear
+exit
+
+history | sd "" ""
+clear
+exit
+ls
+sd --help
+clear
+ls
+clear
+echo "selinux " | sed '//d' 
+ls
+clear
+ls
+tp
+clear
+ls
+sed '//d'  history.txt
+sed '//d'  history.txt | grep -i 
+clear
+ls
+sed --help | bat
+clear
+exit
+tp
+clear
+ls
+clear
+ls
+sd -m "" "" history.txt | grep 
+sd --help
+clear
+sd -f m "" "" history.txt | grep 
+sd --help
+clear
+sl
+clear
+grep --help | fzf
+clear
+ls
+clar
+clear
+exit
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+s
+clear
+ls
+clear
+ls
+cler
+clear
+tp
+ls
+eza
+cdf
+ls
+clear
+ls
+eza
+nvim catppuccin-mocha.toml
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+tp
+clear
+ls
+cler
+ls
+clear
+ls
+tp
+clear
+ls
+clear
+tp
+ls
+nvim catppuccin-mocha.toml
+clear
+ls
+clear
+ls
+clear
+nvim catppuccin-mocha.toml
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+nvim catppuccin-mocha.toml
+clear
+ls
+nvim catppuccin-mocha.toml
+clear
+ls
+clear
+ls
+nvim catppuccin-mocha.toml
+clear
+ls
+clear
+exit
+ls
+nvim
+claer
+clear
+nvim
+clear
+ls
+clear
+printf "%b" "\033]11;#ff0000\007"
+zsh
+exit
+ls
+clear
+exit
+pip3 install --user pywall
+pip3 --version
+clear
+sudo dnf install pip3
+clear
+pip3 install --user pywall
+clear
+wall --version
+pywal --version
+pip3 --help
+clear
+pip3 --freeze 
+pip3 freeze
+pip3 freeze | grep pywal
+clear
+pywal 
+clear
+tp
+clear
+ls
+clear
+nvim env
+nvim env.nu
+clear
+exit
+fastfetch
+clear
+exit
+pywal 
+clear
+ls
+clear
+exit
+ls
+tp
+ls
+ls -a
+tp
+ls
+nvim starship.toml
+clear
+exit
+sudo dnf install pywal 
+pip3 show pywal | grep location
+pip3 freeze | grep pywa
+wal --version
+clear
+exit
+ls ~/.local/bin/wal
+ls
+clear
+ls
+tp
+ls
+clear
+nvim env.nu
+clear
+nvim
+clear
+nvim
+clear
+find ~/.local -type f -name wal
+fd ~/.local -t file -name wal
+fd --help | fzf
+claer
+clear
+fd --help
+clear
+fd -tf wal ~/.local
+fd -tf pywal ~/.local
+fd -tf pywal ~/.local | copy
+fd -tf wal ~/.local | copy
+clear
+pip3 uninstall pywall
+clear
+pip3 install --user pywal
+clear
+ls ~/.local/bin/wal
+wal --version
+clear
+wal --versoin
+wal -v
+clear
+ls
+tp
+clear
+ls
+tp
+cd
+clear
+sl
+clear
+wal -i ~/Downloads/anime-cityscape-sunset.jpg
+clear
+ls
+wal -i ~/Downloads/anime-cityscape-sunset.jpg
+clear
+ls
+clear
+ls
+exit
+ls
+wal -i ~/Downloads/anime-cityscape-sunset.jpg
+clear
+fastfetch
+clear
+ls
+exit
+ls
+clear
+ls
+wal -i ~/Downloads/anime-cityscape-sunset.jpg
+ls
+clear
+fastfetch
+clear
+ls
+tp
+clear
+ls
+nivm ~/.cache/wal/colors.json
+nvim ~/.cache/wal/colors.json
+clear
+ls
+clear
+ls
+fd -atf  | fzf
+clear
+ls
+cd ~/.cache/wal/
+ls
+eza
+ls | search alacritty
+clear
+ls | grep alacritty
+claer
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+nvim _home_sonu_Downloads_anime-cityscape-sunset_jpg_dark_None_None_1.1.0.json
+clear
+cd ..
+ls
+clear
+wal --help 
+wal --backend alacritty -i ~/Downloads/anime-cityscape-sunset.jpg
+clear
+ls
+clear
+cd ~/.cache/wal/
+ls
+ls | grep alacritty
+ls | grep -i alacritty
+clear
+ls | fzf
+clear
+ls
+clear
+ls
+grep alacrittty
+clear
+ls
+rg alacritty
+clear
+cd ..
+ls
+cd wal/
+ls
+nvim colors.yml
+clear
+ls
+fastfetch
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+nvim alacritty.toml
+clear
+ls
+cd catppuccin/
+ls
+nvim catppuccin-mocha.toml
+clear
+wal -i ~/Pictures/wallpaper.jpg --backend alacritty
+wal -i ~/Downloads/anime-cityscape-sunset.jpg --backend alacritty
+cd ~/.cache/wal/
+ls
+clear
+mkdir -p ~/.config/wal/templates<\n>
+mkdir -p ~/.config/wal/templates
+mkdir ~/.config/wal/templates/
+ls
+clear
+ls
+mkdir ~/.cache/wal/templates
+ls
+cd templates/
+ls
+clear
+exit
+ls
+clear
+ls
+exit
+ls
+clear
+ls
+tp
+ls
+ls | sort-by size
+ls
+clear
+exit
+tp
+ls
+clear
+ls
+wal -i ~/Downloads/anime-cityscape-sunset.jpg 
+clear
+ls
+clear
+fastfetch 
+clear
+btop
+clear
+exit
+ls
+clear
+ls
+tp
+ls
+nvim alacritty.toml
+clear
+ls
+clear
+ls
+clear
+ls
+cd
+tp
+ls
+clear
+cdef
+cdf
+ls
+clear
+ls
+eza
+clear
+tmux detach
+vmux
+clear
+tmux ls
+tmux kill-server
+clear
+ls
+exit
+ls
+cd ~/.cache/wal/
+./colors.sh
+clear
+ls
+clear
+nvim
+clear
+./colors-tty.sh
+clear
+ls
+clear
+tp
+cd
+clear
+wal -i ~/Downloads/anime-cityscape-sunset.jpg 
+claer
+ls
+l
+clear
+l
+clear
+ls
+l
+clear
+htop
+clear
+htop
+btop
+botp
+btop
+clear
+l
+clear
+nvim
+clear
+fastfetch 
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+clear
+tmux detach
+vmux
+clear
+tmux ls
+tmux kill-session -t coding
+clear
+exit
+ls
+clear
+ls
+wal -i ~/Downloads/empty-narrow-street-with-lights.jpg
+clear
+fastfetch
+clear
+htop
+clear
+btop
+clear
+btop
+clear
+btop
+clear
+exit
+wal -i ~/Downloads/illustration-anime-character-rain.jpg
+clear
+ls
+clear
+ls
+fastfetch 
+clear
+fastfet
+fastfetch 
+clear
+htop
+clear
+exit
+wal -i ~/Downloads/halloween-scene-illustration-anime-style.jpg
+clear
+fastfetch 
+clear
+fastfetch 
+ls
+l
+clear
+htop
+clear
+exit
+wal -i ~/Downloads/pixel_cat_wallpapercave.png
+clear
+htop
+clear
+fastfetch
+clear
+exit
+clear
+tp
+ls
+sed -i '/anki/d' history.txt
+cat history.txt | fzf
+clear
+exit
+anki
+clear
+exit
+clear
+tp
+ls
+clear
+ls
+mkdir go_dsa
+cdf
+ls
+clear
+mkdir 01_linked_lists
+clear
+run main.go
+claer
+ls
+cdf
+ls
+clear
+run main.go
+clear
+run main.go
+ls
+clear
+rm main.go node.go linked_list.go
+clear
+run main.go
+clear
+run main.go
+clear
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+clear
+tp
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+clea
+clear
+ls
+clea
+tp
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+cdf
+sl
+clear
+ls
+open new_tier.csv
+clear
+ls
+head -n new_tier.csv
+head -n 5 new_tier.csv
+clear
+open newtie
+open new_tier.csv | head -n 5 
+open new_tier.csv | select Name HP
+open new_tier.csv | select Name HP  | save newdata.csv
+ls
+clear
+nvim
+clear
+ls
+rm newdata.csv
+ls
+clear
+ls
+nvim pokemon.csv
+clear
+open pokemon.csv | select Name
+clear
+ls
+clear
+ls
+clear
+open pokemon.csv | length 
+clear
+help
+clear
+pwd
+clear
+pwd
+clear
+open pokemon.csv | select Name | first 5 
+clear
+open pokemon.csv | select Name | last 8
+clear
+ps
+clear
+open pokemon.csv | columns 
+open pokemon.csv | where Name == "Pikachu" 
+open pokemon.csv | where Name == "Pikachu"  | save pikastatus.csv
+clear
+ls
+nvim pikastatus.csv
+clear
+rm pikastatus.csv
+ls
+clear
+open pokemon.csv | count
+clear
+open pokemon.csv | columns 
+open pokemon.csv | math avg HP
+clear
+open pokemon.csv | select HP | first 5 
+open pokemon.csv | math avg HP 
+clear
+open pokemon.csv | get HP | math avg
+clear
+open pokemon.csv | get HP
+clear
+ls
+open --help
+clear
+cat pokemon.csv | from csv -s ","
+clear
+ls
+clear
+open pokemon.csv
+clear
+ls
+open pokemon.csv | length 
+clear
+open pokemon.csv | columns
+cleawr
+clear
+ls
+open pokemon.csv --raw  | from csv -s "," 
+clear
+open pokemon.csv --raw | from csv -s "\n" 
+clear
+open pokemon.csv | schema 
+clear
+open pokemon.csv | first | describe
+clear
+open pokemon.csv | first | describe
+clear
+ls
+open pokemon.csv | first | describe
+open new_tier.csv | first | describe
+clear
+ls
+clear
+ls
+open pokemon.csv | columns
+open pokemon.csv | move Name --after HP | columns 
+clear
+open pokemon.csv | move Name --before HP | columns
+clear
+open pokemon.csv | enumerate
+clear
+open pokemon.csv | enumerate | flatten 
+open pokemon.csv | enumerate | flatten | first 5 
+clear
+open pokemon.csv | first 5
+clear
+open pokemon.csv | reject "#" 
+open pokemon.csv | reject #
+clear
+ls
+open pokemon.csv | reject `#`
+open pokemon.csv | columns 
+open pokemon.csv | columns | get 2
+open pokemon.csv | columns | flatten 
+clear
+ls
+lear
+open pokemon.csv | first 1
+clear
+open pokemon.csv | columns 
+clear
+ls
+claer
+clear
+open pokemon.csv | table -n 
+clear
+open pokemon.csv | each {|row| $row}
+clear
+open pokemon.csv | select Name | first 5 
+clear
+open pokemon.csv | get HP | math sum 
+open pokemon.csv | get HP | math max 
+clear
+ls
+claer
+clear
+tp
+ls
+clear
+ls
+cdf
+ls
+cdf
+sl
+ls
+clear
+ls
+open Kanji_table.json
+open Kanji_table.json | first 5 
+open Kanji_table.json | select onyomi_reading | first 5
+clear
+open Kanji_table.json | first | describe
+open Kanji_table.json | first | describe | copy 
+clear
+open Kanji_table.json | flatten | first 5
+open Kanji_table.json | get 0.onyomi_reading
+open Kanji_table.json | get 0
+clear
+open Kanji_table.json | to csv
+clear
+s
+tp
+clear
+git branch list
+git branch 
+git branch -D branch
+git branch -D list
+clear
+ls
+git status
+clear
+ls
+clear
+nvim .gitignore
+clear
+ls
+cdf
+ls
+clear
+cd ..
+ls
+clear
+fd -t f history.txt
+ls
+claer
+clear
+ls
+cdf
+ls
+open starship.toml
+clear
+cd ..
+ls
+cdf
+ls
+open init.lua
+clear
+git branch -a
+clear
+git fetch --hel
+git fetch --help
+clear
+git log
+clear
+ls
+clear
+tp
+ls
+clear
+cd
+clera
+exit
+tp
+ls
+rm git-cheat-sheet-education.pdf
+clear
+exit
+ls
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+clear
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+fastfetch 
+htop
+clear
+exit
+anki
+clear
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+ls
+clear
+ls
+clear
+ls
+clear
+fastfetch 
+clear
+source ~/.cache/wal/colors-tty.sh
+pip3 uninstall pywal 
+clear
+sudo dnf install python3-pywal
+pip3 install --user pywal
+clear
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+clear
+ls
+clear
+exit
+clear
+ls
+cd ~/.cache/wal/
+ls
+ls | str search alacritty
+ls | where name == alacritty
+ls | grep -i alacritty
+clear
+ls
+clear
+eza | copy 
+eza -a | copy 
+eza --help
+clear
+sl
+ls
+jq --version
+clear
+ls
+clear
+tp
+ls
+nvim alacritty.toml
+clear
+ls
+cd catppuccin/
+ls
+ls
+open colors.json
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+cd catppuccin/
+nvim
+run quick.sh
+ls
+nvim pywal.toml
+clear
+ls
+cd ..
+ls
+nvim alacritty.toml
+clear
+exit
+ls
+clear
+ls
+fastfetch
+clear
+ls
+clear
+ls
+fastfetch
+clear
+ls
+tp
+ls
+nvim starship.toml
+clear
+ls
+clear
+ls
+clear
+tp
+clear
+cd ~/.cache/wal/templates/
+ls
+cd ..
+ls
+clear
+cdf
+ls
+nvim "colors-alacritty.toml"
+ls
+clear
+fastfetch
+clear
+nvim starship.toml
+ls
+clear
+cd ..
+ls
+nvim postrun
+clear
+tp
+ls
+nvim starship.toml
+clear
+cd templates/
+ls
+exit
+nvim starshiptemplate.nu
+rm starship.toml
+chmod +x starshiptemplate.nu
+./starshiptemplate.nu
+~/dotfiles/starship/
+ls
+nvim starship.toml
+ls
+clear
+ls
+cd ~/.cache/wal/templates/
+ls
+nvim 
+rm starshiptemplate.nu
+clear
+nvim tempgen.sh
+ls
+run tempgen.sh
+ls
+nvim starship.toml
+clear
+ls
+clear
+ls
+wal -i ~/Downloads/anime-cityscape-sunset.jpg
+claer
+clear
+ls
+tp
+ls
+clear
+nvim alacritty.toml
+clear
+ls
+clear
+ls
+nvim alacritty.toml
+clear
+ls
+tp
+ls
+nvim starship.toml
+clear
+ls
+cd ~/.cache/wal/
+ls
+ls | grep -i colors-wal-tabbed.h
+ls | grep -i alacritty
+clear
+ls
+nvim postrun
+chmod +x postrun
+ls
+clear
+ls
+nvim postrun
+clear
+nvim postrun
+clear
+cd
+clear
+ls
+exit
+wal -i ~/Downloads/anime-cityscape-sunset.jpg
+clear
+ls
+wal -i ~/Downloads/anime-cityscape-sunset.jpg -R
+clear
+ls
+clear
+wal --help
+clear
+ls
+clear
+ls
+cd ~/.cache/wal/
+ls
+mv posrun ~/dotfiles/myscripts/
+mv postrun ~/dotfiles/myscripts/
+ls
+clear
+tp
+ls
+nvim .dotter/
+nvim
+clear
+ls
+cdf
+ls
+clear
+nvim postrun
+clear
+ls
+cd ..
+ls
+dotter deploy --dry-run 
+dotter deploy
+clear
+syncwal
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+fastfetch 
+ls
+clear
+ls
+fastfetch 
+clear
+ls
+clear
+exit
+exit
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+htop
+clear
+ls
+btop
+clear
+ls
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+clear
+syncwal
+clear
+s
+ls
+clear
+ls
+clear
+ls
+fastfetch
+clear
+ls
+clear
+ls
+clear
+sl
+cd
+ls
+wal -i ~/Downloads/illustration-anime-character-rain.jpg
+clear
+syncwal
+clear
+ls
+tp
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+fastfetch 
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clea
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+wal -i ~/Downloads/anime-cityscape-sunset.jpg
+syncwal
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+cd colorschemes/
+ls
+nvim catppuccin_mocha.nu
+claer
+cle
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+sl
+clear
+ls
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+syncwal
+clear
+ls
+exit
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+exit
+clear
+exit
+cd ~/.cache/wal/
+ls
+mv templates ~/dotfiles/pywal_templates
+ls
+clear
+tp
+ls
+nvim tempgen.sh
+clear
+ls
+cd ..
+ls
+cd myscripts/
+ls
+nvim postrun
+clear
+ls
+cd ..
+ls
+clear
 ls
