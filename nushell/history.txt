@@ -1923,3 +1923,59 @@ cd ..
 ls
 clear
 ls
+git restore .
+clear
+exit
+ls
+cdf
+ls
+clear
+ls
+nivm postrun
+nvim postrun
+claer
+clear
+ls
+cd
+ls
+clear
+ls
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+syncwal 
+clear
+ls
+fastfetch
+clear
+syncwal
+wal -i ~/Downloads/empty-narrow-street-with-lights.jpg
+syncwal
+clear
+ls
+clear
+ls
+l
+clear
+exit
+ls
+clear
+ls
+wal -i ~/Downloads/illustration-anime-character-rain.jpg
+clear
+ls
+syncwal
+clear
+ls
+clear
+ls
+exit
+ls
+clear
+exit
+git push --help
+clear
+exit
+tp
+ls
+git log
+clear
+ls

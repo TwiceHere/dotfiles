@@ -35,7 +35,7 @@ sed -e "s/{color0}/$COLOR0/g" \
   -e "s/{color13}/$COLOR13/g" \
   -e "s/{color14}/$COLOR14/g" \
   -e "s/{color15}/$COLOR15/g" \
-  ~/dofiles/pywal_templates/colors-alacritty.toml >~/dotfiles/alacritty/catppuccin/pywal.toml
+  ~/dotfiles/pywal_templates/colors-alacritty.toml >~/dotfiles/alacritty/catppuccin/pywal.toml
 
 # Process starship template
 sed -e "s/{color0}/$COLOR0/g" \
@@ -54,7 +54,7 @@ sed -e "s/{color0}/$COLOR0/g" \
   -e "s/{color13}/$COLOR13/g" \
   -e "s/{color14}/$COLOR14/g" \
   -e "s/{color15}/$COLOR15/g" \
-  ~/dofiles/pywal_templates/starship.toml >~/dotfiles/starship/starship.toml
+  ~/dotfiles/pywal_templates/starship.toml >~/dotfiles/starship/starship.toml
 
 echo "Configs updated!"
 echo "Alacritty: ~/dotfiles/alacritty/catppuccin/pywal.toml"

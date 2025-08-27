@@ -1,23 +1,23 @@
 format = """
-[░▒▓](#4A6F9C)\
-[ ](bg:#4A6F9C fg:#090a0f)\
-[](bg:#719DCB fg:#4A6F9C)\
+[░▒▓](#73986B)\
+[ ](bg:#73986B fg:#0D1216)\
+[](bg:#7096AA fg:#73986B)\
 $directory\
-[](fg:#719DCB bg:#939ea6)\
+[](fg:#7096AA bg:#93979a)\
 $git_branch\
 $git_status\
-[](fg:#939ea6 bg:#090a0f)\
+[](fg:#93979a bg:#0D1216)\
 $nodejs\
 $rust\
 $golang\
 $php\
-[](fg:#090a0f bg:#939ea6)\
+[](fg:#0D1216 bg:#93979a)\
 $time\
-[ ](fg:#939ea6)\
+[ ](fg:#93979a)\
 \n$character"""
 
 [directory]
-style = "fg:#d2e2ee bg:#719DCB"
+style = "fg:#d2d9dd bg:#7096AA"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -29,52 +29,52 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:#939ea6"
-format = '[[ $symbol $branch ](fg:#719DCB bg:#939ea6)]($style)'
+style = "bg:#93979a"
+format = '[[ $symbol $branch ](fg:#7096AA bg:#93979a)]($style)'
 
 [git_status]
-style = "bg:#939ea6"
-format = '[[($all_status$ahead_behind )](fg:#719DCB bg:#939ea6)]($style)'
+style = "bg:#93979a"
+format = '[[($all_status$ahead_behind )](fg:#7096AA bg:#93979a)]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:#090a0f"
-format = '[[ $symbol ($version) ](fg:#719DCB bg:#090a0f)]($style)'
+style = "bg:#0D1216"
+format = '[[ $symbol ($version) ](fg:#7096AA bg:#0D1216)]($style)'
 
 [rust]
 symbol = ""
-style = "bg:#090a0f"
-format = '[[ $symbol ($version) ](fg:#719DCB bg:#090a0f)]($style)'
+style = "bg:#0D1216"
+format = '[[ $symbol ($version) ](fg:#7096AA bg:#0D1216)]($style)'
 
 [golang]
 symbol = ""
-style = "bg:#090a0f"
-format = '[[ $symbol ($version) ](fg:#719DCB bg:#090a0f)]($style)'
+style = "bg:#0D1216"
+format = '[[ $symbol ($version) ](fg:#7096AA bg:#0D1216)]($style)'
 
 [php]
 symbol = ""
-style = "bg:#090a0f"
-format = '[[ $symbol ($version) ](fg:#719DCB bg:#090a0f)]($style)'
+style = "bg:#0D1216"
+format = '[[ $symbol ($version) ](fg:#7096AA bg:#0D1216)]($style)'
 
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "bg:#939ea6"
-format = '[[  $time ](fg:#d2e2ee bg:#939ea6)]($style)'
+style = "bg:#93979a"
+format = '[[  $time ](fg:#d2d9dd bg:#93979a)]($style)'
 
 [python]
 symbol = ""
-format = '[[ $symbol ($version) ](fg:#719DCB bg:#090a0f)]($style)'
+format = '[[ $symbol ($version) ](fg:#7096AA bg:#0D1216)]($style)'
 
 [c]
 symbol = ""
-format = '[[ $symbol ($version) ](fg:#719DCB bg:#090a0f)]($style)'
+format = '[[ $symbol ($version) ](fg:#7096AA bg:#0D1216)]($style)'
 
 [java]
 symbol = ""
-format = '[[ $symbol ($version) ](fg:#719DCB bg:#090a0f)]($style)'
+format = '[[ $symbol ($version) ](fg:#7096AA bg:#0D1216)]($style)'
 
 [shell]
 symbol = ""
-format = '[[ $symbol ($version) ](fg:#719DCB bg:#090a0f)]($style)'
+format = '[[ $symbol ($version) ](fg:#7096AA bg:#0D1216)]($style)'
 
