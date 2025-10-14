@@ -1,1421 +1,3 @@
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-tp
-clear
-zsh
-clear
-ls
-cdf
-ls
-clear
-ls
-zsh
-clear
-exit
-zsh
-clear
-exit
-celar
-clear
-ls
-clear
-ls
-clear
-exit
-clear
-ls
-help config | copy 
-help
-clear
-ls
-clear
-ls
-tp
-nvim
-clear
-exit
-clear
-ls
-clear
-nvim
-clear
-ls
-tp
-nvim
-clear
-exit
-ls
-clear
-zsh
-ls
-clear
-tp
-ls
-nvim
-clear
-exit
-ls
-clear
-ls
-tp
-ls
-clear
-git add .
-git commit -m "added nushell" 
-git push
-clear
-ls
-l
-clear
-ls
-ls | sort 
-clear
-exit
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-cd dotfiles/
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-eza
-ls
-eza
-clear
-eza
-cdf
-ls
-clear
-ls
-l
-clear
-ez
-eza -a 
-clear
-ls
-cd ..
-ls
-clear
-eza
-cd ..
-ls
-exit
-ls
-exit
-l
-ls
-clear
-ls
-cdf
-clear
-ls
-cd ..
-ls
-cler
-clear
-ls
-eza 
-eza --help
-eza -l
-clear
-ls
-exit
-ls
-clear
-ls
-clear
-ls
-clear
-btop
-clear
-ls
-nu --version
-clear
-ls
-nu --version
-clear
-exit
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-exit
-eza
-tp
-ls
-eza
-clear
-eza
-eza -l
-clear
-ls
-clear
-eza
-nvim
-rg source
-grep source config.nu
-clear
-ls
-clear
-ls
-ls | sort-by size
-clear
-ls | sort-by name
-ls | sort-by modified
-clear
-ls
-eza
-clear
-eza
-tp
-ls
-eza
-clear
-eza
-clear
-eza
-ls
-clear
-ls
-clear
-fastfetch 
-clear
-ls
-fastfetch
-clear
-fastfetch
-clear
-fastfetch 
-clear
-fastfetch 
-clear
-cdf
-ls
-clear
-exit
-tp
-ls
-ls | sort-by modified
-clear
-ls
-clear
-exit
-ls
-clear
-ls
-clear
-eza
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-tp
-clear
-ls
-pwd 
-clear
-ls
-grep config.nu
-clear
-ls
-clear
-ls
-clear
-eza
-ls
-clear
-pwd | copy
-mkdir colorschemes
-ls
-cdf
-pwd | copy 
-ls
-cd ..
-ls
-clear
-ls
-cd colorschemes/
-ls
-tp
-ls
-mv catppuccin_frappe.nu ~/dotfiles/nushell/colorschemes/
-tp
-clear
-ls
-cd ..
-ls
-nvim
-clear
-ls
-tree . | copy 
-nvim
-ls
-clear
-exit
-sl
-ls
-clear
-ls
-eza
-clear
-ls
-tp
-nvim
-clear
-exit
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-tp
-nvim
-clear
-source ~/dotfiles/nushell/
-source ~/dotfiles/nushell/config.nu
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-nvim
-source ~/dotfiles/nushell/config.nu
-ls
-clear
-ls
-tp
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-nvim 
-source ~/dotfiles/nushell/config.nu
-clear
-ls
-exit
-ls
-tp
-ls
-clear
-ls
-tp
-ls
-clear
-eza
-clear
-ls
-bash
-clear
-ls
-exit
-ls
-tp
-ls
-git add .
-git commit -m "(nushell) : added colorschemes" 
-git push
-clear
-ls
-clear
-exit
-ls
-tp
-ls
-clear
-tp
-ls
-tp
-ls
-clear
-ls
-cdf
-ls
-clear
-ls
-exit
-;s
-ls
-clear
-ls
-cargo install sd
-clear
-ls
-sd --help
-sd --help | grep flags
-ls
-clear
-ls
-celar
-clear
-ls
-clear
-ls
-clear
-ls
-tp
-ls
-nvim history.txt
-ls
-clear
-ls
-sd "" "" history.txt
-sd history.txt "" ""
-clear
-ls
-grep  history.txt
-nvim history.txt
-clear
-ls
-clear
-exit
-tp
-ls
-clear
-ls
-nvim progress.md
-clear
-vmux
-tmux ls
-clear
-tp
-ls
-tp
-ls
-ls -l
-ls --help
-clear
-ls -a
-which nu
-exit
-nvim .tmux.conf
-clear
-vmux
-clera
-clear
-ls
-ls -a
-nvim .tmux.conf
-clear
-ls
-exit
-tmux
-nvim
-clear
-ls
-clear
-ls
-clear
-which nu
-clear
-exit
-tmux
-nvim
-exit
-nvim
-tp
-ls
-clear
-sl
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-eza
-clear
-tmux detach
-vmux
-clear
-tp
-ls
-git add .
-git commit -m "(tmux) : added nushell as default shell" 
-git push
-clear
-tp
-ls
-clear
-clear
-mkdir 18_rest_api_project
-cdf
-ls
-clear
-tmux attach -t coding
-tp
-ls
-tp
-ls
-cdf
-ls
-ls -a
-nvim .tmux.conf
-clear
-tp
-ls
-clear
-ls
-clear
-ls
-s
-clear
-ls
-clear
-ls
-clear
-nu --version
-clear
-ls
-go run main.go
-clear
-go run main.go
-zsh
-clear
-ls
-clear
-tmux --version
-tmux -v
-tmux --version
-clear
-tmux --help
-clear
-go version
-go mod init github.com/TwiceHere/students_api
-clear
-ls
-clear
-ls
-rm tmux-client-13524.log
-ls
-clear
-go run main.go
-clear
-ls
-run main.go
-clear
-go build
-ls
-./students_api
-ls
-clear
-rm students_api
-ls
-clear
-eza
-clear
-ls
-go get github.com/shihanng/gig
-clear
-gig --help
-which gig
-clear
-nvim
-tmux kill-server
-tmux attach -t coding
-sl
-clear
-ls
-clear
-ls
-clear
-ls
-tp
-ls
-nvim env.nu
-clear
-gig
-echo $PATH
-echo $env.PATH
-echo $env.PATH | copy
-clear
-gig --help
-echo $env.PATH
-ls /home/sonu/go/bin | where name =~ gig
-go install github.com/shihanng/gig@latest
-gig --help
-clear
-ls
-clear
-ls
-clear
-tmux ls
-clear
-tp
-ls
-clear
-ls
-clear
-ls
-sl
-ls
-clear
-ls
-cdf
-ls
-clear
-gig --help
-clear
-gig search
-gig repo set https://github.com/github/gitignore.git
-clear
-gig update
-rm ~/go/bin/gig
-gig --help
-clear
-ls
-clear
-go install github.com/shihanng/gig@latest
-gig --help
-clear
-gig search
-clear
-rm ~/go/bin/gig
-gig --help
-clear
-cargo install gitnr
-clear
-gitnr --help
-clear
-gitnr search
-clear
-ls
-gitnr create
-clear
-gitnr create go
-clear
-gitnr --help
-clear
-gitnr search
-clear
-gitnr search
-ls -a
-clear
-ls
-gitnr search
-gitnr create gh:Go
-clear
-ls
-ls -a
-gitnr create gh:Go | save ".gitignore"
-ls
-clear
-ls
-clear
-npm -v
-clear
-npx gitignore go,linux,vscode,python
-npx gitignore --types
-npx gitignore --types  | grep -i go
-clear
-npx gitignore Go
-clear
-ls
-rm .gitignore
-clear
-npx gitignore Go
-clear
-npx gitignore --types | grep -i python
-clear
-ls
-clear
-cargo install --list
-cargo install --list | nr
-cargo install --list | search nr
-cargo install --list | grep nr
-clear
-cargo uninstall --help
-clear
-cargo uninstall gitnr
-clear
-ls
-cargo install --list
-clear
-npx gitignore Python Linux
-clear
-ls
-rm .gitignore
-clear
-npx gitignore Go
-clear
-mkdir config
-cdf
-ls
-clear
-touch local.yaml
-s
-ls
-clear
-ls
-cd ..
-ls
-clear
-ls
-mkdir storage
-npx gitignore --types | grep -i sql
-clear
-tmux detach
-vmux
-clear
-tmux kill-session -t coding
-clear
-tmux ls
-clear
-tp
-ls
-ls -a
-nvim
-ls
-claer
-ls
-clear
-ls
-clear
-tmux kill-server
-vmux
-exit
-tp
-ls
-clear
-nvim
-clear
-ls
-clear
-ls
-clear
-exit
-vmux
-clear
-exit
-sl
-ls
-clear
-history
-which history
-clear
-ls
-tp
-ls
-clear
-ls
-nvim history.txt
-clear
-ls
-sd "" "" history.txt
-grep  history.txt
-sd --help
-clear
-sd --help | fzf
-clear
-sd --help | bat
-clear
-sed --help
-clear
-exit
-sed --help | bat
-cler
-clear
-exit
-
-history | sd "" ""
-clear
-exit
-ls
-sd --help
-clear
-ls
-clear
-echo "selinux " | sed '//d' 
-ls
-clear
-ls
-tp
-clear
-ls
-sed '//d'  history.txt
-sed '//d'  history.txt | grep -i 
-clear
-ls
-sed --help | bat
-clear
-exit
-tp
-clear
-ls
-clear
-ls
-sd -m "" "" history.txt | grep 
-sd --help
-clear
-sd -f m "" "" history.txt | grep 
-sd --help
-clear
-sl
-clear
-grep --help | fzf
-clear
-ls
-clar
-clear
-exit
-clear
-exit
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-s
-clear
-ls
-clear
-ls
-cler
-clear
-tp
-ls
-eza
-cdf
-ls
-clear
-ls
-eza
-nvim catppuccin-mocha.toml
-clear
-exit
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-tp
-clear
-ls
-cler
-ls
-clear
-ls
-tp
-clear
-ls
-clear
-tp
-ls
-nvim catppuccin-mocha.toml
-clear
-ls
-clear
-ls
-clear
-nvim catppuccin-mocha.toml
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-nvim catppuccin-mocha.toml
-clear
-ls
-nvim catppuccin-mocha.toml
-clear
-ls
-clear
-ls
-nvim catppuccin-mocha.toml
-clear
-ls
-clear
-exit
-ls
-nvim
-claer
-clear
-nvim
-clear
-ls
-clear
-printf "%b" "\033]11;#ff0000\007"
-zsh
-exit
-ls
-clear
-exit
-pip3 install --user pywall
-pip3 --version
-clear
-sudo dnf install pip3
-clear
-pip3 install --user pywall
-clear
-wall --version
-pywal --version
-pip3 --help
-clear
-pip3 --freeze 
-pip3 freeze
-pip3 freeze | grep pywal
-clear
-pywal 
-clear
-tp
-clear
-ls
-clear
-nvim env
-nvim env.nu
-clear
-exit
-fastfetch
-clear
-exit
-pywal 
-clear
-ls
-clear
-exit
-ls
-tp
-ls
-ls -a
-tp
-ls
-nvim starship.toml
-clear
-exit
-sudo dnf install pywal 
-pip3 show pywal | grep location
-pip3 freeze | grep pywa
-wal --version
-clear
-exit
-ls ~/.local/bin/wal
-ls
-clear
-ls
-tp
-ls
-clear
-nvim env.nu
-clear
-nvim
-clear
-nvim
-clear
-find ~/.local -type f -name wal
-fd ~/.local -t file -name wal
-fd --help | fzf
-claer
-clear
-fd --help
-clear
-fd -tf wal ~/.local
-fd -tf pywal ~/.local
-fd -tf pywal ~/.local | copy
-fd -tf wal ~/.local | copy
-clear
-pip3 uninstall pywall
-clear
-pip3 install --user pywal
-clear
-ls ~/.local/bin/wal
-wal --version
-clear
-wal --versoin
-wal -v
-clear
-ls
-tp
-clear
-ls
-tp
-cd
-clear
-sl
-clear
-wal -i ~/Downloads/anime-cityscape-sunset.jpg
-clear
-ls
-wal -i ~/Downloads/anime-cityscape-sunset.jpg
-clear
-ls
-clear
-ls
-exit
-ls
-wal -i ~/Downloads/anime-cityscape-sunset.jpg
-clear
-fastfetch
-clear
-ls
-exit
-ls
-clear
-ls
-wal -i ~/Downloads/anime-cityscape-sunset.jpg
-ls
-clear
-fastfetch
-clear
-ls
-tp
-clear
-ls
-nivm ~/.cache/wal/colors.json
-nvim ~/.cache/wal/colors.json
-clear
-ls
-clear
-ls
-fd -atf  | fzf
-clear
-ls
-cd ~/.cache/wal/
-ls
-eza
-ls | search alacritty
-clear
-ls | grep alacritty
-claer
-ls
-clear
-ls
-cdf
-ls
-clear
-ls
-nvim _home_sonu_Downloads_anime-cityscape-sunset_jpg_dark_None_None_1.1.0.json
-clear
-cd ..
-ls
-clear
-wal --help 
-wal --backend alacritty -i ~/Downloads/anime-cityscape-sunset.jpg
-clear
-ls
-clear
-cd ~/.cache/wal/
-ls
-ls | grep alacritty
-ls | grep -i alacritty
-clear
-ls | fzf
-clear
-ls
-clear
-ls
-grep alacrittty
-clear
-ls
-rg alacritty
-clear
-cd ..
-ls
-cd wal/
-ls
-nvim colors.yml
-clear
-ls
-fastfetch
-clear
-ls
-clear
-ls
-tp
-ls
-clear
-ls
-nvim alacritty.toml
-clear
-ls
-cd catppuccin/
-ls
-nvim catppuccin-mocha.toml
-clear
-wal -i ~/Pictures/wallpaper.jpg --backend alacritty
-wal -i ~/Downloads/anime-cityscape-sunset.jpg --backend alacritty
-cd ~/.cache/wal/
-ls
-clear
-mkdir -p ~/.config/wal/templates<\n>
-mkdir -p ~/.config/wal/templates
-mkdir ~/.config/wal/templates/
-ls
-clear
-ls
-mkdir ~/.cache/wal/templates
-ls
-cd templates/
-ls
-clear
-exit
-ls
-clear
-ls
-exit
-ls
-clear
-ls
-tp
-ls
-ls | sort-by size
-ls
-clear
-exit
-tp
-ls
-clear
-ls
-wal -i ~/Downloads/anime-cityscape-sunset.jpg 
-clear
-ls
-clear
-fastfetch 
-clear
-btop
-clear
-exit
-ls
-clear
-ls
-tp
-ls
-nvim alacritty.toml
-clear
-ls
-clear
-ls
-clear
-ls
-cd
-tp
-ls
-clear
-cdef
-cdf
-ls
-clear
-ls
-eza
-clear
-tmux detach
-vmux
-clear
-tmux ls
-tmux kill-server
-clear
-ls
-exit
-ls
-cd ~/.cache/wal/
-./colors.sh
-clear
-ls
-clear
-nvim
-clear
-./colors-tty.sh
-clear
-ls
-clear
-tp
-cd
-clear
-wal -i ~/Downloads/anime-cityscape-sunset.jpg 
-claer
-ls
-l
-clear
-l
-clear
-ls
-l
-clear
-htop
-clear
-htop
-btop
-botp
-btop
-clear
-l
-clear
-nvim
-clear
-fastfetch 
-clear
-ls
-clear
-ls
-tp
-ls
-clear
-ls
-clear
-tmux detach
-vmux
-clear
-tmux ls
-tmux kill-session -t coding
-clear
-exit
-ls
-clear
-ls
-wal -i ~/Downloads/empty-narrow-street-with-lights.jpg
-clear
-fastfetch
-clear
-htop
-clear
-btop
-clear
-btop
-clear
-btop
-clear
-exit
-wal -i ~/Downloads/illustration-anime-character-rain.jpg
-clear
-ls
-clear
-ls
-fastfetch 
-clear
-fastfet
-fastfetch 
-clear
-htop
-clear
-exit
-wal -i ~/Downloads/halloween-scene-illustration-anime-style.jpg
-clear
-fastfetch 
-clear
-fastfetch 
-ls
-l
-clear
-htop
-clear
-exit
-wal -i ~/Downloads/pixel_cat_wallpapercave.png
-clear
-htop
-clear
-fastfetch
-clear
-exit
-clear
-tp
-ls
-sed -i '/anki/d' history.txt
-cat history.txt | fzf
-clear
-exit
-anki
-clear
-exit
-clear
-tp
-ls
-clear
-ls
-mkdir go_dsa
-cdf
-ls
-clear
-mkdir 01_linked_lists
-clear
-run main.go
-claer
-ls
-cdf
-ls
-clear
-run main.go
-clear
-run main.go
-ls
-clear
-rm main.go node.go linked_list.go
-clear
-run main.go
-clear
-run main.go
-clear
-tmux detach
-vmux
-clear
-tmux kill-session -t coding
-clear
-tp
-clear
-exit
-ls
-clear
-ls
-clear
-ls
-clear
-clea
-clear
-ls
-clea
-tp
-ls
-clear
-ls
-cdf
-ls
-clear
-ls
-cdf
-sl
-clear
-ls
-open new_tier.csv
-clear
-ls
-head -n new_tier.csv
-head -n 5 new_tier.csv
-clear
-open newtie
-open new_tier.csv | head -n 5 
-open new_tier.csv | select Name HP
-open new_tier.csv | select Name HP  | save newdata.csv
-ls
-clear
-nvim
-clear
-ls
-rm newdata.csv
-ls
-clear
-ls
-nvim pokemon.csv
-clear
-open pokemon.csv | select Name
-clear
-ls
-clear
-ls
-clear
-open pokemon.csv | length 
-clear
-help
-clear
-pwd
-clear
-pwd
-clear
-open pokemon.csv | select Name | first 5 
-clear
-open pokemon.csv | select Name | last 8
-clear
-ps
-clear
-open pokemon.csv | columns 
-open pokemon.csv | where Name == "Pikachu" 
-open pokemon.csv | where Name == "Pikachu"  | save pikastatus.csv
-clear
-ls
-nvim pikastatus.csv
-clear
-rm pikastatus.csv
-ls
-clear
-open pokemon.csv | count
-clear
-open pokemon.csv | columns 
-open pokemon.csv | math avg HP
-clear
-open pokemon.csv | select HP | first 5 
-open pokemon.csv | math avg HP 
-clear
-open pokemon.csv | get HP | math avg
-clear
-open pokemon.csv | get HP
-clear
-ls
-open --help
-clear
-cat pokemon.csv | from csv -s ","
-clear
-ls
-clear
-open pokemon.csv
-clear
-ls
-open pokemon.csv | length 
-clear
-open pokemon.csv | columns
-cleawr
-clear
-ls
-open pokemon.csv --raw  | from csv -s "," 
-clear
-open pokemon.csv --raw | from csv -s "\n" 
-clear
-open pokemon.csv | schema 
-clear
-open pokemon.csv | first | describe
-clear
-open pokemon.csv | first | describe
-clear
-ls
 open pokemon.csv | first | describe
 open new_tier.csv | first | describe
 clear
@@ -1553,7 +135,6 @@ fastfetch
 htop
 clear
 exit
-anki
 clear
 wal -i ~/Downloads/miles_morales_spiderman.jpg
 ls
@@ -1978,4 +559,9442 @@ tp
 ls
 git log
 clear
+ls
+git add .
+git commit -m "fix : fixed postrun script" 
+clear
+git push
+clear
+exit
+git branch
+clear
+tp
+git branch
+clear
+exit
+clear
+sl
+ls
+clear
+ls
+clea
+clear
+ls
+clear
+ls
+wal -i ~/Downloads/full-shot-ninja-wearing-equipment.jpg
+clear
+syncwal
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+tp
+ls
+clear
+fastfetch
+clear
+ls
+clear
+ls
+clear
+exit
+ls
+wal -i ~/Downloads/anime-cityscape-sunset.jpg
+syncwal
+clear
+ls
+fastfethc
+fastfetch 
+fastfetch
+clear
+exit
+ls
+clear
+ls
+wal -i ~/Downloads/ben10_alienforce_wallpapers.jpg
+clear
+syncwal
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+clear
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+syncwal
+clear
+ls
+clear
+exit
+ls
+tp
+ls
+clear
+pwd | copy 
+ls
+touch newfile.txt
+run main.py
+clear
+run main.py
+ls
+clear
+ls
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+nvim
+clear
+ls
+rm main.py newfile.txt
+clear
+ls
+vmux
+clear
+tp
+ls
+clear
+mkdir 19_regex
+clear
+run main.go
+ls
+cdf
+s
+clear
+ls
+run main.go
+clear
+run main.go
+go run main.go
+clear
+pwd | copy 
+touch file.txt
+run main.go
+clear
+run main.go
+clear
+claer
+clear
+run main.go
+clear
+go get github.com/dlclark/regexp2
+clear
+run main.go
+claer
+ls
+clear
+ls
+nvim
+clear
+ls
+clear
+tp
+ls
+grep --help | fzf
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+chmod +x newscript.sh
+./myscript vmux.sh
+ls
+./newscript.sh vmux.sh
+touch file.txt
+./newscript.sh file.txt
+clear
+tmux kill-server
+vmux
+tp
+ls
+rm newscript.sh file.txt
+clear
+tp
+clear
+ls
+clear
+cd
+clear
+clear
+fastfetch
+clear
+fastfetch
+clear
+fastfetch
+clear
+fastfetch
+clar
+clear
+exit
+sl
+clear
+ls
+tp
+ls
+cdf
+ls
+clear
+nvim newsyllabus.md
+clear
+l
+ls
+nvim syllabus.md
+clear
+ls
+nvim newsyllabus.md
+clear
+nvim
+clear
+ls
+mkdir archive && mv syllabus.md archive/
+mkdir archive and mv syllabus.md archive/
+ls
+clear
+ls
+nvi mv
+clear
+ls
+rm mv
+ls
+clear
+ls
+rm and 
+clear
+ls
+mv syllabus.md archive/
+ls
+clear
+ls
+mkdir course
+l
+ls
+clear
+ls
+cdf
+ls
+clear
+mkdir 01_introduction_and_definition
+clear
+cdf
+ls
+clear
+exit
+exit
+vmux
+clear
+ls
+nvim 01_iot_definition_and_characteristics.md
+clear
+nvim 02_history_of_IOT.md
+clear
+ls
+nvim 02_history_of_IOT.md
+clear
+ls
+sd --help | fzf
+clear
+ls
+sd --help
+sd -m "^*" "" 02_history_of_IOT.md
+sd -fm "^*" "" 02_history_of_IOT.md
+grep -P "^*" 02_history_of_IOT.md
+grep -P "^\*" 02_history_of_IOT.md
+clear
+ls
+grep -P "\*" 02_history_of_IOT.md
+clear
+nvim 02_history_of_IOT.md
+clear
+ls
+cd
+clear
+printenv
+printenv | bat
+printenv | fzf
+ls
+tp
+ls
+clear
+ls
+tp
+ls
+cdf
+ls
+rm joyo_scraping jukugo_scraping kanji_completion 
+clear
+ls
+rm -rf joyo_scraping jukugo_scraping kanji_completion 
+clear
+ls
+uv init testing 
+ls
+clear
+cdf
+ls
+clear
+ls
+clear
+run main.py
+clear
+ls
+clear
+ls
+run main.py
+clear
+ls
+run main.py
+clear
+ls
+run main.py
+clear
+claer
+clear
+fastfetch
+clear
+exit
+ls
+clear
+mkdir --help
+clear
+ls
+sudo reboot
+ping google.com
+http get google.com
+http get https:/google.com/
+clear
+exit
+lsusb
+lsusb | copy 
+lsmod | grep 8192eu<\n>
+lsmod | grep 8192eu | copy 
+nmcli device status
+nmcli device status | copy 
+sudo nmcli device status
+journalctl -u NetworkManager --no-pager -n 50
+dmesg | grep -iE "8192eu|wlp0s20f0u9u3|error|fail|timeout"
+sudo dmesg | grep -iE "8192eu|wlp0s20f0u9u3|error|fail|timeout"
+sudo dmesg | grep -iE "8192eu|wlp0s20f0u9u3|error|fail|timeout" | copy 
+clear
+tp
+ls
+clear
+sl
+clear
+ls
+cdf
+ls
+clear
+cd ..
+ls
+cd
+clear
+ls
+ls | select name
+clear
+ls | where size > 1mb
+clear
+ls
+ls | sort-by sizse
+ls | sort-by size
+clear
+ls | where size == File
+"hello" | str length 
+clear
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+cdf
+ls
+clear
+run 02_arithmetic_operations.c
+clear
+run 02_arithmetic_operations.c
+clear
+run 02_arithmetic_operations.c
+clear
+run 02_arithmetic_operations.c
+clear
+run 02_arithmetic_operations.c
+clear
+run 02_arithmetic_operations.c
+clear
+sl
+clear
+ls
+run 02_arithmetic_operations.c
+clear
+ls
+cd ..
+l
+clear
+ls
+cdf
+ls
+clear
+run 03_type_conversion.c
+clear
+run 03_type_conversion.c
+clear
+run 04_associativity.c
+clear
+clea
+clear
+run 04_associativity.c
+clear
+ls
+mkdir practice_set
+clear
+cdf
+ls
+clear
+run 01_problem1.c
+clear
+run 01_problem1.c
+clear
+nvim
+clear
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+clear
+tmux ls
+clear
+ls
+clear
+ls
+wal -i ~/Downloads/empty-narrow-street-with-lights.jpg
+clear
+syncwal 
+clear
+fastfetch
+clear
+syncwal
+clear
+wal -i ~/Downloads/illustration-anime-character-rain.jpg
+syncwal
+clear
+ls
+clear
+fastfetch
+clear
+clear
+ls
+clear
+exit
+journalctl --help
+clear
+exit
+sl
+clear
+ls
+clear
+ls
+clear
+exit
+ls
+sl
+clear
+ls
+clear
+wal -i ~/Downloads/illustration-anime-city.jpg
+syncwal
+clear
+ls
+clear
+fastfetch
+clear
+ls
+tp
+ls
+clear
+ls
+nvim 
+clear
+ls
+clear
+ls
+mkdir sed_playground
+cdf
+clear
+ls
+:q
+clear
+vmux
+clear
+cd ..
+ls
+cd awk_course/
+l
+ls
+clear
+ls
+clear
+open pokemon.csv | columns 
+open pokemon.csv | first  | describe 
+clear
+open pokemon.csv | first 5 
+open pokemon.csv | type.1
+open pokemon.csv | Type.1
+open pokemon.csv | `Type.1`
+clear
+ls
+clear
+ls
+ls | select type
+clear
+ls
+open pokemon.csv 
+clear
+open pokemon.csv | select Type\.1
+open pokemon.csv | select Type.1
+open pokemon.csv | select "Type.1"
+clear
+ls
+open pokemon.csv | select "Type.1" 
+clear
+sed -n '/pikachu/p' pokemon.csv
+sed -n '/Pika/p' pokemon.csv
+clear
+sed -n '2,4p' pokemon.csv
+clear
+sed 'y/abc/ABC/' pokemon.csv | from csv
+sed 'y/abc/ABC/' pokemon.csv 
+sed 'y/abc/ABC/' pokemon.csv | from cv
+sed 'y/abc/ABC/' pokemon.csv | from cvv
+sed 'y/abc/ABC/' pokemon.csv | from csv
+clear
+sl
+clearls
+clear
+ls
+claer
+clear
+ls
+tp
+ls
+cdf
+ls
+ls -a
+sed '/^$/d' -e '/^#/d' .zshrc
+sed '/^$/d; /^\#/d' .zshrc
+sed '/^$/d' -e '/^\#/d' .zshrc
+clear
+sed -e '/^$/d' -e '/^#/d' .zshrc
+sed -e '/^$/d' -e '/^\#/d' .zshrc
+clear
+ls
+tp
+ls
+clear
+ls
+cdf
+ls
+clear
+cd ..
+ls
+cdf
+claer
+ls
+clear
+ls
+open pokemon.csv | select column2
+clear
+sl
+ls
+clear
+open pokemon.csv | lines 
+open pokemon.csv | lines | where $it =~ 'error' 
+clear
+awk '{print NR, $0}' pokemon.csv 
+awk '{print NR, $0}' pokemon.csv | from csv
+clear
+ls
+open pokemon.csv | first 5 
+open pokemon.csv | lines | take 5
+clear
+open pokemon.csv | get Name | save pokemons.txt
+ls
+nvim pokemons.txt
+clear
+ls
+open pokemon.csv | get Name 
+clear
+flatpak update
+clear
+exit
+fastfetch
+clear
+tp
+ls
+clear
+ls
+ps | grep gdm
+ps
+ps | get name,status
+ps | get name status
+ps | get name status | explore
+clear
+ls
+clear
+ls
+mkdir 03_conditional_instructions
+cdf
+ls
+clear
+ls
+run 01_conditionals.c
+clear
+ls
+run 01_conditionals.c
+clear
+ls
+run 02_ternary_operator.c
+clear
+run 02_ternary_operator.c
+clear
+run 03_switch_case.c
+clear
+run 03_switch_case.c
+clear
+run 03_switch_case.c
+clear
+ls
+sed -i '/break;/d' 03_switch_case.c
+clear
+run 03_switch_case.c
+clear
+run 03_switch_case.c
+clear
+run 03_switch_case.c
+clear
+run 03_switch_case.c
+clear
+which run
+clear
+where run
+which run
+clear
+ls
+clear
+ls -a
+clear
+ls
+mkdir practice_set
+clear
+nvim
+clear
+ls
+clear
+tmux detach
+vmux
+tmux ls
+tmux ls | open
+tmux ls | from csv
+ls
+clear
+tmux ls
+tmux kill-session -t coding
+clear
+sl
+ls
+clear
+tp
+clear
+ls
+exit
+flatpak update
+clear
+exit
+clear
+ls
+clear
+l
+ls
+clear
+ls
+clear
+s
+ls
+clear
+flatpak update
+clear
+sudo dnf upgrade
+btop
+clear
+exit
+clear
+sudo dnf upgrade
+clear
+ls
+sudo dnf list
+clear
+ls
+clear
+ls
+clear
+exit
+wal -i ~/Downloads/anime-cityscape-sunset.jpg
+syncwal
+clear
+ls
+clear
+fastfetc
+fastfetch
+celar
+clear
+wal -i ~/Downloads/illustration-anime-city.jpg
+syncwal
+clear
+ls
+clear
+exit
+ls
+clear
+ls
+cdf
+ls
+mkdir wallpapers
+ls
+unzip wallpapers.zip -d wallpapers/
+clear
+ls
+cdf
+ls
+clear
+cd ..
+ls
+clear
+ls
+clear
+ls
+wal -i ~/Downloads/wallpapers/neo_tokyo.jpg
+syncwal
+clear
+ls
+fastfetch
+clear
+ls
+clear
+ls
+exit
+ls
+wal -i ~/Downloads/wallpapers/solo-leveling-3840x2160-19518.png
+syncwal
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+fastfetch
+clear
+sudo dnf neofetch
+cargo install neofetch
+htop
+clear
+exit
+clear
+sudo dnf install libxcb-devel
+clear
+cargo install neofetch
+clear
+neofetch
+clear
+exit
+neofetch
+clear
+neofetch
+clear
+ls
+neofetch
+clear
+exit
+cargo uninstall neofetch
+clear
+sudo dnf install neofetch
+clear
+fastfetch
+clear
+exit
+wal -i ~/Downloads/wallpapers/ash-ketchum-pikachu-5120x2880-17918.jpg
+syncwal
+clear
+ls
+clear
+ls
+fastfetch
+clear
+exit
+sl
+clear
+ls
+clear
+ls
+tp
+lc
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+exit
+ls
+clear
+ls
+fastfetch
+clear
+ls
+cdf
+clear
+ls
+cd
+clear
+ls
+tp
+ls
+clear
+ls
+nvim myscript.sh
+ls
+clear
+ls
+run myscript.sh
+claer
+ls
+clear
+ls
+nvim myscript.sh
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+tp
+clear
+tp
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+mv newcourse Archive/
+ls
+clear
+ls
+mkdir shell_scripting
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+;s
+ls
+clear
+tp
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+mkdir projects
+ls
+clear
+tmux kill-server
+vmux
+clear
+ls
+clear
+uv init turtle_graphics_project
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+clear
+ls
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+history | grep main.py
+grep -c "run main.py" 
+history | grep "run main.py" 
+history | grep -c "run main.py" 
+clear
+clear
+exit
+run drawing_square.py
+run main.py
+run drawing_square.py
+clear
+run drawing_square.py
+clear
+run drawing_square.py
+clear
+run dashed_line.py
+clear
+run dashed_line.py
+python3
+clear
+clea
+clear
+nvim
+tmux detach 
+vmux
+clear
+tmux kill-session -t coding
+clear
+exit
+ls
+clear
+exit
+ls
+tp
+ls
+clear
+ls
+fastfetch
+clear
+fastfetc
+fastfetch
+clear
+ls
+run 02_instructions_and_operators/
+ls
+cdf
+ls
+clear
+cdf
+ls
+run 02_problem2.c
+clear
+run 02_problem2.c
+clear
+fastfetch
+clear
+fastfetch 
+clear
+fastfetch
+clear
+ls
+tp
+ls
+clear
+cf
+cdf
+ls
+clear
+tp
+ls
+clear
+exit
+run 02_problem2.c
+ls
+run 03_problem3.c
+clear
+run 04_problem4.c
+clear
+ls
+run 05_problem5.c
+clear
+run 05_problem5.c
+clear
+run 05_problem5.c
+clear
+run 05_problem5.c
+clear
+run 06_problem6.c
+clear
+ls
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+clear
+tmux ls
+claer
+clear
+exit
+ffmpeg --version
+ffmpeg -v
+clear
+exit
+ls
+clear
+clear
+cal
+clear
+cal
+cal | get mo
+clear
+ls
+cal
+cal | from csv 
+clear
+cal
+cal | grep tu
+clear
+exit
+fastfetch 
+matrix
+sudo dnf install matrix
+clear
+s
+ls
+clear
+dnf upgrade
+sudo dnf upgrade
+cleare
+exit
+exit
+tp
+ls
+cdf
+clear
+ls
+nvim newsyllabus.md
+clear
+exit
+ls
+ps | grep gdm
+clearps
+ps 
+ps | select name status
+ps | select name status | grep brave
+ps | select name status | grep gdm
+ps | select name status | where status =~ "Running" 
+clear
+ls
+ps | select name status | where status =~ "Running" 
+fastfetch
+clear
+btop
+clear
+ps | select name status | where status =~ "Running" 
+ps
+clear
+ls
+ps
+clear
+ps | where status =~ Running
+clear
+htop
+clear
+exit
+ls
+tp
+ls
+cd ..
+ls
+nvim newsyllabus.md
+clear
+ls
+cdf
+ls
+mkdir 02_iot_architecture
+ls
+cdf
+ls
+clear
+nvim
+clear
+cal
+time
+clear
+ls
+ls | sort-by modified 
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+tp
+ls
+clear
+tp
+ls
+clear
+tp
+ls
+tp
+ls
+clear
+ls
+sl
+clear
+ls
+cdf
+ls
+clear
+ls
+cd ..
+ls
+tp
+ls
+cdf
+ls
+tp
+ls
+nvim main.py
+clear
+ls
+cd ..
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+cdf
+ls
+clea
+clear
+ls
+ls -a
+clear
+cdf
+clear
+tp
+ls
+cdf
+clear
+ls
+ls | sort-by size
+clear
+tp
+cdf
+ls
+clear
+uv init 01_turtle_graphics
+clear
+ls
+cdf
+ls
+cdf
+ls
+clear
+ls
+clear
+ls
+fd -t f drawing
+clear
+exit
+nvim
+clar
+clear
+vmux
+ls
+tp
+ls
+mv turtle_graphics_project ~/Desktop/Users/Sonu/Workspace/python/projects/
+ls
+clear
+ls
+tp
+ls
+cdf
+ls
+clear
+s
+run main.py
+ls
+mkdir pyfiles && mv *.py pyfiles
+ls
+mkdir pyfiles and mv *.py pyfiles
+clear
+ls
+rm *.py
+ls
+cdf
+ls
+cd ..
+ls
+clear
+ls
+clear
+ls
+rm and mv pyfiles
+ls
+clear
+ls
+clear
+bash
+ls
+clear
+ls
+touch main.py
+run main.py
+clear
+ps | where status =~ running
+ps | where status =~ Running
+ps | where name =~ neovim
+ls
+ps | grep nvim
+clear
+free 
+free -h
+clear
+run main.py
+clear
+ls
+clear
+ls
+run random_walk.py
+clear
+run random_walk.py
+run random_colors.py
+clear
+run spirograph.py
+clear
+run spirograph.py
+clear
+run spirograph.py
+run spi
+run spirograph.py
+clear
+run spirograph.py
+clear
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+clear
+exit
+exit
+ls
+bash
+clear
+ls
+exit
+ls
+eza
+claer
+clear
+eza
+clear
+exit
+sl
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+mkdir 04_loop_control_instructions
+ls
+cdf
+ls
+clear
+run 01_loop.c
+clear
+run 01_loop.c
+clear
+run 01_loop.c
+ls
+clear
+run 01_loop.c
+clear
+ls
+run 01_loop.c
+clear
+sl
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+run 01_loop.c
+clear
+ls
+run 01_loop.c
+clear
+run 01_loop.c
+clear
+run 01_loop.c
+clear
+ls
+clear
+run 01_loop.c
+clear
+run 02_quick_quiz.c
+clear
+run 02_quick_quiz.c
+clear
+ls
+run 02_quick_quiz.c
+clear
+run 01_loop.c
+clear
+run 03_quick_quiz.c
+clear
+run 03_quick_quiz.c
+clear
+run 03_quick_quiz.c
+clear
+run 03_quick_quiz.c
+clear
+run 04_quick_quiz.c
+clear
+run 04_quick_quiz.c
+clear
+run 04_quick_quiz.c
+run 05_quick_quiz.c
+clear
+run 05_quick_quiz.c
+clear
+run 05_quick_quiz.c
+clear
+run 05_quick_quiz.c
+run 06_break_statement.c
+clear
+run 06_break_statement.c
+clear
+run 07_continue.c
+clear
+ls
+clear
+ls
+run 07_continue.c
+clear
+ls
+clear
+ls
+mkdir practice_set
+ls
+clear
+cdf
+ls
+clear
+run 01_problem1.c
+run 02_problem2.c
+clear
+run 02_problem2.c
+clear
+run 05_problem5.c
+clear
+run 06_problem6.c
+clear
+run 06_problem6.c
+clear
+run 07_problem7.c
+clear
+run 08_problem8.c
+clear
+run 08_problem8.c
+clear
+run 08_problem8.c
+clear
+run 08_problem8.c
+clear
+run 08_problem8.c
+clear
+tmux detach
+vmux
+clear
+ls
+clear
+exit
+clear
+fastfetch
+clear
+cl
+clear
+ls
+eza
+clea
+clear
+exit
+http get https:/google.com/
+clear
+ping google.com
+clear
+ls
+clear
+sp
+ps
+ps | where status == Unknown
+clear
+ps
+clear
+ps
+ps | where status == Active
+ps | where status == Running
+clear
+exit
+ls
+clear
+ls
+clear
+tp
+ls
+clear
+nvim newsyllabus.md
+clear
+ls
+clear
+cdf
+ls
+mkdir 03_enabling_technologies
+ls
+cdf
+ls
+clear
+tp
+ls
+nvim newsyllabus.md
+cdf
+ls
+mv 03_enabling_technologies 03_enabling_technologies_and_components
+ls
+clear
+cdf
+ls
+clear
+nvim
+nvim 02_things_in_iot.md
+clear
+ls
+tp
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+uv init 02_hirst_painting
+clear
+ls
+cdf
+ls
+clear
+ls
+clear
+ls
+ls -a
+clear
+ls
+pwd | copy 
+ls
+unzip hirst-painting-start.zip
+clear
+nvim
+uv add colorgram
+clear
+uv add colorgram.py
+clear
+uv tree
+clear
+uv pip list
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clea
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+ls
+clear
+ls
+clear
+exit
+ls
+tp
+ls
+exit
+run main.py
+clear
+run main.py
+claer
+run main.py
+clear
+run main.py
+clear
+nvim
+tmux detach
+vmux
+clear
+tmux ls
+tmux kill-session -t coding
+clear
+ls
+exit
+sudo dnf upgrade
+clear
+sudo dnf upgrade
+flatpak update
+clear
+exit
+curl https://kanjikana.com/en
+clear
+ls
+exit
+SL
+CLEAR
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+uv init Furigana_and_words_generator
+ls
+rm Furigana_and_words_generator/
+rm -rf Furigana_and_words_generator/
+ls
+clear
+ls
+uv init transcript_furigana
+cdf
+ls
+clear
+ls
+uv add youtube-transcript-api
+clear
+uv add requests
+uv add httpx
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+claer
+clear
+run main.py
+clear
+run main.py
+claer
+clear
+run main.py
+clear
+run  main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+uv add bs4
+clear
+nvim
+run newmain.py
+clear
+uv add lxml
+run newmain.py
+clear
+run newmain.py
+clear
+run newmain.py
+clear
+run newmain.py
+clear
+run test.py
+uv test.py
+clear
+run test.py
+clear
+run test.py
+clear
+run test.py
+clear
+run test.py
+clear
+run test.py
+clear
+run test.py
+clear
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+ls
+clear
+exit
+sudo dnf upgrade
+clear
+flatpak update
+clear
+exit
+ls
+clear
+tp
+ls
+cdf
+ls
+claer
+ls
+clear
+ls
+clear
+uv add sudachipy sudachidict_full
+btop
+clear
+exit
+clear
+bash
+clear
+ls
+clear
+ls
+clear
+uv add wanakana
+clear
+nvim
+clear
+run main.py
+run main.py | sed /sonu/wade/s
+clear
+run main.py
+clear
+run main.py
+run main.py | grep -i error
+run main.py | grep -i error | copy 
+clear
+run main.py
+uv add wanakana
+clear
+run main.py
+claer
+clear
+run main.py
+run newmain.py
+clear
+run main.py
+clear
+run newmain.py
+clear
+run newmain.py
+clear
+run newmain.py
+claer
+clear
+run newmain.py
+clear
+ls
+mv pyfiles/fetcher.py ./
+ls
+clear
+nvim
+run newmain.py
+ls
+tp
+ls
+cdf
+ls
+clear
+ls
+echo transcript_with_furigana.html | copy 
+pwd | copy 
+echo transcript_with_furigana.html | copy 
+clear
+tmux detach
+vmux
+clear
+tmux kill-server
+clear
+exit
+exit
+ls
+clear
+ls
+tp
+s
+ls
+clear
+ls
+clear
+ls
+cdf
+ls
+clear
+run 08_problem8.c
+clear
+cd ..
+ls
+clear
+ls
+cd practice_set/
+ls
+clear
+ls
+run 08_problem8.c
+clear
+ls
+cd ..
+ls
+cd practice_set/
+clear
+run 09_problem9.c
+clear
+run 09_problem9.c
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+clear
+mkdir 05_project_number_guessing_game
+cdf
+ls
+clear
+run main.c
+clear
+run main.c
+clear
+run main.c
+clear
+run main.c
+clear
+run main.c
+clear
+run main.c
+clear
+ls
+rm main
+ls
+run main.c
+clear
+run main.c
+clear
+ls
+run main.c
+clear
+ls
+run main.c
+clear
+vmux
+clear
+ls
+clear
+exit
+btop
+exit
+sl
+ls
+clear
+fastfetc
+fastfetch
+clear
+exit
+clear
+exit
+ls
+clear
+ls
+clear
+wal -i ~/Downloads/wallpapers/solo-leveling-3840x2160-19518.png
+syncwal
+clear
+ls
+clear
+ls
+zsh
+ls
+clear
+ls
+zsh
+ls
+clear
+tp
+ls
+nvim config.nu
+cdf
+ls
+cd ..
+ls
+nvim config.nu
+clear
+ls
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+zsh
+exit
+ls
+cdf
+ls
+nvim config.nu
+clear
+exit
+sl
+ls
+clear
+exit
+ls
+clear
+ls
+wal -i ~/Downloads/monochrome_wallpaper_minimal_wallpaperaccess.png
+clear
+syncwal
+clear
+ls
+zsh
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+l
+ls
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+zsh
+ls
+tp
+ls
+clear
+ls
+nvim alacritty.toml
+clear
+ls
+exit
+ls
+clear
+ls
+clear
+ls
+syncwal 
+clear
+ls
+tp
+ls
+ls a
+ls -a
+clear
+ls
+cd ..
+ls
+clear
+ls
+cdf
+ls
+nvim starship.toml
+ls
+clear
+ls
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+syncwal
+clear
+ls
+exit
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+fastfetch
+clear
+exit
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+cdf
+ls
+clear
+run main.py
+bash 
+ls
+cler
+clear
+ls
+clear
+uv add fugashi unidic
+clear
+uv run python -m unidic download
+clear
+uv run python -m fugashi
+nvim
+run test.py
+clear
+run test.py
+run test.py | copy
+clear
+run test.py
+clear
+run test.py
+run test.py | copy 
+clear
+run test.py
+run test.py | copy 
+clear
+uv add jmdict
+uv add jamdict jamdict-data
+clear
+run newtest.py
+clear
+run newtest.py
+clear
+run newtest.py | copy 
+run newtest.py
+clear
+run newtest.py
+run newtest.py | copy 
+clear
+run newtest.py
+run newtest.py | copy 
+clear
+run newtest.py
+clear
+run newtest.py
+clear
+run fetcher.py
+clear
+run fetcher.py
+clear
+run utilities.py
+pwd | copy 
+run utilities.py
+clear
+btop
+exit
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+uv add tqdm
+clear
+btop
+exit
+run main.py
+clear
+pwd | copy 
+cd /home/sonu/Desktop/Users/Sonu/PersonalSpace/Personal_Projects/transcript_furigana
+ls
+clear
+exit
+clear
+uv add pytube
+clear
+nvim
+run main.py
+btop
+clear
+exit
+clear
+run main.py
+clear
+pwd | copy 
+cd /home/sonu/Desktop/Users/Sonu/PersonalSpace/Personal_Projects/transcript_furigana
+ls
+clear
+exit
+clear
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+exit
+ls
+tp
+ls
+pwd | copy 
+ls
+tp
+ls
+clear
+ls
+tp
+ls
+tp
+ls
+bash 
+rm `svu ug 4th sem babcombscbcabbabaolbhmbvou supply april 2025 results_ Manabadi.com.pdf`
+clear
+ls
+ls | grep svu
+clear
+exit
+clear
+ls
+clear
+exit
+ls
+cleawr
+clear
+ls
+tp
+ls
+cdf
+ls
+clear
+ls
+exit
+clear
+run main.py
+ls
+clear
+ls
+clear
+ls
+yazi
+clear
+ls
+tp
+ls
+ls | type == file
+ls | where type == file
+ls | where name =~ .html$
+clear
+ls
+exit
+clear
+btop
+exit
+run utilities.py
+clear
+run utilities.py
+clear
+run utilities.py
+clear
+run utilities.py
+run test.py
+clear
+ls
+clear
+run test.py
+clear
+nvim
+clear
+ls
+cd ..
+ls
+rm -rf transcript_furigana/
+ls
+clear
+ls
+clear
+cdf
+ls
+ls
+clear
+nvim 
+tmux ls
+vmux
+clear
+ls
+tp
+ls
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+sudo dnf upgrade
+clear
+exit
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+mkdir 06_Functions_and_recursion
+cdf
+ls
+clear
+run 01_function.c
+ls
+clear
+run 01_function.c
+ls
+clear
+run 01_function.c
+clear
+run 01_function.c
+clear
+run 01_function.c
+clear
+run 01_function.c
+clear
+fastfetch
+clear
+run 01_function.c
+clear
+run 01_function.c
+clear
+ls
+run 01_function.c
+clear
+ls
+run 01_function.c
+clear
+run 02_quick_quiz.c
+clear
+run 02_quick_quiz.c
+clear
+run 03_change.c
+clear
+run 03_change.c
+clear
+run 03_change.c
+clear
+run 03_change.c
+run 04_quick_quiz.c
+clear
+tmux detach
+tmux new -s coding
+clear
+tmux kill-session -t coding
+clear
+exit
+clear
+ls
+tp
+ls
+clear
+sl
+ls
+clear
+ls
+cdf
+ls
+yaz
+yazi
+clear
+ls
+clear
+fastfetch
+clear
+exit
+nvim
+clear
+exit
+ls
+clear
+btop
+clear
+exit
+locate --help
+locate main.py
+clear
+exit
+flatpak update
+clear
+flatpak update
+exit
+fd --help
+clear
+exit
+ls
+clear
+ls
+ps
+ps | where status == Running
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+clear
+ls
+mkdir 01_variables
+clear
+cdf
+ls
+run 01_variables/
+clear
+ls
+cdf
+ls
+run 01_variable.sh
+clear
+ls
+clear
+run 01_variable.sh
+clear
+run 01_variable.sh
+clear
+run 01_variable.sh
+clear
+ls
+ls | where name == dotfiles
+clear
+ls
+exit
+run 01_variable.sh
+clear
+run 02_variable_expansion.sh
+clear
+echo -help 
+echo --help
+btop
+exit
+htop
+btop
+clear
+exit
+sudo dnf upgrade
+clear
+exit
+cler
+clear
+ls
+bash 
+clear
+sl
+clear
+man echo
+clear
+run 02_variable_expansion.sh
+clear
+run 02_variable_expansion.sh
+clear
+run 02_variable_expansion.sh
+clear
+run 02_variable_expansion.sh
+clear
+run 02_variable_expansion.sh
+clear
+run 02_variable_expansion.sh
+clear
+tmux detach
+vmux
+clear
+ls
+exit
+ls
+clear
+ls
+tp
+ls
+clear
+exit
+exit
+clear
+exit
+ls
+tp
+ls
+clear
+cdf
+ls
+clear
+ls
+run 5_recursion.c
+ls
+clear
+ls
+run 5_recursion.c
+clear
+run 5_recursion.c
+clear
+run 5_recursion.c
+clear
+run 5_recursion.c
+clear
+run 5_recursion.c
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+sl
+ls
+awk '{print $0}' pokemon.csv
+clear
+awk '{print $1}' pokemon.csv
+clear
+awk 
+clear
+open pokemon.csv 
+open pokemon.csv | select Name "Type.1" "Total" "HP" 
+open pokemon.csv | select Name "Type.1" "Total" "HP" | where "Type.1" =~ Dragon
+open pokemon.csv | select Name "Type.1" "Total" "HP" | where "Type.1" =~ Dragon | where "Name" =~ "^G" 
+clear
+ls
+cler
+clear
+ls
+open pokemon.csv | where "Type.2" =~ Legendary
+open pokemon.csv
+clear
+ls
+open pokemon.csv | describe
+open pokemon.csv | columns
+open pokemon.csv | select Legendary 
+open pokemon.csv | where "Legendary" =~ True
+open pokemon.csv | where "Legendary" =~ True | select Name "Type.1" "Legendary" "HP" 
+clear
+exit
+tmux detach
+tmux new -s coding
+clear
+tmux kill-session -t coding
+clear
+ls
+clear
+ls
+tmux ls
+claer
+clear
+ls
+exit
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+head -n 1 pokemon.csv | tr "," "\n" | nl 
+clear
+exit
+clear
+exit
+clear
+exit
+ls
+tp
+ls
+clear
+ls
+clear
+open progress.md
+open progress.md tail -n 1
+open progress.md | tail -n 1
+open progress.md | tail -n 1 | copy 
+ls
+clear
+cdf
+ls
+cleawr
+clear
+mkdir practice_set
+clear
+ls
+cdf
+ls
+run 01_problem1.c
+clear
+ls
+clear
+run 02_problem2.c
+run 03_problem3.c
+clear
+run 04_problem4.c
+clear
+run 04_problem4.c
+run 05_problem5.c
+clear
+run 05_problem5.c
+ls
+clear
+ls
+rm 05_problem5
+clear
+run 05_problem5.c
+ls
+rm 05_problem5
+ls
+clear
+ls
+run 05_problem5.c
+clear
+run 06_problem6.c
+clear
+ls
+rm 06_problem6
+clear
+ls
+run 06_problem6.c
+ls
+clear
+ls
+run 06_problem6.c
+clear
+run 06_problem6.c
+clear
+tmux kill-server
+tmux new -s coding
+clear
+ls
+clear
+exit
+clear
+exit
+ls
+clear
+ls
+wal -i ~/Downloads/monochrome_wallpaper_minimal_wallpaperaccess.png
+clear
+ls
+clear
+syncwal
+clear
+ls
+clear
+exit
+zsh
+ls
+clear
+ls
+ls | where name =~ .png$
+tp
+ls
+ls | where name =~ .png$
+rm `Spiderman Into The Spider Verse Spiderman Noir UHD 4K Wallpaper _ Pixelz.png`
+clear
+ls
+exit
+ls
+clear
+ls
+clear
+ls
+cdf
+ls
+cdf
+ls
+nvim alacritty.toml
+clear
+ls
+clear
+ls
+clear
+fastfetch
+clear
+exit
+ls
+clear
+ls
+fastfetch
+clear
+ls
+zsh
+exit
+ls
+zsh
+ls
+clear
+exit
+ls
+clear
+ls
+tp
+ls
+cdf
+ls
+open 02_history_of_IOT.md | copy 
+zsh
+exit
+flatpak update
+ls
+clear
+exit
+clear
+ls
+btop
+clear
+exit
+sudo dnf upgrade
+clear
+sudo dnf upgrade
+clear
+ls
+flatpak update
+ls
+clear
+ls
+lear
+clear
+sl
+exit
+ls
+clear
+ls
+clear
+ls
+ls | where name =~ Videos
+clear
+ls
+cler
+clear
+sl
+clear
+ls
+wal -i ~/Downloads/anime-cityscape-sunset.jpg
+syncwal
+clear
+ls
+clear
+ls
+wal -i ~/Downloads/illustration-anime-character-rain.jpg
+syncwal
+clear
+ls
+fastfetch
+clear
+ls
+fastfetch
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+yazi
+clear
+ls
+mkdir paradigms
+ls
+clear
+cdf
+ls
+clear
+run main.py
+clear
+ls
+run main.py
+clear
+ls
+run main.py
+cler
+clear
+ls
+run main.py
+clear
+run main.py
+clear
+ls
+clear
+help
+clear
+help | btop
+ls
+help 
+help -h
+help commands
+clear
+help commands
+help commands | where command_type =~ keyword
+clear
+ls
+help commands
+wrap help 
+wrap --help
+clear
+help commands
+help commands | where category =~ filters
+clear
+ls
+clear
+help commands
+help commands | where category =~ core
+echo -h
+clear
+ls
+help commands
+from csv -h
+clear
+help commands 
+help commands | where name =~ from
+clear
+help commands
+help -h
+help str
+help str expand
+clear
+ls
+str -h
+str contains -h
+help regex
+clear
+ls
+help str
+str stats -h
+ls
+clear
+ls
+tp
+ls
+open -h
+clear
+open -r starship.toml | str stats
+clear
+ls
+cd
+ls
+help commands
+wrap -h
+clear
+help aliases 
+shells
+show
+shells
+clear
+ls
+help -h
+help escapes
+clear
+ls
+help str
+echo "Hell NO" | str downcase
+echo "Hell NO" | str status
+echo "Hell NO" | str stats
+str stats -h
+clear
+ls
+help str 
+echo "HELL NO" | str downcase | str reverse
+echo "HELL NO" | str downcase | str upcase
+echo "HELL NO" | str downcase | str trim
+str trim -h
+clear
+ls
+clear
+help commands
+qclear
+keybindings
+clear
+exit
+clear
+ls
+clear
+ls
+clear
+tmux detac
+vmux
+clear
+tmux kill-server
+tmux attach -t coding
+clear
+s
+clear
+ls
+clear
+where -h
+clear
+where -h
+clear
+ls
+ls -h
+clear
+ls
+help commands
+help commands | explore
+clear
+ls
+ps
+ps | where status =~ Running
+ps | where status =~ Unknown
+clear
+ps | where mem > 0
+ps
+ps | where mem != 0 B
+ps | where mem != "0 B" 
+ps | describe
+ps | mem > 0
+ps | where mem > 0
+ps | where mem > "0" 
+clear
+ls
+exit
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+mkdir 07_pointers
+ls
+cdf
+ls
+clear
+ls
+clear
+sl
+clear
+ls
+clear
+touch 01_pointer.c
+run 01_pointer.c
+clear
+ls
+clear
+ls
+run 01_pointer.c
+clear
+run 01_pointer.c
+clear
+ls
+clear
+run 01_pointer.c
+clear
+run 01_pointer.c
+clear
+ls
+tp
+ls
+open pokemon.csv 
+clear
+open pokemon.csv | columns
+open pokemon.csv | first | describe
+clear
+open pokemon.csv | describe
+open pokemon.csv | columns
+open pokemon.csv | get Name
+open pokemon.csv | where Name =~ ^D
+open pokemon.csv | where Name =~ Dragon
+open pokemon.csv | where "Type.2" =~ Flying
+open pokemon.csv | where "Type.1" =~ Fire and "Type.2" =~ Flying
+open pokemon.csv | where "Type.1" =~ Fire and "Type.2" =~ Flying | get Total | math max
+tmux detach
+vmux
+tmux kill-server
+clear
+ls
+tmuxls
+tmux ls
+clear
+exit
+ls
+tp
+ls
+nvim progress.md
+clear
+exit
+tp
+ls
+open pokemon.csv | describe | copy
+open pokemon.csv | where "Type.1" =~ Fire and "Type.2" =~ Flying | sort-by Total -r
+open pokemon.csv | where "Type.1" =~ Fire and "Type.2" =~ Flying | sort-by Total -r | first 1
+clear
+open pokemon.csv | where "Type.1" =~ Fire and "Type.2" =~ Flying | sort-by Total -r | first 1
+open pokemon.csv
+open pokemon.csv | group-by "Type.1" 
+open pokemon.csv | get "Type.1" 
+open pokemon.csv | get "Type.1" | uniq
+help uniq
+clear
+open pokemon.csv | get "Type.1" | uniq
+open pokemon.csv | where "Type.1" =~ Dragon
+open pokemon.csv | where "Type.1" =~ Dragon | sort-by Total | first 5
+open pokemon.csv | where "Type.1" =~ Dragon | sort-by Total -r | first 5
+cler
+claer
+clear
+open pokemon.csv | columns 
+open pokemon.csv | sort-by Attack -r | first 5
+open pokemon.csv | sort-by Defence -r | first 5
+clear
+open pokemon.csv | sort-by Defense -r | first 5
+open pokemon.csv | sort-by HP -r | first 5
+open pokemon.csv | where "Type.1" =~ Water | sort-by Total -r | first 5
+open pokemon.csv | get "Type.1" | uniq 
+open pokemon.csv | where "Type.1" =~ Ghost
+open pokemon.csv | where "Type.1" =~ Ghost | sort-by Total -r | first 5
+clear
+open pokemon.csv | get "Type.2" | uniq
+open pokemon.csv | where "Type.2" =~ Psychic
+open pokemon.csv | where "Type.2" =~ Psychic | sort-by Total -r | first 5
+clear
+exit
+clear
+exit
+ls
+clear
+ls
+clear
+clear
+exit
+ls
+clear
+tp
+ls
+nvim newsyllabus.md
+clear
+ls
+cdf
+ls
+mkdir 04_internet_frameworks
+cdf
+ls
+clear
+nvim 01_internet_IOT.md
+cd ..
+ls
+cd ..
+ls
+nvim newsyllabus.md
+help git
+clear
+help sort-by
+clear
+help csv
+help from csv
+clear
+tp
+ls
+clear
+ls
+mkdir classes
+cdf
+mkdir abstract_classes
+cdf
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+tmux detach
+vmux
+clear
+tmux ls
+tmux kill-session -t coding
+clear
+exit
+ls
+wal -i ~/Downloads/swinging-through-dimensions-spider-man-across-the-spider-verse-4k-2v.jpg
+clear
+syncwal
+clear
+ls
+fastfetch
+clear
+l
+ls
+clear
+exit
+ls
+wal -i ~/Downloads/wallpapers/close-up-japanese-street-food-shop.jpg
+clear
+syncwal
+clear
+fastfetch
+clear
+ls
+clear
+l
+ls
+clear
+tp
+ls
+clear
+ls
+wal -i `~/Downloads/wallpapers/weathering with you land scape wallpaper.jpg`
+clear
+syncwal
+clear
+ls
+clear
+fastfetch
+clear
+exit
+ls
+clear
+ls
+wal -i ~/Downloads/illustration-anime-character-rain.jpg
+syncwal
+clear
+ls
+clear
+fastfetch
+clear
+ls
+clear
+ls
+clear
+tp
+ls
+fastfetch
+clear
+ls
+fastfetch
+cleawr
+clear
+tmux kill-server
+vmux
+clear
+ls
+exit
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+run 01_pointer.c
+clear
+run 01_pointer.c
+clear
+run 01_pointer.c
+clear
+run 02_other_types.c
+clear
+run 02_other_types.c
+clear
+run 02_other_types.c
+clear
+run 02_other_types.c
+clear
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+clear
+exit
+fastfetch
+clear
+ls
+clear
+ls
+fastfetch
+clear
+ls
+wal -i ~/Downloads/spiderman_noir_aplhacoders.jpg
+clear
+syncwal 
+clear
+ls
+cleara
+clear
+fastfetch
+zsh
+exit
+clear
+exit
+ls
+clear
+zsh
+ls
+clear
+ls
+free -h
+dh
+clear
+exit
+df -h 
+exit
+zsh
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+clawer
+clear
+ls
+clear
+zsh
+zsh
+zsh
+clear
+ls
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+syncwal
+clear
+ls
+fastfetch
+clear
+nvim
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+clear
+exit
+fastfetch
+clear
+ls
+fastfetch
+clear
+exit
+ls
+clear
+tp
+ls
+clear
+tail -n 1 progress.md | copy 
+nvim
+cdf
+ls
+run 02_other_types.c
+clear
+run 02_other_types.c
+clear
+run 02_other_types.c
+clear
+run 02_other_types.c
+clear
+run 03_pointer_to_pointer.c
+clear
+run 04_call_by_value.c
+clear
+run lbyv
+run 04_call_by_value.c
+clear
+run lbyr
+run 05_call_by_reference.c
+run lbyr
+run 05_call_by_reference.c
+clear
+ls
+clear
+ls
+clear
+eza
+eza  | grep -v \.
+clear
+run 06_swap_variable.c
+clear
+run 06_swap_variable.c
+clear
+mkdir practice_set
+cdf
+ls
+run 01_problem1.c
+clear
+run 01_problem1.c
+run 02_problem2.c
+clear
+run 02_problem2.c
+run 03_problem3.c
+clear
+run 03_problem3.c
+run 04_problem4.c
+clear
+run 05_problem5.c
+clear
+run 06_problem6.c
+clear
+tmux detach
+vmux
+clear
+tmux ls
+clear
+tmux kill-session -t coding
+clear
+cd
+clear
+btop
+clear
+exit
+clear
+exit
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+exit
+ls
+clear
+ls
+tp
+ls
+nvim important_questions.md
+clear
+ls
+pwd | copy 
+ls
+tp
+ls
+nvim README.md
+clear
+sl
+exit
+clear
+ls
+clear
+ls
+clear
+ls
+exit
+clear
+exit
+ffmpeg -v
+ffmpeg --version
+clear
+help 
+clear
+ls
+man ffmpeg 
+clear
+exit
+clear
+ls
+clear
+ls
+clear
+q
+clear
+cd
+clear
+exit
+ls
+clear
+tp
+ls
+clear
+tail -n 1 progress.md | copy 
+mkdir 08_arrays
+ls
+clear
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+run 01_array.c
+clear
+run 01_array.c
+clear
+run 01_array.c
+clear
+run 01_array.c
+clear
+run 02_array_input.c
+clear
+run 02_array_input.c
+clear
+run 03_other_array_init.c
+build
+clear
+run 04_pointer_arithmetic.c
+clear
+run 04_pointer_arithmetic.c
+clear
+run 04_pointer_arithmetic.c
+run 06_array_using_pointer.c
+clear
+run 06_array_using_pointer.c
+clear
+run 06_array_using_pointer.c
+clear
+tmux detach
+vmux
+clear
+tmux ls
+tmux kill-session -t coding
+clear
+tmux ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+ls
+clear
+ls
+s
+clear
+tp
+ls
+nvim newsyllabus.md
+clear
+ls
+clear
+exit
+tp
+ls
+clear
+ls
+clear
+ls
+eza
+clear
+ls
+cdf
+ls
+clear
+ls
+uv init 03_instances_state_higher_order
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+uv tree
+clear
+uv tree
+clear
+run main.py
+clear
+ls
+run main.py
+clear
+run main.py
+clear
+run main.py
+pavucontrol
+sudo dnf install pavucontrol
+clear
+exit
+ps
+ps | where name =~ pavu
+ps | where name =~ audio
+ps | where name =~ control
+clear
+ps
+ps | where status =~ Running
+clear
+exit
+clear
+clear
+exit
+tp
+ls
+tail -n 1 progress.md | copy 
+ls
+cdf
+ls
+clear
+run 07_quick_quiz.c
+clear
+run 07_quick_quiz.c
+clear
+run 07_quick_quiz.c
+clear
+mkdir practice_set
+run cdf
+cdf
+ls
+clear
+ls
+run 01_problem1.c
+clear
+ls
+run 01_problem1.c
+clear
+run 02_problem2.c
+clear
+run 03_problem3.c
+run 04_problem4.c
+clear
+run 04_problem4.c
+clear
+run 04_problem4.c
+clear
+run 05_problem5.c
+clear
+run 05_problem5.c
+clear
+run 06_problem6.c
+clear
+run 07_problem7.c
+clear
+run 08_problem8.c
+nvim
+vmux
+ls
+clear
+run 08_arrays/
+cdf
+ls
+cdf
+ls
+run 08_problem8.c
+clear
+vmux
+clear
+cd
+clear
+ls
+clera
+clear
+ls
+clear
+ls
+clear
+tp
+ls
+clear
+nvim newsyllabus.md
+clear
+sl
+ls
+clear
+cleat
+clear
+exit
+clear
+exit
+ls
+cleawr
+clear
+ls
+clear
+ls
+wal -i ~/Downloads/howls_moving_castle_wallpapercat.jpg
+syncwal
+clear
+ls
+clear
+ls
+clea
+ls
+clear
+tp
+ls
+fastfetch
+clear
+ls
+cdf
+ls
+clear
+ls
+cdf
+ls
+run main.py
+clear
+nvim
+clear
+vmux
+clear
+ls
+wal -i ~/Downloads/wallpapers/cyberpucnk_edgerunners_moon_wallpaper.jpg
+syncwal
+clear
+ls
+clear
+fastfetch
+clear
+ls
+clear
+ls
+clear
+wal -i ~/Downloads/wallpapers/my-hero-academia-deku-pfp-18.jpg
+syncwal
+clear
+ls
+fastfetch
+clear
+ls
+fastfetch
+clear
+ls
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+syncwal
+clear
+fastfetch
+clear
+ls
+clear
+ls
+clear
+ls
+cd
+tp
+cdf
+ls
+clear
+ls
+uv init furigana_scraping
+clear
+ls
+cdf
+ls
+cdf
+ls
+clear
+uv add requests-html
+clear
+uv add bs4 lxml
+clear
+uv tree
+uv pip list
+uv pip freeze
+clear
+ls
+uv add youtube-transcript-api
+clear
+nvim
+run utilites.py
+clear
+run utilites.py
+clear
+run utilites.py
+clear
+run utilites.py
+clear
+run utilites.py
+clear
+run utilites.py
+clear
+run utilites.py
+clear
+run utilites.py
+clear
+ls
+head -n 20 transcript.md | copy 
+clear
+ls
+clear
+uv add pyppeteer 
+run utilites.py
+uv add lxml
+clear
+ls
+run utilites.py
+clear
+vmux
+clear
+exit
+fastfetch
+clear
+fastfetch
+claer
+clear
+htop
+clear
+exit
+ping google.com
+clear
+exit
+ank
+clear
+ping google.com
+clear
+exit
+ping google.com
+clear
+exit
+sudo dnf upgrade
+clear
+exit
+sudo dnf upgrade
+clear
+ls
+clear
+ls
+clear
+lsusb
+lsusb | copy 
+sudo dnf install kernel-devel kernel-headers gcc make git dkms
+git clone https://github.com/Mange/rtl8192eu-linux-driver.git
+cd rtl8192eu-linux-driver/
+sudo dkms add .
+lsmod | grep 8192eu 
+lsmod | grep 8192eu | copy 
+sudo dkms build rtl8192eu/1.0<\n>sudo dkms install rtl8192eu/1.0
+sudo modprobe 8192eu
+ip link
+clear
+sudo dmesg | grep 8192 | copy 
+ip link show wlp0s20f0u9u3
+sudo ip link set wlp0s20f0u9u3 up
+rfkill list
+rfkill list | copy 
+sudo rfkill unblock all
+sudo ip link set wlp0s20f0u9u3 up
+sudo iwlist wlp0s20f0u9u3 scan | grep ESSID
+sudo dnf install wireless-tools
+nmcli dev wifi list ifname wlp0s20f0u9u3
+clear
+ls
+exit
+clear
+exit
+sudo modprobe -r 8192eu<\n>sudo modprobe 8192eu<\n>
+sudo journalctl -k --since today | grep 8192
+sudo journalctl -k --since today | grep 8192 | copy 
+echo "options 8192eu rtw_power_mgnt=0 rtw_enusbss=0" | sudo tee /etc/modprobe.d/8192eu.conf<\n>sudo modprobe -r 8192eu<\n>sudo modprobe 8192eu
+nmcli dev wifi list ifname wlp0s20f0u9u3
+bash
+exit
+nmcli dev wifi list ifname wlp0s20f0u9u3
+flatpak update
+zsh
+sudo dnf upgrade
+clear
+sudo dnf upgrade
+clear
+exit
+sudo reboot
+ping google.com
+clear
+exit
+lsusb
+clear
+exit
+sudo dnf upgrade
+clear
+sudo dnf upgrade
+clear
+exit
+clear
+exit
+tp
+ls
+tail -n 1 progress.md | copy 
+ls
+clear
+mkdir 09_strings
+cdf
+ls
+clear
+ls
+run 01_strings.c
+clear
+run 01_strings.c
+clear
+run 01_strings.c
+clear
+run 03_input.c
+clear
+ls
+clear
+vmux
+clear
+ls
+clear
+exit
+tp
+ls
+cd
+tp
+ls
+tp
+ls
+nvim BUILD_FOR_NETHUNTER.md
+cdf
+ls
+clear
+cd
+clear
+flatpak update
+clear
+exit
+uname -r
+bash
+zsh
+ls
+clear
+ls
+clear
+s
+ls
+clear
+sl
+clear
+ls
+tp
+ls
+cdf
+ls
+clear
+ls
+cd
+tp
+ls
+clear
+ks
+ls
+clear
+ls
+clear
+ls
+run main.py
+clear
+nvim 
+clear
+vmux
+clear
+s
+ls
+cd ..
+ls
+uv init 04_turtle_race_object_state_instance
+cdf
+ls
+clear
+run main.py
+clear
+nvim
+clear
+exit
+vmux
+clear
+exit
+ls
+clear
+ls
+tp
+ls
+open -r progress.md | last 1 
+open progress.md | last 1
+open progress.md | tail -n 1 
+open progress.md | tail -n 1 | copy 
+clear
+cdf
+ls
+run 04_gets_and_puts.c
+ls
+run 04_gets_and_puts.c
+nvim
+tmux detach
+vmux
+clear
+ls
+tmux kill-session -t coding
+clear
+ls
+clear
+clear
+exit
+tp
+ls
+uv init subtitle_retimer
+clear
+ls
+cdf
+ls
+pwd | copy 
+sudo dnf upgrade
+clear
+exit
+ls
+clear
+ls
+tp
+ls
+ls | where name =~ \.srt$
+mv '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt' ~/Desktop/Users/Sonu/PersonalSpace/Personal_Projects/subtitle_retimer/
+clear
+exit
+clear
+ls
+open '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt'
+open '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt' | from csv
+open '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt' | <\n>
+help str
+open '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt' | str contains \d
+open '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt' | str contains \
+open '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt' | str contains \d+
+open '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt' | str contains -r \d+
+str contains -h
+clear
+awk '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt'
+clear
+grep -h
+man grep 
+clear
+grep -P "^\d+" 
+ls
+clear
+ls
+grep -P "^\d+" '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt'
+clear
+zsh
+ls
+run main.py
+run main.py | from csv
+exit
+nvim
+vmux
+clear
+ls
+exit
+ls
+clear
+ls
+tp
+ls
+clear
+tail -n 1 progress.md | copy 
+ls
+clear
+ls
+cdf
+ls
+clear
+run 05_string_functions.c
+clear
+run 05_string_functions.c
+clear
+run 05_string_functions.c
+clear
+run 05_string_functions.c
+clear
+clear
+exit
+run 05_string_functions.c
+clear
+run 05_string_functions.c
+clear
+run 05_string_functions.c
+clear
+nvim
+tmux detach
+vmux
+tmux kill-session -t coding
+clear
+ls
+exit
+tp
+ls
+zsh
+exit
+clear
+exit
+ls
+clear
+ls
+clear
+tp
+ls
+vux
+run main.py
+nvim
+run main.py
+run main.py | tali -n 5
+run main.py 
+clear
+vmux
+clear
+exit
+tp
+ls
+cdf
+ls
+clear
+sl
+run main.py
+clear
+run main.py
+clear
+run main.py
+uv run main.py -s 2000 '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt'
+clear
+uv run main.py -s 2000 '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt'
+ls
+clear
+ls
+clear
+ls
+clear
+cat '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt'
+uv run main.py -i -s 15000 '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt'
+cat '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt'
+clear
+ls
+clear
+ls
+clear
+ls
+uv run main.py  -s 15000 '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt'
+uv run main.py  -s -15000 '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt'
+uv run main.py -i -s -15000 '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt'
+clear
+nvim
+clear
+vmux
+clear
+exit
+ls
+clear
+ls
+ls | sort-by size
+clear
+ls
+tp
+ls
+clear
+vmx
+tail -n 1 progress.md  | copy 
+cdf
+ls
+mkdir practice_set
+cdf
+ls
+clear
+zsh
+run 01_problem.c
+clear
+run 01_problem.c
+run 02_problem.c
+ls
+clear
+run 03_problem.c
+zsh
+clear
+tmux detach
+tmux new -s coding
+clear
+tmux kill-session -t coding
+clear
+exit
+tp
+nvim
+exit
+ls
+clear
+tp
+ls
+tp
+cdf
+ls
+clear
+ls
+clear
+cdf
+ls
+run 04_problem.c
+clear
+run 04_problem.c
+ls
+ps
+ps | where name =~ alacritty
+clear
+ps | where status =~ Sleeping
+ls
+zsh
+ls
+exit
+run 05_problem.c
+clear
+run 05_problem.c
+clear
+run 05_problem.c
+clear
+run 05_problem.c
+clear
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+clear
+exit
+clear
+clear
+ls
+clear
+sudo dnf install snapper snapper-plugins
+users
+sudo dnf install python3-dnf-plugins-extras-snapper
+clear
+ls
+sudo nvim /etc/dnf/plugins/snapper.conf
+clear
+snapper -c root list
+sudo snapper -c root create-config /
+snapper -c root list
+sudo snapper -c root list
+sudo snapper -c root list | copy 
+clear
+ls
+clear
+sudo dnf reinstall snapper
+clear
+sudo snapper -c root list
+sudo snapper -c root list | copy 
+findmnt -T /
+findmnt -T / | copy
+sudo dnf install python3-dnf-plugins-extras-snapper<\n>sudo dnf upgrade --assumeno
+sudo snapper -c root list 
+dnf config-manager --dump | grep snapper -A2<\n>
+dnf repolist<\n>dnf list installed | grep snapper<\n>grep -R snapper /etc/dnf/plugins/<\n>
+clear
+ls
+clear
+dnf repolist
+dnf repolist | copy 
+sudo grep -R snapper /etc/dnf/plugins/
+sudo grep -R snapper /etc/dnf/plugins/ | copy 
+sudo nvim /etc/dnf/plugins/snapper.conf
+clear
+sudo dnf upgrade vim --assumeno
+sudo snapper -c root list
+sudo snapper -c root list | copy 
+sudo snapper -c root create -d "pre-dnf-upgrade"
+sudo snapper -c root list
+sudo dnf upgrade
+clear
+sudo snapper -c root create -d "post-dnf-upgrade" 
+sudo snapper -c root list
+clear
+ls
+clear
+ls
+sudo dracut --force /boot/initramfs-<broken-kernel-version>.img <broken-kernel-version>
+ls /boot/vmlinuz-*
+ls /boot/vmlinuz-* | get name
+ls /boot/vmlinuz-* | get name | copy
+ls /boot/vmlinuz-* | select name 
+ls /boot/vmlinuz-* | select name | copy 
+sudo dnf reinstall kernel-6.16.7-200.fc42.x86_64 kernel-core-6.16.7-200.fc42.x86_64 kernel-modules-6.16.7-200.fc42.x86_64
+less /var/lib/dkms/realtek-rtl8188eus/5.3.9~20221105/build/make.log
+dkms status
+dkms status | copy 
+clear
+exit
+flatpak update
+clear
+ls
+clear
+exit
+ls
+clear
+ls
+tp
+l
+ls
+clear
+ls
+nvim
+clear
+ls
+clear
+ls
+clear
+nvim
+ls usb
+lsusb
+lsusb | from csv
+lsusb | grep tp-link
+lsusb | grep -i tp-link
+lsusb | grep -i tp-link | copy 
+clear
+exit
+vmux
+ls
+clear
+ls
+cd
+clear
+sudo lshw -C network
+cat /var/lib/dkms/rtl8192eu/1.0/build/make.log<\n>
+cat /var/lib/dkms/rtl8192eu/1.0/build/make.log<\n> | copy 
+clear
+# Remove any existing rtl8192eu DKMS module<\n>sudo dkms remove rtl8192eu/1.0 --all<\n><\n># Delete any old source folder<\n>sudo rm -rf /usr/src/rtl8192eu<\n>
+sudo git clone https://github.com/clnhub/rtl8192eu-linux.git /usr/src/rtl8192eu<\n>cd /usr/src/rtl8192eu<\n>
+ping google.com
+clear
+sudo dnf groupintall "C Development Tools and Libraries" & sudo dnf install dkms git
+sudo dnf5 groupintall "C Development Tools and Libraries" & sudo dnf install dkms git
+clear
+gh repo clone clnhub/rtl8192eu-linux
+sudo git clone https://github.com/clnhub/rtl8192eu-linux.git /usr/src/rtl8192eu<\n>cd /usr/src/rtl8192eu
+clear
+# Add the module to DKMS<\n>sudo dkms add .<\n><\n># Build and install<\n>sudo dkms build rtl8192eu/1.0<\n>sudo dkms install rtl8192eu/1.0<\n>
+sudo dkms remove rtl8192eu/1.0 --all<\n>sudo rm -rf /usr/src/rtl8192eu-1.0<\n>
+btop
+exit
+cd /usr/src/rtl8192eu<\n>sudo dkms add .<\n>sudo dkms build rtl8192eu/1.0<\n>sudo dkms install rtl8192eu/1.0 --force
+clear
+sudo dracut --force
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+clear
+exit
+btop
+clear
+exit
+sudo dracut --force /boot/initramfs-6.16.7-200.fc42.x86_64.img 6.16.7-200.fc42.x86_64<\n>
+rpm -qa | grep kernel<\n>
+rpm -qa | grep kernel | copy 
+sudo depmod -a 6.16.7-200.fc42.x86_64
+sudo dracut --force /boot/initramfs-6.16.7-200.fc42.x86_64.img 6.16.7-200.fc42.x86_64
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+sudo reboot
+btop
+clear
+exit
+uname -r
+zsh
+sudo snapper -c root create -d "Post-8192eu fix and stable kernal" 
+clear
+sudo snapper -c root list
+clear
+exit
+ls
+clear
+ls
+clear
+uname -r
+rpm -qa | grep kernel 
+clear
+exit
+tp
+ls
+cd ..
+ls
+clear
+ls
+tail -n 1 progress.md | copy 
+clear
+ls
+clear
+cdf
+ls
+clear
+run 06_problem.c
+run 07_problem.c
+clear
+run 07_problem.c
+clear
+ls
+cd .
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+mkdir 10_structures
+clear
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cd
+ls
+clear
+fastfetc
+fastfetch
+clear
+wal -i ~/Downloads/spiderman_noir_aplhacoders.jpg
+clear
+syncwal
+clear
+ls
+clear
+zsh
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+syncwal
+clear
+ls
+exit
+fastfetch
+clear
+fastfetch
+clear
+ls
+clear
+exit
+flatpak update
+sudo zsh
+ls
+clear
+ls
+sudo nushell
+nushell 
+clear
+n
+clear
+sudo dnf upgrade
+tp
+ls
+tp
+ls
+clear
+cdf
+ls
+clear
+ls
+nvim
+clear
+ls
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+clear
+git init --help
+git init 
+ls
+ls -a
+clear
+ls
+git branch
+git init
+git branch
+clear
+git help
+git status
+clear
+git help
+git remote add --help
+git remote add help
+ls
+mv '[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt' 'sample_sub.srt' 
+clear
+ls
+rm 'updated[Judas] Nihon e Youkoso Elf-san - S01E01v2.srt'
+ls
+clear
+ls
+git add .
+git commit -m "Initial commit" 
+clear
+git remote add origin "https://github.com/TwiceHere/Subtitle-Re-timer.git" 
+git push --help
+git status
+git push -u origin master
+git remote set-url origin git@github.com:TwiceHere/Subtitle-Re-timer.git
+git push -u origin master 
+clear
+git status
+clear
+ls
+clear
+ls
+git remote help
+git remote --help
+clear
+ls
+clear
+ls
+cd ..
+ls
+cdf
+ls
+nvim
+clear
+ls
+cd ..
+ls
+rm -r furigana_scraping/
+ls
+clear
+ls
+cdf
+ls
+nvim
+clear
+cd .
+cd ..
+ls
+rm -r testing/
+clear
+ls
+clear
+cd subtitle_retimer/
+ls
+clear
+ls
+git branch test
+git status
+git branch
+git branch test
+git branch help
+git branch
+git branch --help
+git branch -d help
+git chekout test
+git checkout test
+clear
+ls
+clear
+ls
+nvim
+clear
+ls
+git commit -m "Initial test" 
+git add .
+git commit -m "Initial test" 
+clear
+ls
+vmux
+ls
+clear
+git checkout master
+ls
+nvim main.py
+clear
+ls
+git checkout test
+nvim main.py
+git checkout master 
+clear
+ls
+git branch -d test
+git branch --help
+git branch -D test
+clear
+ls
+git statsu
+git status 
+clear
+ls
+clear
+git branch Test
+ls
+git checkout Test
+ls
+clear
+ls
+nvim main.py
+ls
+clear
+ls
+nvim
+vmux
+clear
+ls
+git checkout master
+git branch
+clear
+git branch -D Test
+clear
+ls
+clear
+ls
+tmux ls
+cd
+tp
+ls
+ls | where name =~ \.pdf$
+ls
+exit
+tp
+ls
+rm git-cheat-sheet-education.pdf
+ls
+clear
+ls
+clear
+exit
+tp
+ls
+cat main.py | copy 
+ls
+clear
+ls
+nvim README.md
+clear
+git add .
+git commit -m "Add README.md with usage instructions for subtitle retimer tool" 
+clear
+git push
+clear
+ls
+cd
+clear
+cd
+clear
+tp
+ls
+clear
+ls
+cd ..
+ls
+cdf
+ls
+clear
+ls
+nvim main.py
+clear
+ls
+flatpak update
+clear
+exit
+tp
+ls
+tail -n 1 progress.md | copy 
+clear
+cdf
+ls
+run 01_struct.c
+clear
+ls
+clear
+ls
+run 01_struct.c
+clear
+run 01_struct.c
+clear
+run 03_array_of_structures.c
+clear
+ls
+rm 03_array_of_structures
+ls
+clear
+run 03_array_of_structures.c
+clear
+nvim
+tmux detach
+vmux
+tmux ls
+clear
+ls
+tmux kill-session -t coding
+clear
+ls
+clear
+tmux ls
+clear
+exit
+flatpak search apple
+clear
+exit
+ls
+tp
+ls
+nvim
+clear
+cd ..
+ls
+clear
+ls
+clear
+ls
+fastfetch
+clear
+ls
+cdf
+s
+ls
+clear
+ls
+cd ..
+ls
+cdf
+ls
+clear
+nvim
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+vmux
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+clear
+ls
+mkdir exam_python
+ls
+clear
+ls
+cdf
+ls
+mkdir unit_01
+ls
+cdf
+ls
+clear
+run 01_standard_types.py
+clear
+ls
+cd ..
+ls
+mkdir unit_02
+clear
+ls
+cdf
+ls
+touch newfile.txt
+ls
+clear
+ls
+run 01_files.py
+clear
+nvim
+clear
+ls
+exit
+vmux
+ls
+clear
+exit
+sudo dnf upgrade
+snapper -c root list
+sudo snapper -c root create -d "Pre dnf upgrade" 
+sudo dnf upgrade
+clear
+sudo snapper -c root create -d "Post dnf upgrade" 
+clear
+ls
+sudo snapper -c list
+snapper -c root list
+sudo snapper -c root list
+clear
+flatpak update
+clear
+dnf --help
+dnf list
+clear
+ls
+exit
+clear
+ls
+exit
+disk 
+dc
+clear
+ls
+free -h
+clear
+ls
+exit
+dmesg | grep -iE "8192eu|wlp0s20f0u9u3|error|fail|timeout"
+sudo dmesg | grep -iE "8192eu|wlp0s20f0u9u3|error|fail|timeout"
+journalctl --help
+journalctl
+clear
+tp
+ls
+tail -n 1 progress.md | copy 
+clear
+cdf
+ls
+cd ..
+ls
+cdf
+ls
+clear
+ls
+clear
+run 03_array_of_structures.c
+clear
+run 03_array_of_structures.c
+run 04_pointer_to_struct.c
+clear
+run 04_pointer_to_struct.c
+clear
+run 04_pointer_to_struct.c
+run 05_quick_quiz.c
+clear
+run 05_quick_quiz.c
+run 06_typedef.c
+clear
+run 06_typedef.c
+clear
+nvim
+vmux
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+tp
+ls
+tp
+clear
+ls
+exit
+tp
+ls
+clear
+cd
+clear
+fastfetch
+clear
+fastfetc
+fastfetch 
+clear
+fastfetc
+fastfetch
+clear
+ls
+tp
+ls
+tail -n 1 progress.md | copy 
+clear
+ls
+cdf
+ls
+clear
+ls
+mkdir practice_set
+clear
+cdf
+ls
+run 01_problem.c
+clear
+run 02_problem.c
+ls
+clear
+ls
+run 02_problem.c
+clear
+run 02_problem.c
+clear
+run 02_problem.c
+clear
+run 02_problem.c
+clear
+run 02_problem.c
+clear
+run 03_problem.c
+clear
+run 05_problem.c
+clear
+tmux detach
+vmux
+clear
+tmux ls
+tmux kill-session -t coding
+clear
+ls
+clear
+fastfetch
+clear
+cd
+clear
+ls
+clear
+exit
+flatpak update
+sudo dnf upgrade
+clear
+sudo snapper -c root create -d "Pre dnf upgrade" 
+sudo dnf upgrade
+clear
+sudo snapper -c root create -d "Post dnf upgrade" 
+sudo snapper -c root list
+clear
+ls
+clear
+ls
+exit
+ls
+tp
+ls
+clear
+ls
+tail -n 1 progress.md | copy 
+cdf
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+ls
+mkdir 11_file_io
+ls
+cdf
+ls
+clear
+ls
+touch example_file.txt
+zsh
+ls
+clear
+exit
+nvim
+clear
+exit
+vmux
+ls
+clear
+ls
+sudo dnf upgrade
+clear
+ls
+sudo dnf install mysql-server
+clear
+sudo mysql_secure_installation
+sudo dnf install @mysql
+clear
+sudo systemctl start mysqld
+sudo systemctl enable mysqld
+exit
+sudo mysql_secure_installation
+clear
+ls
+clear
+ls
+clear
+mysql -u root -p 
+clear
+ls
+sudo systemctl status mysql
+sudo systemctl status mysqld
+clear
+ls
+clear
+ls
+fastfetch
+clear
+fastfetch
+sudo dnf install matrix
+clear
+ls
+clear
+exit
+btop
+clear
+exit
+sudo dnf install cmatrix
+clear
+matrix
+cmatrix
+clear
+cmatrix
+clear
+cmatrix
+clear
+exit
+lsusb
+lsusb | grep -i tp-link
+lsmod
+lsmod | grep 8192eu
+clear
+ls
+clear
+exit
+flatpak update
+exit
+flatpak update
+clear
+ls
+clear
+ls
+sudo snapper -c root create -d "Pre dnf upgrade" 
+sudo dnf upgrade
+sudo snapper -c root create -d "Post dnf upgrade" 
+sudo dkms status
+sudo dkms remove realtek-rtl8188eus/5.3.9~20221105 --all
+sudo dkms status
+sudo dkms status | copy 
+ls -1 /usr/src
+zsh
+ls
+clear
+modinfo 8192eu | grep -E "filename|version"
+lsmod | grep 8192eu
+lsmod | grep 8192eu | copy 
+sudo dnf upgrade
+clear
+exit
+cal
+clear
+cal
+ls
+clear
+cal
+zsh
+cal
+exit
+ls
+tp
+ls
+tail -n 1 progress.md | copy 
+clear
+ls
+cdf
+ls
+clear
+run 01_file.c
+clear
+ls
+run 01_file.c
+ls
+clear
+nvim
+run 01_file.c
+run 02_quick_quiz.c
+clear
+ls
+rm 02_quick_quiz
+clear
+run 03_write.c
+run 01_file.c
+tmux detach
+vmux
+clear
+ls
+tmux kill-session -t coding
+clear
+ls
+clear
+cd
+clear
+ls
+clear
+cmatrix
+clear
+ls
+clear
+tp
+ls
+nvim progress.md
+clear
+cd
+lear
+clear
+clear
+exit
+ls
+tp
+ls
+mkdir sqlite3
+cdf
+ls
+clear
+ls
+run main.py
+clear
+ls
+run main.py
+ls
+clear
+ls
+clear
+sl
+ls
+clear
+run main.py
+mysql -u root -p
+clear
+ls
+clear
+ls
+clear
+uname -r
+zsh
+clear
+exit
+clear
+tmux detach
+vmux
+clear
+tmux rename-session -s coding newcoding
+tmux help
+tmux --help
+tmux command help
+clear
+ls
+zsh
+clear
+ls
+tmux ls
+clear
+ls
+tmux ls
+tmux kill-session -t coding
+clear
+ls
+tmux ls
+clear
+ls
+exit
+fastfetch
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+tail -n 1 progress.md | copy 
+cdf
+ls
+clear
+ls
+run 03_write.c
+clear
+run 04_fgetc_fputc.c
+clear
+run 05_reading_cbyc.c
+ls
+clear
+mkdir practice_set
+clear
+touch file.txt
+ls
+rm file.txt
+cdf
+touch file.txt
+ls
+clear
+touch 01_problem.c
+run 01_problem.c
+ls
+rm 01_problem
+ls
+run 01_problem.c
+clear
+vmux
+clear
+ls
+clear
+cd
+clear
+clear
+s
+ls
+clear
+exit
+flatpak update
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+sudo dnf upgrade
+lear
+clear
+ls
+exit
+uname -r
+sudo uname -r
+clear
+uname
+clear
+uname | grep kernal
+ls
+uname
+clear
+exit
+ls
+clear
+ls
+flatpak update
+clear
+uname
+clear
+fastfetch
+clear
+exit
+ls
+clear
+flatpak install flathub app.zen_browser.zen
+clear
+tp
+ls
+nvim
+cdf
+ls
+clear
+run 02_problem.c
+run 03_problem.c
+clear
+btop
+clear
+exit
+run 03_problem.c
+run 04_problem.c
+clear
+mkdir 12_Project_2_snake_water_gun
+ls
+rmdir 12_Project_2_snake_water_gun/
+ls
+clear
+cd ../..
+ls
+clear
+ls
+mkdir 12_Project_2_snake_water_gun
+ls
+clear
+ls
+cdf
+clear
+ls
+run main.c
+run ma
+run main.c
+clear
+ls
+run main.c
+ls
+clear
+run main.c
+clear
+run main.c
+ls
+run main.c
+clear
+run main.c
+clear
+run main.c
+clear
+run main.c
+clear
+run main.c
+clear
+ls
+run main.c
+clear
+rm main
+run main.c
+clear
+vmux
+clear
+ls
+clear
+cd
+clear
+ls
+clear
+exit
+brave
+exit
+flatpak install flathub app.zen_browser.zen
+clear
+flatpak update
+clear
+ls
+clear
+l
+ls
+clear
+tp
+ls
+cdf
+ls
+clear
+ls
+run main.py
+clear
+ls
+nvim
+clear
+ls
+cd ..
+ls
+uv init sqlalchemy_training_ground
+cdf
+ls
+clear
+uv add SQLAlchemy
+clear
+tp
+ls
+clear
+nvim
+vmux
+clear
+exit
+ls
+tp
+ls
+sl
+ls
+mkdir 13_dynamic_memory_allocation
+cdf
+ls
+clear
+ls
+run 01_memory.c
+clear
+ls
+run 01_dma.c
+clear
+run 01_dma.c
+clear
+run 02_quick_quiz.c
+clear
+tmux detach
+vmux
+clear
+clear
+cd
+clear
+tp
+ls
+cdf
+ls
+clear
+ls
+tmux new -s coding
+tmux ls
+tmux attach -t coding
+tmux rename-session -s coding newcoding
+ls
+tmux rename-session coding newcoding
+clear
+tmux ls
+tmux rename-session -t coding newcoding
+tmux ls
+clear
+ls
+clear
+tmux switch -t newcoding
+tmux switch -t coding
+tmux ls
+tmux kill-session -t newcoding
+tmux ls
+clear
+ls
+tmux has-session -t coding
+tmux detach
+tmux new -s coding
+tmux has-session -t coding
+ls
+clear
+run main.py
+clear
+nvim
+tmux attach -t coding
+ls
+clear
+ls
+cd ..
+ls
+clear
+uv init blackjack
+clear
+ls
+cdf
+tmux ls
+clear
+ls
+clear
+ls
+clear
+run main.py
+clear
+ls
+run main.py
+clear
+vmux
+clear
+exit
+btop
+clear
+exit
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+tp
+ls
+cdf
+ls
+clear
+run 03_quick_quiz.c
+clear
+run 03_quick_quiz.c
+clear
+run 03_quick_quiz.c
+clear
+run 04_realloc.c
+btop
+clear
+exit
+clear
+ls
+clear
+mkdir practice_set
+ls
+clear
+cdf
+ls
+run 01_problem.c
+clear
+run 01_problem.c
+clear
+run 02_problem.c
+clear
+tmux detac
+vmux
+clear
+tmux ls
+tmux kill-session -t coding
+clear
+tmux ls
+clear
+exit
+tp
+ls
+cdf
+clear
+ls
+wal -i ~/Downloads/vegito-dragon-ball-z-neon-amoled-black-background-5k-5120x2880-5029.png
+syncwal
+clear
+ls
+fastfetch
+clear
+ls
+wal -i ~/Downloads/illustration-anime-character-rain.jpg
+syncwal
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+fastfetch
+clear
+ls
+clear
+exit
+tmux new -s coding
+clear
+ls
+exit
+ls
+clear
+tp
+ls
+clear
+cdf
+ls
+clear
+run newmain.py
+clear
+tmux new -s coding
+clear
+exit
+ls
+fastfetch
+clear
+ls
+wal -i ~/Downloads/cyberpunk-3840x2160-16145.jpg
+syncwal
+clear
+fastfetch
+clear
+ls
+clear
+ls
+fastfetch
+wal -i ~/Downloads/illustration-anime-character-rain.jpg
+syncwal
+clear
+ls
+fastfetch
+clear
+exit
+ls
+clear
+ls
+sl
+ls
+clear
+ls
+tp
+la
+ls
+clear
+ls
+wal -i ~/Downloads/cyberpunk-3840x2160-16145.jpg
+syncwal
+clear
+ls
+clear
+fastfetch
+clear
+cmatrix
+htop
+tp
+ls
+clear
+ls
+nvim progress.md
+cdf
+ls
+cat 01_problem.c
+clear
+open 03_problem.c
+clear
+ls
+run 04_problem.c
+clear
+run 05_problem.c
+run 06_problem.c
+clear
+vmux
+ls
+clear
+ls
+clear
+ls
+cd
+clear
+cal
+clear
+ls
+clear
+cal
+clear
+ls
+cal
+clear
+ls
+tp
+ls
+clear
+ls
+cd
+tp
+ls
+clear
+tp
+ls
+cd ..
+cd.
+ls
+clear
+cd
+ls
+fastfetch
+clear
+neofetch
+htop
+btop
+clear
+cargo install neofetch
+clear
+neofetch
+clear
+neofetch
+clear
+neofetch
+tp
+ls
+tp
+ls
+cdf
+ls
+open new_tier.csv
+open new_tier.csv | where "Type.1" =~ Fire
+open new_tier.csv | where "Type.1" =~ Fire | sort-by Total 
+open new_tier.csv | where "Type.1" =~ Fire | sort-by Total | firt 5
+open new_tier.csv | where "Type.1" =~ Fire | sort-by Total | first 5
+open new_tier.csv | where "Type.1" =~ Fire | sort-by Total | last 5
+sort-by help
+sort help
+nu commands
+nu help
+nushell help
+nu --version
+nu --help
+nu -c
+nu --c
+nu --C
+ls
+clear
+ls
+str help
+str --help
+help str
+help sort-by
+clear
+ls
+open pokemon.csv
+open pokemon.csv | describe
+open pokemon.csv | columns
+clear
+ls
+cd
+clear
+ls
+rg dotfiles
+clear
+cdf
+ls
+clear
+ls
+ls
+clear
+ls
+cd
+ls
+clear
+ls
+clear
+ls
+wal -i ~/Downloads/anime-cityscape-sunset.jpg
+clear
+syncwal
+clear
+ls
+fastfetch
+clear
+fastfetch
+neofetch
+clear
+fastfetch
+clear
+ls
+open Downloads/
+ls
+clear
+exit
+tp
+ls
+ls | where type == file
+ls | where type == folder
+ls | where type == dir
+rm -r `Spiderman Into The Spider Verse Spiderman Noir UHD 4K Wallpaper _ Pixelz_files/`
+ls
+clear
+ls
+exit
+ls
+clear
+ls
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+syncwal
+ls
+clear
+ls
+clear
+ls
+fastfetch
+anki
+exit
+neofetch
+clear
+ls
+neofetch
+clear
+ls
+clear
+ls
+exit
+ls
+clear
+ls
+clear
+tp
+ls
+nvim
+yazi
+clear
+ls
+clear
+ls
+exit
+cmatrix
+sl
+ls
+ccow
+cow
+clear
+ls
+exit
+flatpak --help
+flatpak --help | fzf
+clear
+ls
+flatpak search cider
+flatpak install cider
+clear
+flatpak update
+clear
+ls
+ps
+clear
+ls
+ps
+ps | where status =
+ps | where status =~ Sleeping
+clear
+exit
+flatpak uninstall cider
+clear
+exiex
+exit
+flatpak list --app
+flatpak uninstall --delete-data sh.cider.Cider
+clear
+flatpak list
+flatpak list --app
+clear
+ls
+btop
+clear
+exit
+btop
+clear
+btop
+ls
+btop
+clear
+exit
+ls
+clear
+anki
+flatpak list --ap
+flatpak list --app
+clear
+exit
+ps
+ps | where name =~ cider
+lc
+ls
+clear
+exit
+ls
+flatpak update
+ls
+flatpak udpate
+flatpak update
+clear
+ls
+clear
+sudo dnf upgrade
+ls
+sudo snapper -c root create -d "Pre dnf upgrade" 
+sudo dnf upgrade
+sudo snapper -c root create -d "Post dnf upgrade" 
+clear
+fastfetc
+fastfetch
+cmatrix
+clear
+fastfetch
+clear
+fastfetf
+fastfetch
+exit
+ls
+clear
+exit
+btop
+clear
+exit
+anki
+sudo dnf install hyprland
+clear
+ls
+clear
+ls
+sudo dnf install hyprland
+clear
+hyprland --version
+clear
+ls
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+sudo dnf install waybar wofi mako swaybg ttf-jetbrains-mono papirus-icon-theme
+sudo dnf install mako 
+sudo dnf install wayba
+sudo dnf install waybar
+clear
+ls
+mkdir -p ~/.config/hypr
+mkdir ~/.config/hypr
+ls
+clear
+ls
+cd /usr/share/
+ls
+ls | grep hyprland
+ls | grep hypr
+ls
+cd hypr/
+ls
+nvim hyprland.conf
+sl
+clear
+ls
+cp /usr/share/hypr/hyprland.conf ~/.config/hypr/
+ls
+clear
+ls
+cd ~/.config/
+ls
+cdf
+ls
+clear
+ls
+nvim 
+sudo dnf install dolphin
+clear
+ls
+nvim hyprland.conf
+cd
+ls
+clear
+git clone https://github.com/sejjy/mechabar.git ~/.config/waybar
+cd ~/.config/waybar/
+ls
+./install.sh
+ls
+cd ..
+ls
+rm -r waybar/
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+clear
+git clone https://github.com/sejjy/mechabar.git ~/.config/waybar
+cd ~/.config/waybar/
+ls
+nvim install.sh
+clear
+exit
+sl
+ls
+clear
+cd ~/.config/waybar/
+ls
+nvim install.sh
+ls
+clear
+./install.sh
+sudo dnf copr enable che/nerd-fonts
+clear
+sudo dnf install nerd-fonts-0xproto
+clear
+ls
+clear
+ls
+rpm -q fzf NetworkManager pipewire-pulseaudio nerd-fonts-0xproto
+sudo dnf install jetbrains-mono-fonts-all
+clear
+ls
+cd
+cd ~/.config/waybar/
+ls
+nvim install.sh
+./install.sh
+ls
+clear
+ls
+clear
+ls
+cd styles/
+ls
+cd ..
+ls
+nvim config.jsonc
+clear
+ls
+rg JetBrains
+rg fong
+rg font
+nvim style.css
+clear
+ls
+nvim 
+clear
+rg font
+rg font | copy 
+nvim style.css
+ls
+clear
+ls
+cd ~/.config/hypr/
+rg status
+clear
+ls
+nvim hyprland.conf
+ls
+clear
+ls
+cd
+ls
+clear
+sudo dnf install swww
+sudo dnf copr enable alebasr/sway-extras
+ls
+clear
+ls
+clear
+cargo install swww
+cargo build --release
+cargo install swww
+ls
+clear
+ls
+clear
+sudo dnf install pkgconfig wayland-devel wayland-protocols cargo rust lz4
+git clone https://github.com/LGFae/swww.git
+clear
+cd swww/
+cargo build --release
+sudo dnf install lz4-devel
+pkg-config --libs --cflags liblz4
+clear
+cargo build --release
+sudo dnf install wayland-devel wayland-protocols-devel pkgconfig
+clear
+ls
+clear
+pkg-config --libs --cflags wayland-client<\n>pkg-config --variable=pkgdatadir wayland-protocols
+ls
+clear
+cargo clean
+btop
+clear
+exit
+cargo build --release
+clear
+sudo cp target/release/swww /usr/local/bin/
+sudo cp target/release/swww-daemon /usr/local/bin/
+clear
+ls
+clear
+ls
+cd ~/.config/hypr/
+ls
+nvim hyprland.conf
+clear
+ls
+tp
+ls
+nvim rice_rescources.md
+clear
+cd ~/.config/
+ls
+cdf
+clear
+mkdir wofi
+cdf
+sl
+ls
+clea
+clear
+nvim config
+nvim menu
+nvim menu.css
+clear
+ls
+cd ..
+ls
+clear
+cdf
+ls
+nvim hyprland.conf
+clear
+exit
+ls
+cd ~/.config/hypr/
+ls
+mkdir scripts
+cdf
+nvim setwall.sh
+clear
+ls
+chmod +x setwall.sh
+clear
+ls
+cd ..
+ls
+nvim hyprland.conf
+clear
+ls
+cdf
+ls
+nvim setwall.sh
+nvim restore_wall.sh
+clear
+ls
+chmod +x restore_wall.sh
+clear
+ls
+clear
+cd ..
+nvim hyprland.conf
+ls
+cd ~/.config/wofi/
+ls
+rg pywal
+ls
+rg py
+ls
+rg pywal
+ls
+nvim config
+nvim menu.css
+nvim menu
+clear
+ls
+tp
+rg pywal
+ls
+clear
+ls
+cdf
+ls
+rg pywal
+ls
+nvim starship.toml
+cd ..
+ls
+cdf
+ls
+nvim postrun
+ls
+cd ..
+l
+ls
+cdf
+ls
+rg pywal
+nvim tempgen.sh
+cd ~/.cache/wal
+ls
+cd schemes/
+ls
+cd ..
+ls
+clear
+ls
+nvim colors-waybar.css
+ls
+clear
+ls
+clear
+ls
+clear
+cd ..
+tp
+ls
+cdf
+ls
+clear
+tp
+ls
+mkdir ricing
+cdf
+ls
+git clone https://github.com/zDyant/HyprNova.git
+clear
+ls
+cdf
+ls
+ls -a
+cd .config/
+ls
+help cp
+clear
+ls
+mkdir ~/.config/wlogout
+cp -r wlogout/ ~/.config/wlogout/
+ls
+cd ~/.config/wlogout/
+ls
+cd ..
+ls
+rm -r wlogout/
+ls
+tp
+ls
+ls -a
+cd .config/
+ls
+cp -r wlogout/ ~/.config/
+ls
+cd ~/.config/wlogout/
+ls
+nvim nova.css
+clear
+ls
+rg pywal
+history | grep pywal
+tp
+ls
+nvim tempgen.sh
+clear
+cd ~/.cache/wal
+ls
+nvim nova.css
+clear
+ls
+clear
+clear
+exit
+ls
+cd ..
+ls
+cdf
+ls
+cd ..
+ls
+cdf
+ls
+nvim config
+sl
+ls
+clear
+ls
+cd ..
+ls
+cdf
+ls
+cd colorschemes/
+ls
+cd ..
+ls
+clear
+cd ..
+ls
+clear
+cd
+ls
+tp
+ls
+cd ./.config/
+ls
+cdf
+ls
+rg pywal
+rg wal
+nvim style.css
+cdf
+ls
+cdf
+ls
+nvim central_control.css
+cd ..
+ls
+cd ..
+ls
+clear
+ls
+rg wal
+nvim style.css
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cp -r swaync/ ~/.config/
+ls
+cd ~/.config/hypr/
+ls
+nvim hyprland.conf
+clear
+ls
+cdf
+ls
+clear
+ls
+tp
+ls
+cd ./.config/
+ls
+cdf
+ls
+nvim hyprlock.conf
+clear
+ls
+clear
+ls
+clear
+ls
+nvim hypridle.conf
+clear
+ls
+clear
+ls
+cp hyprlock.conf ~/.config/hypr/
+cp hypridle.conf ~/.config/hypr/
+ls
+clear
+ls
+cd scripts/
+ls
+nvim pywal.sh
+ls
+nvim screenshot.sh
+ls
+clear
+ls
+cp refresh.sh ~/.config/hypr/scripts/
+ls
+clear
+cd ~/.config/hypr/
+ls
+cdf
+ls
+nvim refresh.sh
+clear
+ls
+cd ..
+l
+ls
+nvim hyprland.conf
+clear
+ls
+rg hyprland.conf
+rg pywal
+ls
+clear
+ls
+exit
+ls
+clear
+ls
+clear
+ls
+cd ~/.config/hypr/
+ls
+clear
+cd ~/.config/hypr/
+ls
+nvim hyprland.conf
+cdf
+ls
+cd ~/.config/hypr/
+ls
+nvim setwall.sh
+clear
+nvim ls
+clear
+ls
+cdf
+ls
+clear
+ls
+cd ..
+ls
+nvim hyprland.conf
+ls
+cd ~/.config/hypr/
+ls
+clear
+ls
+clear
+ls
+cd ~/.config/hypr
+ls
+nvim hyprland.conf
+cdf
+ls
+nvim setwall.sh
+ls
+cd ..
+ls
+rg setwal
+clewa
+clear
+ls
+rg swww
+ls
+clear
+ls
+clear
+ls
+rg swww
+clear
+ls
+clear
+ls
+rg sww
+swww img ~/Downloads/spiderman_noir_aplhacoders.jpg --transition-type fade
+swww-daemon &
+swww-daemon
+clear
+bash 
+clear
+ls
+cd ~/.config/hypr/
+nvim hyprland.conf
+clear
+ls
+cd
+ls
+clear
+ls
+sudo dnf copr enable alebastr/sway-extras
+clear
+ls
+sudo dnf install waypaper
+pipx install waypaper
+python3 pip install waypaper
+bash -c "pipx install waypaper"
+clear
+sudo dnf install python3-pipx
+anki
+ls
+sudo snapper -c root create -d "Pre ricing" 
+clear
+ls
+exit
+ls
+clear
+ls
+exit
+/home/sonu/.var/app/com.ml4w.dotfilesinstaller/data/downloads/com.ml4w.dotfiles.stable/setup/setup.sh
+brave
+exit
+nvim
+clear
+clear
+ls
+exit
+tmux detach
+matrix
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+sl
+ls
+clear
+ls
+cd
+exit
+wal -i ~/Downloads/miles_morales_spiderman.jpg
+clear
+syncwal
+clear
+ls
+cler
+clear
+ls
+exit
+ls
+clear
+ls
+clera
+ls
+clear
+fastfetch 
+clear
+ls
+exit
+sudo snapper -c root create -d "Pre UPdate"
+exit
+ls
+exit
+clear
+ls
+exit
+clear
+ls
+clear
+ls
+clear
+ls
+exit
+chmod +x toggle_desktop.sh
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+which nu
+clear
+ls
+clear
+ls
+fastfetch 
+clear
+ls
+fastfetch 
+clear
+fastfetch 
+clear
+fastfetch 
+clear
+ls
+cd ..
+ls
+clear
+ls
+cdf
+ls
+nvim default.conf
+ls
+clear
+ls
+fastfetch 
+ls
+clear
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+clear
+ls
+rg sidepanel
+rg panel
+ls
+clear
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+clear
+ls
+cd ~/.config/
+ls
+cdf
+clear
+ls
+ls | where type == symlink
+ls | where type == symlink and where name =~ kitty
+ls | where type == symlink || where name =~ kitty 
+try
+clear
+ls | where name =~ kitty
+ls
+ls | where name =~ kitty
+ls -s
+ls -l
+ls -l | where name =~ kitty 
+cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/kitty
+ls
+clear
+ls
+nvim kitty.conf
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cd ~/.config/hypr/ls
+cd ~/.config/hypr/
+ls
+clear
+ls
+rg browser
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+rg "$MainMod, S" 
+rg "$MainMod  S" 
+rg "$MainMod"
+rg "$Mainmod"
+ls
+rg mainmod
+ls
+clear
+ls
+cdf
+ls
+nvim default.conf
+ls
+clear
+ls
+cd ..
+sl
+ls
+cd ..
+ls
+clear
+ls
+clear
+ls
+rg side
+rg sidepad
+clear
+ps
+ls
+clear
+ls
+clear
+ls
+rg sidepad
+ls
+clear
+ls
+cd ~/.config/hypr/
+ls
+clear
+ls
+pwd
+ls
+clear
+sl
+nmcli dev wifi list
+nmcli --ask device wifi connect "Onplus 6T_9536"
+ls
+clear
+ls
+nmcli --ask device wifi connect "OnPlus 6T_9536"
+nmcli dev wifi list
+nmcli --ask device wifi connect "OnePlus 6T_9536"
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+yazi
+clear
+sl
+fastfetch 
+clear
+ls
+clear
+ls
+clear
+ls
+cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/kitty/
+ls
+nvim colors-matugen.conf
+clear
+ls
+nvim kitty.conf
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~/.config/hypr/
+ls
+rg wlogout
+cdf
+ls
+rg wlogout
+nvim default.conf
+rg 
+nvim default.conf
+rg wlogout
+nvim default.conf
+ls
+clear
+ls
+clera
+ls
+clear
+ls
+clear
+ls
+cd ..
+sl
+cd ..
+ls
+clear
+ls
+rg matugen
+cdf
+ls
+nvim wallpaper.sh
+clear
+ls
+cd ..
+ls
+clear
+ls
+cdf
+ls
+nvim default.conf
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+ls
+cdf
+ls
+cd ..
+sl
+cear
+ls
+rg wlogout
+cd ~/.config/ml4w/scripts/
+nvim wlogout.sh
+clear
+ls
+clear
+ls
+nvim toggle-theme.sh
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+htop 
+clear
+ls
+nvim wlogout.sh
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+fastfetch 
+clear
+ls
+clear
+ls
+clear
+ls
+cd ~/.config/hypr/
+ls
+cdf
+ls
+nvim default.conf
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+nvim default.conf
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+fastfetch 
+clear
+ls
+clear
+ls
+matugen --version
+man matugen
+help matugen
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+btop
+clear
+cmatrix
+sudo dnf install NetworkManger NetworkManager-gnome
+ls
+clear
+anki
+clear
+ls
+clear
+ls
+cdf
+ls
+cd ..
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+swww img ~/Downloads/spiderman_noir_aplhacoders.jpg --transition-type fade
+ls
+clear
+ls
+fastfetch 
+clear
+fastfetch 
+clear
+nmcli dev wifi list
+nmcli --ask device wifi connect "OnePlus 6T_9536"
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+sl
+fastfetch 
+clear
+fastfetch 
+clear
+sl
+ls
+clear
+ls
+clear
+mkdir 14_union
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+cdf
+ls
+clear
+ls
+run 01_union.c
+clear
+run 01_union.c
+clear
+run 01_union.c
+clear
+run 01_union.c
+clear
+run 01_union.c
+clear
+run 01_union.c
+clear
+ls
+clear
+ls
+run 01_union.c
+clear
+ls
+run 01_union.c
+clear
+ls
+cd. ..
+cd ..
+clear
+ls
+cd
+clear
+ls
+tp
+ls
+clear
+ls
+run 02_goto.c
+clear
+run 02_goto.c
+run 02_goto
+run 02_goto.c
+ls
+rm 02_goto
+clear
+ls
+fastfetch 
+clear
+cmatrix
+clear
+run 03_enum.c
+clear
+run 03_enum.c
+clear
+run 03_enum.c
+clear
+run 03_enum.c
+ls
+clear
+tmux detach
+vmux
+clear
+ls
+clear
+ls
+tmux ls
+clear
+tmux kill-session -t coding
+clear
+sl
+ls
+clear
+ls
+l
+clear
+l
+ls
+clear
+fastfetch 
+clear
+ls
+tp
+ls
+open new_tier.csv
+clear
+ls
+open new_tier.csv
+ls
+clear
+ls
+clear
+ls
+open pokemon.csv | columns 
+clear
+open pokemon.csv
+open pokemon.csv | where "Type.1" =~ Psychic & where "Type.2" =~ Ghost
+open pokemon.csv | where "Type.1" =~ Psychic and where "Type.2" =~ Ghost
+clear
+open pokemon.csv | where "Type.1" =~ Psychic &&  where "Type.2" =~ Ghost
+ls
+clear
+ls
+open pokemon.csv | where "Type.1" =~ Psychic and "Type.2" =~ "Ghost" 
+ls
+clear
+ls
+open new_tier.csv
+open new_tier.csv | where "Type.1" =~ Fire and "Type.2" =~ Water
+clear
+ls
+clear
+ls
+clear
+ls
+nvim --versino
+nvim --version
+clear
+vim --version
+ls
+clear
+s
+clear
+ls
+clear
+sl
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cmatrix
+cmatrix 
+clear
+ls
+clear
+ls
+clear
+sl
+clear
+tp
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+eza
+clear
+ls
+sudo dnf install vim
+clear
+ls
+clear
+ls
+ls
+clear
+bash
+clear
+ls
+awk '{print $1}' pokemon.csv
+clear
+ls
+awk '{print $1}' pokemon.csv
+clear
+ls
+awk "{FS=','} {print $1,2}" pokemon.csv
+awk "BEGIN {FS=','} {print $2,$3}" pokemon.csv
+ls
+clear
+ls
+clear
+ls
+fastfetch 
+clear
+ls
+fastfetch 
+clear
+ls
+awk 'BEGIN {FS=","} {print $1, $2}' pokemon.csv
+ls
+awk 'BEGIN {FS=","} {print $1, $2}' pokemon.csv
+awk 'BEGIN {FS=","} {print $1}' pokemon.csv
+clear
+ls
+clear
+sl
+ls
+clear
+ls
+clear
+ls
+clear
+clear
+ls
+ls
+clear
+ls
+clear
+fastfetch 
+clear
+ls
+fastfetch 
+clear
+sl
+fastfetch 
+clear
+ls
+cd ~/.cache/wal/
+ls
+nvim colors-kitty.conf
+ls
+nvim last-wallpaper.txt
+clear
+ls
+colors-tty.sh
+./colors-tty.sh
+clear
+ls
+nvim colors-wal-dmenu.h
+ls
+clear
+ls
+cdf
+ls
+nvim `_home_sonu_Downloads_wallpapers_weathering with you land scape wallpaper_jpg_dark_None_None_1.1.0.json`
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/kitty/
+ls
+cd ..
+ls
+cdf
+ls
+nvim kitty.conf
+nvim colors-matugen.conf
+clear
+ls
+nvim colors-matugen.conf
+fastfetch 
+clear
+ls
+clear
+ls
+cd ..
+ls
+cdf
+ls
+nvim modules.json
+clear
+ls
+nvim toggle.sh
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+nvmi colors.css
+nvim colors.css
+clear
+ls
+cd ..
+ls
+clear
+ls
+cdf
+ls
+cdf
+ls
+nvim wallpaper-automation.sh
+nvim wallpaper.sh
+ls
+cd ..
+ls
+cd ..
+ls
+cdf
+ls
+nvim config.toml
+ls
+clear
+cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
+ls
+cdf
+ls
+clear
+ls
+clear
+ls
+clear
+nvim config.toml
+nvim wallpaper.sh
+ls
+ls
+nvim config.toml
+ls
+clear
+cd ~/.config/
+ls
+cdf
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
+ls
+cdf
+ls
+rg colors
+clear
+ls
+nvim config.toml
+cd ~/.config/waybar/
+ls
+nvim colors.css
+clear
+cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
+ls
+cdf
+ls
+cd templates/
+ls
+nvim colors.css
+ls
+clear
+nvim
+clear
+ls
+cd ..
+ls
+clear
+ls
+nvim config.toml
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
+ls
+cdf
+ls
+nvim config.toml
+ls
+clear
+cdf
+s
+ls
+clear
+ls
+eza | copy 
+ls
+clear
+ls
+eza 
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+fastfetch 
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+nmcli dev wifi list
+ls
+nmcli dev wifi list
+nmcli --ask device wifi connect "OnePlus 6T_9536"
+clear
+man nmcli
+clear
+ls
+clear
+fastfetch 
+ls
+clear
+cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
+ls
+cdf
+ls
+nvim config.toml
+cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
+cdf
+ls
+nvim default.conf
+ls
+clear
+ls
+cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
+ls
+cdf
+ls
+clear
+clear
+nvim waypaper.sh
+clear
+ls
+nvim wallpaper.sh
+clear
+ls
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+clear
+ls
+cd ~/.config/hypr/
+ls
+cdf
+ls
+nvim default.conf
+ls
+clear
+cd .
+cd ..
+ls
+clear
+ls
+cd ~/.config/hypr/ls
+cd ~/.config/hypr/
+ls
+cdf
+clear
+ls
+clear
+ls
+nvim default.conf
+ls
+clear
+ls
+clear
+ls
+cd ~/.mydotfiles/com.ml4w.dotfiles.stable/
+ls
+cd .config/
+ls
+cdf
+ls
+nvim config.toml
+cdf
+ls
+nvim hyprland-colors.conf
+clear
+ls
+clear
+fastfetch 
+clear
+fastfetch 
+clear
+ls
+clear
+cd
+clear
+htop
+btop
+cmatrix
+clear
+cd
+btop
+clear
+ls
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+cd ~/.mydotfiles/com.ml4w.dotfiles.stable/
+ls
+cdf
+cd .config/
+ls
+cdf 
+ls
+cd ..
+ls
+cdf
+ls
+cdf
+ls
+nvim sequences
+nvim colors.css
+clear
+ls
+nvim hyprland-colors.conf
+clear
+cd ..
+ls
+nvim config.toml
+ls
+clear
+ls
+clear
+cdls
+clear
+ls
+cd ~/.config/waybar/
+ls
+nvim colors.css
+clear
+ls
+cd ..
+ls
+clear
+ls
+cdf
+ls
+nvim config
+ls
+nvim menu
+clear
+ls
+cler
+ls
+clear
+ls
+clear
+ls
+lear
+clear
+ls
+cmatrix
+clear
+clear
+ls
+nvim config.toml
+ls
+cdf
+ls
+clear
+ls
+clear
+clear
+ls
+clear
+ls
+tp
+ls
+cdf
+ls
+nvim starship.toml
+clear
+ls
+cd ..
+ls
+clear
+ls
+nvim colors.css
+ls
+clear
+ls
+cd ..
+ls
+cdf
+ls
+nvim colors.css
+nvim gtk-colors.css
+clear
+ls
+clear
+ls
+exit
+ls
+clear
+tp
+ls
+cdf
+ls
+nvim
+clear
+ls
+clear
+ls
+nvim main.py
+clear
+clear
+ls
+clear
+vmux
+ls
+clear
+ls
+clear
+ls
+cd 
+ls
+tp
+ls
+nvim colors-alacritty.toml
+nvmi colors_alacritty.toml
+nvim colors_alacritty.toml
+nvim
+ls
+clear
+ls
+nvim starship.toml
+nvim colors_alacritty.toml
+ls
+clear
+cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/kitty
+ls
+cd ..
+ls
+cdf
+ls
+cdf
+ls
+clear
+ls
+clear
+ls
+nvim kitty-colors.conf
+clear
+ls
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd ~/.cache/wal/
+ls
+nvim wal
+clear
+ls
+yazi
+clear
+ls
+eza
+nvim colors
+ls
+nvim tempgen.sh
+clear
+ls
+cd ~/.cache/wal/
+ls
+nvim
+clear
+ls
+nmcli --ask device wifi connect "OnePlus 6T_9536"
+nmcli dev wifi list
+nmcli --ask device wifi connect "Vivo 1904" 
+nmcli --ask device wifi connect "vivo 1904" 
+clear
+ls
+clear
+cls
+clear
+ls
+sudo snapper -c root create -d "Pre dnf upgrade" 
+clear
+sudo dnf upgrade
+cmatrix
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+cmatrix
+clear
+ls
+cmatrix
+clear
+ls
+clear
+ls
+flatpak update
+sudo snapper -c root create -d "Post dnf upgrade" 
+nmcli dev wifi list
+nmcli --ask device wifi connect "OnePlus 6T_9536"
+nmcli dev wifi list
+clear
+ls
+nmcli --ask device wifi connect "vivo 1904" 
+nmcli dev wifi list
+clear
+sudo dnf install hyprsunset
+clear
+ls
+clear
+nmcli --ask device wifi connect "OnePlus 6T_9536"
+ls
+cd ~/.config/hypr/
+ls
+rg sunset
+rg temperature
+ls
+clear
+s
+ls
+clear
+ls
+cdf
+ls
+fzf
+clear
+cal
+zdh
+zsh
+ls
+clear
+ls
+nvim night_mode.sh
+clear
+ls
+chmod night_mode.sh
+chmod +x night_mode.sh
+clear
+ls
+pgrep -x "hypsunset" 
+clear
+pgrep -x "hyprsunset" 
+clear
+ls
+clear
+cd ..
+ls
+cdf
+ls
+nvim default.conf
+clear
+ls
+cd ..
+ls
+clear
+ls
+clear
+cd ..
+ls
+clear
+ls
+cdf
+ls
+clear
+cd ~/.config/hypr/
+cdf
+ls
+cd ..
+ls
+clear
+ls
+cdf
+clear
+ls
+cd ..
+ls
+clear
+sl
+ls
+clear
+cdf
+ls
+nvim default.conf
+clear
+ls
+clear
+ls
+nvim night_mode.sh
+./night_mode.sh
+./night
+./night_mode.sh
+clear
+ls
+./night_mode.sh
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+nvim default.conf
+clear
+ls
+clear
+ls
+nvim fr.conf
+clear
+ls
+cd ..
+ls
+clear
+ls | where filetype =~ folder
+ls 
+ls | where filetype =~ dir
+ls | where type =~ dir
+rg keybindings
+rg hyprscripts
+rg HYPRSCRIPTS
+clear
+rg keybindings
+cdf
+ls
+cd ..
+ls
+cd ..
+ls
+clear
+cdf
+ls
+nvim keybindings.sh
+clear
+ls
+cd ..
+ls
+clear
+ls
+rg fullscreen
+ls
+clear
+cd ..
+sl
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+nvim default.conf
+clear
+ls
+clear
+ls
+clear
+clear
+ls
+ls
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+cdf
+cd ..
+ls
+clear
+cdf
+ls
+clear
+ls
+nvim night_mode.sh
+clear
+ls
+cd ..
+ls
+clear
+ls
+nmcli dev wifi list
+btop
+clear
+ls
+clear
+ls
+cmatrix
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+fastfetch 
+clear
+ls
+fastfetch 
+clear
+anki
+clear
+ls
+clear
+ls
+clear
+nmcli dev wifi list
+nmcli --ask device wifi connect "OnePlus 6T_9536"
+clear
+ls
+clear
+cmatrix
+cler
+clear
+ls
+ls
+clear
+ls
+clear
+ls
+cdf
+clear
+ls
+tp
+ls
+clear
+ls
+lsblk
+clear
+fastfetch
+clear
+ls
+clear
+ls
+cd ~/.config/hypr/
+ls
+cdf
+ls
+nvim
+clear
+ls
+nvim wallpaper.sh
+clear
+ls
+clear
+ls
+nmcli --ask device wifi connect "vivo 1904" 
+nmcli dev wifi list
+nmcli --ask device wifi connect "vivo 1904" 
+clear
+ping google.com
+clear
+ls
+clear
+ls
+flatpak update
+clear
+sudo dnf upgrade
+clear
+sudo snapper -c root create -d "Pre dnf upgrade" 
+ls
+clear
+ls
+btop
+htop
+btop
+clear
+sudo dnf upgrade
+l
+ls
+clear
+ls
+clear
+dkms status
+dkms status | copy 
+dmesg | tail -n 20 
+sudo dmesg | tail -n 20
+sudo dmesg | tail -n 20 | grep error
+sudo dmesg | tail -n 20 
+ls
+clear
+lsmod | grep 8192
+sudo dkms remove rtl8192eu/1.0 --all
+clear
+sudo dnf upgrade
+clear
+sudo dkms autoinstall
+clear
+ls
+clear
+sudo dracut --force
+btop
+clear
+clear
+ls
+lsmod
+lsmod | grep 8192
+clear
+dkms status
+clear
+sudo snapper -c root create -d "Post dnf upgrade" 
+clear
+cmatrix
+clear
+fastfetch
+clear
+ls
+clear
+exit
+ls
+fastfetch 
+clear
+ls
+fastfetch 
+clear
+ls
+clear
+ls
+nmcli dev wifi list
+nmcli --ask device wifi connect "OnePlus 6T_9536"
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cd ~/.config/hypr
+rg browser
+cd ~/.config/ml4w/settings/
+ls
+firefox
+brave
+Brave
+clear
+ls
+clear
+ls
+brave
+clear
+ls
+nvim browser.sh
+clear
+ls
+nvim software.sh
+nvim terminal.sh
+clear
+ls
+nvim waybar_settings.sh
+clear
+clear
+ls
+rg browser
+clear
+ls
+cd ~/.config/ml4w
+rg network
+cd ~/.config/hypr/
+rg network
+rg Network
+clear
+ls
+rg waybar
+cd ~/.config/waybar/
+rg Network
+nvm modules.json
+ls
+clear
+cd ~/.config/ml4w/
+cd
+nvim modules.json
+ls
+nmcli dev wifi list
+clear
+ls
+clear
+fastfetc
+fastfetch 
+clear
+cmatrix
+clear
+exit
+nmcli dev wifi list
+man nmcli 
+clear
+ls
+nmcli dev wifi list
+clear
+ls
+exit
+ls
+mysql -u root -p 
+mysql -u root -p YES
+mysql -u root -p 
+clear
+ls
+clear
+ls
+clear
+ls
+ls | where type == dir 
+clear
+ls
+clear
+ls
+cdf 
+ls
+clear
+ls
+clear
+cd
+clear
+ls
+clear
+ls
+clear
+sl
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+clear
+cd
+clear
+mysql -u root -p 
+mysql -u root -p
+clear
+ls
+clear
+ls
+mysql -u root 
+sudo systemctl stop mysql
+sudo systemctl stop mysqld
+sudo mysqld_safe --skip-grant-tables &
+sudo find / -name "mysqld" 2>/dev/null
+ls
+clear
+fastfetch
+fastfetch
+fastfetch
+fastfetch
+fastfetch
+fastfetch
+fastfetch
+fastfetch
+ls
+clear
+ls
+clear
+ls
+nmcli dev wifi list
+nmcli --ask device wifi connect "OnePlus 6T_9536"
+ls
+clear
+cd ~/.config/hypr/ls
+cd ~/.config/hypr/
+ls
+clear
+cdf
+ls
+nvim
+vim cleanup.sh
+clear
+vim cleanup.sh
+clear
+ls
+cd ~/.config/vim/
+ls
+clear
+ls
+clear
+sl
+clear
+ls
+vim ~/.vimrc
+nvim .vimrc
+vim .vimrc
+clear
+ls
+bash 
+exit
+ls
+clear
+tp
+ls
+cdf
+ls
+nvim keymaps.lua
+clear
+nvim
+clear
+ls
+nvim
+clear
+ls
+nvim main.py
+clear
+ls
+rg code
+nvim auto
+nvim autocmds.lua
+nvim main.py
+clear
+ls
+clear
+ls
+nvim main.py
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+nvim autocmds.lua
+s
+nvim keymaps.lua
+nvim
+nvmi
+nvim
+nvim keymaps.lua
+nvim
+clear
+ls
+nvim keymaps.lua
+clear
+nvim
+clear
+ls
+nvim keymaps.lua
+nvim keymaps
+cd ..
+ls
+cd ..
+ls
+git stylua.toml
+git status
+git history
+clear
+ls
+cdf
+ls
+nvim keymaps.lua
+nvim
+clear
+ls
+clear
+ls
+nvim keymaps.lua
+clear
+ls
+clear
+ls
+clear
+cd
+ls
+cd ~/.config/kitty/
+ls
+nvim kitty.conf
+clear
+ls
+nvim ~/.bashrc
+nvim ~/.zshr
+nvim ~/.zshrc
+zsh
+nvim ~/.zshrc
+clear
+ls
+bash
+exit
+ls
+cd ~/.config/kitty/
+ls
+nvim vi_mode.lua
+ls
+nvim vi_mode.lua
+ls
+clear
+ls
+nvim vi_mode.lua
+rm vi_mode.lua
+nvim kitty.conf
+clear
+ls
+nvim vi_mode.lua
+clear
+ls
+clear
+ls
+nvim kitty.conf
+clear
+exit
+clear
+ls
+alksdjfa
+clear
+ls
+cd ~/.config/kitty
+ls
+pwd 
+tree .
+nvim
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+zsh
+clear
+ls
+exit
+ls
+clear
+ls
+cd ~/.config/kitty/
+which zsh
+nvim kitty.conf
+ls
+clear
+ls
+dev wifi status
+nmcli dev wifi list
+nmcli dev wifi show-password
+clear
+ls
+clear
+ls
+nvmi config-cliphist.rasi
+nvim config-cliphist.rasi
+clear
+ls
+nvim config-hyprshade.rasi
+ls
+nvim config-themes.rasi
+ls
+clear
+ls
+cd ~/.config/waybar/
+ls
+nvim modules.json
+ls
+clear
+ls
+nvim themeswitcher.sh
+clear
+ls
+nvim modules.json
+ls
+clear
+ls
+cdf
+ls
+clear
+nvim
+clear
+tmux detach
+vmux
+clear
+ls
+clear
+ls
+clear
+ls
+tmux attach -t coding
+clear
+ls
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+nmcli dev wifi list
+ls
+clear
+ls
+nmcli dev wifi list
+clear
+ls
+nmcli dev wifi list
+clear
+sudo dnf install kdeconnect
+dnf search kde
+dnf search kde-connect
+sudo dnf install kde-connect
+clear
+btop
+btm
+ls
+clear
+btm
+clear
+tp
+ls
+cdf
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+run newmain.py
+clear
+ls
+newmain.py
+run newmain.py
+clear
+run newmain.py
+ls
+clear
+nmcli dev wifi list
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+clear
+run newmain.py
+clear
+ls
+clear
+run newmain.py
+clear
+l
+ls
+clear
+ls
+clear
+run newmain.py
+clear
+run newmain.py
+clear
+run newmain.py
+clear
+btop
+htop
+btm
+clear
+run newmain.py
+clear
+run newmain.py
+clear
+run newmain.py
+clear
+run newmain.py
+clear
+run newmain.py
+clear
+run newmain.py
+clear
+run newmain.py
+n
+clear
+run newmain.py
+clear
+run newmain.py
+clear
+ls
+clear
+run newmain.py
+clear
+ls
+cdf
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+yazi
+ls
+clear
+yazi
+clear
+ls
+rm screenshot_09102025_102110.jpg
+rm screenshot_09102025_102223.jpg
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cd ~/.config/hypr/
+rg "$mainMod, G"
+rg "$mainMod , G"
+clear
+ls
+cdf
+ls
+nvim default.conf
+clear
+ls
+clear
+nvim
+clear
+clear
+vmux
+clera
+ls
+clear
+ls
+tmux ls
+clear
+ls
+clear
+fastfetch 
+clear
+free -h
+ls
+clear
+ls
+btop
+btm
+htop
+clear
+btop
+nvim
+clear
+ls
+nvim
+clear
+nmcli --ask device wifi connect "vivo 1904" 
+nmcli dev wifi list
+nmcli --ask device wifi connect "vivo 1904" 
+clear
+sudo uname -r
+tp
+ls
+cdf
+cler
+ls
+clear
+cdf
+ls
+vmux
+clera
+clear
+man du
+du
+clear
+ls
+du
+clear
+file --help
+clear
+cd /var/log
+ls
+clear
+ls
+clear
+ls | where type == dir
+ls | where type == dir | sort-by -r modifed
+ls | where type == dir | sort-by -r 
+ls | where type == dir | sort-by 
+ls | where type == dir | sort-by "modified"
+ls | where type == dir | sort-by -r "modified"
+clear
+ls
+clear
+ls | where type == dir | sort-by -r "modified" 
+clear
+cd ..
+ls
+clear
+ls
+ls | where type == dir | sort-by -r "modified" 
+cdf
+ls
+cd
+clear
+ls
+ls | where type == dir | sort-by -r "modified" 
+clear
+cat /dev/null
+ls
+clear
+nmcli dev wifi list
+ls
+clear
+fastfetch 
+clear
+ls
+btm
+ls
+clear
+ls
+clear
+ls
+exit
+cd ~/.config/hypr
+ls
+cdf
+sl
+ls
+clear
+ls
+nvim
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cd ~/.config/waybar/
+s
+ls
+clear
+ls
+pgrep waybar
+pgrep -x waybar
+ls
+clear
+pgrep waybar
+clear
+ls
+clear
+ls
+rg exec
+nvim launch.sh
+clear
+rg exec
+clear
+nmcli dev wifi list
+nmcli --ask device wifi connect "vivo 1904" 
+nmcli dev wifi list
+clear
+ls
+clear
+nmcli dev wifi lsit
+nmcli dev wifi list
+clear
+exit
+ls
+clear
+tp
+ls
+clear
+ls
+mkdir mini_projects
+cdf
+ls
+clear
+mkdir rock_paper_scissor
+cdf
+run main.c
+ls
+run main.c
+clear
+run main.c
+clear
+run main.c
+clear
+run main.c
+clear
+run main.c
+clear
+ls
+clear
+run main.c
+clear
+run main.c
+ls
+rm main
+ls
+clear
+run main.c
+clear
+rm main
+ls
+clear
+run main.c
+clearclear
+ls
+rm main
+clear
+ls
+clear
+ls
+clear
+tmux detach
+vmux
+clear
+ls
+tmux ls
+tmux kill-session -t coding
+clear
+tmux ls
+clear
+cliphist --version
+clear
+ls
+clear
+ls
+clear
+cd ~/.config/hypr
+rg cliphist
+cliphist wipe
+clear
+sl
+ls
+clear
+ls
+clear
+cliphist wipe
+wl-copy "newhistory" 
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+rg cliphist
+ls
+clear
+ls
+cd ~/.config/ml4w/scripts/
+ls
+nvim cliphist.sh
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+anki
+ls
+clear
+ls
+clear
+ls
+clear
+nmcli dev wifi list
+clear
+ls
+cdf
+ls
+cdf
+ls
+clear
+ls
+run main.c
+clear
+ls
+rm main
+ls
+clear
+ls
+nvim
+clear
+ls
+clear
+tmux detach
+vmux
+clear
+tmux kill-server
+ls
+clear
+fastfetch 
+htop
+btop
+btm
+clear
+ls
+tp
+ls
+nvim myscript.sh
+ls
+clear
+ls
+clear
+ls
+cdf
+ls
+cd ..
+ls
+clear
+ls
+mkdir New_course
+ls
+cdf
+ls
+c d..
+cd ..
+ls
+clear
+ls
+cd ..
+ls
+cdf
+ls
+clear
+zsh
+ls
+clear
+ls
+which bash
+clear
+tmux detach
+vmux
+btop
+clear
+ls
+clear
+nvim
+nvm
+ls
+run main.sh
+clear
+run main.sh
+help echdo
+help echo
+clear
+ls
+nvim
+clear
+ls
+myname="Wade" 
+ls
+clear
+tmux attach -t coding
+btop
+clear
+ls
+tmux attach -t coding
+ls
+clear
+ls
+clear
+ls
+man read
+ls
+clear
+ls
+zsh
+ls
+clear
+run counter_for.sh
+ls
+clear
+ls
+run counter_for.sh
+ls
+clear
+cd ..
+ls
+clear
+ls
+nvim README.txt
+ls
+clear
+ls
+cdf
+ls
+nvim links.md
+clear
+ls
+cd .
+cd ..
+ls
+clear
+ls
+clear
+ls
+wl-paste
+wl-paste >> resources/links.md
+ls
+clear
+ls
+nmcli dev wifi list
+clear
+anki
+ls
+clear
+nmcli dev wifi list
+ls
+clear
+ls
+nmcli dev wifi list
+clear
+ls
+sudo fdisk -l
+clear
+ls
+clear
+ls
+cd ~/.config/waybar/
+ls
+cdf
+ls
+cdf
+ls
+clear
+sl
+clear
+ls
+nvim config
+ls
+clear
+ls
+nvim
+ls
+clear
+ls
+nvim config.sh
+ls
+clear
+ls
+nvim style.css
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cd .
+cd
+ls
+clear
+cd ~/.config/waybar
+ls
+nvim modules.json
+ls
+clear
+ls
+cat <<< "Hello" 
+nvim themeswitcher.sh
+clear
+l
+ls
+clear
+cd ~/.config/hyprland
+ls
+clear
+ls
+cd ~/.config/hypr/
+ls
+clear
+ls
+man rg
+man rg | fzf
+clear
+ls
+rg -s swapsplit
+rg swapsplit
+man rg | fzf
+clear
+rg -i swapsplit
+cdf
+nvim default.conf
+ls
+clear
+ls
+rg -i keybindings
+rg -i "$hyprscripts" 
+rg -i "\$hyprscripts" 
+rg -i hyprscripts
+clear
+ls
+rg keybindings
+nvim default.conf
+ls
+clear
+cd ~/.config/hypr
+ls
+cdf
+ls
+nvim keybindings.sh
+ls
+clear
+cd ~/.config/hypr
+ls
+cdf
+ls
+clear
+ls
+clear
+ls
+cd ~/.config/hypr
+ls
+cdf
+ls
+perl --verion
+perl --version
+clear
+ls
+nvim keybindings.sh
+sl
+ls
+clear
+nvim default.conf
+clear
+nmcli dev wifi list
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+clear
+run 01_search.c
+clear
+nvim
+clear
+ls
+cd ..
+ls
+mv 01_linear_search/ 01_search
+ls
+cdf
+ls
+ls
+cl
+clear
+tmux ls
+nvim
+ls
+clear
+ls
+ls
+tp
+ls
+rm 02_binary_search.c
+ls
+clear
+ls
+nvim
+clear
+ls
+cdf
+ls
+touch 02_binary_search.c
+clear
+btop
+ls
+run 02_binary_search.c
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+run 02_binary_search.c
+clear
+sl
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+cdf
+ls
+cdf
+ls
+run 02_binary_search.c
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+dnf list installed
+man dnf
+man dnf | fzf
+ls
+man dnf
+dnf list
+fastfetch
+man dnf list
+dnf list --installed
+clear
+ls
+clear
+ls
+clear
+exit
+anki
+clera
+ls
+clear
+ls
+nmcli dev wifi list
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+dnf search cava
+sudo dnf install cava
+clear
+ls
+cava
+ls
+clear
+btop
+cmatrix
+cava
+clear
+nvim
+ls
+clear
+ls
+cd ~/.config/waybar
+ls
+cdf
+ls
+nvim config
+ls
+clear
+ls
+nvim config.sh
+ls
+clear
+ls
+nvim style.css
+ls
+clear
+rg sway
+rg notification
+nvim config
+ls
+clear
+ls
+pactl info
+pactl info | wl-copy 
+ls
+clear
+ls
+clear
+ls
+rg notification 
+rg notification | wl-copy
+man rg | fzf
+clear
+ls
+clear
+ls
+cd ..
+ls
+rg
+rg sway
+rg swaync
+rg notification
+cdf
+ls
+nvim config
+ls
+clear
+ls
+cdf
+ls
+nvim config.sh
+ls
+nvim style.css
+ls
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+clear
+ls
+cd ..
+ls
+cd ~/.config/hypr
+ls
+rg swaync
+cdf
+ls
+rg swaync
+nvim ml4w.conf
+ls
+clear
+ls
+cd ..
+l;s
+ls
+clear
+ls
+cd ~/.config/waybar/
+rg swaync
+rg swaync | wl-copy
+nvim modules.json
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+sl
+ls
+clear
+fastfetch 
+clear
+sl
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+cdf
+ls
+clear
+ls
+clear
+ls
+nvim main.py
+ls
+exit
+nvim
+ls
+vmux
+ls
+clear
+nvim main.py
+ls
+clear
+ls
+nvim main.py
+ls
+clear
+ls
+nvim
+ls
+clear
+vmux
+ls
+clear
+ls
+git add .
+git commit -m "merged main.py + utilities.py" 
+git push
+git status
+git push -u origin master
+git pull 
+git pull --no-rebase
+clear
+git push -u origin master
+clear
+ls
+nvim retimer.py
+ls
+clear
+ls
+cava
+ls
+clear
+cmatrix
+l
+ls
+clear
+nmcli dev wifi list
+clear
+ls
+clear
+ls
+clear
+cava
+ls
+clear
+fastfetch
+anki
+clear
+ls
+clear
+cd ~/.config/hypr
+ls
+cdf
+ls
+awk -F'[=#]' '{print $1}' default.conf
+clear
+zsh
+ls
+clear
+ls
+clear
+nmcli dev wifi list
+clear
+ls
+clear
+cd ~/.config/hypr
+ls
+cdf
+ls
+clear
+ls
+awk -F'[=#]' '$1 ~/^bind/ {gsub(/\$mainMod/,"SUPER",$0) gsub(/^bind[[:space:]]*=+[[:space:]]*/,"",$0) split($1,kbarr,",") print kabarr[1] " + " kbarr[2] "\r" $2' default.conf
+ls
+clear
+ls
+nvim keybindings.sh
+ls
+clear
+ls
+clear
+ls
+cd ~/.config/hypr
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+rg ^\#
+ls
+clear
+ls
+clear
+ls
+awk -F'[=#]' '{print $1, $NF}' scripts/keybindings.sh
+clear
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+nvim keybindings.sh
+ls
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+nvim parse_keybinds.awk
+ls
+clear
+ls
+awk -f parse_keybinds.awk scripts/keybindings.sh
+nvim parse_keybinds.awk
+ls
+awk -f parse_keybinds.awk conf/keybindings/default.conf
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cdf
+ls
+awk -F'[=#]' '$1 ~/^bind/ {gsub(/\$mainMod/,"SUPER") sub(/^bind[[:space:]]*=*/,"") split($1, k, ",") print k[1]" + " k[2] "\r" $2 }' default.conf
+clear
+awk -F'[=#]' '$1 ~/^bind/ { gsub(/\$maindMod/,"SUPER"); sub(/^bind[[:space:]]*=*/,""); split($1,k,","); print k[1] " + "k[2] "\r" $2 }' default.conf
+nmcli dev wifi list
+dev wifi list
+nmcli dev wifi list
+clear
+cava
+clear
+lsblk
+clear
+ls
+lsblk
+clear
+ls
+lsusb
+clear
+ls
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+nvim code_runner.sh
+ls
+clear
+ls
+nvim copy copy_clip.sh
+ls
+clear
+ls
+wl-copy "newhistory" 
+cliphist wipe
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+mkdir 05_number_guessing_game
+ls
+clear
+cdf
+ls
+clear
+xls
+clear
+ls
+clear
+l
+ls
+clear
+ls
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+nvim
+ls
+clear
+vmux
+clear
+nmcli dev wifi list
+clear
+cava
+ls
+clear
+cmatrix
+ls
+clear
+ls
+flatpak update
+cmatrix
+ls
+clear
+ls
+clear
+exit
+clear
+ls
+nmcli dev wifi list
+nmcli --ask device wifi connect "OnePlus 6T_9536"
+clear
+ls
+exit
+pgrep gnome-network
+ps | where name =~ gnome
+ls
+clear
+ls
+exit
+ps | where name =~ gdm
+ls
+clear
+ls
+exit
+ls
+nmcli dev wifi list
+nmcli --ask device wifi connect "vivo 1904" 
+nmcli dev wifi list
+nmcli --ask device wifi connect "vivo 1904" 
+clear
+ls
+clear
+ls
+sudo dnf upgrade
+clear
+ls
+dnf list --installed | fzf
+clear
+ls
+dnf list --installed | fzf
+clear
+ls
+flatpak list --app | fzf
+ls
+clear
+ls
+ls | fzf
+ls
+clear
+ls
+clear
+ls
+nmcli dev wifi list
+nmcli --ask device wifi connect "OnePlus 6T_9536"
+ls
+nmcli dev wifi lsit
+nmcli dev wifi list
+clear
+ls
+nmcli --ask device wifi connect "vivo 1904" 
+ls
+clear
+ls
+fzf
+nmcli dev wifi list | fzf
+ls
+clear
+ls
+nmcli dev wifi list
+nmcli dev wifi list | select SSID
+nmcli dev wifi list | from csv
+nmcli dev wifi list | from csv | select SSID
+clear
+zsh
+nmcli dev wifi list | columns
+ls
+clear
+ls
+clear
+ls
+nmcli dev wifi list
+nmcli dev wifi list | awk -F' ' '{print $3}' 
+nmcli -t -f SSID dev wifi
+nmcli -t -f SSID dev wifi | fzf
+ls
+clear
+ls
+nmcli -t -f SSID dev wifi 
+nmcli -t -f ACTIVE,SSID dev wifi 
+nmcli -t -f ACTIVE,SSID dev wifi  | sed 's/yes/*/; s/no/d' 
+nmcli -t -f ACTIVE,SSID dev wifi  | sed 's/yes/*/; /no/d' 
+nmcli -t -f ACTIVE,SSID dev wifi  | sed 's/yes/*/; s/no/""/' 
+nmcli -t -f ACTIVE,SSID dev wifi  | sed 's/yes/*/; s/no//' 
+nmcli -t -f ACTIVE,SSID dev wifi | sed 's/^yes/ /; s/^no/   /'<\n>
+clear
+ls
+nmcli -t -f ACTIVE,SSID dev wifi | sed 's/^yes/ /; s/^no/   /'<\n>
+nmcli -t -f ACTIVE,SSID dev wifi | sed 's/^yes/ /; s/^no/   /'
+nmcli -t -f ACTIVE,SSID dev wifi | sed 's/^yes/ /; s/^no/   /' | rofi -dmenu -i -p "Select Wifi"
+nmcli dev wifi list
+nmcli -t -f ACTIVE,SSID dev wifi | sed 's/^yes/ /; s/^no/   /' | rofi -dmenu -i -p "Select Wifi"
+nmcli -t -f ACTIVE,SSID dev wifi | sed 's/^yes/ /; s/^no/   /; s/^ //' | rofi -dmenu -i -p "Select Wifi"
+nmcli -t -f ACTIVE,SSID dev wifi | sed 's/^yes/ /; s/^no/   /; s/^ //; s/\://' | rofi -dmenu -i -p "Select Wifi"
+clear
+ls
+tp
+ls
+clear
+ls
+open new_tier.csv
+open new_tier.csv | columns
+clear
+ls
+clear
+ls
+awk -F',' ' {print $1}' new_tier.csv
+cat new_tier.csv | head -n 1 | tr "," "\n" | nl
+clear
+head -n 1 new_tier.csv | tr "," "\n" | nl
+head -n 1 new_tier.csv | tr "," "\n" | nl | fzf
+ls
+clear
+ls
+awk -F',' '{print $1,$2}' new_tier.csv
+awk -F',' '{print $1,$2}' new_tier.csv | fzf
+awk -F',' '{print $1,$2}' new_tier.csv | grep -i electric
+clear
+ls
+awk 'Electric/ {print}' new_tier.csv
+awk '/Electric/ {print}' new_tier.csv
+awk '/Electric/ {print $1}' new_tier.csv 
+clear
+awk '{gsub(/Electric/,"Fire"); print}' new_tier.csv
+awk '{gsub(/Electric/,"Fire"); print}' new_tier.csv | fzf
+ls
+clear
+ls
+open pokemon.csv | grep -i pikachu
+open pokemon.csv | sed 's/Electric/Fire/' 
+clear
+ls
+clear
+ls
+clear
+ls
+nmcli -t -f ACTIVE,SSID dev wifi | sed 's/^yes/ /; s/^no/   /; s/^ //; s/\://' | rofi -dmenu -i -p "Select Wifi"
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+nmcli -t -f ACTIVE,SSID dev wifi | sed 's/^yes/ /; s/^no/   /; s/^ //; s/\://' | fzf
+ls
+clear
+ls
+clear
+ls
+nmcli -t -f ACTIVE,SSID dev wifi | sed 's/^yes/ /; s/^no/   /; s/^ //; s/\://' | fzf
+ls
+clear
+ls
+tp
+ls
+cdf
+ls
+clear
+nvim connect.sh
+ls
+clear
+ls
+tpf
+tp
+ls
+clear
+ls
+run connect.sh
+ls
+clear
+ls
+run connect.sh
+ls
+clear
+ls
+clear
+run connect.sh
+clear
+ls
+run connect.sh
+clear
+run connect.sh
+clear
+run connect.sh
+ls
+clear
+ls
+clear
+ls
+run connect.sh
+clear
+ls
+run connect.sh
+clear
+ls
+clear
+ls
+clear
+run connect.sh
+ls
+clear
+ls
+run connect.sh
+clear
+ls
+run connect.sh
+clear
+ls
+run connect.sh
+clear
+nvim connect.sh
+ls
+clear
+run connect.sh
+clear
+ls
+clear
+ls
+run connect.sh
+clear
+run connect.sh
+clear
+run connect.sh
+ls
+clear
+ls
+run connect.sh
+clear
+run connect.sh
+clear
+ls
+clear
+ls
+nvim
+ls
+clear
+ls
+chmod +x connect.sh
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+mv connect.sh ~/dotfiles/myscripts/
+ls
+clear
+ls
+ls
+vmux
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls -a
+cd .dotter/
+ls
+nvim :q
+nvim
+ls
+clear
+ls
+dotter deploy --dry-run
+cd ..
+ls
+clear
+dotter deploy --dry-run
+dotter deploy 
+connect 
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+tp
 ls

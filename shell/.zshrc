@@ -118,3 +118,4 @@ alias cdf='cd "$(fd -t d . | fzf)"'
 
 
 export PATH=$PATH:/usr/local/go/bin
+bindkey -v

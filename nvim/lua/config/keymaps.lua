@@ -41,3 +41,7 @@ vim.keymap.set({ "n", "i" }, "<C-M-k>", "<C-\\><C-n><C-w>k", opts)
 
 -- Move to the right pane
 vim.keymap.set({ "n", "i" }, "<C-M-l>", "<C-\\><C-n><C-w>l", opts)
+
+-- CTRL + ALT + I --> ESC
+-- Map ESC to exit terminal mode
+vim.keymap.set("i", "<C-M-i>", "<Esc>", { noremap = true, silent = true })
