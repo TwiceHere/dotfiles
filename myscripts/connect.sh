@@ -1,7 +1,6 @@
 #!/bin/bash
 
 nmcli dev wifi rescan
-
 ssid=$(nmcli -t -f ACTIVE,SSID dev wifi |
   sed 's/^yes/ /; s/^no/   /; s/^ //; s/\://' |
   fzf --ansi --prompt="Select Wi-Fi: " | xargs)
