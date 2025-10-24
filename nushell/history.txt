@@ -1,525 +1,4 @@
 clear
-run test.py
-clear
-run test.py
-clear
-run test.py
-clear
-tmux detach
-vmux
-clear
-tmux kill-session -t coding
-ls
-clear
-exit
-sudo dnf upgrade
-clear
-flatpak update
-clear
-exit
-ls
-clear
-tp
-ls
-cdf
-ls
-claer
-ls
-clear
-ls
-clear
-uv add sudachipy sudachidict_full
-btop
-clear
-exit
-clear
-bash
-clear
-ls
-clear
-ls
-clear
-uv add wanakana
-clear
-nvim
-clear
-run main.py
-run main.py | sed /sonu/wade/s
-clear
-run main.py
-clear
-run main.py
-run main.py | grep -i error
-run main.py | grep -i error | copy 
-clear
-run main.py
-uv add wanakana
-clear
-run main.py
-claer
-clear
-run main.py
-run newmain.py
-clear
-run main.py
-clear
-run newmain.py
-clear
-run newmain.py
-clear
-run newmain.py
-claer
-clear
-run newmain.py
-clear
-ls
-mv pyfiles/fetcher.py ./
-ls
-clear
-nvim
-run newmain.py
-ls
-tp
-ls
-cdf
-ls
-clear
-ls
-echo transcript_with_furigana.html | copy 
-pwd | copy 
-echo transcript_with_furigana.html | copy 
-clear
-tmux detach
-vmux
-clear
-tmux kill-server
-clear
-exit
-exit
-ls
-clear
-ls
-tp
-s
-ls
-clear
-ls
-clear
-ls
-cdf
-ls
-clear
-run 08_problem8.c
-clear
-cd ..
-ls
-clear
-ls
-cd practice_set/
-ls
-clear
-ls
-run 08_problem8.c
-clear
-ls
-cd ..
-ls
-cd practice_set/
-clear
-run 09_problem9.c
-clear
-run 09_problem9.c
-clear
-ls
-cd ..
-ls
-cd ..
-ls
-clear
-mkdir 05_project_number_guessing_game
-cdf
-ls
-clear
-run main.c
-clear
-run main.c
-clear
-run main.c
-clear
-run main.c
-clear
-run main.c
-clear
-run main.c
-clear
-ls
-rm main
-ls
-run main.c
-clear
-run main.c
-clear
-ls
-run main.c
-clear
-ls
-run main.c
-clear
-vmux
-clear
-ls
-clear
-exit
-btop
-exit
-sl
-ls
-clear
-fastfetc
-fastfetch
-clear
-exit
-clear
-exit
-ls
-clear
-ls
-clear
-wal -i ~/Downloads/wallpapers/solo-leveling-3840x2160-19518.png
-syncwal
-clear
-ls
-clear
-ls
-zsh
-ls
-clear
-ls
-zsh
-ls
-clear
-tp
-ls
-nvim config.nu
-cdf
-ls
-cd ..
-ls
-nvim config.nu
-clear
-ls
-exit
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-zsh
-exit
-ls
-cdf
-ls
-nvim config.nu
-clear
-exit
-sl
-ls
-clear
-exit
-ls
-clear
-ls
-wal -i ~/Downloads/monochrome_wallpaper_minimal_wallpaperaccess.png
-clear
-syncwal
-clear
-ls
-zsh
-exit
-ls
-clear
-ls
-clear
-ls
-clear
-l
-ls
-clear
-ls
-clear
-tp
-ls
-clear
-ls
-zsh
-ls
-tp
-ls
-clear
-ls
-nvim alacritty.toml
-clear
-ls
-exit
-ls
-clear
-ls
-clear
-ls
-syncwal 
-clear
-ls
-tp
-ls
-ls a
-ls -a
-clear
-ls
-cd ..
-ls
-clear
-ls
-cdf
-ls
-nvim starship.toml
-ls
-clear
-ls
-wal -i ~/Downloads/miles_morales_spiderman.jpg
-syncwal
-clear
-ls
-exit
-ls
-clear
-ls
-tp
-ls
-clear
-ls
-fastfetch
-clear
-exit
-ls
-clear
-ls
-tp
-ls
-clear
-ls
-cdf
-ls
-clear
-run main.py
-bash 
-ls
-cler
-clear
-ls
-clear
-uv add fugashi unidic
-clear
-uv run python -m unidic download
-clear
-uv run python -m fugashi
-nvim
-run test.py
-clear
-run test.py
-run test.py | copy
-clear
-run test.py
-clear
-run test.py
-run test.py | copy 
-clear
-run test.py
-run test.py | copy 
-clear
-uv add jmdict
-uv add jamdict jamdict-data
-clear
-run newtest.py
-clear
-run newtest.py
-clear
-run newtest.py | copy 
-run newtest.py
-clear
-run newtest.py
-run newtest.py | copy 
-clear
-run newtest.py
-run newtest.py | copy 
-clear
-run newtest.py
-clear
-run newtest.py
-clear
-run fetcher.py
-clear
-run fetcher.py
-clear
-run utilities.py
-pwd | copy 
-run utilities.py
-clear
-btop
-exit
-run main.py
-clear
-run main.py
-clear
-run main.py
-clear
-run main.py
-clear
-run main.py
-clear
-run main.py
-clear
-run main.py
-clear
-run main.py
-clear
-run main.py
-uv add tqdm
-clear
-btop
-exit
-run main.py
-clear
-pwd | copy 
-cd /home/sonu/Desktop/Users/Sonu/PersonalSpace/Personal_Projects/transcript_furigana
-ls
-clear
-exit
-clear
-uv add pytube
-clear
-nvim
-run main.py
-btop
-clear
-exit
-clear
-run main.py
-clear
-pwd | copy 
-cd /home/sonu/Desktop/Users/Sonu/PersonalSpace/Personal_Projects/transcript_furigana
-ls
-clear
-exit
-clear
-tmux detach
-vmux
-clear
-tmux kill-session -t coding
-exit
-ls
-tp
-ls
-pwd | copy 
-ls
-tp
-ls
-clear
-ls
-tp
-ls
-tp
-ls
-bash 
-rm `svu ug 4th sem babcombscbcabbabaolbhmbvou supply april 2025 results_ Manabadi.com.pdf`
-clear
-ls
-ls | grep svu
-clear
-exit
-clear
-ls
-clear
-exit
-ls
-cleawr
-clear
-ls
-tp
-ls
-cdf
-ls
-clear
-ls
-exit
-clear
-run main.py
-ls
-clear
-ls
-clear
-ls
-yazi
-clear
-ls
-tp
-ls
-ls | type == file
-ls | where type == file
-ls | where name =~ .html$
-clear
-ls
-exit
-clear
-btop
-exit
-run utilities.py
-clear
-run utilities.py
-clear
-run utilities.py
-clear
-run utilities.py
-run test.py
-clear
-ls
-clear
-run test.py
-clear
-nvim
-clear
-ls
-cd ..
-ls
-rm -rf transcript_furigana/
-ls
-clear
-ls
-clear
-cdf
-ls
-ls
-clear
-nvim 
-tmux ls
-vmux
-clear
-ls
-tp
-ls
-clear
-exit
-ls
-clear
-ls
-clear
-ls
-sudo dnf upgrade
-clear
-exit
-ls
-clear
 ls
 tp
 ls
@@ -9998,3 +9477,524 @@ clear
 ls
 nvim .gitignore
 clear
+git add .
+git commit -m "Fix Gitignore" 
+git push
+clear
+ls
+cd ..
+ls
+clear
+ls
+cdf
+clear
+ls
+tp
+ls
+clear
+ls
+nvim env.nu
+ls
+clear
+tp
+ls
+clear
+ls
+tp
+ls
+clear
+cd
+clear
+cd ~/.config/waybar/
+ls
+clear
+ls
+nvim modules.json
+flatpak list --app | fzf
+clear
+ls
+btop
+clear
+connect 
+clear
+ls
+exit
+flatpak list 
+ls
+tp
+ls
+uv init 10_example_class
+clear
+ls
+cdf
+ls
+clear
+ls
+nvim main.py
+zsh
+ls
+nvim main.py
+ls
+nvim
+clear
+vmux
+clear
+tp
+ls
+cdf
+ls
+mkdir gun_water_snake
+ls
+cdf
+ls
+vmx
+run main.c
+clear
+;s
+ls
+clear
+run main.c
+clear
+ls
+clear
+zsh
+ls
+clear
+ls
+clear
+run main.c
+clear
+run main.c
+clear
+tp
+ls
+nvim test.py
+ls
+clear
+zsh
+ls
+clear
+ls
+clear
+ls
+rm test.py
+clear
+vmux
+ls
+clear
+ls
+cal
+clear
+zsh
+date
+clear
+date
+date humanize
+date -h
+clear
+ls
+date
+date list-timezone
+clear
+pwd
+clear
+ls
+clear
+sudo dnf upgrade
+clear
+ls
+sudo snapper -c root create -d "Pre dnf upgrade" 
+btop
+clear
+ls
+cmatrix
+clear
+sudo dnf upgrade
+sudo snapper -c root create -d "Post dnf upgrade" 
+clear
+sudo snapper -c root list
+clear
+sudo snapper -c root list 
+sudo snapper -c root list | columns
+sudo snapper -c root list | from csv 
+sudo snapper -c root list | from csv  | select Type
+sudo snapper -c root list | from csv 
+clear
+ls
+clear
+ls
+sudo snapper -c root list
+sudo snapper -c root list | tr " " "\n" 
+sudo snapper -c root list | tr " " ","
+sudo snapper -c root list | sed "s/\s+/,"
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+btop
+connect
+clear
+ls
+exit
+connec
+connect
+clear
+ls
+clear
+flatpak update
+cleawr
+connect
+flatpak update
+clear
+flatpak update
+clear
+connec
+connect
+clear
+ls
+clear
+exit
+clear
+ls
+fastfetch
+clear
+ls
+fastfetch
+clear
+neofetch
+clear
+ls
+clear
+cmatrix
+btw
+btm
+clear
+ls
+clear
+ls
+clear
+exit
+ls
+clear
+exit
+ls
+clear
+exit
+fastfetch
+clear
+fastfetch
+clear
+yazi
+ls
+clear
+exit
+ls
+clear
+ls
+tp
+ls
+clear
+exit
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+rm screenshot_23102025_103338.jpg
+anki
+sl
+ls
+clear
+exit
+ls
+clear
+exit
+tp
+ls
+run wallpaper.sh
+clear
+exit
+hellpaper --help
+clear
+ls
+clear
+ls
+exit
+anki
+ls
+clear
+ls
+fastfetch
+clear
+uname -r
+sudo uname -r
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+clear
+ls
+clear
+mkdir user_follower_game
+ls
+cdf
+ls
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+ls
+clear
+ls
+tp
+ls
+cdf
+ls
+clear
+ls
+nvim colorschemes/
+nvim
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+clear
+ls
+exit
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+clear
+ls
+tmux ls
+cd ..
+l
+ls
+clear
+ls
+uv init 11_quiz_game
+cdf
+sl
+clear
+ls
+pwd | wl-copy 
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+unzip quiz-game-start.zip
+ls
+clear
+ls
+nvim quiz_brain.py
+ls
+clear
+ls
+ls | sort-by modified
+nvim data.py
+sl
+clear
+ls
+clear
+ls
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+nvim 
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+clear
+tmux ls
+clear
+exit
+sudo dnf upgrade
+clear
+ls
+clear
+ls
+btop
+anki
+clear
+cliphist wipe
+clear
+ls
+clear
+ls
+cd ~/.config/hypr
+ls
+clear
+ls
+nvim colors.conf
+ls
+clear
+ls
+cdf
+ls
+nvim animation.conf
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cdf
+ls
+ls | where type == dir
+ls | where type == dir | sort-by -r modified
+clear
+ls
+cd ..
+ls
+clear
+ls
+cdf
+ls
+nvim animation.conf
+cdf
+ls
+nvim 
+ls
+clear
+ls
+clear
+ls
+cd
+cd ~/.config/hypr
+ls
+nvim colors.conf
+ls
+clear
+ls
+clear
+codium
+ls
+codium .
+ls
+clear
+ls
+cd ~/.config/hypr
+ls
+clear
+ls
+codium .
+clear
+ls
+cd ~/.config/waybar/
+ls
+clear
+ls
+codium .
+clear
+ls
+flatpak list
+flatpak list --app
+celar
+clear
+ls
+clear
+nvim colors.conf
+clear
+tp
+ls
+tree .
+tree . | wl-copy 
+clear
+ls
+cdf
+ls
+nvim colorizer.lua
+ls
+clear
+sl
+ls
+clear
+ls
+cd ~/.config/waybar
+ls
+nvim colors.css
+nvim
+ls
+clear
+ls
+nvim colors.css
+clear
+ls
+tp
+ls
+rm colorizer.lua
+clear
+nvim
+clear
+ls
+nvim
+clear
+nvim
+ls
+celar
+ls
+nvim
+clear
+nvim
+clear
+nvim
+clear
+tp
+ls
+clear
+ls
+nvim catppuccin.lua
+clear
+nvim
+ls
+nvim colorscheme.lua
+nvim
+clear
+ls
+nvim
+clear
+ls
+cd ..
+ls
+tp
+ls
+clear
+ls
