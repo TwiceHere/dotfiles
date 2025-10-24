@@ -1,37 +1,3 @@
-clear
-ls
-tp
-ls
-clear
-ls
-mkdir 06_Functions_and_recursion
-cdf
-ls
-clear
-run 01_function.c
-ls
-clear
-run 01_function.c
-ls
-clear
-run 01_function.c
-clear
-run 01_function.c
-clear
-run 01_function.c
-clear
-run 01_function.c
-clear
-fastfetch
-clear
-run 01_function.c
-clear
-run 01_function.c
-clear
-ls
-run 01_function.c
-clear
-ls
 run 01_function.c
 clear
 run 02_quick_quiz.c
@@ -9997,4 +9963,38 @@ ls
 tp
 ls
 clear
+ls
+git add .
+git commit -m "nvim: Fix colorscheme error" 
+git push
+clear
+ls
+cdf
+ls
+clear
+ls
+cd ..
+slc
+ls
+cear
+ls
+clear
+ls
+cdf
+ls
+clear
+nvim colorizer.lua
+nvim
+ls
+clear
+cd ~/.config/waybar
+ls
+nvim colors.css
+clear
+ls
+clear
+nvim colors.css
+ls
+clear
+tp
 ls
