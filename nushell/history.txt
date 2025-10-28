@@ -1,862 +1,3 @@
-run 01_function.c
-clear
-run 02_quick_quiz.c
-clear
-run 02_quick_quiz.c
-clear
-run 03_change.c
-clear
-run 03_change.c
-clear
-run 03_change.c
-clear
-run 03_change.c
-run 04_quick_quiz.c
-clear
-tmux detach
-tmux new -s coding
-clear
-tmux kill-session -t coding
-clear
-exit
-clear
-ls
-tp
-ls
-clear
-sl
-ls
-clear
-ls
-cdf
-ls
-yaz
-yazi
-clear
-ls
-clear
-fastfetch
-clear
-exit
-nvim
-clear
-exit
-ls
-clear
-btop
-clear
-exit
-locate --help
-locate main.py
-clear
-exit
-flatpak update
-clear
-flatpak update
-exit
-fd --help
-clear
-exit
-ls
-clear
-ls
-ps
-ps | where status == Running
-clear
-ls
-clear
-tp
-ls
-clear
-ls
-clear
-ls
-mkdir 01_variables
-clear
-cdf
-ls
-run 01_variables/
-clear
-ls
-cdf
-ls
-run 01_variable.sh
-clear
-ls
-clear
-run 01_variable.sh
-clear
-run 01_variable.sh
-clear
-run 01_variable.sh
-clear
-ls
-ls | where name == dotfiles
-clear
-ls
-exit
-run 01_variable.sh
-clear
-run 02_variable_expansion.sh
-clear
-echo -help 
-echo --help
-btop
-exit
-htop
-btop
-clear
-exit
-sudo dnf upgrade
-clear
-exit
-cler
-clear
-ls
-bash 
-clear
-sl
-clear
-man echo
-clear
-run 02_variable_expansion.sh
-clear
-run 02_variable_expansion.sh
-clear
-ar
-run 02_variable_expansion.sh
-clear
-run 02_variable_expansion.sh
-clear
-run 02_variable_expansion.sh
-clear
-run 02_variable_expansion.sh
-clear
-tmux detach
-vmux
-clear
-ls
-exit
-ls
-clear
-ls
-tp
-ls
-clear
-exit
-exit
-clear
-exit
-ls
-tp
-ls
-clear
-cdf
-ls
-clear
-ls
-run 5_recursion.c
-ls
-clear
-ls
-run 5_recursion.c
-clear
-run 5_recursion.c
-clear
-run 5_recursion.c
-clear
-run 5_recursion.c
-clear
-run 5_recursion.c
-clear
-ls
-clear
-ls
-tp
-ls
-clear
-sl
-ls
-awk '{print $0}' pokemon.csv
-clear
-awk '{print $1}' pokemon.csv
-clear
-awk 
-clear
-open pokemon.csv 
-open pokemon.csv | select Name "Type.1" "Total" "HP" 
-open pokemon.csv | select Name "Type.1" "Total" "HP" | where "Type.1" =~ Dragon
-open pokemon.csv | select Name "Type.1" "Total" "HP" | where "Type.1" =~ Dragon | where "Name" =~ "^G" 
-clear
-ls
-cler
-clear
-ls
-open pokemon.csv | where "Type.2" =~ Legendary
-open pokemon.csv
-clear
-ls
-open pokemon.csv | describe
-open pokemon.csv | columns
-open pokemon.csv | select Legendary 
-open pokemon.csv | where "Legendary" =~ True
-open pokemon.csv | where "Legendary" =~ True | select Name "Type.1" "Legendary" "HP" 
-clear
-exit
-tmux detach
-tmux new -s coding
-clear
-tmux kill-session -t coding
-clear
-ls
-clear
-ls
-tmux ls
-claer
-clear
-ls
-exit
-ls
-clear
-ls
-clear
-ls
-tp
-ls
-clear
-ls
-head -n 1 pokemon.csv | tr "," "\n" | nl 
-clear
-exit
-clear
-exit
-clear
-exit
-ls
-tp
-ls
-clear
-ls
-clear
-open progress.md
-open progress.md tail -n 1
-open progress.md | tail -n 1
-open progress.md | tail -n 1 | copy 
-ls
-clear
-cdf
-ls
-cleawr
-clear
-mkdir practice_set
-clear
-ls
-cdf
-ls
-run 01_problem1.c
-clear
-ls
-clear
-run 02_problem2.c
-run 03_problem3.c
-clear
-run 04_problem4.c
-clear
-run 04_problem4.c
-run 05_problem5.c
-clear
-run 05_problem5.c
-ls
-clear
-ls
-rm 05_problem5
-clear
-run 05_problem5.c
-ls
-rm 05_problem5
-ls
-clear
-ls
-run 05_problem5.c
-clear
-run 06_problem6.c
-clear
-ls
-rm 06_problem6
-clear
-ls
-run 06_problem6.c
-ls
-clear
-ls
-run 06_problem6.c
-clear
-run 06_problem6.c
-clear
-tmux kill-server
-tmux new -s coding
-clear
-ls
-clear
-exit
-clear
-exit
-ls
-clear
-ls
-wal -i ~/Downloads/monochrome_wallpaper_minimal_wallpaperaccess.png
-clear
-ls
-clear
-syncwal
-clear
-ls
-clear
-exit
-zsh
-ls
-clear
-ls
-ls | where name =~ .png$
-tp
-ls
-ls | where name =~ .png$
-rm `Spiderman Into The Spider Verse Spiderman Noir UHD 4K Wallpaper _ Pixelz.png`
-clear
-ls
-exit
-ls
-clear
-ls
-clear
-ls
-cdf
-ls
-cdf
-ls
-nvim alacritty.toml
-clear
-ls
-clear
-ls
-clear
-fastfetch
-clear
-exit
-ls
-clear
-ls
-fastfetch
-clear
-ls
-zsh
-exit
-ls
-zsh
-ls
-clear
-exit
-ls
-clear
-ls
-tp
-ls
-cdf
-ls
-open 02_history_of_IOT.md | copy 
-zsh
-exit
-flatpak update
-ls
-clear
-exit
-clear
-ls
-btop
-clear
-exit
-sudo dnf upgrade
-clear
-sudo dnf upgrade
-clear
-ls
-flatpak update
-ls
-clear
-ls
-lear
-clear
-sl
-exit
-ls
-clear
-ls
-clear
-ls
-ls | where name =~ Videos
-clear
-ls
-cler
-clear
-sl
-clear
-ls
-wal -i ~/Downloads/anime-cityscape-sunset.jpg
-syncwal
-clear
-ls
-clear
-ls
-wal -i ~/Downloads/illustration-anime-character-rain.jpg
-syncwal
-clear
-ls
-fastfetch
-clear
-ls
-fastfetch
-clear
-ls
-clear
-ls
-tp
-ls
-clear
-ls
-yazi
-clear
-ls
-mkdir paradigms
-ls
-clear
-cdf
-ls
-clear
-run main.py
-clear
-ls
-run main.py
-clear
-ls
-run main.py
-cler
-clear
-ls
-run main.py
-clear
-run main.py
-clear
-ls
-clear
-help
-clear
-help | btop
-ls
-help 
-help -h
-help commands
-clear
-help commands
-help commands | where command_type =~ keyword
-clear
-ls
-help commands
-wrap help 
-wrap --help
-clear
-help commands
-help commands | where category =~ filters
-clear
-ls
-clear
-help commands
-help commands | where category =~ core
-echo -h
-clear
-ls
-help commands
-from csv -h
-clear
-help commands 
-help commands | where name =~ from
-clear
-help commands
-help -h
-help str
-help str expand
-clear
-ls
-str -h
-str contains -h
-help regex
-clear
-ls
-help str
-str stats -h
-ls
-clear
-ls
-tp
-ls
-open -h
-clear
-open -r starship.toml | str stats
-clear
-ls
-cd
-ls
-help commands
-wrap -h
-clear
-help aliases 
-shells
-show
-shells
-clear
-ls
-help -h
-help escapes
-clear
-ls
-help str
-echo "Hell NO" | str downcase
-echo "Hell NO" | str status
-echo "Hell NO" | str stats
-str stats -h
-clear
-ls
-help str 
-echo "HELL NO" | str downcase | str reverse
-echo "HELL NO" | str downcase | str upcase
-echo "HELL NO" | str downcase | str trim
-str trim -h
-clear
-ls
-clear
-help commands
-qclear
-keybindings
-clear
-exit
-clear
-ls
-clear
-ls
-clear
-tmux detac
-vmux
-clear
-tmux kill-server
-tmux attach -t coding
-clear
-s
-clear
-ls
-clear
-where -h
-clear
-where -h
-clear
-ls
-ls -h
-clear
-ls
-help commands
-help commands | explore
-clear
-ls
-ps
-ps | where status =~ Running
-ps | where status =~ Unknown
-clear
-ps | where mem > 0
-ps
-ps | where mem != 0 B
-ps | where mem != "0 B" 
-ps | describe
-ps | mem > 0
-ps | where mem > 0
-ps | where mem > "0" 
-clear
-ls
-exit
-ls
-clear
-ls
-clear
-ls
-tp
-ls
-clear
-mkdir 07_pointers
-ls
-cdf
-ls
-clear
-ls
-clear
-sl
-clear
-ls
-clear
-touch 01_pointer.c
-run 01_pointer.c
-clear
-ls
-clear
-ls
-run 01_pointer.c
-clear
-run 01_pointer.c
-clear
-ls
-clear
-run 01_pointer.c
-clear
-run 01_pointer.c
-clear
-ls
-tp
-ls
-open pokemon.csv 
-clear
-open pokemon.csv | columns
-open pokemon.csv | first | describe
-clear
-open pokemon.csv | describe
-open pokemon.csv | columns
-open pokemon.csv | get Name
-open pokemon.csv | where Name =~ ^D
-open pokemon.csv | where Name =~ Dragon
-open pokemon.csv | where "Type.2" =~ Flying
-open pokemon.csv | where "Type.1" =~ Fire and "Type.2" =~ Flying
-open pokemon.csv | where "Type.1" =~ Fire and "Type.2" =~ Flying | get Total | math max
-tmux detach
-vmux
-tmux kill-server
-clear
-ls
-tmuxls
-tmux ls
-clear
-exit
-ls
-tp
-ls
-nvim progress.md
-clear
-exit
-tp
-ls
-open pokemon.csv | describe | copy
-open pokemon.csv | where "Type.1" =~ Fire and "Type.2" =~ Flying | sort-by Total -r
-open pokemon.csv | where "Type.1" =~ Fire and "Type.2" =~ Flying | sort-by Total -r | first 1
-clear
-open pokemon.csv | where "Type.1" =~ Fire and "Type.2" =~ Flying | sort-by Total -r | first 1
-open pokemon.csv
-open pokemon.csv | group-by "Type.1" 
-open pokemon.csv | get "Type.1" 
-open pokemon.csv | get "Type.1" | uniq
-help uniq
-clear
-open pokemon.csv | get "Type.1" | uniq
-open pokemon.csv | where "Type.1" =~ Dragon
-open pokemon.csv | where "Type.1" =~ Dragon | sort-by Total | first 5
-open pokemon.csv | where "Type.1" =~ Dragon | sort-by Total -r | first 5
-cler
-claer
-clear
-open pokemon.csv | columns 
-open pokemon.csv | sort-by Attack -r | first 5
-open pokemon.csv | sort-by Defence -r | first 5
-clear
-open pokemon.csv | sort-by Defense -r | first 5
-open pokemon.csv | sort-by HP -r | first 5
-open pokemon.csv | where "Type.1" =~ Water | sort-by Total -r | first 5
-open pokemon.csv | get "Type.1" | uniq 
-open pokemon.csv | where "Type.1" =~ Ghost
-open pokemon.csv | where "Type.1" =~ Ghost | sort-by Total -r | first 5
-clear
-open pokemon.csv | get "Type.2" | uniq
-open pokemon.csv | where "Type.2" =~ Psychic
-open pokemon.csv | where "Type.2" =~ Psychic | sort-by Total -r | first 5
-clear
-exit
-clear
-exit
-ls
-clear
-ls
-clear
-clear
-exit
-ls
-clear
-tp
-ls
-nvim newsyllabus.md
-clear
-ls
-cdf
-ls
-mkdir 04_internet_frameworks
-cdf
-ls
-clear
-nvim 01_internet_IOT.md
-cd ..
-ls
-cd ..
-ls
-nvim newsyllabus.md
-help git
-clear
-help sort-by
-clear
-help csv
-help from csv
-clear
-tp
-ls
-clear
-ls
-mkdir classes
-cdf
-mkdir abstract_classes
-cdf
-run main.py
-clear
-run main.py
-clear
-run main.py
-clear
-tmux detach
-vmux
-clear
-tmux ls
-tmux kill-session -t coding
-clear
-exit
-ls
-wal -i ~/Downloads/swinging-through-dimensions-spider-man-across-the-spider-verse-4k-2v.jpg
-clear
-syncwal
-clear
-ls
-fastfetch
-clear
-l
-ls
-clear
-exit
-ls
-wal -i ~/Downloads/wallpapers/close-up-japanese-street-food-shop.jpg
-clear
-syncwal
-clear
-fastfetch
-clear
-ls
-clear
-l
-ls
-clear
-tp
-ls
-clear
-ls
-wal -i `~/Downloads/wallpapers/weathering with you land scape wallpaper.jpg`
-clear
-syncwal
-clear
-ls
-clear
-fastfetch
-clear
-exit
-ls
-clear
-ls
-wal -i ~/Downloads/illustration-anime-character-rain.jpg
-syncwal
-clear
-ls
-clear
-fastfetch
-clear
-ls
-clear
-ls
-clear
-tp
-ls
-fastfetch
-clear
-ls
-fastfetch
-cleawr
-clear
-tmux kill-server
-vmux
-clear
-ls
-exit
-ls
-clear
-ls
-clear
-ls
-tp
-ls
-clear
-ls
-cdf
-ls
-clear
-ls
-run 01_pointer.c
-clear
-run 01_pointer.c
-clear
-run 01_pointer.c
-clear
-run 02_other_types.c
-clear
-run 02_other_types.c
-clear
-run 02_other_types.c
-clear
-run 02_other_types.c
-clear
-tmux detach
-vmux
-clear
-tmux kill-session -t coding
-clear
-exit
-fastfetch
-clear
-ls
-clear
-ls
-fastfetch
-clear
-ls
-wal -i ~/Downloads/spiderman_noir_aplhacoders.jpg
-clear
-syncwal 
-clear
-ls
-cleara
-clear
-fastfetch
-zsh
-exit
-clear
-exit
-ls
-clear
-zsh
 ls
 clear
 ls
@@ -2683,6 +1824,7 @@ sl
 ls
 clear
 run main.py
+in.py
 mysql -u root -p
 clear
 ls
@@ -9998,3 +9140,861 @@ ls
 clear
 tp
 ls
+git add .
+git commit -m "nvim: ADD colorizer.nvim" 
+git push
+clear
+ls
+clear
+cd ~/.config/hypr
+ls
+nvim colors.conf
+ls
+clear
+ls
+cdf
+ls
+cdf
+ls
+nvim blackwhite
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+l
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cdf
+ls
+nvim colors.css
+clear
+ls
+yazi
+clear
+ls
+nvim 
+clear
+ls
+cd ~/.config/hypr
+ls
+cdf
+ls
+cd ~/.cache/wal
+ls
+nvim
+clear
+ls
+clear
+cd ~/.config/waybar
+ls
+cdf
+ls
+nvim style.css
+clear
+ls
+cd ~/.cache/wal
+ls
+nvim
+clear
+ls
+nvim colors.css
+clear
+ls
+nvim colors.yml
+clear
+ls
+nvim colors-rofi-dark.rasi
+clear
+ls
+nvim colors-tty.sh
+nvim colors-wal.vim
+clear
+ls
+clear
+ls
+cd
+ls
+clear
+tp
+ls
+git clone https://github.com/danihek/hellwal && cd hellwal && make
+zsh
+ls
+clear
+ls
+clear
+ls
+cdf
+ls
+make
+cd ..
+ls
+clear
+hellwal 
+clear
+ls
+cdf
+make install
+sudo make install
+clear
+ls
+clear
+ls
+hellwal -version
+clear
+ls
+hellwal --version
+hellwal
+hellwal --version
+clear
+ls
+cd ..
+cd
+clear
+ls
+clear
+ls
+hellwal
+help hellwall
+hellwal help
+clear
+ls
+tp
+ls
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+nvim
+tmux detach
+vmux
+clear
+ls
+cd ..
+ls
+clear
+ls
+uv init 12_dot_spot_turtle_graphics
+clear
+cdf
+ls
+clear
+vmux
+clear
+ls
+run main.py
+clear
+run main.py
+uv python list
+clear
+run main.py
+clear
+run main.py
+clear
+sudo dnf upgrade
+clear
+ls
+clear
+ls
+flatpak update
+clear
+run main.py
+run dashed_line.py
+clear
+run dashed_line.py
+clear
+run dashed_line.py
+run drawing_shapes.py
+clear
+run drawing_shapes.py
+clear
+run drawing_shapes.py
+clear
+run drawing_shapes.py
+clear
+run random_walk.py
+clear
+run random_walk.py
+clear
+run random_walk.py
+clear
+tmux kill-server
+vmux
+clear
+ls
+clear
+ls
+clear
+exit
+tmux
+clear
+ls
+clear
+"gray grey" | grep -P "gr(a|e)y" 
+man grep | fzf
+"gray grey" | grep -Po "gr(a|e)y" 
+ls
+clear
+tp
+ls
+cdf
+ls
+nvim test.py
+ls
+clear
+run test.py
+ls
+nvim test.py
+run test.py
+clear
+run test.py
+cat test.py | wl-copy 
+ls
+nvim test.py
+clear
+run test.py | wl-copy 
+clear
+ls
+clear
+ls
+rm test.py
+clear
+cd
+"gray grey" | grep -Po "gr(?:a|e)y" 
+"gray grey" | rg "gr(?:a|e)y" 
+clear
+ls
+clear
+ls
+clear
+"AAA" | rg "A{3}" 
+clear
+"color colour" | rg "colou?r" 
+clear
+"aaa ab a" | rg "a+" 
+clear
+"Order 123 shipped" | rg "\d+" 
+"Order 123 shipped" | rg '\d+' 
+clear
+anki
+clear
+connect
+clear
+anki
+ls
+clear
+tp
+ls
+clear
+ls
+cdf
+ls
+run random_walk.py
+ls
+clear
+ls
+run random_walk.py
+clear
+sudo dnf upgrade
+clear
+nvim
+clear
+sl
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+touch spirograph.py
+clear
+ls
+run spirograph.py
+clear
+run spirograph.py
+clear
+run spirograph.py
+clear
+run spirograph.py
+clear
+run spirograph.py
+clear
+run spirograph.py
+clear
+run spirograph.py
+cava
+clear
+btop
+clear
+uv pip install colorgram.py
+clear
+nvim
+pwd | wl-copy 
+clear
+ls
+clear
+ls
+ls | where name =~ .zip$
+unzip hirst-painting-start.zip
+clear
+unzip hirst-painting-start.zip
+clear
+cd /home/sonu/Desktop/Users/Sonu/Workspace/python/archive/projects/12_dot_spot_turtle_graphics
+clear
+ls
+yazi
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+tmux detach
+vmux
+clear
+tmux kill-server
+ls
+clear
+ls
+sl
+sls
+ls
+clear
+ls
+clear
+fastfetch
+clear
+btm
+clear
+exit
+anki
+connect
+clear
+ls
+clear
+anki
+clear
+connect
+clear
+exit
+bash --version
+clear
+ls
+clear
+ls
+clear
+nvim ~/.bashrc
+clear
+sl
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+man bash
+clear
+ls
+clear
+ls
+tp
+ls
+cdf
+ls
+clear
+nvim main.sh
+run main.sh
+ls
+clear
+ls
+run counter.sh
+clear
+ls
+seq 10
+zsh
+clear
+ls
+run counter.sh
+clear
+run counter.sh
+clear
+tp
+ls
+clear
+ls
+clear
+ls
+cdf
+ls
+nvim hist_painting.py
+run hist_painting.py
+clear
+run new_turtle.py
+clear
+run new_turtle.py
+clear
+run new_turtle.py
+clear
+run new_turtle.py
+clear
+run new_turtle.py
+clear
+run new_turtle.py
+btop
+clear
+ls
+exit
+crontab -l
+clear
+sudo cat /etc/crontab
+clear
+sudo cat /etc/crontab<\n>sudo ls /etc/cron.d/<\n>sudo ls /etc/cron.daily/<\n>sudo ls /etc/cron.hourly/<\n>sudo ls /etc/cron.weekly/<\n>sudo ls /etc/cron.monthly/<\n>
+path 
+clear
+echo $PATCH
+echo $PATH
+echo $ENV
+clear
+run new_turtle.py
+clear
+run new_turtle.py
+clear
+run new_turtle.py
+clear
+run new_turtle.py
+clear
+ls
+clear
+ls
+fastfetch
+clear
+ls
+clear
+fastfetch
+clear
+ls
+df -h
+ls
+clear
+df -h | from csv
+clear
+ls
+clear
+df -h
+df -h | from csv " "
+help from csv
+df -h | from csv --seperator " "
+df -h | from csv --seperator ' '
+clear
+run newt
+run new_turtle.py
+clear
+baobab
+vmux
+clear
+ls
+exit
+sudo dnf upgrade
+clear
+ls
+clear
+flatpak update
+clear
+sudo du -sh /snapshots
+sudo du -sh /var/snapper/root/snapshot/*
+sudo snapper -c root list 
+sudo snapper -c root list
+ls
+clear
+sudo snapper -c root list
+clear
+ls
+clear
+ls
+cava
+clear
+connect
+clear
+sudo snapper -c root create -d "Pre dnf upgrade" 
+sudo dnf upgrade
+clear
+sudo snapper -c root create -d "Post dnf upgrade" 
+sudo snapper -c root list
+clear
+sudo snapper -c root list | wc -l
+sudo vim /etc/snapper/configs/root
+clear
+sudo nvim /etc/snapper/configs/
+sudo nvim /etc/snapper/configs/root
+clear
+ls
+clear
+nvim /etc/snapper/configs/root
+clear
+ls
+sudo cat /etc/snapper/configs/root
+sudo cat /etc/snapper/configs/root | wl-copy
+sudo cat /etc/snapper/configs/root | nvim
+clear
+ls
+connect
+clear
+ls
+clear
+ls
+clear
+sudo vim /etc/snapper/configs/root
+clear
+sudo snapper -c root cleanup number
+sudo snapper -c root list
+sudo snapper -c root list | wc -l 
+sudo snapper -c root cleanup number
+sudo snapper -c root list | wc -l
+sudo snapper -c root cleanup timeline
+sudo snapper -c root list | wc -l
+df -h
+clear
+ls
+baobab
+clear
+sudo snapper -c root list
+sudo snapper -c root delete 1-40
+sudo snapper -c root list | wc -l
+sudo snapper -c root list | awk 'NR>1 {print $1}' | tail -n -5
+sudo snapper -c root list | awk 'NR>1 {print $1}' | head -n -5
+sudo snapper -c root list | awk 'NR>1 {print $1}' | head -n -5 | xargs -r sudo snapper -c root delete
+sudo snapper -c root list --disable-pretty | awk 'NR>1 {print $1}' | head -n -5 | xargs -r sudo snapper -c root delete
+sudo snapper -c root list | tail -n +3 | awk '{print $1}' | head -n -5 | xargs -r sudo snapper -c root delete
+sudo snapper -c root list | tail -n +3 | awk '$1 != "0" {print $1}' | head -n -5 | xargs -r sudo snapper -c root delete
+sudo snapper -c root list | wc -l
+sudo snapper -c root list
+clear
+sl
+clear
+ls
+clear
+sl
+clear
+ls
+clear
+ls
+clear
+baobab
+clear
+baobab
+clear
+anki
+clear
+exit
+tp
+ls
+uv init turtle_race_etch_a_sketch
+cdf
+ls
+clear
+run main.py
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+run main.py
+clear
+cd ~/.config/hypr
+ls
+cdf
+ls
+ls | where name == dir
+ls | where type == dir
+clear
+ls | where type == dir
+cdf
+ls
+nvim default.conf
+nvim
+clear
+ls
+cd ..
+ls
+cdf
+ls
+clear
+ls
+nvim
+clear
+ls
+cd ..
+ls
+clear
+ls
+cdf
+ls
+nvim default.conf
+nvim laptop.conf
+clear
+ls
+cd ..
+ls
+cdf
+ls
+hyprctl monitors
+clear
+hyprctl help
+help hyprctl
+clear
+run main.py
+clear
+nvim
+clear
+tmux detach
+vmux
+clear
+tmux kill-session -t coding
+clear
+ls
+clear
+ls
+clear
+tmux ls
+clear
+cd
+clear
+cd ~/.config/matugen/
+ls
+nvim config.toml
+nvim
+clear
+ls
+cdf
+ls
+nvim gtk-colors.css
+ls
+clear
+ls
+cd ..
+slc
+clear
+ls
+nvim config.toml
+ls
+clear
+ls
+cdf
+ls
+nvim colors.css
+nvim gtk-colors.css
+clear
+exit
+anki
+clear
+ls
+clear
+exit
+man xargs
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+fastfetch
+clear
+fastfetch
+clear
+ls
+clear
+ls
+fastfetch 
+clear
+ls
+cmatrix
+btop
+nvim
+ls
+clear
+ls
+nvim
+ls
+clear
+htop
+btw
+btm
+clear
+ls
+clear
+neofetch
+clear
+baobab
+ls
+clear
+ls
+exit
+connect
+ls
+clear
+ls
+vim
+ls
+clear
+ls
+clear
+ls
+nvim
+ls
+clear
+ls
+nvim
+sl
+clear
+ls
+clear
+ls
+clear
+nvim
+clear
+tp
+ls
+clear
+ls
+mkdir playground
+ls
+cdf
+ls
+clear
+mkdir 01_introduction 
+ls
+clear
+cdf
+ls
+clear
+ls
+ls
+clear
+cdf
+ls
+run 01_variable.sh
+clear
+run 01_variable.sh
+clear
+run 01_variable.sh
+clear
+ls
+run 01_variable.sh
+clear
+run 01_variable.sh
+clear
+env
+clear
+ls
+env | bat
+clear
+printenv
+clear
+ls
+clear
+run 01_variable.sh
+clear
+run 01_variable.sh
+clear
+ls
+run 01_variable.sh
+clear
+run 01_variable.sh
+clear
+ls
+clear
+run 01_variable.sh
+clear
+ls
+clear
+ls
+tp
+ls
+clear
+ls
+cdf
+ls
+nvim code_runner.sh
+ls
+clear
+ls
+run 01_variable.sh hello wade
+run 01_variable.sh hello wade | wl-copy 
+tp
+ls
+cdf
+ls
+clear
+run 01_variable.sh
+run 01_variable.sh hello wade
+clear
+nvim code_runner.sh
+clear
+ls
+tp
+ls
+clear

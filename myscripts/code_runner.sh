@@ -6,16 +6,16 @@ extension=${filepath##*.} # Get extension
 
 case "$extension" in
 py)
-  uv run $filepath
+  uv run $filepath "${@:2}"
   ;;
 c)
-  gcc "$filepath" -o "$filename" -lm && ./"$filename" && rm $filename
+  gcc "$filepath" -o "$filename" -lm && ./"$filename" "${@:2}" && rm $filename
   ;;
 cpp)
-  g++ "$filepath" -o "$filename" && ./"$filename" && rm $filename
+  g++ "$filepath" -o "$filename" && ./"$filename" "${@:2}" && rm $filename
   ;;
 sh)
-  bash $filepath
+  bash $filepath "${@:2}"
   ;;
 go)
   go run $filepath
