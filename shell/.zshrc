@@ -114,6 +114,7 @@ source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/zsh-sy
 alias anki="~/.local/anki/anki-launcher-25.07.5-linux/anki"
 alias tp='cd "$(fd -t d . ~ | fzf)"'
 alias cdf='cd "$(fd -t d . | fzf)"'
+alias le='eza --icons=always'
 
 
 
