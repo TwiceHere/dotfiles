@@ -1,110 +1,3 @@
-ls
-cd ..
-ls
-nvim hyprland.conf
-ls
-cd ~/.config/hypr/
-ls
-clear
-ls
-clear
-ls
-cd ~/.config/hypr
-ls
-nvim hyprland.conf
-cdf
-ls
-nvim setwall.sh
-ls
-cd ..
-ls
-rg setwal
-clewa
-clear
-ls
-rg swww
-ls
-clear
-ls
-clear
-ls
-rg swww
-clear
-ls
-clear
-ls
-rg sww
-swww img ~/Downloads/spiderman_noir_aplhacoders.jpg --transition-type fade
-swww-daemon &
-swww-daemon
-clear
-bash 
-clear
-ls
-cd ~/.config/hypr/
-nvim hyprland.conf
-clear
-ls
-cd
-ls
-clear
-ls
-sudo dnf copr enable alebastr/sway-extras
-clear
-ls
-sudo dnf install waypaper
-pipx install waypaper
-python3 pip install waypaper
-bash -c "pipx install waypaper"
-clear
-sudo dnf install python3-pipx
-anki
-ls
-sudo snapper -c root create -d "Pre ricing" 
-clear
-ls
-exit
-ls
-clear
-ls
-exit
-/home/sonu/.var/app/com.ml4w.dotfilesinstaller/data/downloads/com.ml4w.dotfiles.stable/setup/setup.sh
-brave
-exit
-nvim
-clear
-clear
-ls
-exit
-tmux detach
-matrix
-exit
-ls
-clear
-ls
-clear
-ls
-clear
-sl
-ls
-clear
-ls
-cd
-exit
-wal -i ~/Downloads/miles_morales_spiderman.jpg
-clear
-syncwal
-clear
-ls
-cler
-clear
-ls
-exit
-ls
-clear
-ls
-clera
-ls
 clear
 fastfetch 
 clear
@@ -9998,3 +9891,110 @@ clear
 ls
 clear
 ls
+flatpak list | from csv
+flatpak list | from csv --seporator" " 
+clear
+ls
+exit
+clear
+ls
+nvim catppuccin_tmux.conf
+clear
+exit
+clear
+ls
+nvim colors.css
+clear
+ls
+cd ..
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+open new_tier.csv | column
+clear
+open new_tier.csv | columns
+clear
+ls
+open new_tier.csv | select Name
+open new_tier.csv | columns
+open new_tier.csv | where "Type.1" =~ Fire and "Type.2" =~ Water
+clear
+ls
+ps
+ps | where name =~ zen
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+nvim main.py
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+ls
+clear
+cd ..
+ls
+clear
+ls
+uv init python_t_strings
+ls
+clear
+cdf
+ls
+clear
+run t_string.py
+python3 --version
+clear
+uv tree .
+clear
+uv tree
+clear
+run t_string.py
+clear
+ls
+clear
+uv python list
+clear
+uv python pin 3.14
+clear
+uv run python --version
+clear
+run t_string.py
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+uv --version
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+run t_string.py
+clear
+run t_string.py
+clear
+run t_string.py
+clear
