@@ -1,241 +1,3 @@
-clear
-fastfetch 
-clear
-ls
-exit
-sudo snapper -c root create -d "Pre UPdate"
-exit
-ls
-exit
-clear
-ls
-exit
-clear
-ls
-clear
-ls
-clear
-ls
-exit
-chmod +x toggle_desktop.sh
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-which nu
-clear
-ls
-clear
-ls
-fastfetch 
-clear
-ls
-fastfetch 
-clear
-fastfetch 
-clear
-fastfetch 
-clear
-ls
-cd ..
-ls
-clear
-ls
-cdf
-ls
-nvim default.conf
-ls
-clear
-ls
-fastfetch 
-ls
-clear
-ls
-clear
-ls
-cd ..
-ls
-cd ..
-ls
-clear
-ls
-rg sidepanel
-rg panel
-ls
-clear
-ls
-clear
-ls
-cd ..
-ls
-cd ..
-ls
-clear
-ls
-cd ~/.config/
-ls
-cdf
-clear
-ls
-ls | where type == symlink
-ls | where type == symlink and where name =~ kitty
-ls | where type == symlink || where name =~ kitty 
-try
-clear
-ls | where name =~ kitty
-ls
-ls | where name =~ kitty
-ls -s
-ls -l
-ls -l | where name =~ kitty 
-cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/kitty
-ls
-clear
-ls
-nvim kitty.conf
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-cd ~/.config/hypr/ls
-cd ~/.config/hypr/
-ls
-clear
-ls
-rg browser
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-rg "$MainMod, S" 
-rg "$MainMod  S" 
-rg "$MainMod"
-rg "$Mainmod"
-ls
-rg mainmod
-ls
-clear
-ls
-cdf
-ls
-nvim default.conf
-ls
-clear
-ls
-cd ..
-sl
-ls
-cd ..
-ls
-clear
-ls
-clear
-ls
-rg side
-rg sidepad
-clear
-ps
-ls
-clear
-ls
-clear
-ls
-rg sidepad
-ls
-clear
-ls
-cd ~/.config/hypr/
-ls
-clear
-ls
-pwd
-ls
-clear
-sl
-nmcli dev wifi list
-nmcli --ask device wifi connect "Onplus 6T_9536"
-ls
-clear
-ls
-nmcli --ask device wifi connect "OnPlus 6T_9536"
-nmcli dev wifi list
-nmcli --ask device wifi connect "OnePlus 6T_9536"
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-yazi
-clear
-sl
-fastfetch 
-clear
-ls
-clear
-ls
-clear
-ls
-cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/kitty/
-ls
-nvim colors-matugen.conf
-clear
-ls
-nvim kitty.conf
-clear
-ls
-clear
-ls
-cd ..
-ls
-clear
-ls
-cd ..
-ls
-cd ..
-ls
-cd ~/.config/hypr/
-ls
-rg wlogout
-cdf
-ls
-rg wlogout
-nvim default.conf
-rg 
-nvim default.conf
-rg wlogout
-nvim default.conf
-ls
-clear
-ls
-clera
-ls
-clear
-ls
-clear
-ls
-cd ..
-sl
-cd ..
-ls
-clear
-ls
-rg matugen
 cdf
 ls
 nvim wallpaper.sh
@@ -9998,3 +9760,241 @@ run t_string.py
 clear
 run t_string.py
 clear
+vmux
+clear
+ls
+clear
+ls
+tmux ls
+clear
+ls
+cd
+clear
+ruf
+ls
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+ls | where type == symlink
+clear
+sl
+clear
+ls
+clear
+ls
+exit
+clear
+ls
+ls | sort-by -r modified
+clear
+ls
+ls | sort-by -r modified
+clear
+ls
+cd ml4w/
+ls
+ls 
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd matugen/
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+clear
+cd ..
+ls
+clear
+ls
+clear
+find ~/.config -type f -mtime 0 -printf '%h\n' | sort -u
+exit
+ls
+clear
+ls
+ls | sort-by -r modified
+clear
+ls
+ls | where type == dir
+ls | where type == dir | sort-by -r modified
+ls | where type == link
+ls
+ls | where type == symlink
+ls | where type == symlink | get name
+ls | where type == symlink | get name | save ~/Desktop/Users/Sonu/PersonalSpace/symlinks.md
+ls
+clear
+tp
+ls
+nvim symlinks.md
+clear
+ls
+clear
+ls
+cd ~/.config/
+ls
+cd hypr/
+ls
+clear
+ls
+pwd
+clear
+ls
+cd ..
+ls
+clear
+ls
+clear
+l;s
+ls
+clear
+ls
+cd hypr/
+ls
+clear
+ls
+clear
+ls
+cdf
+ls
+rg default
+clear
+ls
+nvim animation.conf
+ls
+clear
+ls
+nvim autostart.conf
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+nvim autostart.conf
+ls | where name =~ cargo 
+exit
+clear
+ls
+ls | where type == dir
+clear
+ls | where type == dir | sort-by -r modified
+rg font
+clear
+ls
+rg -i font
+rg -i font-family
+clera
+clear
+cdf
+ls
+rg -i font-family
+rg -i font-family | wl-copy 
+clear
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+rg -i font-family
+clear
+ls
+cdf
+ls
+clear
+ls
+rg -i font-family
+rg -i font-family | rg -o "\w+" 
+ls
+exit
+clear
+ls
+clear
+ls | where type == dir 
+cp fastfetch gtk-3.0 gtk-4.0 hypr kitty ml4w qt6ct rofi swaync waybar waypaper wlogout xsettingsd ~/dotfiles 
+tldr cp
+clear
+ls
+clear
+ls | where type == dir
+clear
+ls | where type == dir
+ls
+clear
+ls | where type == dir
+cp fastfetch gtk-3.0 gtk-4.0 hypr kitty ml4w qt6ct rofi swaync waybar waypaper wlogout xsettingsd ~/dotfiles
+cp -r fastfetch gtk-3.0 gtk-4.0 hypr kitty ml4w qt6ct rofi swaync waybar waypaper wlogout xsettingsd ~/dotfiles
+clear
+ls
+clear
+ls | where type == dir | sort-by -r modified
+ls
+tp
+ls
+clear
+ls
+fd -e jpg -e png -e jpeg
+fd -e jpg -e png -e jpeg | wc -l
+ls
+clear
+ls
+mkdir wallpapers
+clear
+ls
+ls | sort-by -r modified
+fd -e jpg -e png -e jpeg | xargs -I {} cp {} ~/dotfiles/wallpapers/
+ls
+clear
+ls
+cdf
+ls
+clear
+ls | wc -l
+clear
+ls
+clear
+ls
+exit
