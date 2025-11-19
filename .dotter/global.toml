@@ -23,3 +23,17 @@
 
 [nushell.files]
 "nushell" = {target = "~/.config/nushell", type = "symbolic" , recurse = false}
+
+[hyprland.files]
+"hyprland/hypr" = {target = "~/.config/hypr", type = "symbolic", recurse = false}
+"hyprland/fastfetch" = {target = "~/.config/fastfetch", type = "symbolic", recurse = false}
+"hyprland/gtk-3.0" = {target = "~/.config/gtk-3.0", type = "symbolic", recurse = false}
+"hyprland/gtk-4.0" = {target = "~/.config/gtk-4.0", type = "symbolic", recurse = false}
+"hyprland/waybar" = {target = "~/.config/waybar", type = "symbolic", recurse = false}
+"hyprland/waypaper" = {target = "~/.config/waypaper", type = "symbolic", recurse = false}
+"hyprland/kitty" = {target = "~/.config/kitty", type = "symbolic", recurse = false}
+"hyprland/ml4w" = {target = "~/.config/ml4w", type = "symbolic", recurse = false}
+"hyprland/rofi" = {target = "~/.config/rofi", type = "symbolic", recurse = false}
+"hyprland/qt6ct" = {target = "~/.config/qt6ct", type = "symbolic", recurse = false}
+"hyprland/xsettingsd" = {target = "~/.config/xsettingsd", type = "symbolic", recurse = false}
+"hyprland/wlogout" = {target = "~/.config/wlogout", type = "symbolic", recurse = false}

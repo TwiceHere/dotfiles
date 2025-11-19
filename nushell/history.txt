@@ -1,331 +1,3 @@
-cdf
-ls
-nvim wallpaper.sh
-clear
-ls
-cd ..
-ls
-clear
-ls
-cdf
-ls
-nvim default.conf
-clear
-ls
-cd ..
-ls
-clear
-ls
-cd ..
-ls
-cdf
-ls
-cd ..
-sl
-cear
-ls
-rg wlogout
-cd ~/.config/ml4w/scripts/
-nvim wlogout.sh
-clear
-ls
-clear
-ls
-nvim toggle-theme.sh
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-htop 
-clear
-ls
-nvim wlogout.sh
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-fastfetch 
-clear
-ls
-clear
-ls
-clear
-ls
-cd ~/.config/hypr/
-ls
-cdf
-ls
-nvim default.conf
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-nvim default.conf
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-fastfetch 
-clear
-ls
-clear
-ls
-matugen --version
-man matugen
-help matugen
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-btop
-clear
-cmatrix
-sudo dnf install NetworkManger NetworkManager-gnome
-ls
-clear
-anki
-clear
-ls
-clear
-ls
-cdf
-ls
-cd ..
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-swww img ~/Downloads/spiderman_noir_aplhacoders.jpg --transition-type fade
-ls
-clear
-ls
-fastfetch 
-clear
-fastfetch 
-clear
-nmcli dev wifi list
-nmcli --ask device wifi connect "OnePlus 6T_9536"
-clear
-ls
-clear
-ls
-tp
-ls
-clear
-sl
-fastfetch 
-clear
-fastfetch 
-clear
-sl
-ls
-clear
-ls
-clear
-mkdir 14_union
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-cdf
-ls
-clear
-ls
-run 01_union.c
-clear
-run 01_union.c
-clear
-run 01_union.c
-clear
-run 01_union.c
-clear
-run 01_union.c
-clear
-run 01_union.c
-clear
-ls
-clear
-ls
-run 01_union.c
-clear
-ls
-run 01_union.c
-clear
-ls
-cd. ..
-cd ..
-clear
-ls
-cd
-clear
-ls
-tp
-ls
-clear
-ls
-run 02_goto.c
-clear
-run 02_goto.c
-run 02_goto
-run 02_goto.c
-ls
-rm 02_goto
-clear
-ls
-fastfetch 
-clear
-cmatrix
-clear
-run 03_enum.c
-clear
-run 03_enum.c
-clear
-run 03_enum.c
-clear
-run 03_enum.c
-ls
-clear
-tmux detach
-vmux
-clear
-ls
-clear
-ls
-tmux ls
-clear
-tmux kill-session -t coding
-clear
-sl
-ls
-clear
-ls
-l
-clear
-l
-ls
-clear
-fastfetch 
-clear
-ls
-tp
-ls
-open new_tier.csv
-clear
-ls
-open new_tier.csv
-ls
-clear
-ls
-clear
-ls
-open pokemon.csv | columns 
-clear
-open pokemon.csv
-open pokemon.csv | where "Type.1" =~ Psychic & where "Type.2" =~ Ghost
-open pokemon.csv | where "Type.1" =~ Psychic and where "Type.2" =~ Ghost
-clear
-open pokemon.csv | where "Type.1" =~ Psychic &&  where "Type.2" =~ Ghost
-ls
-clear
-ls
-open pokemon.csv | where "Type.1" =~ Psychic and "Type.2" =~ "Ghost" 
-ls
-clear
-ls
-open new_tier.csv
-open new_tier.csv | where "Type.1" =~ Fire and "Type.2" =~ Water
-clear
-ls
-clear
-ls
-clear
-ls
-nvim --versino
-nvim --version
-clear
-vim --version
-ls
-clear
-s
-clear
-ls
-clear
-sl
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-cmatrix
-cmatrix 
-clear
-ls
-clear
-ls
-clear
-sl
-clear
-tp
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-eza
-clear
-ls
-sudo dnf install vim
-clear
-ls
-clear
-ls
-ls
-clear
-bash
-clear
-ls
-awk '{print $1}' pokemon.csv
 clear
 ls
 awk '{print $1}' pokemon.csv
@@ -9998,3 +9670,331 @@ ls
 clear
 ls
 exit
+clear
+ls
+clear
+ls
+clear
+cd ..
+ls
+clear
+ls
+ls | wc -l 
+clear
+ls
+clear
+ls
+clear
+ls
+cd ~/.config/ml4w/
+ls
+clear
+ls
+yazi
+clear
+ls
+clear
+ls
+clear
+tp
+ls
+rg -i font-family
+clear
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+nvim colors-matugen.conf
+clear
+ls
+cd .
+cd ..
+ls
+clear
+ls
+cdf
+ls
+nvim colors.css
+clear
+ls
+cd ..
+ls
+clear
+ls
+nvim README.md
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd ~/.config/ml4w/
+ls
+yazi
+clear
+ls
+exit
+ls
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+cd Workspace/
+ls
+cd python/
+ls
+cd ..
+ls
+clear
+tldr df
+cd ..
+ls
+clear
+ls
+df -h
+df . -h
+df -h . 
+clear
+ls
+df -h Workspace/
+clear
+ls
+clear
+ls
+tldr stat
+clear
+ls
+size --help
+clear
+ls
+size Workspace/
+ls
+clear
+ls
+stat Workspace/
+clear
+ls
+clear
+ls
+cd Workspace/
+ls
+clear
+ls
+cdf 
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cdf
+ls
+cd ..
+ls
+clear
+ls
+cd python/
+ls
+cdf
+ls
+ls -a
+cd ..
+ls
+cdf
+ls
+ls -a
+ls
+clear
+cd ..
+ls
+clear
+ls
+cdf
+ls
+fd venv
+fd -H venv
+ls
+clear
+ls
+cdf
+ls
+ls -a
+cd ..
+ls
+clear
+ls
+cdf
+ls
+ls -a
+clear
+ls
+cd ..
+ls
+clear
+cd ..
+tp
+ls
+cd ..
+ls
+clear
+ls
+yazi
+clear
+ls
+clear
+tldr zip
+clear
+ls
+zip -r Sonu 
+ls
+zip --help | bat
+help zip
+clear
+ls
+clear
+ls
+exit
+tldr fd | bat
+clear
+ls
+fd -H venv
+ls
+clear
+ls
+fd -Hg '^.venv$' 
+fd -Hg '^.venv$'  .
+ls
+clear
+ls
+fd -H 
+fd -Ht d 
+fd -Ht d | rg venv
+exit
+ls
+clear
+ls
+clear
+ls
+rm sonu.zip
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+cdf
+ls
+cd ..
+ls
+clear
+ls
+rm -rf ricing/
+ls
+clear
+ls
+rm rice_rescources.md
+rm stripping_off_ml4w_dotfiles.md
+ls
+clear
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+rm '[NanakoRaws] Boku no Kokoro no Yabai Yatsu - 01 (1080p).srt'
+clear
+ls
+cd ..
+sl
+clear
+ls
+rmdir subs_jp/
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+zip -r sonu.zip Sonu/
+clear
+exit
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+rm sonu.zip
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+cd ..
+ls
+cd sonu
+ls
+cd ..
+ls
+clear
+ls
+rm -r sonu
+ls
+clear
+ls
+clear
+ls
