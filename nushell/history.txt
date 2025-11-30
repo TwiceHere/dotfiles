@@ -1,24 +1,3 @@
-clear
-ls
-awk '{print $1}' pokemon.csv
-clear
-ls
-awk "{FS=','} {print $1,2}" pokemon.csv
-awk "BEGIN {FS=','} {print $2,$3}" pokemon.csv
-ls
-clear
-ls
-clear
-ls
-fastfetch 
-clear
-ls
-fastfetch 
-clear
-ls
-awk 'BEGIN {FS=","} {print $1, $2}' pokemon.csv
-ls
-awk 'BEGIN {FS=","} {print $1, $2}' pokemon.csv
 awk 'BEGIN {FS=","} {print $1}' pokemon.csv
 clear
 ls
@@ -9998,3 +9977,24 @@ clear
 ls
 clear
 ls
+sudo dnf install balena-etcher-2.1.4-1.x86_64.rpm
+clear
+ls
+clear
+ls
+rm etcher.AppImage
+ls
+clear
+ls
+mkdir subs
+ls
+clera
+ls
+clear
+ls
+exit
+clear
+ls
+ls | where type == link 
+ls | where type == symlink
+exit
