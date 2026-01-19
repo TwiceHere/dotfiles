@@ -110,6 +110,18 @@ plugins=(zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
 source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions/zsh-completions.plugin.zsh
 source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# fzf setup 
+source /usr/share/fzf/shell/key-bindings.zsh
+
+# enable fzf completion
+fpath+=(/usr/share/zsh/site-functions)
+
+# initialise completion system 
+autoload -Uz compinit
+compinit
+# export FZF_CTRL_T_OPTS="--preview 'bat --style=numbers --color=always {} 2>/dev/null || head -n 200 {}'"
+
 # Anki setup  + alias
 alias anki="~/.local/anki/anki-launcher-25.07.5-linux/anki"
 alias tp='cd "$(fd -t d . ~ | fzf)"'
@@ -121,3 +133,4 @@ alias ruf='run "$(fd --exact-depth 1 -e py -e c -e go -e sh -e cpp | fzf)"'
 
 export PATH=$PATH:/usr/local/go/bin
 bindkey -v
+source ~/.fzf-tab/fzf-tab.plugin.zsh

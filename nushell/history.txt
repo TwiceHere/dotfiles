@@ -1,277 +1,3 @@
-awk 'BEGIN {FS=","} {print $1}' pokemon.csv
-clear
-ls
-clear
-sl
-ls
-clear
-ls
-clear
-ls
-clear
-clear
-ls
-ls
-clear
-ls
-clear
-fastfetch 
-clear
-ls
-fastfetch 
-clear
-sl
-fastfetch 
-clear
-ls
-cd ~/.cache/wal/
-ls
-nvim colors-kitty.conf
-ls
-nvim last-wallpaper.txt
-clear
-ls
-colors-tty.sh
-./colors-tty.sh
-clear
-ls
-nvim colors-wal-dmenu.h
-ls
-clear
-ls
-cdf
-ls
-nvim `_home_sonu_Downloads_wallpapers_weathering with you land scape wallpaper_jpg_dark_None_None_1.1.0.json`
-clear
-ls
-clear
-ls
-tp
-ls
-clear
-ls
-cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/kitty/
-ls
-cd ..
-ls
-cdf
-ls
-nvim kitty.conf
-nvim colors-matugen.conf
-clear
-ls
-nvim colors-matugen.conf
-fastfetch 
-clear
-ls
-clear
-ls
-cd ..
-ls
-cdf
-ls
-nvim modules.json
-clear
-ls
-nvim toggle.sh
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-nvmi colors.css
-nvim colors.css
-clear
-ls
-cd ..
-ls
-clear
-ls
-cdf
-ls
-cdf
-ls
-nvim wallpaper-automation.sh
-nvim wallpaper.sh
-ls
-cd ..
-ls
-cd ..
-ls
-cdf
-ls
-nvim config.toml
-ls
-clear
-cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
-ls
-cdf
-ls
-clear
-ls
-clear
-ls
-clear
-nvim config.toml
-nvim wallpaper.sh
-ls
-ls
-nvim config.toml
-ls
-clear
-cd ~/.config/
-ls
-cdf
-ls
-cd ..
-ls
-cd ..
-ls
-cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
-ls
-cdf
-ls
-rg colors
-clear
-ls
-nvim config.toml
-cd ~/.config/waybar/
-ls
-nvim colors.css
-clear
-cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
-ls
-cdf
-ls
-cd templates/
-ls
-nvim colors.css
-ls
-clear
-nvim
-clear
-ls
-cd ..
-ls
-clear
-ls
-nvim config.toml
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
-ls
-cdf
-ls
-nvim config.toml
-ls
-clear
-cdf
-s
-ls
-clear
-ls
-eza | copy 
-ls
-clear
-ls
-eza 
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-fastfetch 
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-nmcli dev wifi list
-ls
-nmcli dev wifi list
-nmcli --ask device wifi connect "OnePlus 6T_9536"
-clear
-man nmcli
-clear
-ls
-clear
-fastfetch 
-ls
-clear
-cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
-ls
-cdf
-ls
-nvim config.toml
-cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
-cdf
-ls
-nvim default.conf
-ls
-clear
-ls
-cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/
-ls
-cdf
-ls
-clear
-clear
-nvim waypaper.sh
-clear
-ls
-nvim wallpaper.sh
-clear
-ls
-clear
-ls
-clear
-ls
-cd ..
-ls
-clear
-ls
-clear
-ls
-cd ~/.config/hypr/
-ls
-cdf
-ls
-nvim default.conf
-ls
-clear
-cd .
-cd ..
-ls
-clear
-ls
-cd ~/.config/hypr/ls
-cd ~/.config/hypr/
-ls
-cdf
 clear
 ls
 clear
@@ -9997,4 +9723,278 @@ clear
 ls
 ls | where type == link 
 ls | where type == symlink
+exit
+clear
+fd flox
+sudo rpm -ivh "$(fd flox)" 
+ls
+clear
+ls
+fd flox
+sudo rpm -ivh flox-1.7.7.x86_64-linux.rpm
+clear
+flox --version
+clear
+ls
+clear
+ls
+open pokemon.csv
+open pokemon.csv | where "Type.1" == "Fire" 
+clear
+ls
+cdf
+ls
+cd ..
+tp
+ls
+cd
+clear
+ls
+clear
+ls
+clear
+ls
+ls | where type == dir 
+clear
+ls
+cdf
+ls
+clear
+ls
+clear
+ls
+clear
+df -h .
+clear
+ls
+clear
+sl
+clear
+ls
+clear
+cd
+clear
+sudo snapper -c root list
+clear
+ls
+clear
+exit
+clear
+ls
+clear
+ls
+clear
+ls
+fastfetch
+clear
+fastfetch
+clear
+ls
+nitch 
+clear
+ls
+nvim
+ls
+clear
+ls
+clear
+nvim
+clear
+ls
+clear
+fastfetch
+ls
+clear
+ls
+fastfetch
+clear
+ls
+nitch 
+dnf search nitch
+flox search nitch
+clear
+ls
+clear
+cdf
+ls
+flox install nitch
+ls
+fastfetch
+clear
+htop
+btop
+exit
+clear
+ls
+open complete_joyo_kanji_table.json | columns
+ruf
+clear
+exit
+clear
+open complete_joyo_kanji_table.json | columns
+clear
+open complete_joyo_kanji_table.json | columns
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+open complete_joyo_kanji_table.json
+clear
+exit
+ls
+clear
+ls
+ls | sort-by size
+ls
+clear
+ls
+clear
+ls
+ls | sort-by size
+df -h
+df -h .
+clear
+fd -e iso 
+fd -e iso  | xargs -I {} rm {} 
+fd -e iso
+clear
+df -h .
+clear
+ls
+ls | sort-by size
+clear
+ls
+clear
+ls
+open new_tier.csv
+clear
+exit
+ls
+clear
+fastfetch
+clear
+cmatrix
+cbonsai
+rbonsai
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+nitch
+clear
+fastfetch
+clear
+btop
+clear
+exit
+ls
+clear
+fastfetch
+clear
+nitch
+clear
+exit
+nitch
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+ls | where type == dir
+clear
+ls | sort-by size
+ls
+clear
+ls
+clear
+exit
+clear
+cd
+cdf
+tp
+ls
+clear
+ls
+ls | where type == file
+clear
+ls
+clear
+ls
+ls | where type == dir
+clear
+ls
+tp
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+sl
+ls
+clear
+sl
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+ruf
+clear
+ls
+exit
+clear
+explore
+ls
+clear
+ls
+clear
+sl
+ls
+clear
+l
+clear
+exit
+vmux
+clear
+ls
+exit
+ls
+clear
+tock -c
+clear
+tock -c
+clear
+exit
+clear
+ls
+clear
 exit
