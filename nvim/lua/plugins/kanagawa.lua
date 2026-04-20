@@ -4,7 +4,8 @@ return {
   lazy = false,
   config = function()
     require("kanagawa").setup({
-      theme = "lotus", -- wave | dragon | lotus
+      theme = "lotus",
+      transparent = true,
     })
     vim.cmd.colorscheme("kanagawa")
   end,

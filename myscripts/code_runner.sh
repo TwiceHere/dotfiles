@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set +e
+
 filepath=$1
 filename=${filepath%.*}   # Remove extension
 extension=${filepath##*.} # Get extension
@@ -9,16 +11,21 @@ py)
   uv run $filepath "${@:2}"
   ;;
 c)
-  gcc "$filepath" -o "$filename" -lm && ./"$filename" "${@:2}" && rm $filename
+  gcc "$filepath" -o "$filename" -lm && ./"$filename" "${@:2}"
+  rm $filename
   ;;
 cpp)
-  g++ "$filepath" -o "$filename" && ./"$filename" "${@:2}" && rm $filename
+  g++ "$filepath" -o "$filename" && ./"$filename" "${@:2}"
+  rm $filename
   ;;
 sh)
   bash $filepath "${@:2}"
   ;;
 go)
   go run $filepath
+  ;;
+sql)
+  mysql <"$filepath"
   ;;
 *)
   echo "Unknown file type."

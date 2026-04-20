@@ -98,3 +98,8 @@ end
 vim.keymap.set("n", "<leader>r", RunCodeInTerminal, { noremap = true, silent = true })
 
 -- ----------------------------------------------------------------------------------------------
+vim.api.nvim_create_autocmd("ColorScheme", {
+  callback = function()
+    vim.api.nvim_set_hl(0, "Normal", { bg = "none", ctermbg = "none" })
+  end,
+})

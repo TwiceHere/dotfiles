@@ -1,431 +1,3 @@
-clear
-ls
-clear
-ls
-nvim default.conf
-ls
-clear
-ls
-clear
-ls
-cd ~/.mydotfiles/com.ml4w.dotfiles.stable/
-ls
-cd .config/
-ls
-cdf
-ls
-nvim config.toml
-cdf
-ls
-nvim hyprland-colors.conf
-clear
-ls
-clear
-fastfetch 
-clear
-fastfetch 
-clear
-ls
-clear
-cd
-clear
-htop
-btop
-cmatrix
-clear
-cd
-btop
-clear
-ls
-clear
-exit
-ls
-clear
-ls
-clear
-ls
-cd ~/.mydotfiles/com.ml4w.dotfiles.stable/
-ls
-cdf
-cd .config/
-ls
-cdf 
-ls
-cd ..
-ls
-cdf
-ls
-cdf
-ls
-nvim sequences
-nvim colors.css
-clear
-ls
-nvim hyprland-colors.conf
-clear
-cd ..
-ls
-nvim config.toml
-ls
-clear
-ls
-clear
-cdls
-clear
-ls
-cd ~/.config/waybar/
-ls
-nvim colors.css
-clear
-ls
-cd ..
-ls
-clear
-ls
-cdf
-ls
-nvim config
-ls
-nvim menu
-clear
-ls
-cler
-ls
-clear
-ls
-clear
-ls
-lear
-clear
-ls
-cmatrix
-clear
-clear
-ls
-nvim config.toml
-ls
-cdf
-ls
-clear
-ls
-clear
-clear
-ls
-clear
-ls
-tp
-ls
-cdf
-ls
-nvim starship.toml
-clear
-ls
-cd ..
-ls
-clear
-ls
-nvim colors.css
-ls
-clear
-ls
-cd ..
-ls
-cdf
-ls
-nvim colors.css
-nvim gtk-colors.css
-clear
-ls
-clear
-ls
-exit
-ls
-clear
-tp
-ls
-cdf
-ls
-nvim
-clear
-ls
-clear
-ls
-nvim main.py
-clear
-clear
-ls
-clear
-vmux
-ls
-clear
-ls
-clear
-ls
-cd 
-ls
-tp
-ls
-nvim colors-alacritty.toml
-nvmi colors_alacritty.toml
-nvim colors_alacritty.toml
-nvim
-ls
-clear
-ls
-nvim starship.toml
-nvim colors_alacritty.toml
-ls
-clear
-cd ~/.mydotfiles/com.ml4w.dotfiles.stable/.config/kitty
-ls
-cd ..
-ls
-cdf
-ls
-cdf
-ls
-clear
-ls
-clear
-ls
-nvim kitty-colors.conf
-clear
-ls
-clear
-ls
-clear
-ls
-cd ..
-ls
-clear
-ls
-cd ~/.cache/wal/
-ls
-nvim wal
-clear
-ls
-yazi
-clear
-ls
-eza
-nvim colors
-ls
-nvim tempgen.sh
-clear
-ls
-cd ~/.cache/wal/
-ls
-nvim
-clear
-ls
-nmcli --ask device wifi connect "OnePlus 6T_9536"
-nmcli dev wifi list
-nmcli --ask device wifi connect "Vivo 1904" 
-nmcli --ask device wifi connect "vivo 1904" 
-clear
-ls
-clear
-cls
-clear
-ls
-sudo snapper -c root create -d "Pre dnf upgrade" 
-clear
-sudo dnf upgrade
-cmatrix
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-cmatrix
-clear
-ls
-cmatrix
-clear
-ls
-clear
-ls
-flatpak update
-sudo snapper -c root create -d "Post dnf upgrade" 
-nmcli dev wifi list
-nmcli --ask device wifi connect "OnePlus 6T_9536"
-nmcli dev wifi list
-clear
-ls
-nmcli --ask device wifi connect "vivo 1904" 
-nmcli dev wifi list
-clear
-sudo dnf install hyprsunset
-clear
-ls
-clear
-nmcli --ask device wifi connect "OnePlus 6T_9536"
-ls
-cd ~/.config/hypr/
-ls
-rg sunset
-rg temperature
-ls
-clear
-s
-ls
-clear
-ls
-cdf
-ls
-fzf
-clear
-cal
-zdh
-zsh
-ls
-clear
-ls
-nvim night_mode.sh
-clear
-ls
-chmod night_mode.sh
-chmod +x night_mode.sh
-clear
-ls
-pgrep -x "hypsunset" 
-clear
-pgrep -x "hyprsunset" 
-clear
-ls
-clear
-cd ..
-ls
-cdf
-ls
-nvim default.conf
-clear
-ls
-cd ..
-ls
-clear
-ls
-clear
-cd ..
-ls
-clear
-ls
-cdf
-ls
-clear
-cd ~/.config/hypr/
-cdf
-ls
-cd ..
-ls
-clear
-ls
-cdf
-clear
-ls
-cd ..
-ls
-clear
-sl
-ls
-clear
-cdf
-ls
-nvim default.conf
-clear
-ls
-clear
-ls
-nvim night_mode.sh
-./night_mode.sh
-./night
-./night_mode.sh
-clear
-ls
-./night_mode.sh
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-nvim default.conf
-clear
-ls
-clear
-ls
-nvim fr.conf
-clear
-ls
-cd ..
-ls
-clear
-ls | where filetype =~ folder
-ls 
-ls | where filetype =~ dir
-ls | where type =~ dir
-rg keybindings
-rg hyprscripts
-rg HYPRSCRIPTS
-clear
-rg keybindings
-cdf
-ls
-cd ..
-ls
-cd ..
-ls
-clear
-cdf
-ls
-nvim keybindings.sh
-clear
-ls
-cd ..
-ls
-clear
-ls
-rg fullscreen
-ls
-clear
-cd ..
-sl
-ls
-clear
-ls
-cdf
-ls
-clear
-ls
-nvim default.conf
-clear
-ls
-clear
-ls
-clear
-clear
-ls
-ls
-clear
-ls
-clear
-ls
-cd ..
-ls
-clear
-cdf
-cd ..
-ls
-clear
-cdf
-ls
-clear
-ls
-nvim night_mode.sh
-clear
 ls
 cd ..
 ls
@@ -9997,4 +9569,432 @@ exit
 clear
 ls
 clear
+exit
+ps
+ps | where name =~ anki
+ps | where name =~ Anki
+ps | rg -i anki
+clear
+ls
+anki
+clear
+anki &
+exit
+ls
+tp
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+fd pexels
+clear
+yazi
+clear
+ls
+clear
+ls
+exit
+nvi
+nvim
+ls
+clear
+nvim
+clear
+exit
+clear
+ls
+clear
+ls
+exit
+ls
+clear
+ls
+open rtk_kanji_01_0250.csv
+open rtk_kanji_01_0250.csv | from csv
+clear
+ls
+clear
+ls
+exit
+open rtk_kanji_01_0250.csv
+clear
+ls
+exit
+clear
+ls
+open data_sets/pokemon.csv | columns 
+clear
+ruf
+clear
+exit
+open data_sets/pokemon.csv | columns 
+exit
+ls
+open data_sets/pokemon.csv | columns 
+exit
+open data_sets/pokemon.csv | columns 
+exit
+open pokemon.csv
+open pokemon.csv | where "Type.1" == "Fire" 
+clear
+open pokemon.csv | where "Type.1" == "Water" 
+open pokemon.csv | where "Type.1" == "Water" && "Type.2" == "Ghost" 
+open pokemon.csv | where "Type.1" == "Water" and "Type.2" == "Ghost" 
+open pokemon.csv | where "Legendary" == "False" 
+open pokemon.csv | where "Legendary" == "True"  
+open pokemon.csv | where "Legendary" == "True"  and "Type.2" == "Water" 
+clear
+ls
+open new_tier.csv | columns
+clear
+ls
+clear
+ls
+open new_tier.csv | columns 
+clear
+open new_tier.csv | columns 
+open new_tier.csv | select Name 
+open new_tier.csv | select Name | last -5 
+open new_tier.csv | select Name | last 
+open new_tier.csv | select Name | last 5
+clear
+open new_tier.csv | select Name | first 5
+clear
+ls
+clear
+ls
+open pokemon.csv | select Name
+clear
+ls
+clear
+ls
+open pokemon.csv | columns 
+open pokemon.csv | where "Type.1" == "Fire" and "Type.2" == "Ghost" 
+open pokemon.csv | where "Type.1" == "Fire" and "Type.2" == "Air"
+open pokemon.csv | where "Type.1" == "Fire" and
+open pokemon.csv | where "Type.1" == "Fire" 
+open pokemon.csv | where "Type.1" == "Ghost" 
+open pokemon.csv | where "Type.1" == "Ghost" and "Legendary" == "True" 
+open pokemon.csv | where "Type.1" == "Ghost" and "Legendary" == "True" | select Name | first 
+open pokemon.csv | where "Type.1" == "Ghost" and "Legendary" == "True" | select Name | first  | wl-copy 
+open pokemon.csv | where "Type.1" == "Ghost" and "Legendary" == "True" | first | get Name
+open pokemon.csv | where "Type.1" == "Ghost" and "Legendary" == "True" | first | get Name | wl-copy 
+open pokemon.csv | where "Type.1" == "Ghost" and "Legendary" == "True"  | get Name | wl-copy 
+open pokemon.csv | where "Type.1" == "Ghost" and "Legendary" == "True"  | last |  get Name | wl-copy 
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+open new_tier.csv
+open new_tier.csv | where "Tier" == "High" 
+open new_tier.csv | where "Tier" == "High" | sort-by Total 
+open new_tier.csv | where "Tier" == "High" | sort-by Total  | last 5
+clear
+exit
+ls | to josn
+ls | to json
+clear
+ls | columns
+ls | from json 
+ls | to json | select name size 
+ls | to json | select name
+ls | select name size
+clear
+ls
+ls | select name
+clear
+ls
+clear
+exit
+clear
+ls
+clear
+ls
+ls | select name 
+clear
+ls
+help 
+clear
+ls
+ls | type 
+ls | sort-by type
+ls
+clear
+ls
+ls | sort-by -r modified 
+ls | sort-by -r modified | first 5
+clear
+ls
+clear
+exit
+clear
+ls
+ls | where type == dir 
+clear
+ls
+clear
+ls
+exit
+help sort-by 
+clear
+help 
+help command
+help nu
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+tp
+ls
+mkdir nu_shell 
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+mkdir playground 
+ls
+clear
+cdf
+ls
+clear
+ls
+mkdir data_sets 
+ls
+clear
+ls
+cdf
+ls
+clear
+pwd | wl-copy 
+ls
+clear
+ls
+open Kanji_table.json
+clear
+open Kanji_table.json | first 5
+open Kanji_table.json | schema
+open Kanji_table.json | describe 
+clear
+ls
+open Kanji_table.json | first 10
+clear
+ls
+open Kanji_table.json | describe
+open Kanji_table.json | first | describe 
+open Kanji_table.json | columns
+open Kanji_table.json | select kanji meaning
+open Kanji_table.json | select kanji meaning | flatten 
+open Kanji_table.json | select kanji meaning | first 5 
+open Kanji_table.json | first 5
+open Kanji_table.json | select kanji meaning | first 5
+ls
+clear
+ls
+open Kanji_table.json | where ($it.onyomi_reading | length ) == 1
+open Kanji_table.json | where ($it.onyomi_reading | length ) == 1 | select kanji onyomi_reading
+open Kanji_table.json | where ($it.onyomi_reading | length ) == 1 | select kanji onyomi_reading | first 5
+open Kanji_table.json | where (onyomi_reading | length ) == 1
+open Kanji_table.json | where (onyomi_reading | length ) == 1 | length
+open Kanji_table.json | where (onyomi_reading | length ) == 1 | describe
+open Kanji_table.json | where (onyomi_reading | length ) == 1 | explore
+clear
+ls
+clear
+ls
+open Kanji_table.json | where ($it.kunyomi_reading | is-empty ) 
+open Kanji_table.json | where ($it.kunyomi_reading | is-empty ) | first 5
+open Kanji_table.json | where ($it.kunyomi_reading | is-empty ) | first 5 | select kanji kunyomi_reading onyomi_reading 
+open Kanji_table.json | where ($it.kunyomi_reading | is-empty ) | first 5 | select kanji kunyomi_reading onyomi_reading | count
+clear
+ls
+open Kanji_table.json | where ($it.onyomi_reading | length ) == 1 | length 
+open Kanji_table.json | length 
+open Kanji_table.json | where ($it.onyomi_reading | length ) > 1 | length 
+ls
+clear
+ls
+open Kanji_table.json | where ($it.onyomi_reading | length ) > 1 | length 
+clear
+ls
+open Kanji_table.json | where ($it.onyomi_reading | length ) == 1 and ($it.kunyomi_reading | length) == 1 | length 
+ls
+clear
+ls
+open Kanji_table.json
+open Kanji_table.json | select onyomi_romaji kunyomi_romaji
+open Kanji_table.json | select kanji  onyomi_romaji kunyomi_romaji meaning 
+open Kanji_table.json | select kanji  onyomi_romaji kunyomi_romaji meaning | save kanji_romaji_reading.json
+ls
+open kanji_romaji_reading.json
+clear
+ls
+clear
+ls
+clear
+ls
+rm kanji_romaji_reading.json
+ls
+clear
+ls
+open Kanji_table.json | to csv
+open Kanji_table.json | from csv
+open Kanji_table.json | to yaml
+open Kanji_table.json | first | to csv
+open Kanji_table.json | first | to yaml
+open Kanji_table.json | first | to toml
+clear
+ls
+clear
+ls
+clear
+ls
+help str
+echo "welcome" | str camel-case
+echo "welcome" | str capitalize 
+clear
+ls
+clear
+ls
+clear
+ls
+open Kanji_table.json | where ($it.kunyomi_reading | length ) == 0 | length 
+open Kanji_table.json | where ($it.kunyomi_reading | length ) == 0 | first 5 
+open Kanji_table.json | select kanji | get kanji
+open Kanji_table.json | get kanji
+open Kanji_table.json | get kanji | first
+open Kanji_table.json | get kanji 
+clear
+ls
+open Kanji_table.json | get kanji
+open Kanji_table.json | get kanji | last 5
+clear
+ls
+clear
+exit
+date now
+clear
+ls
+cal
+clear
+date now | date to-timezone "Europe/London" 
+date now | date to-timezone "Japan/Tokyo" 
+date now | date to-timezone "Asia/Tokyo" 
+clear
+open Kanji_table.json | columns
+clear
+open Kanji_table.json | select kanji meaning | first 5 
+open Kanji_table.json | select kanji meaning | first 
+clear
+ls
+open Kanji_table.json | select kanji meaning onyomi_reading | first 5 
+clear
+ls
+clear
+cmatrix
+btop
+ps
+ps | select name
+ps 
+ps | where cpu >= 9
+clear
+ps 
+ps | where name =~ kitty
+ps | where name =~ "^k" 
+ps | where name =~ kitty
+clear
+exit
+clear
+ls
+flatpak list --app 
+exit
+ls
+clear
+open sales.csv
+open sales.csv | get "Sales(y)" | math sum
+nvim sales.csv
+open sales.csv | get sales | math sum
+clear
+exit
+clear
+ls
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+nithc
+nitch
+clear
+nitch
+nitch
+clear
+ca
+cal
+clear
+ls
+cal
+cleare
+exit
+ls
+cal
+clear
+fastfetch
+clear
+fastfetc
+fastfetch
+clear
+neofetch
+ls
+ls | type == dir
+ls | where type == dir
+ls
+clear
+ls
+clear
+ls | where type == dir
+exit
+ls
+ls | where type == dir
+mkdir 09_access_modifiers
+clear
+exit
+ls
+ls | sort-by -r modified 
+ls | sort-by -r modified | first 2
+ls | sort-by -r modified | first 2 | rm $in.name
+ls | sort-by -r modified | first 2 | each { |it| rm $it.name }<\n>
+ls | sort-by -r modified | first 2 | each { |it| rm $it.name }
+ls
+clear
+ls
 exit

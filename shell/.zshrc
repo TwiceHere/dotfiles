@@ -127,7 +127,7 @@ alias anki="~/.local/anki/anki-launcher-25.07.5-linux/anki"
 alias tp='cd "$(fd -t d . ~ | fzf)"'
 alias cdf='cd "$(fd -t d . | fzf)"'
 alias le='eza --icons=always'
-alias ruf='run "$(fd --exact-depth 1 -e py -e c -e go -e sh -e cpp | fzf)"'
+alias ruf='run "$(fd --exact-depth 1 -e py -e c -e go -e sh -e cpp -e sql| fzf)"'
 
 
 
