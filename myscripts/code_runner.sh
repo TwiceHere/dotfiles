@@ -25,7 +25,7 @@ go)
   go run $filepath
   ;;
 sql)
-  mysql <"$filepath"
+  mysql --table --verbose <"$filepath"
   ;;
 *)
   echo "Unknown file type."

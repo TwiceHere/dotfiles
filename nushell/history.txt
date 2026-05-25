@@ -1,156 +1,3 @@
-ls
-cd ..
-ls
-clear
-ls
-nmcli dev wifi list
-btop
-clear
-ls
-clear
-ls
-cmatrix
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
-fastfetch 
-clear
-ls
-fastfetch 
-clear
-anki
-clear
-ls
-clear
-ls
-clear
-nmcli dev wifi list
-nmcli --ask device wifi connect "OnePlus 6T_9536"
-clear
-ls
-clear
-cmatrix
-cler
-clear
-ls
-ls
-clear
-ls
-clear
-ls
-cdf
-clear
-ls
-tp
-ls
-clear
-ls
-lsblk
-clear
-fastfetch
-clear
-ls
-clear
-ls
-cd ~/.config/hypr/
-ls
-cdf
-ls
-nvim
-clear
-ls
-nvim wallpaper.sh
-clear
-ls
-clear
-ls
-nmcli --ask device wifi connect "vivo 1904" 
-nmcli dev wifi list
-nmcli --ask device wifi connect "vivo 1904" 
-clear
-ping google.com
-clear
-ls
-clear
-ls
-flatpak update
-clear
-sudo dnf upgrade
-clear
-sudo snapper -c root create -d "Pre dnf upgrade" 
-ls
-clear
-ls
-btop
-htop
-btop
-clear
-sudo dnf upgrade
-l
-ls
-clear
-ls
-clear
-dkms status
-dkms status | copy 
-dmesg | tail -n 20 
-sudo dmesg | tail -n 20
-sudo dmesg | tail -n 20 | grep error
-sudo dmesg | tail -n 20 
-ls
-clear
-lsmod | grep 8192
-sudo dkms remove rtl8192eu/1.0 --all
-clear
-sudo dnf upgrade
-clear
-sudo dkms autoinstall
-clear
-ls
-clear
-sudo dracut --force
-btop
-clear
-clear
-ls
-lsmod
-lsmod | grep 8192
-clear
-dkms status
-clear
-sudo snapper -c root create -d "Post dnf upgrade" 
-clear
-cmatrix
-clear
-fastfetch
-clear
-ls
-clear
-exit
-ls
-fastfetch 
-clear
-ls
-fastfetch 
-clear
-ls
-clear
-ls
-nmcli dev wifi list
-nmcli --ask device wifi connect "OnePlus 6T_9536"
-clear
-ls
-clear
-ls
-clear
-ls
-clear
-ls
 clear
 exit
 clear
@@ -9997,4 +9844,157 @@ ls | sort-by -r modified | first 2 | each { |it| rm $it.name }
 ls
 clear
 ls
+exit
+ls
+clear
+ls
+ls | sort-by -r modified
+rm `My Spotify Library-3.csv` `My Spotify Library.csv`
+ls
+ls | sort-by -r modified
+clear
+open `My Spotify Library-2.csv`
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+nvim syllabus.md
+clear
+ls
+tp
+los
+ls
+clear
+ls
+open `My Spotify Library-2.csv` | columns
+open `My Spotify Library-2.csv` | first 5
+open `My Spotify Library-2.csv` | first 5  | columns
+open `My Spotify Library-2.csv` | first 5  | columns | wl-copy 
+open `My Spotify Library-2.csv` | describe
+open `My Spotify Library-2.csv` | describe | wl-copy 
+open `My Spotify Library-2.csv` | collect | describe
+open `My Spotify Library-2.csv` | collect | each { |row| $row | describe }
+open `My Spotify Library-2.csv` | collect | each { |row| $row | describe } | first 5
+open `My Spotify Library-2.csv` | collect | each { |row| $row | describe } | first 5 | wl-copy 
+clear
+sl
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+tp
+ls
+clear
+ls
+yt-dlp --versoin 
+yt-dlp --verssion
+yt-dlp --version
+clear
+ls
+clear
+tp
+ls
+mkdir "Weathering with you" 
+ls
+cdf
+slc
+clear
+ls
+yt-dlp -f "bestaudio[ext=webm]/bestaudio" \<\n>-x --audio-format opus --audio-quality 0 \<\n>--embed-metadata --embed-thumbnail \<\n>--add-metadata \<\n>--parse-metadata "playlist_index:%(track_number)s" \<\n>-o "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" \<\n>"https://music.youtube.com/playlist?list=OLAK5uy_lk3NtLdzKGsiuXxHa394J0d8TvgWB4Txc"
+exit
+ls
+ls | sort-by -r size
+ls | sort-by -r size | rg -r weather
+ls | sort-by -r size | rg -i weather
+cd `Album - Weathering With You/`
+ls
+cd ..
+ls
+clear
+ls
+clear
+exit
+ls
+clear
+ls
+open tables.csv
+clear
+ls
+clear
+ls
+exit
+ls
+clear
+ls
+cd starship/
+ls
+cd ..
+lc
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+ls | where type == dir
+mkdir 10_authentication
+cdf
+ls
+clear
+ls
+exit
+clear
+ls
+ls | where type == dir
+ls | where type == dir | sort-by -r modified
+clear
+ls
+clear
+ls
+ls | where type == dir 
+ls -d
+ls --help 
+ls -as ~ | where type == dir and modified < ((date now) - 7day)
+clear
+ls
+clear
+ls -h
+ls -as | where type == dir and modified < ((date now) - 7day)
+clear
+ls
+clear
+ls
+cdf
+ls
+clear
+ls
+exit
+ls
+clear
+ls
+ls | where type == dir 
+ls
+clear
+ls
+clear
+ls | where type == dir 
 exit
