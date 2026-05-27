@@ -8,6 +8,12 @@
   programs.zsh.enable = true; 
   programs.bash.enable = true; 
 
+  programs.git = {
+    enable = true; 
+    userName = "TwiceHere"; 
+    userEmail = "temporaryt618@gmail.com"; 
+  }; 
+
   home.packages = with pkgs; [
     curl 
     ripgrep 
