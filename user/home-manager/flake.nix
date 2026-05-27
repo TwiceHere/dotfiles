@@ -32,6 +32,7 @@
         ./modules/lazyvim.nix
         ./modules/cursor.nix
         ./modules/starship.nix
+        ./modules/dotlinks.nix
 
         #./modules/silentddm.nix
        # ./modules/fonts.nix

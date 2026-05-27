@@ -17,9 +17,9 @@
       }; 
     }; 
   }; 
-  imports = [
-    ./modules/dotlinks.nix
-  ]; 
+  # imports = [
+  #   ./modules/dotlinks.nix
+  # ]; 
 
   home.packages = with pkgs; [
     curl 
@@ -43,6 +43,7 @@
     usbutils
     brave
     anki
+    uv
   ]; 
   programs.neovim.enable = true; 
 
