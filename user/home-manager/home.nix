@@ -5,8 +5,6 @@
   home.username = "sonu"; 
   home.homeDirectory = "/home/sonu"; 
 
-  programs.zsh.enable = true; 
-  programs.bash.enable = true; 
 
   programs.git = {
     enable = true; 
@@ -31,7 +29,6 @@
     nitch 
     nodejs
     cmatrix 
-    fzf
     bat 
     bottom 
     btop 
@@ -44,6 +41,9 @@
     brave
     anki
     uv
+    unzip
+    eza 
+    bat
   ]; 
   programs.neovim.enable = true; 
 
