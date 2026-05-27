@@ -6,6 +6,7 @@
     noto-fonts 
     noto-fonts-cjk-sans 
     noto-fonts-cjk-serif
+    nerd-fonts.jetbrains-mono
     # Fira family 
     # fira-sans
     # fira-code 

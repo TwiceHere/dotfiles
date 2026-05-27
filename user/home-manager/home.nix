@@ -10,9 +10,16 @@
 
   programs.git = {
     enable = true; 
-    userName = "TwiceHere"; 
-    userEmail = "temporaryt618@gmail.com"; 
+    settings = {
+      user = {
+        name = "TwiceHere"; 
+        email = "temporaryt618@gmail.com"; 
+      }; 
+    }; 
   }; 
+  imports = [
+    ./modules/dotlinks.nix
+  ]; 
 
   home.packages = with pkgs; [
     curl 
@@ -38,6 +45,7 @@
     anki
   ]; 
   programs.neovim.enable = true; 
+
 
   home.stateVersion = "25.11"; 
 }
