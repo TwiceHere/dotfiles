@@ -6,6 +6,7 @@
   home.homeDirectory = "/home/sonu"; 
 
 
+
   programs.git = {
     enable = true; 
     settings = {
@@ -18,12 +19,14 @@
   # imports = [
   #   ./modules/dotlinks.nix
   # ]; 
-
+  programs.uv = {
+    enable = true; 
+  }; 
   home.packages = with pkgs; [
+    tmux
     curl 
     ripgrep 
     fd 
-    tmux 
     kitty 
     alacritty 
     nitch 
@@ -40,7 +43,6 @@
     usbutils
     brave
     anki
-    uv
     unzip
     eza 
     bat

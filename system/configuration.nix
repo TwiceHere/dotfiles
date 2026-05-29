@@ -20,8 +20,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.efi.efiSysMountPoint = "/boot/efi";
 
-  boot.loader.grub.configurationLimit = 3;
-  boot.loader.systemd-boot.configurationLimit = 3; 
+  boot.loader.grub.configurationLimit = 6;
   # Use latest kernel.
   boot.kernelPackages = pkgs.linuxPackages_latest;
 

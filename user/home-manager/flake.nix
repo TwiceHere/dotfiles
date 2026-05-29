@@ -33,6 +33,8 @@
         ./modules/cursor.nix
         ./modules/starship.nix
         ./modules/dotlinks.nix
+        ./modules/shells.nix
+        ./modules/ghostty.nix
 
         #./modules/silentddm.nix
        # ./modules/fonts.nix

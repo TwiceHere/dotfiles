@@ -15,4 +15,12 @@
       "/home/sonu/dotfiles/noctalia"; 
     force = true; 
   }; 
+  home.file.".local/bin/run".source = config.lib.file.mkOutOfStoreSymlink
+    "/home/sonu/dotfiles/myscripts/code_runner.sh"; 
+
+  xdg.configFile."tmux" = {
+    source = config.lib.file.mkOutOfStoreSymlink 
+    "/home/sonu/dotfiles/tmux"; 
+    force = true; 
+  }; 
 }

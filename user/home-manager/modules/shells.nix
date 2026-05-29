@@ -7,6 +7,7 @@
   programs.fzf = {
     enable = true; 
     enableFishIntegration = true; 
+
   };
 
   programs.zoxide = {
@@ -14,6 +15,23 @@
     enableFishIntegration = true; 
   };
 
-  programs.fish.enable = true; 
+  programs.fish = {
+    enable = true; 
+    shellInit = '' 
+    fish_add_path ~/.local/bin 
+    ''; 
+    shellAliases = {
+      ll = "eza -la"; 
+      cat = "bat"; 
+      ls = "eza"; 
+
+      tp = "cd (fd -t d . ~ | fzf)"; 
+      cdf = "cd (fd -t d . | fzf)"; 
+      ruf = "run (fd --exact-depth 1 -e py -e c -e go -e sh -e cpp -e sql | fzf)"; 
+    }; 
+    interactiveShellInit = '' 
+    set -g fish_greeting
+    ''; 
+  }; 
 
 }

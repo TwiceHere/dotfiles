@@ -294,7 +294,7 @@ end
 
 -- Workspace navigation
 hl.bind(mainMod .. " + H", hl.dsp.focus({ workspace = 1 }))
-hl.bind(mainMod .. " + N", hl.dsp.focus({ workspace = "next" }))
+hl.bind(mainMod .. " + D", hl.dsp.focus({ workspace = "next" }))
 hl.bind(mainMod .. " + Tab", hl.dsp.focus({ workspace = "m+1" }))
 hl.bind(mainMod .. " + SHIFT + Tab", hl.dsp.focus({ workspace = "m-1" }))
 hl.bind(mainMod .. " + CTRL + down", hl.dsp.focus({ workspace = "empty" }))
