@@ -47,6 +47,13 @@
     eza 
     bat
   ]; 
+
+  xdg.desktopEntries.anki = {
+    name = "Anki"; 
+    exec = "anki"; 
+    noDisplay = true; 
+  }; 
+
   programs.neovim.enable = true; 
 
 
