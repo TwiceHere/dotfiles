@@ -46,6 +46,7 @@
     unzip
     eza 
     bat
+    fastfetch
   ]; 
 
   xdg.desktopEntries.anki = {

@@ -19,6 +19,7 @@
 
       #linters 
       statix
+      ruff
     ]; 
     config = {
       options = '' 
