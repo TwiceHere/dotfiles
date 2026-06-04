@@ -1,62 +1,58 @@
-{ pkgs, ...}: 
-
-
-{
-  home.username = "sonu"; 
-  home.homeDirectory = "/home/sonu"; 
-
-
+{pkgs, ...}: {
+  home.username = "sonu";
+  home.homeDirectory = "/home/sonu";
 
   programs.git = {
-    enable = true; 
+    enable = true;
     settings = {
       user = {
-        name = "TwiceHere"; 
-        email = "temporaryt618@gmail.com"; 
-      }; 
-    }; 
-  }; 
+        name = "TwiceHere";
+        email = "temporaryt618@gmail.com";
+      };
+    };
+  };
   # imports = [
   #   ./modules/dotlinks.nix
-  # ]; 
+  # ];
   programs.uv = {
-    enable = true; 
-  }; 
+    enable = true;
+  };
   home.packages = with pkgs; [
     tmux
-    curl 
-    ripgrep 
-    fd 
-    kitty 
-    alacritty 
-    nitch 
+    curl
+    ripgrep
+    fd
+    kitty
+    alacritty
+    nitch
     nodejs
-    cmatrix 
-    bat 
-    bottom 
-    btop 
-    dysk 
-    eza 
-    tealdeer 
-    cargo 
+    cmatrix
+    bat
+    bottom
+    btop
+    dysk
+    eza
+    tealdeer
+    cargo
     localsend
     usbutils
     brave
     anki
     unzip
-    eza 
+    eza
     bat
     fastfetch
-  ]; 
+
+    devenv
+  ];
 
   xdg.desktopEntries.anki = {
-    name = "Anki"; 
-    exec = "anki"; 
-    noDisplay = true; 
-  }; 
+    name = "Anki";
+    exec = "anki";
+    noDisplay = true;
+  };
 
-  programs.neovim.enable = true; 
+  programs.neovim.enable = true;
 
-
-  home.stateVersion = "25.11"; 
+  home.stateVersion = "25.11";
 }

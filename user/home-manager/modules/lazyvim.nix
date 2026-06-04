@@ -6,13 +6,25 @@
 
     installCoreDependencies = true; 
     extras = {
-      lang.nix.enable = true; 
+      lang.nix = {
+        enable = true; 
+        installDependencies = true; 
+        installRuntimeDependencies = true; 
+        }; 
       lang.python.enable = true; 
-      lang.go.enable = true; 
+      lang.go = {
+        enable = true; 
+        installDependencies = true; 
+        installRuntimeDependencies = true; 
+      }; 
+
     }; 
+    
     extraPackages = with pkgs; [
       #Lsps 
       nixd 
+      alejandra
+
       pyright 
       gopls
       lua-language-server
@@ -159,6 +171,29 @@
 }
 
       '' ; 
+      lsp-config = '' 
+        return {
+          "neovim/nvim-lspconfig",
+          opts = function(_, opts)
+            opts.servers = opts.servers or {}
+            opts.servers.nixd = {
+              cmd = { "nixd" },
+              settings = {
+                nixd = {
+                  nixpkgs = {
+                    expr = "import <nixpkgs> { }",
+                  },
+                  formatting = {
+                    command = { "alejandra" },
+                  },
+                },
+              },
+            }
+            return opts
+          end,
+        }
+
+        '';  
     }; 
   }; 
 

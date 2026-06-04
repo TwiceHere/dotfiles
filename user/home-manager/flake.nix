@@ -4,6 +4,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
+
     home-manager = {
       url = "github:nix-community/home-manager"; 
       inputs.nixpkgs.follows = "nixpkgs"; 
@@ -15,7 +16,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, home-manager, silentSDDM, lazyvim, ... }: 
+  outputs = { self, nixpkgs, home-manager, silentSDDM, lazyvim,... }: 
   let 
     system = "x86_64-linux"; 
     pkgs = nixpkgs.legacyPackages.${system}; 
