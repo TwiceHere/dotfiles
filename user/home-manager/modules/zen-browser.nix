@@ -1,15 +1,17 @@
 {
   pkgs,
   zen-browser,
-  config,
   ...
 }: {
-  # 1. Install ONLY the raw binary package
-  home.packages = [
-    zen-browser.packages.${pkgs.system}.default
+  imports = [
+    zen-browser.homeModules.beta
   ];
 
-  # 2. Tell Home Manager to symlink your live dotfiles folder to your config folder
-  # This ensures any changes you make in the GUI instantly update your git repo!
-  home.file.".config/zen".source = config.lib.file.mkOutOfStoreSymlink "/home/sonu/dotfiles/zen";
+  programs.zen-browser = {
+    enable = true;
+    profiles.default.mods = [
+      "e122b5d9-d385-4bf8-9971-e137809097d0" # No Top Sites
+      "642854b5-88b4-4c40-b256-e035532109df" # Transparent Zen
+    ];
+  };
 }
