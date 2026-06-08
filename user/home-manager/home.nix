@@ -44,6 +44,8 @@
     fastfetch
 
     devenv
+    cava
+    wl-clipboard
   ];
 
   xdg.desktopEntries.anki = {
