@@ -42,7 +42,7 @@
     "bar": {
         "autoHideDelay": 500,
         "autoShowDelay": 150,
-        "backgroundOpacity": 0.93,
+        "backgroundOpacity": 0.15,
         "barType": "simple",
         "capsuleColorKey": "none",
         "capsuleOpacity": 1,
@@ -222,7 +222,7 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "monochrome",
+        "generationMethod": "muted",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
@@ -452,7 +452,7 @@
     "nightLight": {
         "autoSchedule": false,
         "dayTemp": "6500",
-        "enabled": false,
+        "enabled": true,
         "forced": false,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
