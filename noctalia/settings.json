@@ -296,6 +296,35 @@
         "gridSnap": false,
         "gridSnapScale": false,
         "monitorWidgets": [
+            {
+                "name": "HDMI-A-1",
+                "widgets": [
+                    {
+                        "clockColor": "none",
+                        "clockStyle": "digital",
+                        "customFont": "",
+                        "format": "HH:mm\\nd MMMM yyyy",
+                        "id": "Clock",
+                        "roundedCorners": true,
+                        "scale": 0.8638451161434029,
+                        "showBackground": true,
+                        "useCustomFont": false,
+                        "x": 184,
+                        "y": 126
+                    },
+                    {
+                        "diskPath": "/",
+                        "id": "SystemStat",
+                        "layout": "bottom",
+                        "roundedCorners": true,
+                        "scale": 1.0313410349369663,
+                        "showBackground": true,
+                        "statType": "CPU",
+                        "x": 785,
+                        "y": 228
+                    }
+                ]
+            }
         ],
         "overviewEnabled": true
     },

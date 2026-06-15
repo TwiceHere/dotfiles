@@ -46,6 +46,8 @@
     devenv
     cava
     wl-clipboard
+    blanket
+    cbonsai
   ];
 
   xdg.desktopEntries.anki = {
