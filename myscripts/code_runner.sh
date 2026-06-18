@@ -8,7 +8,11 @@ extension=${filepath##*.} # Get extension
 
 case "$extension" in
 py)
-  uv run $filepath "${@:2}"
+  if [[ $filename =~ "test$" ]]; then  
+    uv run pytest $filepath "${@:2}" 
+  else
+    uv run $filepath "${@:2}"
+  fi 
   ;;
 c)
   gcc "$filepath" -o "$filename" -lm && ./"$filename" "${@:2}"

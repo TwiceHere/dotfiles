@@ -48,6 +48,10 @@
     wl-clipboard
     blanket
     cbonsai
+
+    grim
+    slurp
+    jq
   ];
 
   xdg.desktopEntries.anki = {

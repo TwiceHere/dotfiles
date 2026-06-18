@@ -237,6 +237,9 @@ hl.bind("CTRL + SUPER + H", hl.dsp.exec_cmd(ipc .. " sessionMenu toggle"))
 -- Wallpaper selector
 hl.bind("CTRL + SUPER + W", hl.dsp.exec_cmd(ipc .. " wallpaper toggle"))
 
+-- Screenshot
+hl.bind("SUPER + ALT + C", hl.dsp.exec_cmd([[grim -g "$(slurp)" ~/Pictures/$(date +%Y%m%d_%H%M%S).png]]))
+
 
 -- Window management
 hl.bind(mainMod .. " + C", hl.dsp.window.close())
