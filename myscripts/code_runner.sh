@@ -8,7 +8,7 @@ extension=${filepath##*.} # Get extension
 
 case "$extension" in
 py)
-  if [[ $filename =~ "test$" ]]; then  
+    if [[ $filename =~ (^test|test$) ]]; then  
     uv run pytest $filepath "${@:2}" 
   else
     uv run $filepath "${@:2}"
