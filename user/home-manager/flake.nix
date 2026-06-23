@@ -48,6 +48,7 @@
         ./modules/shells.nix
         ./modules/ghostty.nix
         ./modules/zen-browser.nix
+        ./modules/programs.nix
 
         #./modules/silentddm.nix
         # ./modules/fonts.nix

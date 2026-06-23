@@ -2,21 +2,9 @@
   home.username = "sonu";
   home.homeDirectory = "/home/sonu";
 
-  programs.git = {
-    enable = true;
-    settings = {
-      user = {
-        name = "TwiceHere";
-        email = "temporaryt618@gmail.com";
-      };
-    };
-  };
   # imports = [
   #   ./modules/dotlinks.nix
   # ];
-  programs.uv = {
-    enable = true;
-  };
   home.packages = with pkgs; [
     tmux
     curl
@@ -59,8 +47,6 @@
     exec = "anki";
     noDisplay = true;
   };
-
-  programs.neovim.enable = true;
 
   home.stateVersion = "25.11";
 }

@@ -1,37 +1,38 @@
-{ config, pkgs, ... }: 
-
 {
-  programs.zsh.enable = true; 
-  programs.bash.enable = true; 
+  config,
+  pkgs,
+  ...
+}: {
+  programs.zsh.enable = true;
+  programs.bash.enable = true;
 
   programs.fzf = {
-    enable = true; 
-    enableFishIntegration = true; 
-
+    enable = true;
+    enableFishIntegration = true;
   };
 
   programs.zoxide = {
-    enable = true; 
-    enableFishIntegration = true; 
+    enable = true;
+    enableFishIntegration = true;
   };
 
   programs.fish = {
-    enable = true; 
-    shellInit = '' 
-    fish_add_path ~/.local/bin 
-    ''; 
+    enable = true;
+    shellInit = ''
+      fish_add_path ~/.local/bin
+    '';
     shellAliases = {
-      ll = "eza -la"; 
-      cat = "bat"; 
-      ls = "eza"; 
+      ll = "eza -la";
+      cat = "bat";
+      ls = "eza";
 
-      tp = "cd (fd -t d . ~ | fzf)"; 
-      cdf = "cd (fd -t d . | fzf)"; 
-      ruf = "run (fd --exact-depth 1 -e py -e c -e go -e sh -e cpp -e sql | fzf)"; 
-    }; 
-    interactiveShellInit = '' 
-    set -g fish_greeting
-    ''; 
-  }; 
-
+      tp = "cd (fd -t d . ~ | fzf)";
+      cdf = "cd (fd -t d . | fzf)";
+      ruf = "run (fd --exact-depth 1 -e py -e c -e go -e sh -e cpp -e sql | fzf)";
+      nd = "nix develop -c fish";
+    };
+    interactiveShellInit = ''
+      set -g fish_greeting
+    '';
+  };
 }

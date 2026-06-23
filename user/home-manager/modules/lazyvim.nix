@@ -203,6 +203,19 @@
           },
         }
       '';
+      yazi = ''
+        return {
+          "mikavilpas/yazi.nvim",
+          event = "VeryLazy",
+          keys = {
+            {
+              "<leader>m",
+              "<cmd>Yazi<CR>",
+              desc = "Open Yazi",
+            },
+          },
+        }
+      '';
     };
   };
 }
