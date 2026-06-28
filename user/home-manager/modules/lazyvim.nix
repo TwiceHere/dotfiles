@@ -40,6 +40,8 @@
         vim.opt.signcolumn = "no"
         vim.opt.statuscolumn = ""
         vim.opt.termguicolors = true
+
+        vim.opt.autochdir = true
       '';
       keymaps = ''
         -- Move current line down (Ctrl + j)
@@ -213,6 +215,9 @@
               "<cmd>Yazi<CR>",
               desc = "Open Yazi",
             },
+          },
+          opts = {
+            change_neovim_cwd_on_close = true,
           },
         }
       '';

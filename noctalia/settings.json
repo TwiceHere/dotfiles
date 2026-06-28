@@ -684,7 +684,7 @@
             "pixelate",
             "honeycomb"
         ],
-        "useOriginalImages": true,
+        "useOriginalImages": false,
         "useSolidColor": false,
         "useWallhaven": false,
         "viewMode": "single",

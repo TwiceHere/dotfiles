@@ -20,6 +20,7 @@
       settings = {
         main = {
           capslock = "overload(control, esc)";
+          tab = "overload(meta, tab)";
         };
       };
     };
