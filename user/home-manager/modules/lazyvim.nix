@@ -87,6 +87,7 @@
         -- CTRL + ALT + I --> ESC
         -- Map ESC to exit terminal mode
         vim.keymap.set("i", "<C-M-i>", "<Esc>", { noremap = true, silent = true })
+
       '';
     };
     plugins = {

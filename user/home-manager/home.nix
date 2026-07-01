@@ -40,6 +40,7 @@
     grim
     slurp
     jq
+    tree
   ];
 
   xdg.desktopEntries.anki = {

@@ -23,12 +23,12 @@
     config.lib.file.mkOutOfStoreSymlink
     "/home/sonu/dotfiles/myscripts/code_runner.sh";
 
-  xdg.configFile."tmux" = {
-    source =
-      config.lib.file.mkOutOfStoreSymlink
-      "/home/sonu/dotfiles/tmux";
-    force = true;
-  };
+  # xdg.configFile."tmux" = {
+  #   source =
+  #     config.lib.file.mkOutOfStoreSymlink
+  #     "/home/sonu/dotfiles/tmux";
+  #   force = true;
+  # };
   xdg.configFile."fastfetch" = {
     source =
       config.lib.file.mkOutOfStoreSymlink
