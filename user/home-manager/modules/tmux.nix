@@ -8,6 +8,7 @@
     shell = "/home/sonu/.nix-profile/bin/fish";
 
     plugins = with pkgs.tmuxPlugins; [
+      yank
       sensible
       {
         plugin = catppuccin;
@@ -26,6 +27,15 @@
     ];
 
     extraConfig = ''
+      #Use vi keys in copy mode
+      setw -g mode-keys vi
+      bind-key -T copy-mode-vi v send-keys -X begin-selection
+
+      bind-key -T copy-mode-vi y send-keys -X copy-selection-and-cancel
+
+      bind-key -T copy-mode-vi C-v send-keys -X rectangle-toggle
+
+
       set -ga terminal-overrides ",tmux-256color:Tc,xterm-kitty:Tc,kitty:Tc"
       set -ga terminal-features ",kitty:RGB"
 
@@ -43,7 +53,8 @@
       bind -n C-M-k select-pane -U
       bind -n C-M-l select-pane -R
 
-      bind r source-file ~/.tmux.conf \; display-message "Tmux config reloaded!"
+      # bind r source-file ~/.tmux.conf \; display-message "Tmux config reloaded!"
+      bind r refresh-client
 
       bind Enter display-popup -d "#{pane_current_path}" -E -w 90% -h 90%
 
