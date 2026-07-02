@@ -94,6 +94,12 @@
       snacks = ''
               return {
           "snacks.nvim",
+          keys = {
+            { "<leader>ff", function() Snacks.picker.files({ cwd = vim.fn.getcwd() }) end, desc = "Find Files (cwd)" },
+            { "<leader>fF", function() Snacks.picker.files() end, desc = "Find Files (Root Dir)" },
+            { "<leader>sg", function() Snacks.picker.grep({ cwd = vim.fn.getcwd() }) end, desc = "Grep (cwd)" },
+            { "<leader>sG", function() Snacks.picker.grep() end, desc = "Grep (Root Dir)" },
+          },
           opts = {
             dashboard = {
               preset = {
