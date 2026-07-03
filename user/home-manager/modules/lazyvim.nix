@@ -206,12 +206,43 @@
             "LazyVim/LazyVim",
             opts = {
               colorscheme = function()
-                vim.cmd.colorscheme("habamax")
+                vim.cmd.colorscheme("kanagawa-dragon")
               end,
             },
           },
         }
       '';
+
+      kanagawa = ''
+        return {
+          "rebelot/kanagawa.nvim",
+          lazy = false,    -- Load immediately at startup
+          priority = 1000, -- High priority so it loads before anything else
+          -- Option A: Pass options natively using lazy.nvim's 'opts' table
+          opts = {
+            compile = false,             -- enable compiling the colorscheme
+            undercurl = true,            -- enable undercurls
+            commentStyle = { italic = true },
+            functionStyle = {},
+            keywordStyle = { italic = true },
+            statementStyle = { bold = true },
+            typeStyle = {},
+            transparent = false,         -- do not set background color
+            dimInactive = false,         -- dim inactive window `:h hl-NormalNC`
+            terminalColors = true,       -- define vim.g.terminal_color_{0,17}
+            colors = {                   -- add/modify theme and palette colors
+                palette = {},
+                theme = { wave = {}, lotus = {}, dragon = {}, all = {} },
+            },
+            theme = "wave",              -- Load "wave" theme
+            background = {               -- map the value of 'background' option to a theme
+                dark = "dragon",         -- Change this to "dragon" if you want the darker variant!
+                light = "lotus"
+            },
+          }
+        }
+      '';
+
       yazi = ''
         return {
           "mikavilpas/yazi.nvim",
