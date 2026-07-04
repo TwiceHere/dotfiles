@@ -214,7 +214,7 @@ hl.window_rule({
 --------------------
 
 local mainMod     = "SUPER"
-local terminal    = "kitty"
+local terminal    = "ghostty"
 local fileManager = "nautilus"
 local HYPRSCRIPTS = os.getenv("HOME") .. "/.config/hypr/scripts"
 -- NixOS flake: "noctalia-shell ipc call" | Manual/PikaOS: "qs -c noctalia-shell ipc call"

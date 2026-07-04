@@ -42,6 +42,7 @@
         vim.opt.termguicolors = true
 
         vim.opt.autochdir = true
+        vim.opt.cursorline = false
       '';
       keymaps = ''
         -- Move current line down (Ctrl + j)
@@ -101,6 +102,9 @@
             { "<leader>sG", function() Snacks.picker.grep() end, desc = "Grep (Root Dir)" },
           },
           opts = {
+            indent = {
+              enabled = false,
+            },
             dashboard = {
               preset = {
                 pick = function(cmd, opts)
@@ -206,7 +210,7 @@
             "LazyVim/LazyVim",
             opts = {
               colorscheme = function()
-                vim.cmd.colorscheme("kanagawa-dragon")
+                vim.cmd.colorscheme("kanagawa")
               end,
             },
           },
@@ -236,7 +240,7 @@
             },
             theme = "wave",              -- Load "wave" theme
             background = {               -- map the value of 'background' option to a theme
-                dark = "dragon",         -- Change this to "dragon" if you want the darker variant!
+                dark = "wave",         -- Change this to "dragon" if you want the darker variant!
                 light = "lotus"
             },
           }

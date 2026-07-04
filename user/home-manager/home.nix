@@ -41,6 +41,8 @@
     slurp
     jq
     tree
+
+    pyright
   ];
 
   xdg.desktopEntries.anki = {
