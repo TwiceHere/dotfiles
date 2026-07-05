@@ -292,7 +292,7 @@
         }
     },
     "desktopWidgets": {
-        "enabled": false,
+        "enabled": true,
         "gridSnap": false,
         "gridSnapScale": false,
         "monitorWidgets": [
@@ -301,27 +301,16 @@
                 "widgets": [
                     {
                         "clockColor": "none",
-                        "clockStyle": "digital",
+                        "clockStyle": "minimal",
                         "customFont": "",
                         "format": "HH:mm\\nd MMMM yyyy",
                         "id": "Clock",
                         "roundedCorners": true,
-                        "scale": 0.8638451161434029,
+                        "scale": 1.8191942545480713,
                         "showBackground": true,
                         "useCustomFont": false,
-                        "x": 184,
-                        "y": 126
-                    },
-                    {
-                        "diskPath": "/",
-                        "id": "SystemStat",
-                        "layout": "bottom",
-                        "roundedCorners": true,
-                        "scale": 1.0313410349369663,
-                        "showBackground": true,
-                        "statType": "CPU",
-                        "x": 785,
-                        "y": 228
+                        "x": 844,
+                        "y": 124
                     }
                 ]
             }

@@ -1,0 +1,14 @@
+[[language]]
+name = "nix"
+auto-format = true
+formatter = { command = "alejandra" }
+
+[[language]]
+name = "python"
+language-servers = ["pyright" , "ruff"]
+auto-format = true
+formatter = { command = "ruff", args = ["format", "-"] }
+
+[[language]]
+name = "go"
+auto-format = true

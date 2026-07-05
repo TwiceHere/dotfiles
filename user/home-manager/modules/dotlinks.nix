@@ -35,4 +35,10 @@
       "/home/sonu/dotfiles/fastfetch";
     force = true;
   };
+  xdg.configFile."helix" = {
+    source =
+      config.lib.file.mkOutOfStoreSymlink
+      "/home/sonu/dotfiles/helix";
+    force = true;
+  };
 }

@@ -10,6 +10,7 @@
       custom-shader = [
         "shaders/cursor_tail.glsl"
       ];
+      mouse-hide-while-typing = true;
       command = "${pkgs.fish}/bin/fish";
       theme = "Kanagawa Wave";
       font-family = "JetBrainsMono Nerd Font";

@@ -50,6 +50,7 @@
         ./modules/zen-browser.nix
         ./modules/programs.nix
         ./modules/tmux.nix
+        ./modules/development.nix
 
         #./modules/silentddm.nix
         # ./modules/fonts.nix

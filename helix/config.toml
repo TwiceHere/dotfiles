@@ -1,0 +1,22 @@
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+cursorline = true
+bufferline = "multiple"
+true-color = true
+
+[editor.indent-guides]
+render = true
+character = "▏"
+
+[keys.normal]
+# C-m = ":sh tmux display-popup -E -d \"$(dirname '%{buffer_name}')\" "
+C-y = [
+  ':sh rm -f /tmp/unique-file',
+  ':insert-output yazi "%{buffer_name}" --chooser-file=/tmp/unique-file',
+  ':sh printf "\x1b[?1049h\x1b[?2004h" > /dev/tty',
+  ':open %sh{cat /tmp/unique-file}',
+  ':redraw',
+]
+C-p = ':sh tmux display-popup -E -w 90%% -h 90%% -d "$(dirname %{buffer_name})" '

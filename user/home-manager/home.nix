@@ -42,7 +42,7 @@
     jq
     tree
 
-    pyright
+    helix
   ];
 
   xdg.desktopEntries.anki = {
