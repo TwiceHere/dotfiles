@@ -12,5 +12,10 @@
     #go
     gopls
     lua-language-server
+
+    #bash
+    bash-language-server
+    shellcheck
+    shfmt
   ];
 }

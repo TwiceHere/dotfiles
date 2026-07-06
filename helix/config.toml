@@ -6,6 +6,9 @@ cursorline = true
 bufferline = "multiple"
 true-color = true
 
+[editor.lsp]
+display-inlay-hints = true
+
 [editor.indent-guides]
 render = true
 character = "▏"
@@ -19,4 +22,7 @@ C-y = [
   ':open %sh{cat /tmp/unique-file}',
   ':redraw',
 ]
-C-p = ':sh tmux display-popup -E -w 90%% -h 90%% -d "$(dirname %{buffer_name})" '
+# C-p = ':sh tmux display-popup -E -w 90%% -h 90%% -d "$(dirname %{buffer_name})" '
+C-p = ':sh tmux display-popup -E -w 90%% -h 90%% -d "$(dirname "$(realpath %{buffer_name})")"'
+C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+C-j = ["extend_to_line_bounds", "delete_selection",  "paste_after"]

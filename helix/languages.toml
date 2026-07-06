@@ -1,5 +1,6 @@
 [[language]]
 name = "nix"
+language-servers = ["nixd"]
 auto-format = true
 formatter = { command = "alejandra" }
 
@@ -12,3 +13,13 @@ formatter = { command = "ruff", args = ["format", "-"] }
 [[language]]
 name = "go"
 auto-format = true
+
+[[language]]
+name = "bash"
+auto-format = true
+formatter = { command = "shfmt", args = ["-i", "2", "-ci" ]}
+language-servers = ["bash-language-server","shellcheck"]
+
+[language-server.bash-language-server]
+command = "bash-language-server"
+args = ["start"]
