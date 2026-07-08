@@ -20,6 +20,8 @@
     enable = true;
     shellInit = ''
       fish_add_path ~/.local/bin
+      set -gx EDITOR hx
+      set -gx VISUAL hx
     '';
     shellAliases = {
       ll = "eza -la";

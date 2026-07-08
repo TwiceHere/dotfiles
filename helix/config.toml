@@ -14,15 +14,23 @@ render = true
 character = "▏"
 
 [keys.normal]
-# C-m = ":sh tmux display-popup -E -d \"$(dirname '%{buffer_name}')\" "
-C-y = [
-  ':sh rm -f /tmp/unique-file',
-  ':insert-output yazi "%{buffer_name}" --chooser-file=/tmp/unique-file',
-  ':sh printf "\x1b[?1049h\x1b[?2004h" > /dev/tty',
-  ':open %sh{cat /tmp/unique-file}',
-  ':redraw',
-]
-# C-p = ':sh tmux display-popup -E -w 90%% -h 90%% -d "$(dirname %{buffer_name})" '
-C-p = ':sh tmux display-popup -E -w 90%% -h 90%% -d "$(dirname "$(realpath %{buffer_name})")"'
+C-p = ':sh tmux display-popup -E -w 90%% -h 90%% -d "$(dirname "$(realpath %{buffer_name})")" '
 C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 C-j = ["extend_to_line_bounds", "delete_selection",  "paste_after"]
+C-e = [
+  ':sh rm -f /tmp/hx-yazi',
+  ':sh tmux display-popup -E -w 90%% -h 90%% -d "$(dirname "$(realpath %{buffer_name})")" "yazi \"%{buffer_name}\" --chooser-file=/tmp/hx-yazi"',
+  ':open %sh{cat /tmp/hx-yazi}',
+]
+# C-e = [
+#   ':sh rm -f /tmp/hx-yazi',
+#   ':sh tmux display-popup -E -w 90%% -h 90%% -d "$(dirname "$(realpath %{buffer_name})")" "yazi --chooser-file=/tmp/hx-yazi"',
+#   ':open %sh{cat /tmp/hx-yazi}',
+# ]
+[keys.normal.space]
+F = "file_picker_in_current_buffer_directory"
+f = "file_picker_in_current_directory"
+
+[keys.select.space]
+F = "file_picker_in_current_buffer_directory"
+f = "file_picker_in_current_directory"

@@ -2,9 +2,6 @@
   home.username = "sonu";
   home.homeDirectory = "/home/sonu";
 
-  # imports = [
-  #   ./modules/dotlinks.nix
-  # ];
   home.packages = with pkgs; [
     tmux
     curl
@@ -43,6 +40,7 @@
     tree
 
     helix
+    zellij
   ];
 
   xdg.desktopEntries.anki = {

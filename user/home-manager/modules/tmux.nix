@@ -28,18 +28,17 @@
 
     extraConfig = ''
       #Use vi keys in copy mode
+
       setw -g mode-keys vi
       bind-key -T copy-mode-vi v send-keys -X begin-selection
-
       bind-key -T copy-mode-vi y send-keys -X copy-selection-and-cancel
-
       bind-key -T copy-mode-vi C-v send-keys -X rectangle-toggle
 
 
-      set -ga terminal-overrides ",tmux-256color:Tc,xterm-kitty:Tc,kitty:Tc"
-      set -ga terminal-features ",kitty:RGB"
+      # set -ga terminal-overrides ",tmux-256color:Tc,xterm-kitty:Tc,kitty:Tc"
+      # set -ga terminal-features ",kitty:RGB"
 
-      set -g allow-passthrough on
+      set -g allow-passthrough all
 
       set -g window-style 'bg=default'
       set -g window-active-style 'bg=default'
@@ -66,7 +65,7 @@
       set -g status-right-length 100
       set -g status-right "#{E:@catppuccin_status_application}#{E:@catppuccin_status_session}"
 
-      run-shell "tmux set -g status-style bg=default"
+      # run-shell "tmux set -g status-style bg=default"
     '';
   };
 }
