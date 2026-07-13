@@ -1,10 +1,12 @@
-theme = "catppuccin_mocha"
+theme = "catppuccin_macchiato"
 
 [editor]
 line-number = "relative"
 cursorline = true
 bufferline = "multiple"
 true-color = true
+completion-timeout = 50
+
 
 [editor.lsp]
 display-inlay-hints = true
@@ -30,7 +32,14 @@ C-e = [
 [keys.normal.space]
 F = "file_picker_in_current_buffer_directory"
 f = "file_picker_in_current_directory"
+u = "switch_case"
+l = "switch_to_lowercase"
+U = "switch_to_uppercase"
+
 
 [keys.select.space]
 F = "file_picker_in_current_buffer_directory"
 f = "file_picker_in_current_directory"
+u = "switch_case"
+l = "switch_to_lowercase"
+U = "switch_to_uppercase"

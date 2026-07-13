@@ -21,6 +21,7 @@
         main = {
           capslock = "overload(control, esc)";
           tab = "overload(meta, tab)";
+          rightalt = "capslock";
         };
       };
     };

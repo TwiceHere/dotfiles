@@ -25,7 +25,7 @@ hl.on("hyprland.start", function()
   hl.exec_cmd("wl-paste --watch cliphist store")
   hl.exec_cmd("nm-applet --indicator")
   -- NixOS flake: "noctalia-shell" | Manual/PikaOS: "qs -c noctalia-shell"
-  hl.exec_cmd("noctalia-shell")
+  hl.exec_cmd("noctalia")
 end)
 
 --------------------
@@ -218,24 +218,25 @@ local terminal    = "ghostty"
 local fileManager = "nautilus"
 local HYPRSCRIPTS = os.getenv("HOME") .. "/.config/hypr/scripts"
 -- NixOS flake: "noctalia-shell ipc call" | Manual/PikaOS: "qs -c noctalia-shell ipc call"
-local ipc         = "noctalia-shell ipc call"
+local ipc         = "noctalia msg"
 
 -- Applications
 hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
-hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("flatpak run app.zen_browser.zen"))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 
 -- Noctalia panels
-hl.bind(mainMod .. " + CTRL + RETURN", hl.dsp.exec_cmd(ipc .. " launcher toggle"))
-hl.bind(mainMod .. " + CTRL + S", hl.dsp.exec_cmd(ipc .. " controlCenter toggle"))
-hl.bind(mainMod .. " + CTRL + comma", hl.dsp.exec_cmd(ipc .. " settings toggle"))
-hl.bind(mainMod .. " + CTRL + H", hl.dsp.exec_cmd(ipc .. " session toggle"))
-hl.bind("CTRL + SUPER + B", hl.dsp.exec_cmd(ipc .. " bar toggle"))
+hl.bind(mainMod .. " + CTRL + RETURN", hl.dsp.exec_cmd(ipc .. " panel-toggle launcher "))
+hl.bind(mainMod .. " + CTRL + S", hl.dsp.exec_cmd(ipc .. " panel-toggle control-center"))
+hl.bind(mainMod .. " + CTRL + comma", hl.dsp.exec_cmd(ipc .. " settings-toggle"))
+-- hl.bind(mainMod .. " + CTRL + H", hl.dsp.exec_cmd(ipc .. " session lock "))
+hl.bind("CTRL + SUPER + B", hl.dsp.exec_cmd(ipc .. " bar-toggle"))
 -- Logout menu
-hl.bind("CTRL + SUPER + H", hl.dsp.exec_cmd(ipc .. " sessionMenu toggle"))
+hl.bind("CTRL + SUPER + H", hl.dsp.exec_cmd(ipc .. " panel-toggle session"))
 
 -- Wallpaper selector
-hl.bind("CTRL + SUPER + W", hl.dsp.exec_cmd(ipc .. " wallpaper toggle"))
+hl.bind("CTRL + SUPER + W", hl.dsp.exec_cmd(ipc .. " panel-toggle wallpaper"))
+-- Clipboard toggle
+hl.bind(mainMod .. " + V", hl.dsp.exec_cmd(ipc .. " panel-toggle clipboard"))
 
 -- Screenshot
 hl.bind("SUPER + ALT + C", hl.dsp.exec_cmd([[grim -g "$(slurp)" ~/Pictures/$(date +%Y%m%d_%H%M%S).png]]))

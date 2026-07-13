@@ -292,7 +292,7 @@
         }
     },
     "desktopWidgets": {
-        "enabled": true,
+        "enabled": false,
         "gridSnap": false,
         "gridSnapScale": false,
         "monitorWidgets": [

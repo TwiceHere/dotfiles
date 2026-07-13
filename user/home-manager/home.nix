@@ -40,7 +40,9 @@
     tree
 
     helix
-    zellij
+    ascii-image-converter
+    chafa
+    duckdb
   ];
 
   xdg.desktopEntries.anki = {

@@ -6,7 +6,8 @@
     statix
 
     #python
-    pyright
+    basedpyright
+    ty
     ruff
 
     #go
@@ -17,5 +18,7 @@
     bash-language-server
     shellcheck
     shfmt
+
+    hx-lsp
   ];
 }
