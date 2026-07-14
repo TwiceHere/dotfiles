@@ -1,4 +1,4 @@
-theme = "catppuccin_macchiato"
+theme = "catppuccin_mocha"
 
 [editor]
 line-number = "relative"
@@ -19,7 +19,7 @@ character = "▏"
 C-p = ':sh tmux display-popup -E -w 90%% -h 90%% -d "$(dirname "$(realpath %{buffer_name})")" '
 C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 C-j = ["extend_to_line_bounds", "delete_selection",  "paste_after"]
-C-r = [
+C-e = [
   ':pipe-to ~/dotfiles/myscripts/yazi_wrapper.sh %{buffer_name}',
   ':sh printf "\x1b[?1049h\x1b[?2004h" > /dev/tty',
   ':open %sh{cat /tmp/hx-yazi}',

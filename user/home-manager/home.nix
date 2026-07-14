@@ -43,6 +43,8 @@
     ascii-image-converter
     chafa
     duckdb
+    lazysql
+    glow
   ];
 
   xdg.desktopEntries.anki = {

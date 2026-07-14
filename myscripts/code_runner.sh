@@ -1,4 +1,4 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
 
 set +e
 
@@ -7,33 +7,33 @@ filename=${filepath%.*}   # Remove extension
 extension=${filepath##*.} # Get extension
 
 case "$extension" in
-py)
-    if [[ $filename =~ (^test|test$) ]]; then  
-    uv run pytest $filepath "${@:2}" 
-  else
-    uv run $filepath "${@:2}"
-  fi 
-  ;;
-c)
-  gcc "$filepath" -o "$filename" -lm && ./"$filename" "${@:2}"
-  rm $filename
-  ;;
-cpp)
-  g++ "$filepath" -o "$filename" && ./"$filename" "${@:2}"
-  rm $filename
-  ;;
-sh)
-  bash $filepath "${@:2}"
-  ;;
-go)
-  go run $filepath
-  ;;
-sql)
-  mysql --table --verbose <"$filepath"
-  ;;
-*)
-  echo "Unknown file type."
-  ;;
+  py)
+    if [[ $filename =~ (^test|test$) ]]; then
+      uv run pytest $filepath "${@:2}"
+    else
+      uv run $filepath "${@:2}"
+    fi
+    ;;
+  c)
+    gcc "$filepath" -o "$filename" -lm && ./"$filename" "${@:2}"
+    rm $filename
+    ;;
+  cpp)
+    g++ "$filepath" -o "$filename" && ./"$filename" "${@:2}"
+    rm $filename
+    ;;
+  sh)
+    bash $filepath "${@:2}"
+    ;;
+  go)
+    go run $filepath
+    ;;
+  sql)
+    psql -U wade playground -f $filepath
+    ;;
+  *)
+    echo "Unknown file type."
+    ;;
 esac
 
 # Explanation
