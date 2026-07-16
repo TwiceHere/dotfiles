@@ -10,6 +10,10 @@ language-servers = ["basedpyright" , "ruff"]
 auto-format = true
 formatter = { command = "ruff", args = ["format", "-"] }
 
+[[language]]
+name = "go"
+language-servers = ["gopls","golangci-lint"]
+formatter = { command = "goimports" }
 
 [[language]]
 name = "go"

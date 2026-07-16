@@ -41,9 +41,7 @@
 
     helix
     ascii-image-converter
-    chafa
     duckdb
-    lazysql
     glow
   ];
 

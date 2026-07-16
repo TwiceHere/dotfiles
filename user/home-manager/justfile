@@ -1,0 +1,8 @@
+host := "knull" 
+
+update:
+    nix flake update
+upgrade:
+    home-manager switch --flake .#{{host}}
+upgrade-backup:
+    home-manager switch --flake .#{{host}} -b backup

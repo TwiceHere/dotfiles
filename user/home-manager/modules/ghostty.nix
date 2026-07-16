@@ -17,6 +17,8 @@
       font-size = 13;
       background-opacity = 0.90;
       background-blur = true;
+      working-directory = "home";
+      window-inherit-working-directory = false;
     };
   };
 }

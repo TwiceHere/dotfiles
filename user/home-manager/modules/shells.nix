@@ -30,7 +30,7 @@
 
       tp = "z (fd -t d . ~ | fzf)";
       cdf = "z (fd -t d . | fzf)";
-      ruf = "run (fd --exact-depth 1 -e py -e c -e go -e sh -e cpp -e sql -e md | fzf)";
+      ruf = "run (fd --exact-depth 1 -e py -e c -e go -e sh -e cpp -e sql | fzf)";
       nd = "nix develop -c fish";
     };
     interactiveShellInit = ''

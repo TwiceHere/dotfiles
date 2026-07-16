@@ -11,7 +11,12 @@
     ruff
 
     #go
+    go
     gopls
+    golangci-lint
+    gotools
+
+    #lua
     lua-language-server
 
     #bash
@@ -20,5 +25,9 @@
     shfmt
 
     hx-lsp
+    #just
+    just
+    just-lsp
+    just-formatter
   ];
 }
