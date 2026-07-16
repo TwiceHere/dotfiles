@@ -4,3 +4,5 @@ update:
     nix flake update
 upgrade:
     sudo nixos-rebuild switch --flake .#{{host}}
+clean:
+    sudo nix-collect-garbage -d
