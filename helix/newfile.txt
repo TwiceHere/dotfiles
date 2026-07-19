@@ -1,1 +1,0 @@
-/home/sonu/dotfiles/helix/languages.toml

@@ -1,0 +1,16 @@
+{
+  "datetime snippet": {
+    "prefix": "datetime",
+    "body": [
+      "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DAY $CURRENT_HOUR:$CURRENT_MINUTE$0"
+    ], 
+    "description": "inserts date and time"
+  }, 
+  "date snippet": {
+    "prefix": "date",
+    "body": [
+      "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DAY"
+    ], 
+    "description": "inserts date"
+  }
+}

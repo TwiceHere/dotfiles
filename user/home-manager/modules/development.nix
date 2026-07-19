@@ -24,7 +24,17 @@
     shellcheck
     shfmt
 
+    #rust
+    rustc
+    cargo
+    rust-analyzer
+    clippy
+    rustfmt
+
+    # helix
     hx-lsp
+    simple-completion-language-server
+
     #just
     just
     just-lsp

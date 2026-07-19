@@ -51,6 +51,7 @@
         ./modules/programs.nix
         ./modules/tmux.nix
         ./modules/development.nix
+        ./modules/nushell.nix
 
         #./modules/silentddm.nix
         # ./modules/fonts.nix

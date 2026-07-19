@@ -2,7 +2,7 @@ host := "knull"
 
 update:
     nix flake update
-upgrade:
+switch:
     sudo nixos-rebuild switch --flake .#{{host}}
 clean:
     sudo nix-collect-garbage -d

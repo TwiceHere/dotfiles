@@ -9,7 +9,8 @@ completion-timeout = 50
 
 
 [editor.lsp]
-display-inlay-hints = true
+display-inlay-hints = false
+snippets = true
 
 [editor.indent-guides]
 render = true

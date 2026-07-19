@@ -1,29 +1,36 @@
+[language-server.hx-lsp]
+command = "hx-lsp"
+
 [[language]]
 name = "nix"
-language-servers = ["nixd"]
+language-servers = ["nixd","hx-lsp"]
 auto-format = true
 formatter = { command = "alejandra" }
 
 [[language]]
 name = "python"
-language-servers = ["basedpyright" , "ruff"]
+language-servers = ["basedpyright" , "ruff","hx-lsp"]
 auto-format = true
 formatter = { command = "ruff", args = ["format", "-"] }
 
 [[language]]
-name = "go"
-language-servers = ["gopls","golangci-lint"]
-formatter = { command = "goimports" }
+name = "rust"
+language-servers = ["rust-analyzer","hx-lsp"]
+formatter = { command = "rustfmt" }
+[language-server.rust-analyzer.config]
+check.command = "clippy"
 
 [[language]]
 name = "go"
+language-servers = ["gopls","golangci-lint","hx-lsp"]
+formatter = { command = "goimports" }
 auto-format = true
 
 [[language]]
 name = "bash"
 auto-format = true
 formatter = { command = "shfmt", args = ["-i", "2", "-ci" ]}
-language-servers = ["bash-language-server","shellcheck"]
+language-servers = ["bash-language-server","shellcheck","hx-lsp"]
 
 [language-server.bash-language-server]
 command = "bash-language-server"

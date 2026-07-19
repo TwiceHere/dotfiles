@@ -2,9 +2,9 @@ host := "knull"
 
 update:
     nix flake update
-upgrade:
+switch:
     home-manager switch --flake .#{{host}}
-upgrade-backup:
+switch-backup:
     home-manager switch --flake .#{{host}} -b backup
 clean:
     nix-collect-garbage -d
