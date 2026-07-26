@@ -39,5 +39,8 @@
     just
     just-lsp
     just-formatter
+
+    #spell/grammer checker
+    harper
   ];
 }

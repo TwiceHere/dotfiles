@@ -17,7 +17,7 @@
         owner = "clnhub";
         repo = "rtl8192eu-linux";
         rev = "5.11.2.3";
-        hash = "sha256-9yKYavbk3O8JD3FznI/dLT99FEKrtKzQOHm/je4hrlU=";
+        hash = "sha256-CTMymsHdcCHSWeviXwRoLmxJx564/+yLc7T1a7NiAF8=";
       };
 
       nativeBuildInputs = kernel.moduleBuildDependencies;
