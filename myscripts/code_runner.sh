@@ -31,6 +31,9 @@ case "$extension" in
   sql)
     psql -U wade playground -f $filepath
     ;;
+  rs)
+    cargo run -q $filepath
+    ;;
   *)
     echo "Unknown file type."
     ;;

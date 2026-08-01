@@ -40,7 +40,10 @@
     just-lsp
     just-formatter
 
-    #spell/grammer checker
+    #spell/grammar checker
     harper
+
+    #android
+    # android-tools
   ];
 }

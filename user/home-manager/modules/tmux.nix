@@ -52,6 +52,11 @@
       bind -n C-M-k select-pane -U
       bind -n C-M-l select-pane -R
 
+      #open windows/panes in cwd
+      bind c new-window -c "#{pane_current_path}"
+      bind '"' split-window -v -c "#{pane_current_path}"
+      bind % split-window -h -c "#{pane_current_path}"
+
       # bind r source-file ~/.tmux.conf \; display-message "Tmux config reloaded!"
       bind r refresh-client
 
