@@ -1,16 +1,14 @@
-{ pkgs, ...}: 
-
-{
+{pkgs, ...}: {
   environment.systemPackages = with pkgs; [
     python3
-    gcc 
-    vim 
+    gcc
+    vim
     wget
-    git 
-    curl 
+    git
+    curl
     home-manager
     clang
     gnumake
-  ]; 
+    hyprpolkitagent
+  ];
 }
-

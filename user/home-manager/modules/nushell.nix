@@ -30,9 +30,9 @@
          }
         }
         $env.PATH = ($env.PATH |
-        split row (char esep) |
-        prepend /home/myuser/.apps |
-        append /usr/bin/env
+        $env.PATH
+        | split row (char esep)
+        | prepend $"($env.HOME)/dotfiles/myscripts"
         )
       '';
       shellAliases = {

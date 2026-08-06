@@ -1,32 +1,32 @@
 [language-server.hx-lsp]
 command = "hx-lsp"
 
-[language-server.harper]
+[language-server.harper-ls]
 command = "harper-ls"
 args = ["--stdio"]
 
 [[language]]
 name = "nix"
-language-servers = ["nixd","hx-lsp","harper"]
+language-servers = ["nixd","hx-lsp","harper-ls"]
 auto-format = true
 formatter = { command = "alejandra" }
 
 [[language]]
 name = "python"
-language-servers = ["basedpyright" , "ruff","hx-lsp","harper"]
+language-servers = ["basedpyright" , "ruff","hx-lsp","harper-ls"]
 auto-format = true
 formatter = { command = "ruff", args = ["format", "-"] }
 
 [[language]]
 name = "rust"
-language-servers = ["rust-analyzer","hx-lsp","harper"]
+language-servers = ["rust-analyzer","hx-lsp","harper-ls"]
 formatter = { command = "rustfmt" }
 [language-server.rust-analyzer.config]
 check.command = "clippy"
 
 [[language]]
 name = "go"
-language-servers = ["gopls","golangci-lint","hx-lsp","harper"]
+language-servers = ["gopls","golangci-lint","hx-lsp","harper-ls"]
 formatter = { command = "goimports" }
 auto-format = true
 
@@ -34,7 +34,7 @@ auto-format = true
 name = "bash"
 auto-format = true
 formatter = { command = "shfmt", args = ["-i", "2", "-ci" ]}
-language-servers = ["bash-language-server","shellcheck","hx-lsp","harper"]
+language-servers = ["bash-language-server","shellcheck","hx-lsp","harper-ls"]
 
 [language-server.bash-language-server]
 command = "bash-language-server"
@@ -42,4 +42,4 @@ args = ["start"]
 
 [[language]]
 name = "markdown"
-language-servers = ["hx-lsp","harper"]
+language-servers = ["hx-lsp","harper-ls"]

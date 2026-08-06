@@ -44,6 +44,6 @@
     harper
 
     #android
-    # android-tools
+    android-tools
   ];
 }

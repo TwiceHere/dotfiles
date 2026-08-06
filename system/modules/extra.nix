@@ -26,6 +26,7 @@
       };
     };
   };
+  security.polkit.enable = true;
 
   # services.kanata = {
   #   enable = true;
