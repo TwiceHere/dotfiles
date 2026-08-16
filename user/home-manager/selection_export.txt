@@ -1,0 +1,8 @@
+com.vivo.appstore
+com.vivo.browser
+com.vivo.easyshare
+com.vivo.globalsearch
+com.vivo.magazine
+com.vivo.pushservice
+com.vivo.weather
+com.vivo.weather.provider

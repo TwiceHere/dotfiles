@@ -45,5 +45,6 @@
 
     #android
     android-tools
+    universal-android-debloater
   ];
 }
