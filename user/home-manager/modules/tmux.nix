@@ -27,6 +27,8 @@
     ];
 
     extraConfig = ''
+      #remove escape delay
+      set -sg escape-time 0
       #Use vi keys in copy mode
 
       setw -g mode-keys vi

@@ -20,6 +20,7 @@
     enable = true;
     shellInit = ''
       fish_add_path ~/.local/bin
+      fish_add_path ~/dotfiles/myscripts
       set -gx EDITOR hx
       set -gx VISUAL hx
     '';
@@ -30,7 +31,7 @@
 
       tp = "z (fd -t d . ~ | fzf)";
       cdf = "z (fd -t d . | fzf)";
-      ruf = "run (fd --exact-depth 1 -e py -e c -e go -e sh -e cpp -e sql -e rs | fzf)";
+      ruf = "run -f";
       nd = "nix develop -c fish";
     };
     interactiveShellInit = ''
