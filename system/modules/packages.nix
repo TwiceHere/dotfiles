@@ -9,6 +9,6 @@
     home-manager
     clang
     gnumake
-    hyprpolkitagent
+    # hyprpolkitagent
   ];
 }

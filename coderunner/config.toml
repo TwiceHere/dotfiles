@@ -1,0 +1,15 @@
+[languages.py]
+command = "uv run filepath"
+compiled = false
+
+[languages.sh]
+command = "bash filepath"
+compiled = false
+
+[languages.c]
+command = "gcc filepath -o filename"
+compiled = true
+
+[languages.go]
+command = "go build ."
+compiled = true

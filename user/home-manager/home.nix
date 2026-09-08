@@ -43,6 +43,7 @@
     ascii-image-converter
     duckdb
     glow
+    blanket
   ];
 
   xdg.desktopEntries.anki = {
