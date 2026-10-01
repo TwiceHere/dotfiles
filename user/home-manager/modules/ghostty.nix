@@ -15,7 +15,7 @@
       theme = "noctalia"; # Kanso Zen
       font-family = "JetBrainsMono Nerd Font";
       font-size = 13;
-      background-opacity = 0.90;
+      background-opacity = 0.50;
       background-blur = true;
       working-directory = "home";
       window-inherit-working-directory = false;

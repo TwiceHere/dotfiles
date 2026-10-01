@@ -44,6 +44,7 @@
     duckdb
     glow
     blanket
+    proton-vpn
   ];
 
   xdg.desktopEntries.anki = {

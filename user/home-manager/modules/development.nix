@@ -46,5 +46,10 @@
     #android
     android-tools
     universal-android-debloater
+
+    #java
+    jdk
+    jdt-language-server
+    google-java-format
   ];
 }

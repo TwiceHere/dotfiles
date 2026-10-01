@@ -43,3 +43,11 @@ args = ["start"]
 [[language]]
 name = "markdown"
 language-servers = ["hx-lsp","harper-ls"]
+
+[language-server.jdtls]
+command = "jdtls"
+
+[[language]]
+name = "java"
+language-servers = ["jdtls"]
+formatter = { command = "google-java-format", args = ["-"]}

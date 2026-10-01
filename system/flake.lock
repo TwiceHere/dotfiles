@@ -2,11 +2,11 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1789149629,
-        "narHash": "sha256-H6GwaZzZf+4npqv0tph94w9tZddSjFjmQrVsW0z78uk=",
+        "lastModified": 1790578696,
+        "narHash": "sha256-ZoxIApko70jCdbH3l20HWXOBaT2HZd87orzd2yJ9dVE=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "eaad089433ca2bb662274377d33df3d0e51ef28b",
+        "rev": "7a0f122f5090cf4c2ade2a13a0e229d4e19ba71f",
         "type": "github"
       },
       "original": {
@@ -18,11 +18,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1789149629,
-        "narHash": "sha256-eQUZVehWLDBbpBR2rq6DnuRee1ULT6Y675RhsYDSjYI=",
-        "rev": "eaad089433ca2bb662274377d33df3d0e51ef28b",
+        "lastModified": 1790323409,
+        "narHash": "sha256-m4DGo58Fza5ImOegtWOeE18nhpSO1IGzsVA6Lpsb4zw=",
+        "rev": "e94cb152ed51bd6e24eb4a41f1460252beb52cd2",
         "type": "tarball",
-        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1072397.eaad089433ca/nixexprs.tar.zst"
+        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1079315.e94cb152ed51/nixexprs.tar.zst"
       },
       "original": {
         "type": "tarball",
@@ -34,11 +34,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1789344529,
-        "narHash": "sha256-vZ0K+5Par33Omh1z1iRAXEvS4m0/jIb6S6aflJjyUVE=",
+        "lastModified": 1790718664,
+        "narHash": "sha256-LWil4xgSyqIFZ9sydvL1glFOoiqAOknWUwykC4sqxuY=",
         "owner": "noctalia-dev",
         "repo": "noctalia",
-        "rev": "5d66d118861fedcbe039d9d04d06904cced40613",
+        "rev": "fd9759c892fe5034b682c185695f1bee121cd5b3",
         "type": "github"
       },
       "original": {
@@ -62,11 +62,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1785353884,
-        "narHash": "sha256-UYAP/sPJxG95tN6a4VNTcskY54ud2sIQKrTzTLioGv0=",
+        "lastModified": 1789658369,
+        "narHash": "sha256-5OWSB4OSVl9P60B1X9siRoNIIkhzEzWtiAna//YmFFI=",
         "owner": "uiriansan",
         "repo": "SilentSDDM",
-        "rev": "0dc4386ef570659537b480f4b226b3b6f2699948",
+        "rev": "73380d331fe0f8b8a3b17991bb917a0d438a4d34",
         "type": "github"
       },
       "original": {

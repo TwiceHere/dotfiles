@@ -41,4 +41,11 @@
       "/home/sonu/dotfiles/helix";
     force = true;
   };
+
+  xdg.configFile."coderunner" = {
+    source =
+      config.lib.file.mkOutOfStoreSymlink
+      "/home/sonu/dotfiles/coderunner";
+    force = true;
+  };
 }
