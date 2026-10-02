@@ -9,6 +9,7 @@
     basedpyright
     ty
     ruff
+    pyrefly
 
     #go
     go

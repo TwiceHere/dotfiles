@@ -11,6 +11,10 @@ language-servers = ["nixd","hx-lsp","harper-ls"]
 auto-format = true
 formatter = { command = "alejandra" }
 
+[language-server.pyrefly]
+command = "pyrefly"
+args = ["lsp"]
+
 [[language]]
 name = "python"
 language-servers = ["basedpyright" , "ruff","hx-lsp","harper-ls"]
