@@ -46,7 +46,7 @@
         ./modules/starship.nix
         ./modules/dotlinks.nix
         ./modules/shells.nix
-        ./modules/ghostty.nix
+        # ./modules/ghostty.nix
         ./modules/zen-browser.nix
         ./modules/programs.nix
         ./modules/tmux.nix

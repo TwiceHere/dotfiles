@@ -48,4 +48,10 @@
       "/home/sonu/dotfiles/coderunner";
     force = true;
   };
+  xdg.configFile."ghostty" = {
+    source =
+      config.lib.file.mkOutOfStoreSymlink
+      "/home/sonu/dotfiles/ghostty";
+    force = true;
+  };
 }

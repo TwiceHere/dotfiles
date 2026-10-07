@@ -1,0 +1,11 @@
+background-blur = false
+background-opacity = 1
+command = fish
+font-family = JetBrainsMono Nerd Font
+font-size = 13
+mouse-hide-while-typing = true
+theme = Catppuccin Mocha
+custom-shader = shaders/cursor_tail.glsl
+custom-shader-animation = true
+window-inherit-working-directory = false
+working-directory = ~

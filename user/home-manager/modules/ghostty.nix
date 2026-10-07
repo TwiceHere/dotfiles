@@ -15,8 +15,8 @@
       theme = "Catppuccin Mocha"; # Kanso Zen
       font-family = "JetBrainsMono Nerd Font";
       font-size = 13;
-      background-opacity = 0.90;
-      background-blur = true;
+      background-opacity = 1;
+      background-blur = false;
       working-directory = "home";
       window-inherit-working-directory = false;
     };

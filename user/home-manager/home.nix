@@ -8,6 +8,7 @@
     ripgrep
     fd
     kitty
+    ghostty
     alacritty
     nitch
     nodejs
@@ -46,6 +47,7 @@
     blanket
     proton-vpn
     poppler-utils
+    ghgrab
   ];
 
   xdg.desktopEntries.anki = {
