@@ -45,6 +45,7 @@
     glow
     blanket
     proton-vpn
+    poppler-utils
   ];
 
   xdg.desktopEntries.anki = {

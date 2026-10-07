@@ -232,7 +232,7 @@ hl.bind(mainMod .. " + CTRL + comma", hl.dsp.exec_cmd(ipc .. " settings-toggle")
 -- hl.bind(mainMod .. " + CTRL + H", hl.dsp.exec_cmd(ipc .. " session lock "))
 hl.bind("CTRL + SUPER + B", hl.dsp.exec_cmd(ipc .. " bar-toggle"))
 -- Logout menu
--- hl.bind("CTRL + SUPER + H", hl.dsp.exec_cmd(ipc .. " panel-toggle session"))
+hl.bind("CTRL + SUPER + H", hl.dsp.exec_cmd(ipc .. " panel-toggle session"))
 --lock the screen 
 hl.bind("CTRL + SUPER + L", hl.dsp.exec_cmd(ipc .. " session lock "))
 -- noctalia msg session lock

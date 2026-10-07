@@ -15,12 +15,12 @@ case "$extension" in
     fi
     ;;
   c)
-    gcc "$filepath" -o "$filename" -lm && ./"$filename" "${@:2}" && rm $filename
-    # rm $filename
+    gcc "$filepath" -o "$filename" -lm && ./"$filename" "${@:2}"
+    rm -f $filename
     ;;
   cpp)
-    g++ "$filepath" -o "$filename" && ./"$filename" "${@:2}" && rm $filename
-    # rm $filename
+    g++ "$filepath" -o "$filename" && ./"$filename" "${@:2}"
+    rm -f $filename
     ;;
   sh)
     bash $filepath "${@:2}"
@@ -35,7 +35,8 @@ case "$extension" in
     cargo run -q $filepath
     ;;
   java)
-    javac "$filepath" && java "$filename" "${@:2}" && rm ${filename}".class"
+    javac "$filepath" && java "$filename" "${@:2}"
+    rm -f ${filename}".class"
     ;;
 
   *)

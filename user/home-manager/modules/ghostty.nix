@@ -12,10 +12,10 @@
       ];
       mouse-hide-while-typing = true;
       command = "${pkgs.fish}/bin/fish";
-      theme = "noctalia"; # Kanso Zen
+      theme = "Catppuccin Mocha"; # Kanso Zen
       font-family = "JetBrainsMono Nerd Font";
       font-size = 13;
-      background-opacity = 0.50;
+      background-opacity = 0.90;
       background-blur = true;
       working-directory = "home";
       window-inherit-working-directory = false;
