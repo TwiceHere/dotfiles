@@ -39,6 +39,9 @@ case "$extension" in
     rm -f ${filename}".class"
     ;;
 
+  md)
+    glow "$filepath"
+    ;;
   *)
     echo "Unknown file type."
     ;;

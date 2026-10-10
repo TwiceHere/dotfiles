@@ -31,7 +31,7 @@
 
       tp = "z (fd -t d . ~ | fzf)";
       cdf = "z (fd -t d . | fzf)";
-      ruf = "run (fd -d 1 -e py -e c -e sh -e go -e rs -e sql -e java | fzf)";
+      ruf = "run (fd -d 1 -e py -e c -e sh -e go -e rs -e sql -e java -e md | fzf)";
       nd = "nix develop -c fish";
     };
     interactiveShellInit = ''

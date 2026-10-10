@@ -48,6 +48,7 @@
     proton-vpn
     poppler-utils
     ghgrab
+    television
   ];
 
   xdg.desktopEntries.anki = {

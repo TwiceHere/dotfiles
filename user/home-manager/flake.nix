@@ -18,6 +18,8 @@
       url = "github:uiriansan/SilentSDDM";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    helium-flake.url = "github:oxcl/nix-flake-helium-browser";
+    helium-flake.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {
@@ -27,6 +29,7 @@
     silentSDDM,
     lazyvim,
     zen-browser,
+    helium-flake,
     ...
   }: let
     system = "x86_64-linux";
@@ -37,6 +40,7 @@
       extraSpecialArgs = {
         inherit silentSDDM;
         inherit zen-browser;
+        inherit helium-flake;
       };
       modules = [
         ./home.nix
@@ -52,6 +56,7 @@
         ./modules/tmux.nix
         ./modules/development.nix
         ./modules/nushell.nix
+        ./modules/helium.nix
 
         #./modules/silentddm.nix
         # ./modules/fonts.nix
