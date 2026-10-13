@@ -226,7 +226,7 @@ hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 
 -- Noctalia panels
-hl.bind(mainMod .. " + CTRL + RETURN", hl.dsp.exec_cmd(ipc .. " panel-toggle launcher "))
+hl.bind(mainMod .. " + CTRL + RETURN", hl.dsp.exec_cmd("fuzzel"))
 hl.bind(mainMod .. " + CTRL + S", hl.dsp.exec_cmd(ipc .. " panel-toggle control-center"))
 hl.bind(mainMod .. " + CTRL + comma", hl.dsp.exec_cmd(ipc .. " settings-toggle"))
 -- hl.bind(mainMod .. " + CTRL + H", hl.dsp.exec_cmd(ipc .. " session lock "))

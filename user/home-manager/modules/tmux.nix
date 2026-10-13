@@ -36,6 +36,8 @@
       bind-key -T copy-mode-vi y send-keys -X copy-selection-and-cancel
       bind-key -T copy-mode-vi C-v send-keys -X rectangle-toggle
 
+      #prevent tmux from closing the session
+      bind-key -n C-d detach-client
 
       # set -ga terminal-overrides ",tmux-256color:Tc,xterm-kitty:Tc,kitty:Tc"
       # set -ga terminal-features ",kitty:RGB"

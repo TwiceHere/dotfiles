@@ -36,7 +36,7 @@ case "$extension" in
     ;;
   java)
     javac "$filepath" && java "$filename" "${@:2}"
-    rm -f ${filename}".class"
+    fd -d 1 -e class -x rm {}
     ;;
 
   md)

@@ -54,4 +54,10 @@
       "/home/sonu/dotfiles/ghostty";
     force = true;
   };
+  xdg.configFile."fuzzel" = {
+    source =
+      config.lib.file.mkOutOfStoreSymlink
+      "/home/sonu/dotfiles/fuzzel";
+    force = true;
+  };
 }

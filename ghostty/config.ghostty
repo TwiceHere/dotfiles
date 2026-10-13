@@ -1,10 +1,10 @@
 background-blur = false
 background-opacity = 1
-command = fish
+command = fish -C "tmux new-session -A -s main"
 font-family = JetBrainsMono Nerd Font
 font-size = 13
 mouse-hide-while-typing = true
-theme = Catppuccin Mocha
+theme = ""
 # custom-shader = shaders/cursor_tail.glsl
 # custom-shader-animation = true
 window-inherit-working-directory = false
