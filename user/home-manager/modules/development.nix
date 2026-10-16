@@ -52,5 +52,8 @@
     jdk
     jdt-language-server
     google-java-format
+
+    # editors
+    neovim
   ];
 }

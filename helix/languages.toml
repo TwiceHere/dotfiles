@@ -53,5 +53,5 @@ command = "jdtls"
 
 [[language]]
 name = "java"
-language-servers = ["jdtls"]
+language-servers = ["jdtls","harper-ls"]
 formatter = { command = "google-java-format", args = ["-"]}

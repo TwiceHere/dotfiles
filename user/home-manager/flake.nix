@@ -44,8 +44,8 @@
       };
       modules = [
         ./home.nix
-        lazyvim.homeManagerModules.default
-        ./modules/lazyvim.nix
+        # lazyvim.homeManagerModules.default
+        # ./modules/lazyvim.nix
         ./modules/cursor.nix
         ./modules/starship.nix
         ./modules/dotlinks.nix

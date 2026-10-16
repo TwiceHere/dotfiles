@@ -1,0 +1,24 @@
+{
+  "plugins": {
+    "mini-pick-preview.nvim": {
+      "rev": "490e20891cf87325aec6c0af29f53197bbb5dd9f",
+      "src": "https://github.com/sh1Nome/mini-pick-preview.nvim"
+    },
+    "mini.pick": {
+      "rev": "7cb8fd34bde460986e5e39e9539a9f992ec9772e",
+      "src": "https://github.com/echasnovski/mini.pick"
+    },
+    "snacks.nvim": {
+      "rev": "882c996cf28183f4d63640de0b4c02ec886d01f2",
+      "src": "https://github.com/folke/snacks.nvim"
+    },
+    "vague.nvim": {
+      "rev": "73f8aaa866bf3d14dd0b0ab9e48c11794c1cb7ab",
+      "src": "https://github.com/vague2k/vague.nvim"
+    },
+    "which-key.nvim": {
+      "rev": "3aab2147e74890957785941f0c1ad87d0a44c15a",
+      "src": "https://github.com/folke/which-key.nvim"
+    }
+  }
+}
