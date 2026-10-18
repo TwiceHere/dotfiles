@@ -53,7 +53,11 @@
     jdt-language-server
     google-java-format
 
+    #markdown
+    marksman
+
     # editors
     neovim
+    vimPlugins.blink-lib
   ];
 }

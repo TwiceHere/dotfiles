@@ -1,10 +1,37 @@
 vim.pack.add({
-  { src= 'https://github.com/vague-theme/vague.nvim' }, 
-  { src="https://github.com/folke/snacks.nvim" }, 
-  { src= "https://github.com/folke/which-key.nvim" },
-  { src= "https://github.com/nvim-mini/mini.pick"}, 
+    { src = 'https://github.com/vague-theme/vague.nvim' },
+    { src = "https://github.com/folke/which-key.nvim" },
+    { src = "https://github.com/nvim-mini/mini.ai" },
+    { src = "https://github.com/nvim-mini/mini.pick" },
+    { src = "https://github.com/nvim-mini/mini.pairs" },
+    { src = "https://github.com/nvim-mini/mini.surround" },
+    { src = "https://github.com/L3MON4D3/LuaSnip" },
+    { src = "https://github.com/rafamadriz/friendly-snippets" },
+    { src = "https://github.com/Saghen/blink.cmp" },
+    { src = "https://github.com/neovim/nvim-lspconfig" },
 })
 
 local pick = require('mini.pick')
 pick.setup()
+require("which-key").setup({
+    preset = "helix",
+})
+require("mini.ai").setup()
+require("mini.pairs").setup()
+require("mini.surround").setup()
+require("luasnip.loaders.from_vscode").lazy_load()
+require("blink.cmp").setup({
+    signature = { enabled = true },
+    completion = {
+        documentation = { auto_show = true, auto_show_delay_ms = 500 },
+        menu = {
+            auto_show = true,
+            draw = {
+                treesitter = { "lsp" },
+                columns = { { "kind_icon", "label", "label_description", gap = 1 }, { "kind" } },
+            },
+        },
+    },
+})
+
 

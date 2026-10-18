@@ -26,6 +26,9 @@ C-e = [
   ':open %sh{cat /tmp/hx-yazi}',
   ':redraw',
 ]
+A-k = "increment"
+A-j = "decrement"
+
 
 
 [keys.normal.space]
@@ -34,6 +37,9 @@ f = "file_picker_in_current_directory"
 u = "switch_case"
 l = "switch_to_lowercase"
 U = "switch_to_uppercase"
+w = ":w"
+q = ":q"
+o = ":config-reload"
 
 
 [keys.select.space]

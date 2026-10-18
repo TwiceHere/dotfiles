@@ -44,9 +44,10 @@ language-servers = ["bash-language-server","shellcheck","hx-lsp","harper-ls"]
 command = "bash-language-server"
 args = ["start"]
 
+
 [[language]]
 name = "markdown"
-language-servers = ["hx-lsp","harper-ls"]
+language-servers = ["marksman","hx-lsp","harper-ls"]
 
 [language-server.jdtls]
 command = "jdtls"
