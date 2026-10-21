@@ -26,4 +26,12 @@ vim.keymap.set(modes, 'gl', 'g_', { desc = "Go to line end" })
 vim.keymap.set(modes, 'ge', 'G_', { desc = "Go to end of file" })
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format)
 
---vim.keymap.set('n', '<leader>f',function() require("snacks").picker.files() end, { desc = "Pick Files" })
+--comment
+vim.keymap.set({'n','v'},"<leader>c","gcc",{ remap = true,desc = "Toggle line comment" })
+vim.keymap.set('x',"<leader>y",'"+y', { remap = true, desc = "yank to  system clipboard"})
+vim.keymap.set('n',"<leader>p",'"+p', { desc = "paste from system clipboard"})
+vim.keymap.set('n',"<Esc>","<cmd>noh<CR><Esc>", { desc = "clear search highlights"})
+-- Normal & Visual Mode: Code Actions mapped globally so which-key registers it instantly
+vim.keymap.set({ "n", "v" }, "<leader>a", vim.lsp.buf.code_action, { desc = "Code Actions" })
+vim.keymap.set('n',"%","ggVge", { remap = true, desc = "select entire file"})
+vim.keymap.set('n',"mm","%", { desc = "match closest pair"} )

@@ -57,6 +57,7 @@
         ./modules/development.nix
         ./modules/nushell.nix
         ./modules/helium.nix
+        ./modules/misc.nix
 
         #./modules/silentddm.nix
         # ./modules/fonts.nix

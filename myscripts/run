@@ -40,7 +40,7 @@ case "$extension" in
     ;;
 
   md)
-    glow --pager "$filepath"
+    innomd "$filepath"
     ;;
   *)
     echo "Unknown file type."

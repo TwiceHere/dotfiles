@@ -28,6 +28,9 @@ C-e = [
 ]
 A-k = "increment"
 A-j = "decrement"
+H = ":bp"
+L = ":bn"
+A-d = ":bc"
 
 
 

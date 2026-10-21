@@ -3,13 +3,13 @@
 
 [colors]
 background=000000CC
-text=e1e3dbff
-prompt=b4ceacff
-placeholder=68d7d9ff
-input=99d690ff
-match=68d7d9ff
-selection=99d69080
-selection-text=e1e3dbff
-selection-match=003907ff
-counter=b4ceacff
-border=99d690ff
+text=e2e2e4ff
+prompt=bac8d4ff
+placeholder=dbbce6ff
+input=a6cbe6ff
+match=dbbce6ff
+selection=a6cbe680
+selection-text=e2e2e4ff
+selection-match=073449ff
+counter=bac8d4ff
+border=a6cbe6ff

@@ -30,17 +30,11 @@
     fastfetch
 
     devenv
-    cava
-    wl-clipboard
-    blanket
-    cbonsai
-
     grim
     slurp
     jq
     tree
 
-    helix
     ascii-image-converter
     duckdb
     glow

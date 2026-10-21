@@ -6,9 +6,9 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-require("config.plugins")
+require("config.lazy")
 require("config.options")
 require("config.keymaps")
 require("config.autocmds")
-require("config.lsp")
+-- require("config.lsp")
 

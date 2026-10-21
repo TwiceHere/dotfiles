@@ -52,12 +52,14 @@
     jdk
     jdt-language-server
     google-java-format
+    lombok
 
     #markdown
     marksman
 
     # editors
     neovim
-    vimPlugins.blink-lib
+    helix
+    # vimPlugins.blink-lib
   ];
 }
