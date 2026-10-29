@@ -54,6 +54,8 @@
   #     gcc.cc.lib
   #     zlib
   #     openssl
+  #     glibc
+  #     stdenv.cc
   #   ];
   # };
 }

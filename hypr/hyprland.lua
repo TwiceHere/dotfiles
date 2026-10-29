@@ -7,10 +7,10 @@
 --------------------
 
 hl.monitor({
-  output   = "",
-  mode     = "preferred",
-  position = "auto",
-  scale    = "auto",
+    output   = "",
+    mode     = "preferred",
+    position = "auto",
+    scale    = "auto",
 })
 
 --------------------
@@ -18,15 +18,15 @@ hl.monitor({
 --------------------
 
 hl.on("hyprland.start", function()
-  hl.exec_cmd("dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP")
-  hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
-  hl.exec_cmd("hyprctl setcursor Bibata-Modern-Ice 24")
-  hl.exec_cmd("hypridle")
-  hl.exec_cmd("wl-paste --watch cliphist store")
-  hl.exec_cmd("nm-applet --indicator")
-  -- NixOS flake: "noctalia-shell" | Manual/PikaOS: "qs -c noctalia-shell"
-  hl.exec_cmd("noctalia")
-  -- hl.exec_cmd("systemctl --user start hyprpolkitagent")
+    hl.exec_cmd("dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP")
+    hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
+    hl.exec_cmd("hyprctl setcursor Bibata-Modern-Ice 24")
+    hl.exec_cmd("hypridle")
+    hl.exec_cmd("wl-paste --watch cliphist store")
+    hl.exec_cmd("nm-applet --indicator")
+    -- NixOS flake: "noctalia-shell" | Manual/PikaOS: "qs -c noctalia-shell"
+    hl.exec_cmd("noctalia")
+    -- hl.exec_cmd("systemctl --user start hyprpolkitagent")
 end)
 
 --------------------
@@ -34,8 +34,8 @@ end)
 --------------------
 
 local colors = {
-  on_surface = "rgba(e1e2e8ff)", -- active border  ($color11 / $on_surface)
-  primary    = "rgba(a2c9feff)", -- inactive border ($color8  / $primary)
+    on_surface = "rgba(e1e2e8ff)", -- active border  ($color11 / $on_surface)
+    primary    = "rgba(a2c9feff)", -- inactive border ($color8  / $primary)
 }
 
 --------------------
@@ -43,18 +43,18 @@ local colors = {
 --------------------
 
 hl.config({
-  general = {
-    gaps_in          = 10,
-    gaps_out         = 20,
-    border_size      = 3,
-    col              = {
-      active_border   = colors.on_surface,
-      inactive_border = colors.primary,
+    general = {
+        gaps_in          = 10,
+        gaps_out         = 20,
+        border_size      = 3,
+        col              = {
+            active_border   = colors.on_surface,
+            inactive_border = colors.primary,
+        },
+        layout           = "dwindle",
+        resize_on_border = true,
+        allow_tearing    = false,
     },
-    layout           = "dwindle",
-    resize_on_border = true,
-    allow_tearing    = false,
-  },
 })
 
 --------------------
@@ -62,34 +62,34 @@ hl.config({
 --------------------
 
 hl.config({
-  decoration = {
-    rounding           = 10,
-    active_opacity     = 1.0,
-    inactive_opacity   = 0.9,
-    fullscreen_opacity = 1.0,
-    blur               = {
-      enabled           = true,
-      size              = 12,
-      passes            = 4,
-      new_optimizations = true,
-      ignore_opacity    = true,
-      -- xray removed: caused terminal to appear fully transparent
+    decoration = {
+        rounding           = 10,
+        active_opacity     = 1.0,
+        inactive_opacity   = 0.9,
+        fullscreen_opacity = 1.0,
+        blur               = {
+            enabled           = true,
+            size              = 12,
+            passes            = 4,
+            new_optimizations = true,
+            ignore_opacity    = true,
+            -- xray removed: caused terminal to appear fully transparent
+        },
+        shadow             = {
+            enabled      = true,
+            range        = 10,
+            render_power = 2,
+            color        = 0x33000000,
+        },
     },
-    shadow             = {
-      enabled      = true,
-      range        = 10,
-      render_power = 2,
-      color        = 0x33000000,
-    },
-  },
 })
 
 -- Noctalia panel blur (ignore_alpha is correct per wiki)
 hl.layer_rule({
-  name         = "noctalia-blur",
-  match        = { namespace = "noctalia-background-.*" },
-  blur         = true,
-  ignore_alpha = 0.5,
+    name         = "noctalia-blur",
+    match        = { namespace = "noctalia-background-.*" },
+    blur         = true,
+    ignore_alpha = 0.5,
 })
 
 --------------------
@@ -131,14 +131,14 @@ hl.animation({ leaf = "specialWorkspace", enabled = true, speed = 3, bezier = "m
 
 -- dwindle.pseudotile removed in 0.55 — use SUPER+P bind (hl.dsp.window.pseudo()) per-window
 hl.config({
-  dwindle = {
-    preserve_split = true,
-  },
-  binds = {
-    workspace_back_and_forth = true,
-    allow_workspace_cycles   = true,
-    pass_mouse_when_bound    = false,
-  },
+    dwindle = {
+        preserve_split = true,
+    },
+    binds = {
+        workspace_back_and_forth = true,
+        allow_workspace_cycles   = true,
+        pass_mouse_when_bound    = false,
+    },
 })
 
 --------------------
@@ -146,20 +146,20 @@ hl.config({
 --------------------
 
 hl.config({
-  input = {
-    kb_layout          = "us",
-    kb_variant         = "",
-    kb_model           = "",
-    kb_options         = "",
-    numlock_by_default = true,
-    follow_mouse       = 1,
-    mouse_refocus      = false,
-    sensitivity        = 0,
-    touchpad           = {
-      natural_scroll = false,
-      scroll_factor  = 1.0,
+    input = {
+        kb_layout          = "us",
+        kb_variant         = "",
+        kb_model           = "",
+        kb_options         = "",
+        numlock_by_default = true,
+        follow_mouse       = 1,
+        mouse_refocus      = false,
+        sensitivity        = 0,
+        touchpad           = {
+            natural_scroll = false,
+            scroll_factor  = 1.0,
+        },
     },
-  },
 })
 
 --------------------
@@ -167,12 +167,12 @@ hl.config({
 --------------------
 
 hl.config({
-  misc = {
-    disable_hyprland_logo      = true,
-    disable_splash_rendering   = true,
-    initial_workspace_tracking = 1,
-    force_default_wallpaper    = 0,
-  },
+    misc = {
+        disable_hyprland_logo      = true,
+        disable_splash_rendering   = true,
+        initial_workspace_tracking = 1,
+        force_default_wallpaper    = 0,
+    },
 })
 
 --------------------
@@ -189,25 +189,25 @@ hl.window_rule({ name = "float-nm", match = { title = "^nm-connection-editor$" }
 hl.window_rule({ name = "float-qalc", match = { title = "^qalculate-gtk$" }, float = true })
 
 hl.window_rule({
-  name  = "pip",
-  match = { title = "^Picture-in-Picture$" },
-  float = true,
-  pin   = true,
-  move  = "69.5% 4%",
+    name  = "pip",
+    match = { title = "^Picture-in-Picture$" },
+    float = true,
+    pin   = true,
+    move  = "69.5% 4%",
 })
 
 -- XWayland: no blur for Resolve
 hl.window_rule({
-  name    = "noblur-resolve",
-  match   = { class = "^resolve$", xwayland = true },
-  no_blur = true,
+    name    = "noblur-resolve",
+    match   = { class = "^resolve$", xwayland = true },
+    no_blur = true,
 })
 
 -- Fix XWayland drag issues
 hl.window_rule({
-  name     = "fix-xwayland-drags",
-  match    = { class = "^$", title = "^$", xwayland = true, float = true, fullscreen = false, pin = false },
-  no_focus = true,
+    name     = "fix-xwayland-drags",
+    match    = { class = "^$", title = "^$", xwayland = true, float = true, fullscreen = false, pin = false },
+    no_focus = true,
 })
 
 --------------------
@@ -226,14 +226,14 @@ hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 
 -- Noctalia panels
-hl.bind(mainMod .. " + CTRL + RETURN", hl.dsp.exec_cmd("fuzzel"))
+hl.bind("ALT + RETURN", hl.dsp.exec_cmd("fuzzel"))
 hl.bind(mainMod .. " + CTRL + S", hl.dsp.exec_cmd(ipc .. " panel-toggle control-center"))
 hl.bind(mainMod .. " + CTRL + comma", hl.dsp.exec_cmd(ipc .. " settings-toggle"))
 -- hl.bind(mainMod .. " + CTRL + H", hl.dsp.exec_cmd(ipc .. " session lock "))
 hl.bind("CTRL + SUPER + B", hl.dsp.exec_cmd(ipc .. " bar-toggle"))
 -- Logout menu
 hl.bind("CTRL + SUPER + H", hl.dsp.exec_cmd(ipc .. " panel-toggle session"))
---lock the screen 
+--lock the screen
 hl.bind("CTRL + SUPER + L", hl.dsp.exec_cmd(ipc .. " session lock "))
 -- noctalia msg session lock
 -- Wallpaper selector
@@ -244,7 +244,8 @@ hl.bind(mainMod .. " + V", hl.dsp.exec_cmd(ipc .. " panel-toggle clipboard"))
 -- Screenshot
 hl.bind("SUPER + ALT + C", hl.dsp.exec_cmd([[grim -g "$(slurp)" ~/Pictures/$(date +%Y%m%d_%H%M%S).png]]))
 
-
+-- Nightlight
+hl.bind("CTRL + ALT + N", hl.dsp.exec_cmd(ipc .. " nightlight-force-toggle"))
 -- Window management
 hl.bind(mainMod .. " + C", hl.dsp.window.close())
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = 0 }))
@@ -287,21 +288,22 @@ hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
 -- Alt+Tab cycle (two separate hl.dispatch calls inside lambda — per wiki)
 hl.bind("ALT + Tab", function()
-  hl.dispatch(hl.dsp.window.cycle_next())
-  hl.dispatch(hl.dsp.window.bring_to_top())
+    hl.dispatch(hl.dsp.window.cycle_next())
+    hl.dispatch(hl.dsp.window.bring_to_top())
 end)
 
 -- Workspaces 1-10
 for i = 1, 10 do
-  local key = i % 10 -- 10 → key 0
-  hl.bind(mainMod .. " + " .. key, hl.dsp.focus({ workspace = i }))
-  hl.bind(mainMod .. " + SHIFT + " .. key, hl.dsp.window.move({ workspace = i }))
-  hl.bind(mainMod .. " + CTRL + " .. key, hl.dsp.exec_cmd(HYPRSCRIPTS .. "/moveTo.sh " .. i))
+    local key = i % 10 -- 10 → key 0
+    hl.bind(mainMod .. " + " .. key, hl.dsp.focus({ workspace = i }))
+    hl.bind(mainMod .. " + SHIFT + " .. key, hl.dsp.window.move({ workspace = i }))
+    hl.bind(mainMod .. " + CTRL + " .. key, hl.dsp.exec_cmd(HYPRSCRIPTS .. "/moveTo.sh " .. i))
 end
 
 -- Workspace navigation
 hl.bind(mainMod .. " + H", hl.dsp.focus({ workspace = 1 }))
-hl.bind(mainMod .. " + D", hl.dsp.focus({ workspace = "next" }))
+hl.bind(mainMod .. " + D", hl.dsp.focus({ workspace = 9 }))
+hl.bind(mainMod .. " + N", hl.dsp.focus({ workspace = "next" }))
 hl.bind(mainMod .. " + Tab", hl.dsp.focus({ workspace = "m+1" }))
 hl.bind(mainMod .. " + SHIFT + Tab", hl.dsp.focus({ workspace = "m-1" }))
 hl.bind(mainMod .. " + CTRL + down", hl.dsp.focus({ workspace = "empty" }))

@@ -1,0 +1,13 @@
+return {
+    "nvim-tree/nvim-tree.lua",
+    dependencies = { "echasnovski/mini.icons" }, -- Depend on mini instead!
+    keys = {
+        { "<leader>e", ":NvimTreeToggle<CR>", desc = "Toggle Nvim Tree" },
+    },
+    opts = {
+        -- your normal nvim-tree configuration options go here
+        view = {
+            width = 30,
+        },
+    },
+}

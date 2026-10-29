@@ -1,0 +1,36 @@
+-- return {
+--     {
+--         "echasnovski/mini.indentscope",
+--         version = false, -- use latest
+--         event = "BufReadPost",
+--         opts = {
+--             -- Character used for the indent line
+--             symbol = "│",
+--             options = {
+--                 -- Try to-be-border mode for cleaner scope boundaries
+--                 try_as_border = true,
+--             },
+--             draw = {
+--                 animation = function() return 0 end,
+--             }
+--         },
+--         init = function()
+--             -- Disable in dashboard or special filetypes where you don't want lines
+--             vim.api.nvim_create_autocmd("FileType", {
+--                 pattern = {
+--                     "help",
+--                     "alpha",
+--                     "dashboard",
+--                     "lazy",
+--                     "mason",
+--                     "notify",
+--                     "trouble",
+--                     "snacks_dashboard",
+--                 },
+--                 callback = function()
+--                     vim.b.miniindentscope_disable = true
+--                 end,
+--             })
+--         end,
+--     },
+-- }

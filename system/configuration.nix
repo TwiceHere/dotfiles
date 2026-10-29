@@ -22,7 +22,8 @@
 
   boot.loader.grub.configurationLimit = 6;
   # Use latest kernel.
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages;
+
 
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -62,7 +63,10 @@
 	enable = true; 
 	wayland.enable = true; 
 }; 
-  programs.hyprland.enable = true; 
+  # programs.hyprland = {
+  # enable = true; 
+  # package = hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
+  # };
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";
