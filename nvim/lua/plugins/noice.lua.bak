@@ -5,6 +5,9 @@ return {
             signature = {
                 auto_open = { enabled = true }, -- Disables automatic popup on ( or ,
             },
+            progress = {
+                enabled = false,
+            },
         },
     },
 }

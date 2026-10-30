@@ -88,6 +88,7 @@ return {
                 "rust_analyzer",
                 "pyrefly",
                 "jdtls",
+                "marksman",
             })
         end,
 

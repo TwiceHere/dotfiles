@@ -1,5 +1,4 @@
 -- 1. Apply your color theme
-vim.cmd.colorscheme("kanagawabones") -- catppuccin,vague,
 
 -- 2. Modern Native Format on Save (NixOS-safe fallback)
 -- This automatically runs formatting using whichever native LSP is currently active in the buffer

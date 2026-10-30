@@ -26,6 +26,9 @@ return {
         --
         -- See :h blink-cmp-config-keymap for defining your own keymap
         keymap = { preset = 'enter' },
+        signature = {
+            enabled = true,
+        },
 
         appearance = {
             -- 'mono' (default) for 'Nerd Font Mono' or 'normal' for 'Nerd Font'
