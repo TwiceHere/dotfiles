@@ -9,3 +9,7 @@ theme = "Broadcast"
 # custom-shader-animation = true
 window-inherit-working-directory = false
 working-directory = ~
+window-padding-balance = true
+confirm-close-surface = false
+window-padding-x = 0
+window-padding-y = 0

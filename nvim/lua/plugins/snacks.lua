@@ -5,6 +5,7 @@ return {
     opts = {
         picker = {
             enabled = true,
+            ui_select = true,
             layout = {
                 preset = "select", --ivy
             },
@@ -98,37 +99,63 @@ return {
         },
 
         -- 🎯 Helix-like LSP Reference Picker (space + s + r)
-        { "<leader>h", function() Snacks.picker.lsp_references() end, desc = "Helix LSP References" },
+        -- {
+        --     "<leader>h",
+        --     function()
+        --         Snacks.picker.lsp_references({
+        --
+        --         })
+        --     end,
+        --     desc = "Helix LSP References"
+        -- },
 
         -- 📂 Additional Helix-like Picker (space + s for File Symbols)
         {
             "<leader>s",
             function()
                 Snacks.picker.lsp_symbols({
-                    filter = {
-                        default = {
-                            "Class",
-                            "Function",
-                            "Method",
-                            "Variable",
-                            "Module",
-                            "Property",
-                            "Field",
-                        },
-                    },
                     layout = {
-                        preset = "select"
+                        preset = "select",
                     },
                 })
             end,
-            desc = "Helix lsp Symbols"
+            desc = "lsp symbols"
         },
+        -- {
+        --     "<leader>s",
+        --     function()
+        --         Snacks.picker.treesitter({
+        --             filter = {
+        --                 default = {
+        --                     "Class",
+        --                     "Function",
+        --                     "Method",
+        --                     "Variable",
+        --                     "Module",
+        --                     "Property",
+        --                     "Field",
+        --                 },
+        --             },
+        --             layout = {
+        --                 preset = "select"
+        --             },
+        --         })
+        --     end,
+        --     desc = "Helix lsp Symbols"
+        -- },
         {
             "<leader>e",
             function()
                 Snacks.explorer()
             end,
             desc = "Explorer"
+        },
+        {
+            "<leader>uc",
+            function()
+                Snacks.picker.colorschemes()
+            end,
+            desc = "colorscheme"
         },
     },
 }

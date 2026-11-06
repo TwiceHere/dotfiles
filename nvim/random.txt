@@ -1,0 +1,2 @@
+markview.nvim
+nvim-rip-substitute

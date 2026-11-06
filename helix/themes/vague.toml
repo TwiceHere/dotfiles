@@ -1,0 +1,103 @@
+# Author:   Artem Krinitsyn
+# Upstream: https://github.com/vague-theme/vague-helix
+
+"attribute" = "cyan"
+"comment" = "muted"
+"constant" = "cyan"
+"constant.builtin" = "gold"
+"constant.numeric" = "gold"
+"constructor" = "cyan"
+"debug" = "red"
+"diagnostic" = { underline = { color = "muted", style = "curl" } }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "iris", style = "curl" } }
+"diagnostic.info" = { underline = { color = "cyan", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diff.delta" = "yellow"
+"diff.minus" = "red"
+"diff.plus" = "green"
+"error" = "red"
+"function" = "peach"
+"hint" = "iris"
+"info" = "cyan"
+"keyword" = "blue"
+"label" = "blue"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.heading" = "blue"
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.label" = "amber"
+"markup.link.text" = "amber"
+"markup.link.url" = "peach"
+"markup.list" = "peach"
+"markup.raw" = "cyan"
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"operator" = "lavender"
+"special" = "aqua"
+"string" = "amber"
+"string.escape" = "blue"
+"string.regex" = "blue"
+"string.special" = "blue"
+"string.special.url" = "peach"
+"tag" = "aqua"
+"type" = "teal"
+"ui.background" = { fg = "white", bg = "black" }
+"ui.bufferline" = { fg = "muted", bg = "shadow" }
+"ui.bufferline.active" = { fg = "white", bg = "black" }
+"ui.cursor" = { bg = "white", fg = "black" }
+"ui.cursor.match" = { bg = "onyx", modifiers = ["bold"] }
+"ui.cursorline" = { bg = "graphite" }
+"ui.cursorline.secondary" = { bg = "shadow" }
+"ui.debug" = "red"
+"ui.help" = { fg = "white", bg = "graphite" }
+"ui.linenr" = "muted"
+"ui.linenr.selected" = "white"
+"ui.menu" = { fg = "white", bg = "shadow" }
+"ui.menu.scroll" = { fg = "muted", bg = "shadow" }
+"ui.menu.selected" = { fg = "shadow", bg = "white" }
+"ui.popup" = { fg = "white", bg = "shadow" }
+"ui.selection" = { bg = "storm" }
+"ui.selection.primary" = { bg = "onyx" }
+"ui.statusline" = { fg = "white", bg = "shadow" }
+"ui.statusline.inactive" = { fg = "muted", bg = "black" }
+"ui.statusline.insert" = { fg = "shadow", bg = "green" }
+"ui.statusline.normal" = { fg = "shadow", bg = "blue" }
+"ui.statusline.select" = { fg = "shadow", bg = "amber" }
+"ui.text" = "white"
+"ui.text.directory" = "magenta"
+"ui.text.focus" = { bg = "graphite" }
+"ui.virtual" = "onyx"
+"ui.virtual.jump-label" = { fg = "red", modifiers = ["bold"] }
+"ui.virtual.ruler" = { bg = "graphite" }
+"ui.window" = "gray"
+"variable" = "white"
+"variable.builtin" = "aqua"
+"variable.member" = "aqua"
+"variable.other" = "aqua"
+"variable.parameter" = "magenta"
+"warning" = "yellow"
+
+[palette]
+black = "#141415"
+shadow = "#1c1c24"
+graphite = "#252530"
+onyx = "#333738"
+muted = "#606079"
+gray = "#878787"
+white = "#cdcdcd"
+yellow = "#f3be7c"
+amber = "#e8b589"
+gold = "#e0a363"
+peach = "#c48282"
+red = "#d8647e"
+storm = "#405065"
+lilac = "#c3c3d5"
+cyan = "#aeaed1"
+magenta = "#bb9dbd"
+aqua = "#b4d4cf"
+lavender = "#90a0b5"
+teal = "#9bb4bc"
+blue = "#6e94b2"
+iris = "#7e98e8"
+green = "#7fa563"

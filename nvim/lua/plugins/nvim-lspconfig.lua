@@ -14,8 +14,8 @@ return {
                     vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)       -- Documentation popup
                 end,
             })
-
             -- 2. Configure individual servers using the modern Neovim API
+
             -- Silences the annoying "Undefined global 'vim'" warning in your config files
             vim.lsp.config("lua_ls", {
                 settings = {
@@ -84,11 +84,16 @@ return {
             })
             vim.lsp.enable({
                 "lua_ls",
-                "nil",
+                "nil_ls",
+                "nixd",
+                "harper_ls",
                 "rust_analyzer",
                 "pyrefly",
+                "ruff",
                 "jdtls",
                 "marksman",
+                "gopls",
+                "golangci-lint",
             })
         end,
 

@@ -34,6 +34,7 @@
     slurp
     jq
     tree
+    sd
 
     ascii-image-converter
     duckdb

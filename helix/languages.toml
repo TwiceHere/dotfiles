@@ -14,15 +14,15 @@ formatter = { command = "alejandra" }
 [language-server.pyrefly]
 command = "pyrefly"
 args = ["lsp"]
-# [language-server.pyrefly.config.python.analysis.inlayHints]
-# callArgumentNames = "all"
-# functionReturnTypes = true
-# variableTypes = true
-# pytestParameters = true
+[language-server.pyrefly.config.python.analysis.inlayHints]
+callArgumentNames = "all"
+functionReturnTypes = true
+variableTypes = true
+pytestParameters = true
 
 [[language]]
 name = "python"
-language-servers = ["basedpyright" , "ruff","hx-lsp","harper-ls"]
+language-servers = ["pyrefly" , "ruff","hx-lsp","harper-ls"] #based pyright
 auto-format = true
 formatter = { command = "ruff", args = ["format", "-"] }
 

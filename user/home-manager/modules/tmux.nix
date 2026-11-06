@@ -29,6 +29,9 @@
     extraConfig = ''
       #remove escape delay
       set -sg escape-time 0
+      set -g status off
+      #toggle status bar
+      bind-key e set-option status 
       #Use vi keys in copy mode
 
       setw -g mode-keys vi

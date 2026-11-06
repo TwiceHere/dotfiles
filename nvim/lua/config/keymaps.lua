@@ -70,3 +70,11 @@ vim.keymap.set('n', "gp", "<cmd>bp<CR><Esc>", { desc = "go to previous buffer" }
 -- increment/decrement numbers
 vim.keymap.set('n', "<A-k>", "<C-a>", { desc = "increment number by 1" })
 vim.keymap.set('n', "<A-j>", "<C-x>", { desc = "decrement number by 1" })
+
+--lsp rename
+vim.keymap.set('n', "<leader>h", "<cmd>lua vim.lsp.buf.rename()<CR><Esc>", { desc = "rename variable" })
+
+--lsp diagnostic toggle
+vim.keymap.set('n', "<leader>ld", function()
+    vim.diagnostic.enable(not vim.diagnostic.is_enabled())
+end, { desc = "Toggle LSP diagnostic" })
