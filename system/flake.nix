@@ -49,6 +49,7 @@
         ./modules/extra.nix
         ./modules/postgresql.nix
         ./modules/hyprland.nix
+        ./modules/niri.nix
       ];
     };
   };

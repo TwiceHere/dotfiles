@@ -1,0 +1,261 @@
+// ~/.config/niri/config.kdl
+// Ported from hyprland.lua. Targets niri >= 26.04 (background-effect blur, spawn-sh).
+// Validate before reloading:  niri validate
+
+// ---------- INPUT ----------
+input {
+    keyboard {
+        xkb {
+            layout "us"
+        }
+        numlock
+    }
+    touchpad {
+        tap
+        // natural-scroll   // off by default (matches natural_scroll=false)
+    }
+    focus-follows-mouse max-scroll-amount="0%"   // follow_mouse=1 without scrolling the strip
+    warp-mouse-to-focus
+}
+
+// ---------- OUTPUT ----------
+// Hyprland: preferred/auto/auto. Niri auto-detects; override per output only if needed:
+// output "eDP-1" { scale 1.5; }
+
+// ---------- LAYOUT ----------
+layout {
+    gaps 10                  // gaps_in
+    struts {                 // gaps_out(20) = gaps(10) + strut(10)
+        left 10
+        right 10
+        top 10
+        bottom 10
+    }
+    background-color "transparent"   // noctalia draws the wallpaper
+
+    focus-ring { off; }
+    border {
+        width 3
+        active-color "#e1e2e8"
+        inactive-color "#a2c9fe"
+    }
+    shadow {
+        on
+        softness 10
+        spread 2
+        offset x=0 y=4
+        color "#00000033"
+    }
+
+    default-column-width { proportion 0.5; }
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+    }
+}
+
+// ---------- MISC ----------
+prefer-no-csd
+hotkey-overlay { skip-at-startup; }
+screenshot-path "~/Pictures/%Y%m%d_%H%M%S.png"
+cursor {
+    xcursor-theme "Bibata-Modern-Ice"
+    xcursor-size 24
+}
+
+// ---------- AUTOSTART ----------
+// niri-session already imports WAYLAND_DISPLAY/XDG_CURRENT_DESKTOP into systemd/dbus.
+// xwayland-satellite is spawned on demand automatically (needs it in PATH).
+spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+spawn-at-startup "hypridle"       // see note: its config must not call hyprctl
+spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
+spawn-at-startup "nm-applet" "--indicator"
+// NixOS flake: "noctalia-shell" | Manual: "qs" "-c" "noctalia-shell"
+spawn-at-startup "noctalia"
+
+// ---------- ANIMATIONS ----------
+animations {
+    window-open {
+        duration-ms 250
+        curve "cubic-bezier" 0.05 0.7 0.1 1.0     // md3_decel
+    }
+    window-close {
+        duration-ms 200
+        curve "cubic-bezier" 0.3 0.0 0.8 0.15     // md3_accel
+    }
+    // workspace-switch / horizontal-view-movement: niri default springs
+}
+
+// ---------- WINDOW RULES (later rules override earlier) ----------
+// Global: rounding, clipping, inactive opacity, blur (xray blur is default)
+window-rule {
+    geometry-corner-radius 10
+    clip-to-geometry true
+    background-effect {
+        blur true
+    }
+}
+window-rule {
+    match is-active=false
+    opacity 0.9
+}
+
+// Resolve: no blur
+window-rule {
+    match app-id="^resolve$"
+    background-effect {
+        blur false
+    }
+}
+
+// Floats
+window-rule {
+    match app-id="^org\\.pulseaudio\\.pavucontrol$"
+    match app-id="^blueman-manager$"
+    match app-id="^\\.blueman-manager-wrapped$"
+    match app-id="^nm-connection-editor$"
+    match app-id="^qalculate-gtk$"
+    open-floating true
+}
+
+// PiP (niri has no pin; floating windows stay above tiled ones)
+window-rule {
+    match title="^Picture-in-Picture$"
+    open-floating true
+    default-floating-position x=32 y=32 relative-to="top-right"
+}
+
+// Noctalia panels blur
+layer-rule {
+    match namespace="^noctalia-background-.*"
+    background-effect {
+        blur true
+    }
+}
+// If the wallpaper layer should stay visible in overview, check its namespace with `niri msg layers`:
+// layer-rule { match namespace="^noctalia-wallpaper.*"; place-within-backdrop true; }
+
+// ---------- KEYBINDINGS ----------
+binds {
+    // Apps
+    Super+Return { spawn "ghostty"; }
+    Super+E { spawn "nautilus"; }
+    Alt+Return { spawn "fuzzel"; }
+
+    // Noctalia
+    Super+Ctrl+S { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
+    Super+Ctrl+Comma { spawn "noctalia" "msg" "settings-toggle"; }
+    Ctrl+Super+B { spawn "noctalia" "msg" "bar-toggle"; }
+    Ctrl+Super+H { spawn "noctalia" "msg" "panel-toggle" "session"; }
+    Ctrl+Super+L { spawn "noctalia" "msg" "session" "lock"; }
+    Ctrl+Super+W { spawn "noctalia" "msg" "panel-toggle" "wallpaper"; }
+    Super+V { spawn "noctalia" "msg" "panel-toggle" "clipboard"; }
+    Ctrl+Alt+N { spawn "noctalia" "msg" "nightlight-force-toggle"; }
+
+    // Screenshots (niri built-ins)
+    Print { screenshot; }
+    Super+Print { screenshot-screen; }
+    Super+Alt+S { screenshot; }
+    Super+Alt+F { screenshot-screen; }
+    Super+Alt+W { screenshot-window; }
+    Super+Alt+C { spawn-sh "grim -g \"$(slurp)\" ~/Pictures/$(date +%Y%m%d_%H%M%S).png"; }
+
+    // Window management
+    Super+C { close-window; }
+    Super+F { fullscreen-window; }
+    Super+M { maximize-column; }
+    Super+T { toggle-window-floating; }
+    Super+Shift+T { switch-focus-between-floating-and-tiling; }
+    Super+J { consume-or-expel-window-left; }     // ~ togglesplit
+    Super+K { consume-or-expel-window-right; }    // ~ swapsplit
+    Super+G { toggle-column-tabbed-display; }     // ~ group
+    Super+P { switch-preset-column-width; }       // pseudotile has no equivalent
+    Super+D { toggle-overview; }                  // ~ toggle_desktop.sh
+
+    // Focus
+    Super+Left  { focus-column-left; }
+    Super+Right { focus-column-right; }
+    Super+Up    { focus-window-or-workspace-up; }
+    Super+Down  { focus-window-or-workspace-down; }
+    Super+Alt+H { focus-column-left; }
+    Super+Alt+L { focus-column-right; }
+    Super+Alt+K { focus-window-or-workspace-up; }
+    Super+Alt+J { focus-window-or-workspace-down; }
+
+    // Move (was swapwindow)
+    Super+Alt+Left  { move-column-left; }
+    Super+Alt+Right { move-column-right; }
+    Super+Alt+Up    { move-window-up-or-to-workspace-up; }
+    Super+Alt+Down  { move-window-down-or-to-workspace-down; }
+
+    // Resize (keyboard). Mouse: Super+LMB drag moves, Super+RMB drag resizes (built in).
+    Super+Shift+Right { set-column-width "+100"; }
+    Super+Shift+Left  { set-column-width "-100"; }
+    Super+Shift+Down  { set-window-height "+100"; }
+    Super+Shift+Up    { set-window-height "-100"; }
+
+    // Window switcher (MRU)
+    Alt+Tab { next-window; }
+    Alt+Shift+Tab { previous-window; }
+
+    // Workspaces: focus / move+follow / move silently
+    Super+1 { focus-workspace 1; }
+    Super+2 { focus-workspace 2; }
+    Super+3 { focus-workspace 3; }
+    Super+4 { focus-workspace 4; }
+    Super+5 { focus-workspace 5; }
+    Super+6 { focus-workspace 6; }
+    Super+7 { focus-workspace 7; }
+    Super+8 { focus-workspace 8; }
+    Super+9 { focus-workspace 9; }
+    Super+0 { focus-workspace 10; }
+    Super+Shift+1 { move-window-to-workspace 1; }
+    Super+Shift+2 { move-window-to-workspace 2; }
+    Super+Shift+3 { move-window-to-workspace 3; }
+    Super+Shift+4 { move-window-to-workspace 4; }
+    Super+Shift+5 { move-window-to-workspace 5; }
+    Super+Shift+6 { move-window-to-workspace 6; }
+    Super+Shift+7 { move-window-to-workspace 7; }
+    Super+Shift+8 { move-window-to-workspace 8; }
+    Super+Shift+9 { move-window-to-workspace 9; }
+    Super+Shift+0 { move-window-to-workspace 10; }
+    Super+Ctrl+1 { move-window-to-workspace 1 focus=false; }
+    Super+Ctrl+2 { move-window-to-workspace 2 focus=false; }
+    Super+Ctrl+3 { move-window-to-workspace 3 focus=false; }
+    Super+Ctrl+4 { move-window-to-workspace 4 focus=false; }
+    Super+Ctrl+5 { move-window-to-workspace 5 focus=false; }
+    Super+Ctrl+6 { move-window-to-workspace 6 focus=false; }
+    Super+Ctrl+7 { move-window-to-workspace 7 focus=false; }
+    Super+Ctrl+8 { move-window-to-workspace 8 focus=false; }
+    Super+Ctrl+9 { move-window-to-workspace 9 focus=false; }
+    Super+Ctrl+0 { move-window-to-workspace 10 focus=false; }
+
+    Super+N { focus-workspace-previous; }         // back_and_forth
+    Super+Tab { focus-workspace-down; }
+    Super+Shift+Tab { focus-workspace-up; }
+    Super+WheelScrollDown cooldown-ms=150 { focus-workspace-down; }
+    Super+WheelScrollUp   cooldown-ms=150 { focus-workspace-up; }
+
+    // Session
+    Super+Shift+E { quit; }
+    Super+Shift+Slash { show-hotkey-overlay; }
+
+    // Fn keys
+    // XF86MonBrightnessUp   allow-when-locked=true { spawn "noctalia" "msg" "brightness" "increase"; }
+    // XF86MonBrightnessDown allow-when-locked=true { spawn "noctalia" "msg" "brightness" "decrease"; }
+    // XF86AudioRaiseVolume  allow-when-locked=true { spawn "noctalia" "msg" "volume" "increase"; }
+    // XF86AudioLowerVolume  allow-when-locked=true { spawn "noctalia" "msg" "volume" "decrease"; }
+    // XF86AudioMute         allow-when-locked=true { spawn "noctalia" "msg" "volume" "muteOutput"; }
+    // XF86AudioMicMute      allow-when-locked=true { spawn "pactl" "set-source-mute" "@DEFAULT_SOURCE@" "toggle"; }
+    // XF86AudioPlay  allow-when-locked=true { spawn "playerctl" "play-pause"; }
+    // XF86AudioPause allow-when-locked=true { spawn "playerctl" "pause"; }
+    // XF86AudioNext  allow-when-locked=true { spawn "playerctl" "next"; }
+    // XF86AudioPrev  allow-when-locked=true { spawn "playerctl" "previous"; }
+    // XF86ScreenSaver { spawn "noctalia" "msg" "session" "lock"; }
+    // XF86Calculator { spawn "qalculate-gtk"; }
+
+    // Keyboard backlight (xkb keycodes 238/237)
+    // XF86KbdBrightnessUp   { spawn "brightnessctl" "-d" "smc::kbd_backlight" "s" "+10"; }
+    // XF86KbdBrightnessDown { spawn "brightnessctl" "-d" "smc::kbd_backlight" "s" "10-"; }
+}

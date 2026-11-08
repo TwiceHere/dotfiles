@@ -66,4 +66,10 @@
       "/home/sonu/dotfiles/nvim";
     force = true;
   };
+  xdg.configFile."niri" = {
+    source =
+      config.lib.file.mkOutOfStoreSymlink
+      "/home/sonu/dotfiles/niri";
+    force = true;
+  };
 }

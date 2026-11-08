@@ -1,0 +1,232 @@
+// ~/.config/niri/config.kdl  —  niri 26.04+, noctalia shell
+// Check with: niri validate
+
+input {
+    keyboard {
+        xkb { layout "us"; }
+        numlock
+    }
+    touchpad { tap; }
+    focus-follows-mouse max-scroll-amount="0%"
+}
+
+layout {
+    gaps 10
+    struts { left 10; right 10; top 10; bottom 10; }  // outer gap = gaps + strut = 20
+    background-color "transparent"                    // lets the backdrop/wallpaper show through
+
+    focus-ring { off; }
+    border {
+        width 3
+        active-color "#e1e2e8"
+        inactive-color "#a2c9fe"
+    }
+    shadow {
+        on
+        softness 10
+        spread 2
+        offset x=0 y=4
+        color "#00000033"
+    }
+
+    default-column-width { proportion 0.5; }
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+    }
+}
+
+prefer-no-csd
+hotkey-overlay { skip-at-startup; }
+screenshot-path "~/Pictures/%Y%m%d_%H%M%S.png"
+cursor {
+    xcursor-theme "Bibata-Modern-Ice"
+    xcursor-size 24
+}
+
+// Needed for noctalia notification actions / window activation
+debug { honor-xdg-activation-with-invalid-serial; }
+
+// ---------- Autostart ----------
+spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
+spawn-at-startup "noctalia"   // NixOS flake: "noctalia-shell" | manual: "qs" "-c" "noctalia-shell"
+
+// ---------- Animations ----------
+animations {
+    window-open {
+        duration-ms 250
+        curve "cubic-bezier" 0.05 0.7 0.1 1
+    }
+    window-close {
+        duration-ms 200
+        curve "cubic-bezier" 0.3 0 0.8 0.15
+    }
+}
+
+// ---------- Window rules (processed top to bottom) ----------
+window-rule {
+    geometry-corner-radius 10
+    clip-to-geometry true
+    background-effect {
+        blur true
+        xray false
+    }
+}
+
+window-rule {
+    match is-active=false
+    opacity 0.9
+}
+
+window-rule {
+    match app-id=r#"^resolve$"#
+    background-effect { blur false; }
+}
+
+window-rule {
+    match app-id=r#"^org\.pulseaudio\.pavucontrol$"#
+    match app-id=r#"blueman-manager"#
+    match app-id=r#"^nm-connection-editor$"#
+    match app-id=r#"qalculate-gtk$"#
+    match app-id=r#"^dev\.noctalia\.Noctalia\.Settings$"#
+    open-floating true
+}
+
+window-rule {
+    match title="^Picture-in-Picture$"
+    open-floating true
+    default-floating-position x=32 y=32 relative-to="top-right"
+}
+
+// ---------- Layer rules (verify names with `niri msg layers`) ----------
+// Noctalia publishes blur regions itself; only disable xray for a realistic look.
+layer-rule {
+    match namespace="^noctalia-(bar-.*|notification|dock|panel|attached-panel|osd)$"
+    background-effect { xray false; }
+}
+// Blurred wallpaper copy in the overview backdrop
+layer-rule {
+    match namespace="^noctalia-backdrop"
+    place-within-backdrop true
+}
+// Alternative: stationary wallpaper (replace the rule above)
+// layer-rule { match namespace="^noctalia-wallpaper"; place-within-backdrop true; }
+
+// ---------- Binds ----------
+// Mod = Super on a TTY session, Alt when nested. Alt+Tab (recent windows) is built in.
+binds {
+    Mod+Return { spawn "ghostty"; }
+    Mod+E { spawn "nautilus"; }
+    Alt+Return { spawn "fuzzel"; }
+
+    // Noctalia
+    Mod+Ctrl+S { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
+    Mod+Ctrl+Comma { spawn "noctalia" "msg" "settings-toggle"; }
+    Mod+Ctrl+B { spawn "noctalia" "msg" "bar-toggle"; }
+    Mod+Ctrl+H { spawn "noctalia" "msg" "panel-toggle" "session"; }
+    Mod+Ctrl+L { spawn "noctalia" "msg" "session" "lock"; }
+    Mod+Ctrl+W { spawn "noctalia" "msg" "panel-toggle" "wallpaper"; }
+    Mod+V { spawn "noctalia" "msg" "panel-toggle" "clipboard"; }
+    Ctrl+Alt+N { spawn "noctalia" "msg" "nightlight-force-toggle"; }
+
+    // Screenshots
+    Print { screenshot; }
+    Ctrl+Print { screenshot-screen; }
+    Alt+Print { screenshot-window; }
+
+    // Windows
+    Mod+C repeat=false { close-window; }
+    Mod+F { fullscreen-window; }
+    Mod+M { maximize-column; }
+    Mod+T { toggle-window-floating; }
+    Mod+Shift+T { switch-focus-between-floating-and-tiling; }
+    Mod+J { consume-or-expel-window-left; }
+    Mod+K { consume-or-expel-window-right; }
+    Mod+G { toggle-column-tabbed-display; }
+    Mod+P { switch-preset-column-width; }
+    // Mod+D repeat=false { toggle-overview; }
+    Mod+D { focus-workspace 9;}
+    Mod+H { focus-workspace 1;}
+    Mod+N { focus-workspace-down;}
+
+    // Focus
+    Mod+Left  { focus-column-left; }
+    Mod+Right { focus-column-right; }
+    Mod+Up    { focus-window-or-workspace-up; }
+    Mod+Down  { focus-window-or-workspace-down; }
+    Ctrl+Alt+H { focus-column-left; }
+    Ctrl+Alt+L { focus-column-right; }
+    Mod+Alt+K { focus-window-or-workspace-up; }
+    Mod+Alt+J { focus-window-or-workspace-down; }
+
+    // Move
+    Mod+Alt+Left  { move-column-left; }
+    Mod+Alt+Right { move-column-right; }
+    Mod+Alt+Up    { move-window-up-or-to-workspace-up; }
+    Mod+Alt+Down  { move-window-down-or-to-workspace-down; }
+
+    // Resize
+    Mod+Shift+Right { set-column-width "+100"; }
+    Mod+Shift+Left  { set-column-width "-100"; }
+    Mod+Shift+Down  { set-window-height "+100"; }
+    Mod+Shift+Up    { set-window-height "-100"; }
+
+    // Workspaces: focus / move window and follow / move window silently
+    Mod+1 { focus-workspace 1; }
+    Mod+2 { focus-workspace 2; }
+    Mod+3 { focus-workspace 3; }
+    Mod+4 { focus-workspace 4; }
+    Mod+5 { focus-workspace 5; }
+    Mod+6 { focus-workspace 6; }
+    Mod+7 { focus-workspace 7; }
+    Mod+8 { focus-workspace 8; }
+    Mod+9 { focus-workspace 9; }
+    Mod+0 { focus-workspace 10; }
+    Mod+Shift+1 { move-window-to-workspace 1; }
+    Mod+Shift+2 { move-window-to-workspace 2; }
+    Mod+Shift+3 { move-window-to-workspace 3; }
+    Mod+Shift+4 { move-window-to-workspace 4; }
+    Mod+Shift+5 { move-window-to-workspace 5; }
+    Mod+Shift+6 { move-window-to-workspace 6; }
+    Mod+Shift+7 { move-window-to-workspace 7; }
+    Mod+Shift+8 { move-window-to-workspace 8; }
+    Mod+Shift+9 { move-window-to-workspace 9; }
+    Mod+Shift+0 { move-window-to-workspace 10; }
+    Mod+Ctrl+1 { move-window-to-workspace 1 focus=false; }
+    Mod+Ctrl+2 { move-window-to-workspace 2 focus=false; }
+    Mod+Ctrl+3 { move-window-to-workspace 3 focus=false; }
+    Mod+Ctrl+4 { move-window-to-workspace 4 focus=false; }
+    Mod+Ctrl+5 { move-window-to-workspace 5 focus=false; }
+    Mod+Ctrl+6 { move-window-to-workspace 6 focus=false; }
+    Mod+Ctrl+7 { move-window-to-workspace 7 focus=false; }
+    Mod+Ctrl+8 { move-window-to-workspace 8 focus=false; }
+    Mod+Ctrl+9 { move-window-to-workspace 9 focus=false; }
+    Mod+Ctrl+0 { move-window-to-workspace 10 focus=false; }
+
+    // Mod+N { focus-workspace-previous; }
+    Mod+Tab { focus-workspace-down; }
+    Mod+Shift+Tab { focus-workspace-up; }
+    Mod+WheelScrollDown cooldown-ms=150 { focus-workspace-down; }
+    Mod+WheelScrollUp   cooldown-ms=150 { focus-workspace-up; }
+
+    Mod+Shift+E { quit; }
+    Mod+Shift+Slash { show-hotkey-overlay; }
+
+    // Fn keys
+    XF86MonBrightnessUp   allow-when-locked=true { spawn "noctalia" "msg" "brightness" "increase"; }
+    XF86MonBrightnessDown allow-when-locked=true { spawn "noctalia" "msg" "brightness" "decrease"; }
+    XF86AudioRaiseVolume  allow-when-locked=true { spawn "noctalia" "msg" "volume" "increase"; }
+    XF86AudioLowerVolume  allow-when-locked=true { spawn "noctalia" "msg" "volume" "decrease"; }
+    XF86AudioMute         allow-when-locked=true { spawn "noctalia" "msg" "volume" "muteOutput"; }
+    XF86AudioMicMute      allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"; }
+    XF86AudioPlay         allow-when-locked=true { spawn-sh "playerctl play-pause"; }
+    XF86AudioPause        allow-when-locked=true { spawn-sh "playerctl pause"; }
+    XF86AudioNext         allow-when-locked=true { spawn-sh "playerctl next"; }
+    XF86AudioPrev         allow-when-locked=true { spawn-sh "playerctl previous"; }
+    XF86ScreenSaver { spawn "noctalia" "msg" "session" "lock"; }
+    XF86Calculator { spawn "qalculate-gtk"; }
+    XF86KbdBrightnessUp   { spawn "brightnessctl" "-d" "smc::kbd_backlight" "s" "+10"; }
+    XF86KbdBrightnessDown { spawn "brightnessctl" "-d" "smc::kbd_backlight" "s" "10-"; }
+}
