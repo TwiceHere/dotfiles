@@ -54,10 +54,10 @@
       set -g status-style bg=default
       set -g popup-style "bg=default,fg=default"
 
-      bind -n C-M-h select-pane -L
-      bind -n C-M-j select-pane -D
-      bind -n C-M-k select-pane -U
-      bind -n C-M-l select-pane -R
+      bind -n M-h select-pane -L
+      bind -n M-j select-pane -D
+      bind -n M-k select-pane -U
+      bind -n M-l select-pane -R
 
       #open windows/panes in cwd
       bind c new-window -c "#{pane_current_path}"

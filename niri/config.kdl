@@ -74,6 +74,11 @@ window-rule {
         xray false
     }
 }
+window-rule {
+    match app-id="^anki$"
+    exclude title="Anki$"
+    open-floating true
+}
 
 window-rule {
     match is-active=false
@@ -139,27 +144,30 @@ binds {
     // Windows
     Mod+C repeat=false { close-window; }
     Mod+F { fullscreen-window; }
-    Mod+M { maximize-column; }
+    Mod+M { toggle-column-tabbed-display; }
+    // Mod+G { maximize-window-to-edges; }
+    Mod+G { maximize-column; }
     Mod+T { toggle-window-floating; }
     Mod+Shift+T { switch-focus-between-floating-and-tiling; }
-    Mod+J { consume-or-expel-window-left; }
-    Mod+K { consume-or-expel-window-right; }
-    Mod+G { toggle-column-tabbed-display; }
+    Ctrl+Alt+J { consume-or-expel-window-left; }
+    Ctrl+Alt+K { consume-or-expel-window-right; }
     Mod+P { switch-preset-column-width; }
     // Mod+D repeat=false { toggle-overview; }
     Mod+D { focus-workspace 9;}
-    Mod+H { focus-workspace 1;}
+    Mod+O { focus-workspace 1;}
     Mod+N { focus-workspace-down;}
 
     // Focus
-    Mod+Left  { focus-column-left; }
-    Mod+Right { focus-column-right; }
-    Mod+Up    { focus-window-or-workspace-up; }
+    Mod+H  { focus-column-left; }
+    Mod+L { focus-column-right; }
+    Mod+J { focus-window-down; }
+    Mod+K { focus-window-up; }
+    Mod+Up    { focus-window-up; }
     Mod+Down  { focus-window-or-workspace-down; }
-    Ctrl+Alt+H { focus-column-left; }
-    Ctrl+Alt+L { focus-column-right; }
-    Mod+Alt+K { focus-window-or-workspace-up; }
-    Mod+Alt+J { focus-window-or-workspace-down; }
+    Mod+S { spawn "~/dotfiles/myscripts/get-window.sh"; }
+    // Mod+S { spawn "sh" "-c" "niri msg focused-window | notify-send 'Focused Window Data'"; }
+    // Ctrl+Alt+H { focus-column-left; }
+    // Ctrl+Alt+L { focus-column-right; }
 
     // Move
     Mod+Alt+Left  { move-column-left; }
