@@ -129,7 +129,7 @@ binds {
     // Noctalia
     Mod+Ctrl+S { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
     Mod+Ctrl+Comma { spawn "noctalia" "msg" "settings-toggle"; }
-    Mod+Ctrl+B { spawn "noctalia" "msg" "bar-toggle"; }
+    Mod+B { spawn "noctalia" "msg" "bar-toggle"; }
     Mod+Ctrl+H { spawn "noctalia" "msg" "panel-toggle" "session"; }
     Mod+Ctrl+L { spawn "noctalia" "msg" "session" "lock"; }
     Mod+Ctrl+W { spawn "noctalia" "msg" "panel-toggle" "wallpaper"; }
@@ -144,9 +144,9 @@ binds {
     // Windows
     Mod+C repeat=false { close-window; }
     Mod+F { fullscreen-window; }
-    Mod+M { toggle-column-tabbed-display; }
+    Mod+G { toggle-column-tabbed-display; }
+    Mod+M { maximize-column; }
     // Mod+G { maximize-window-to-edges; }
-    Mod+G { maximize-column; }
     Mod+T { toggle-window-floating; }
     Mod+Shift+T { switch-focus-between-floating-and-tiling; }
     Ctrl+Alt+J { consume-or-expel-window-left; }
@@ -156,6 +156,11 @@ binds {
     Mod+D { focus-workspace 9;}
     Mod+O { focus-workspace 1;}
     Mod+N { focus-workspace-down;}
+    Mod+Alt+k { move-window-up; }
+    Mod+Alt+j { move-window-down; }
+    Mod+Alt+h { move-column-left; }
+    Mod+Alt+l { move-column-right; }
+
 
     // Focus
     Mod+H  { focus-column-left; }

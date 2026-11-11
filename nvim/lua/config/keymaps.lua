@@ -78,3 +78,6 @@ vim.keymap.set('n', "<leader>h", "<cmd>lua vim.lsp.buf.rename()<CR><Esc>", { des
 vim.keymap.set('n', "<leader>ld", function()
     vim.diagnostic.enable(not vim.diagnostic.is_enabled())
 end, { desc = "Toggle LSP diagnostic" })
+
+--Pipe commands (Helix inspired)
+vim.keymap.set('v', '|', ":!", { desc = "Helix Style Pipe (Line-wise)" })

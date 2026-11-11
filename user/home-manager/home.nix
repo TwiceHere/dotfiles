@@ -22,8 +22,10 @@
     cargo
     localsend
     usbutils
-    brave
-    anki
+    # brave
+    librewolf
+    anki-bin
+    mpv
     unzip
     eza
     bat

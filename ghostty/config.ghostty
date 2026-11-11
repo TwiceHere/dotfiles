@@ -1,5 +1,6 @@
 background-blur = false
 background-opacity = 1
+background-opacity-cells = true
 command = fish -C "tmux new-session -A -s main"
 font-family = JetBrainsMono Nerd Font
 font-size = 13

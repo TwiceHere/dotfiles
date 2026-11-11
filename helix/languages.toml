@@ -11,18 +11,18 @@ language-servers = ["nixd","hx-lsp","harper-ls"]
 auto-format = true
 formatter = { command = "alejandra" }
 
-[language-server.pyrefly]
-command = "pyrefly"
-args = ["lsp"]
-[language-server.pyrefly.config.python.analysis.inlayHints]
-callArgumentNames = "all"
-functionReturnTypes = true
-variableTypes = true
-pytestParameters = true
+# [language-server.pyrefly]
+# command = "pyrefly"
+# args = ["lsp"]
+# [language-server.pyrefly.config.python.analysis.inlayHints]
+# callArgumentNames = "all"
+# functionReturnTypes = true
+# variableTypes = true
+# pytestParameters = true
 
 [[language]]
 name = "python"
-language-servers = ["pyrefly" , "ruff","hx-lsp","harper-ls"] #based pyright
+language-servers = ["basedpyright" , "ruff","hx-lsp","harper-ls"] #based pyright
 auto-format = true
 formatter = { command = "ruff", args = ["format", "-"] }
 
@@ -52,7 +52,7 @@ args = ["start"]
 
 [[language]]
 name = "markdown"
-language-servers = ["marksman","hx-lsp","harper-ls"]
+language-servers = ["marksman","hx-lsp"]
 
 [language-server.jdtls]
 command = "jdtls"

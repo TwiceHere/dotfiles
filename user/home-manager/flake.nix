@@ -3,6 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    # nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-26.05";
 
     zen-browser = {
       url = "github:0xc000022070/zen-browser-flake";
@@ -29,17 +30,23 @@
     silentSDDM,
     lazyvim,
     zen-browser,
+    # nixpkgs-stable,
     # helium-flake,
     ...
   }: let
     system = "x86_64-linux";
     pkgs = nixpkgs.legacyPackages.${system};
+    # pkgs-stable = import nixpkgs-stable {
+    #   inherit system;
+    #   config.allowUnfree = true;
+    # };
   in {
     homeConfigurations.knull = home-manager.lib.homeManagerConfiguration {
       inherit pkgs;
       extraSpecialArgs = {
         inherit silentSDDM;
         inherit zen-browser;
+        # inherit pkgs-stable;
         # inherit helium-flake;
       };
       modules = [
@@ -58,6 +65,7 @@
         ./modules/nushell.nix
         # ./modules/helium.nix
         ./modules/misc.nix
+        # ./modules/stable_packages.nix
 
         #./modules/silentddm.nix
         # ./modules/fonts.nix

@@ -9,7 +9,6 @@
     basedpyright
     ty
     ruff
-    pyrefly
 
     #go
     go
@@ -59,7 +58,7 @@
 
     # editors
     neovim
-    ast-grep
+    # ast-grep
     helix
     # vimPlugins.blink-lib
   ];
