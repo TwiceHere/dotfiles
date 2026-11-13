@@ -33,6 +33,10 @@ L = ":bn"
 A-d = ":bc"
 C-o = ":toggle lsp.display-inlay-hints"
 
+# [keys.normal.y]
+# y = ["extend_to_line_bounds","yank","collapse_selection"]
+# [keys.normal.y]
+# y = ["save_selection", "extend_to_line_bounds", "yank", "jump_backward"]
 
 
 [keys.normal.space]

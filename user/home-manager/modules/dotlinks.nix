@@ -60,16 +60,22 @@
       "/home/sonu/dotfiles/fuzzel";
     force = true;
   };
-  xdg.configFile."nvim" = {
-    source =
-      config.lib.file.mkOutOfStoreSymlink
-      "/home/sonu/dotfiles/nvim";
-    force = true;
-  };
+  # xdg.configFile."nvim" = {
+  #   source =
+  #     config.lib.file.mkOutOfStoreSymlink
+  #     "/home/sonu/dotfiles/nvim";
+  #   force = true;
+  # };
   xdg.configFile."niri" = {
     source =
       config.lib.file.mkOutOfStoreSymlink
       "/home/sonu/dotfiles/niri";
+    force = true;
+  };
+  xdg.configFile."tmux" = {
+    source =
+      config.lib.file.mkOutOfStoreSymlink
+      "/home/sonu/dotfiles/tmux";
     force = true;
   };
 }

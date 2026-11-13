@@ -74,12 +74,22 @@ window-rule {
         xray false
     }
 }
+// window-rule {
+//     match app-id="^anki$"
+//     exclude app-id="^anki$" title="Anki"
+//     open-floating true
+// }
 window-rule {
-    match app-id="^anki$"
-    exclude title="Anki$"
+    match app-id=r#"^anki$"#
+    exclude app-id=r#"^anki$"# title=r#"^User 1 - Anki$"#
+    // exclude app-id=r#"anki"# title=r#"Anki"#
+    // exclude app-id=r#"^anki$"# title=r#"Anki"#
     open-floating true
 }
-
+window-rule {
+    match app-id="^org.gnome.clocks$"
+    open-floating true
+}
 window-rule {
     match is-active=false
     opacity 0.9
@@ -145,7 +155,7 @@ binds {
     Mod+C repeat=false { close-window; }
     Mod+F { fullscreen-window; }
     Mod+G { toggle-column-tabbed-display; }
-    Mod+M { maximize-column; }
+    Mod+M { maximize-column; } //maximize-column or maximize-window-to-edges;
     // Mod+G { maximize-window-to-edges; }
     Mod+T { toggle-window-floating; }
     Mod+Shift+T { switch-focus-between-floating-and-tiling; }

@@ -1,4 +1,8 @@
-{ config, pkgs, ... }: let
+{
+  config,
+  pkgs,
+  ...
+}: let
   rtl8192eu-clnhub = config.boot.kernelPackages.callPackage ({
     stdenv,
     fetchFromGitHub,
@@ -13,10 +17,10 @@
         owner = "clnhub";
         repo = "rtl8192eu-linux";
         rev = "5.11.2.3";
-        hash = "sha256-S2KZhJmsWRnM+GWEuwM/UCSTKxV/YH6nW2HSCX3Rezo=";
+        hash = "sha256-ZlUOT4i2pfQxUgKASVQX14B7vj+WY8RzwRSk0l4k+DE=";
       };
 
-      hardeningDisable = [ "pic" "format" ];
+      hardeningDisable = ["pic" "format"];
       nativeBuildInputs = kernel.moduleBuildDependencies;
 
       makeFlags = [
@@ -37,6 +41,6 @@
       meta.platforms = lib.platforms.linux;
     }) {};
 in {
-  boot.blacklistedKernelModules = [ "rtl8xxxu" ];
-  boot.extraModulePackages = [ rtl8192eu-clnhub ];
+  boot.blacklistedKernelModules = ["rtl8xxxu"];
+  boot.extraModulePackages = [rtl8192eu-clnhub];
 }

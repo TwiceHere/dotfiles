@@ -15,7 +15,7 @@ vim.cmd.colorscheme("catppuccin") -- catppuccin,vague,
 vim.o.showmode = false
 vim.opt.fillchars:append({ eob = " " })
 vim.numberwidth = 3
-vim.o.shortmess:append("I")
+-- vim.o.shortmess:append("I")
 -- vim.o.termguicolors = true
 -- vim.o.autochdir = true
 

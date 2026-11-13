@@ -60,7 +60,7 @@
         # ./modules/ghostty.nix
         ./modules/zen-browser.nix
         ./modules/programs.nix
-        ./modules/tmux.nix
+        # ./modules/tmux.nix
         ./modules/development.nix
         ./modules/nushell.nix
         # ./modules/helium.nix
