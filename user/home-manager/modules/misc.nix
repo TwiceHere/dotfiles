@@ -5,7 +5,9 @@
     cava
     wl-clipboard
     blanket
+    foot
     cbonsai
+    valent
     # mdcat
     pipx
     # leaf-markdown-viewer

@@ -6,6 +6,8 @@ cursorline = true
 bufferline = "multiple"
 true-color = true
 completion-timeout = 50
+continue-comments = false
+# popup-border = "popup"
 
 
 [editor.lsp]

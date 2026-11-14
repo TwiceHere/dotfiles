@@ -22,7 +22,7 @@
     cargo
     localsend
     usbutils
-    # brave
+    brave
     librewolf
     anki-bin
     mpv

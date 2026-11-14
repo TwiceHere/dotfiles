@@ -11,4 +11,7 @@
     gnumake
     # hyprpolkitagent
   ];
+  programs.kdeconnect = {
+    enable = true;
+  };
 }
