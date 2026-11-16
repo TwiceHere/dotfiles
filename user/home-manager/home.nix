@@ -3,6 +3,7 @@
   home.homeDirectory = "/home/sonu";
 
   home.packages = with pkgs; [
+    wlogout
     tmux
     curl
     ripgrep

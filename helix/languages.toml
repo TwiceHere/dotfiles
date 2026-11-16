@@ -11,6 +11,18 @@ language-servers = ["nixd","hx-lsp","harper-ls"]
 auto-format = true
 formatter = { command = "alejandra" }
 
+[language-server.scls]
+command = "simple-completion-language-server"
+[language-server.scls.config]
+max_completion_items = 20
+snippets_first = true
+snippets_inline_by_word_tail = false
+feature_words = false
+feature_snippets = true
+feature_unicode_input = false
+feature_paths = false
+feature_citations = false
+
 # [language-server.pyrefly]
 # command = "pyrefly"
 # args = ["lsp"]
@@ -59,5 +71,5 @@ command = "jdtls"
 
 [[language]]
 name = "java"
-language-servers = ["jdtls","harper-ls"]
+language-servers = ["scls","jdtls","harper-ls"]
 formatter = { command = "google-java-format", args = ["-"]}

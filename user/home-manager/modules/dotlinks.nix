@@ -84,4 +84,10 @@
       "/home/sonu/dotfiles/foot";
     force = true;
   };
+  xdg.configFile."wlogout" = {
+    source =
+      config.lib.file.mkOutOfStoreSymlink
+      "/home/sonu/dotfiles/wlogout";
+    force = true;
+  };
 }

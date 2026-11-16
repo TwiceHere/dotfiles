@@ -22,7 +22,7 @@ return {
         scope = { enabled = true },
         words = { enabled = true },
         dashboard = {
-            enabled = true,
+            enabled = false,
             preset = {
                 header = [[
      ██████╗       ██╗     ██╗███╗   ██╗███████╗██████╗

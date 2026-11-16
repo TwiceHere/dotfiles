@@ -1,6 +1,7 @@
 theme = "catppuccin_mocha" #catppuccin_mocha
 
 [editor]
+shell = ["fish","-c"]
 line-number = "relative"
 cursorline = true
 bufferline = "multiple"
@@ -34,7 +35,7 @@ H = ":bp"
 L = ":bn"
 A-d = ":bc"
 C-o = ":toggle lsp.display-inlay-hints"
-
+C-r = ':sh tmux display-popup -E -w 90%% -h 90%% -d (dirname (realpath %{buffer_name})) fish -C "ruf"'
 # [keys.normal.y]
 # y = ["extend_to_line_bounds","yank","collapse_selection"]
 # [keys.normal.y]

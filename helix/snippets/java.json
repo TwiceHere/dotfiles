@@ -1,0 +1,10 @@
+{
+  "Main method":{
+    "prefix": "main",
+    "body": [
+      "public static void main(String []args){",
+      "\t$0",
+      "}"
+    ],
+  },
+}

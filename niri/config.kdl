@@ -159,8 +159,8 @@ binds {
     // Mod+G { maximize-window-to-edges; }
     Mod+T { toggle-window-floating; }
     Mod+Shift+T { switch-focus-between-floating-and-tiling; }
-    Ctrl+Alt+J { consume-or-expel-window-left; }
-    Ctrl+Alt+K { consume-or-expel-window-right; }
+    Ctrl+Alt+H { consume-or-expel-window-left; }
+    Ctrl+Alt+L { consume-or-expel-window-right; }
     Mod+P { switch-preset-column-width; }
     // Mod+D repeat=false { toggle-overview; }
     Mod+D { focus-workspace 9;}
@@ -236,6 +236,11 @@ binds {
 
     Mod+Shift+E { quit; }
     Mod+Shift+Slash { show-hotkey-overlay; }
+    // volume
+    Ctrl+Alt+K allow-when-locked=true {  spawn "noctalia" "msg" "volume-up"; }
+    Ctrl+Alt+J allow-when-locked=true {  spawn "noctalia" "msg" "volume-down"; }
+    Ctrl+Alt+M  allow-when-locked=true {  spawn "noctalia" "msg" "volume-mute"; }
+
 
     // Fn keys
     XF86MonBrightnessUp   allow-when-locked=true { spawn "noctalia" "msg" "brightness" "increase"; }
