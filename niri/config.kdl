@@ -132,7 +132,7 @@ layer-rule {
 // ---------- Binds ----------
 // Mod = Super on a TTY session, Alt when nested. Alt+Tab (recent windows) is built in.
 binds {
-    Mod+Return { spawn "ghostty"; }
+    Mod+Return { spawn "foot"; }
     Mod+E { spawn "nautilus"; }
     Alt+Return { spawn "fuzzel"; }
 

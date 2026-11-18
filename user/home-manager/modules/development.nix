@@ -59,7 +59,7 @@
     # editors
     neovim
     # ast-grep
-    helix
+    # helix
     # vimPlugins.blink-lib
   ];
 }

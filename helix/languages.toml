@@ -65,6 +65,7 @@ args = ["start"]
 [[language]]
 name = "markdown"
 language-servers = ["marksman","hx-lsp"]
+word-completion.trigger-length = 2
 
 [language-server.jdtls]
 command = "jdtls"

@@ -1,5 +1,10 @@
 {
   description = "A very basic flake";
+  nixConfig = {
+    extra-substituters = [ "https://helix.cachix.org" ];
+    extra-trusted-public-keys = [ "helix.cachix.org-1:ejp9KQpR1FBI2onstMQ34yogDm4OgU2ru6lIwPvuCVs=" ]; 
+
+  };
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -19,6 +24,7 @@
       url = "github:uiriansan/SilentSDDM";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    helix.url = "github:helix-editor/helix/master";
     # helium-flake.url = "github:oxcl/nix-flake-helium-browser";
     # helium-flake.inputs.nixpkgs.follows = "nixpkgs";
   };
@@ -30,6 +36,7 @@
     silentSDDM,
     lazyvim,
     zen-browser,
+    helix,
     # nixpkgs-stable,
     # helium-flake,
     ...
@@ -46,6 +53,7 @@
       extraSpecialArgs = {
         inherit silentSDDM;
         inherit zen-browser;
+        inherit helix;
         # inherit pkgs-stable;
         # inherit helium-flake;
       };
@@ -65,6 +73,7 @@
         ./modules/nushell.nix
         # ./modules/helium.nix
         ./modules/misc.nix
+	./modules/helix.nix
         # ./modules/stable_packages.nix
 
         #./modules/silentddm.nix

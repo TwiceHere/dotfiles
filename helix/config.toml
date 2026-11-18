@@ -6,10 +6,12 @@ line-number = "relative"
 cursorline = true
 bufferline = "multiple"
 true-color = true
-completion-timeout = 50
+completion-timeout = 5
 continue-comments = false
 # popup-border = "popup"
-
+[editor.word-completion]
+enable = true
+trigger-length = 1
 
 [editor.lsp]
 display-inlay-hints = false
@@ -51,6 +53,12 @@ U = "switch_to_uppercase"
 w = ":w"
 q = ":q"
 o = ":config-reload"
+e = [
+  ':pipe-to ~/dotfiles/myscripts/yazi_wrapper.sh %{buffer_name}',
+  ':sh printf "\x1b[?1049h\x1b[?2004h" > /dev/tty',
+  ':open %sh{cat /tmp/hx-yazi}',
+  ':redraw',
+]
 
 
 [keys.select.space]
