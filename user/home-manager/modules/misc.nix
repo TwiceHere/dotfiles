@@ -17,5 +17,7 @@
     # vimPlugins.nvim-treesitter-parsers.bash
     # vimPlugins.nvim-treesitter-parsers.markdown
     tree-sitter
+    ffmpeg
+    pulseaudio
   ];
 }

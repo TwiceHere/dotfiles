@@ -64,6 +64,13 @@ animations {
         curve "cubic-bezier" 0.3 0 0.8 0.15
     }
 }
+// -------Blur--------
+// blur {
+//     passes 3
+//     offset 3
+//     noise 0.02
+//     saturation 1.0
+// }
 
 // ---------- Window rules (processed top to bottom) ----------
 window-rule {

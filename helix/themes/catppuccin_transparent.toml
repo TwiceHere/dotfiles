@@ -1,0 +1,5 @@
+inherits = "catppuccin_mocha"
+"ui.background" = {}
+"ui.popup" = {}
+"ui.menu" = {}
+"ui.statusline" = {}

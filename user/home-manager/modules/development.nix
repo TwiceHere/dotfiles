@@ -55,6 +55,8 @@
 
     #markdown
     marksman
+    #c language
+    clang-tools
 
     # editors
     neovim

@@ -36,21 +36,38 @@
     hyprland,
     ...
   }: {
-    nixosConfigurations.knull = nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
-      specialArgs = {inherit inputs silentSDDM nixpkgs-stable hyprland;};
-      modules = [
-        ./configuration.nix
-        ./modules/packages.nix
-        ./modules/fonts.nix
-        ./modules/sddm.nix
-        ./modules/noctalia.nix
-        ./modules/driver.nix
-        ./modules/extra.nix
-        ./modules/postgresql.nix
-        ./modules/hyprland.nix
-        ./modules/niri.nix
-      ];
+    nixosConfigurations = {
+      knull = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        specialArgs = {inherit inputs silentSDDM nixpkgs-stable hyprland;};
+        modules = [
+          ./configuration.nix
+          ./modules/packages.nix
+          ./modules/fonts.nix
+          ./modules/sddm.nix
+          ./modules/noctalia.nix
+          ./modules/driver.nix
+          ./modules/extra.nix
+          ./modules/postgresql.nix
+          ./modules/hyprland.nix
+          ./modules/niri.nix
+        ];
+      };
+      laptop = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        specialArgs = {inherit inputs silentSDDM nixpkgs-stable hyprland;};
+        modules = [
+          ./configuration.nix
+          ./modules/packages.nix
+          ./modules/fonts.nix
+          ./modules/sddm.nix
+          ./modules/noctalia.nix
+          ./modules/extra.nix
+          ./modules/postgresql.nix
+          ./modules/hyprland.nix
+          ./modules/niri.nix
+        ];
+      };
     };
   };
 }

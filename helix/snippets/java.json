@@ -1,10 +1,10 @@
 {
-  "Main method":{
-    "prefix": "main",
+  "Main method": {
+    "prefix": "mav",
     "body": [
       "public static void main(String []args){",
       "\t$0",
       "}"
-    ],
-  },
+    ]
+  }
 }

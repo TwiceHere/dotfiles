@@ -72,12 +72,12 @@
       "/home/sonu/dotfiles/niri";
     force = true;
   };
-  xdg.configFile."tmux" = {
-    source =
-      config.lib.file.mkOutOfStoreSymlink
-      "/home/sonu/dotfiles/tmux";
-    force = true;
-  };
+  # xdg.configFile."tmux" = {
+  #   source =
+  #     config.lib.file.mkOutOfStoreSymlink
+  #     "/home/sonu/dotfiles/tmux";
+  #   force = true;
+  # };
   xdg.configFile."foot" = {
     source =
       config.lib.file.mkOutOfStoreSymlink

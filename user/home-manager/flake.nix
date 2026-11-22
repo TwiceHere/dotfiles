@@ -1,9 +1,8 @@
 {
   description = "A very basic flake";
   nixConfig = {
-    extra-substituters = [ "https://helix.cachix.org" ];
-    extra-trusted-public-keys = [ "helix.cachix.org-1:ejp9KQpR1FBI2onstMQ34yogDm4OgU2ru6lIwPvuCVs=" ]; 
-
+    extra-substituters = ["https://helix.cachix.org"];
+    extra-trusted-public-keys = ["helix.cachix.org-1:ejp9KQpR1FBI2onstMQ34yogDm4OgU2ru6lIwPvuCVs="];
   };
 
   inputs = {
@@ -68,12 +67,12 @@
         # ./modules/ghostty.nix
         ./modules/zen-browser.nix
         ./modules/programs.nix
-        # ./modules/tmux.nix
+        ./modules/tmux.nix
         ./modules/development.nix
         ./modules/nushell.nix
         # ./modules/helium.nix
         ./modules/misc.nix
-	./modules/helix.nix
+        ./modules/helix.nix
         # ./modules/stable_packages.nix
 
         #./modules/silentddm.nix

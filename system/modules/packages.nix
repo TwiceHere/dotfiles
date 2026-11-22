@@ -10,6 +10,8 @@
     clang
     gnumake
     # hyprpolkitagent
+    scrcpy
+    v4l-utils
   ];
   programs.kdeconnect = {
     enable = true;
