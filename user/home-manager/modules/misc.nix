@@ -7,17 +7,12 @@
     blanket
     foot
     cbonsai
-    valent
     # mdcat
     pipx
-    # leaf-markdown-viewer
     watchexec
-    # vimPlugins.nvim-treesitter-parsers.python
-    # vimPlugins.nvim-treesitter-parsers.lua
-    # vimPlugins.nvim-treesitter-parsers.bash
-    # vimPlugins.nvim-treesitter-parsers.markdown
     tree-sitter
     ffmpeg
     pulseaudio
+    ungoogled-chromium
   ];
 }

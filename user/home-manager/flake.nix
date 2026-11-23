@@ -73,6 +73,7 @@
         # ./modules/helium.nix
         ./modules/misc.nix
         ./modules/helix.nix
+        ./modules/webapps.nix
         # ./modules/stable_packages.nix
 
         #./modules/silentddm.nix
