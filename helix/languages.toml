@@ -10,7 +10,9 @@ name = "nix"
 language-servers = ["nixd","hx-lsp","harper-ls"]
 auto-format = true
 formatter = { command = "alejandra" }
-
+[[language]]
+name = "csv"
+language-servers = ["hx-lsp"]
 [[language]]
 name = "c"
 language-servers = ["clangd"]
@@ -29,7 +31,7 @@ feature_citations = false
 
 [[language]]
 name = "toml"
-# language-servers = ["scls"]
+language-servers = ["scls"]
 
 [[language]]
 name = "text"

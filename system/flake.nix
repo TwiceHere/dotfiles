@@ -4,11 +4,11 @@
   nixConfig = {
     extra-substituters = [
       "https://noctalia.cachix.org"
-      "https://hyprland.cachix.org"
+      # "https://hyprland.cachix.org"
     ];
     extra-trusted-public-keys = [
       "noctalia.cachix.org-1:pCOR47nnMEo5thcxNDtzWpOxNFQsBRglJzxWPp3dkU4="
-      "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="
+      # "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="
     ];
   };
 
@@ -24,7 +24,7 @@
       url = "github:noctalia-dev/noctalia/cachix";
       # inputs.nixpkgs.follows = "nixpkgs";
     };
-    hyprland.url = "github:hyprwm/Hyprland";
+    # hyprland.url = "github:hyprwm/Hyprland";
   };
 
   outputs = inputs @ {
@@ -33,13 +33,13 @@
     nixpkgs-stable,
     silentSDDM,
     noctalia,
-    hyprland,
+    # hyprland,
     ...
   }: {
     nixosConfigurations = {
       knull = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        specialArgs = {inherit inputs silentSDDM nixpkgs-stable hyprland;};
+        specialArgs = {inherit inputs silentSDDM nixpkgs-stable;}; #hyprland
         modules = [
           ./configuration.nix
           ./modules/packages.nix
@@ -49,13 +49,13 @@
           ./modules/driver.nix
           ./modules/extra.nix
           ./modules/postgresql.nix
-          ./modules/hyprland.nix
+          # ./modules/hyprland.nix
           ./modules/niri.nix
         ];
       };
       laptop = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        specialArgs = {inherit inputs silentSDDM nixpkgs-stable hyprland;};
+        specialArgs = {inherit inputs silentSDDM nixpkgs-stable;}; #hyprland
         modules = [
           ./configuration.nix
           ./modules/packages.nix
@@ -64,7 +64,7 @@
           ./modules/noctalia.nix
           ./modules/extra.nix
           ./modules/postgresql.nix
-          ./modules/hyprland.nix
+          # ./modules/hyprland.nix
           ./modules/niri.nix
         ];
       };

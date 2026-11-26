@@ -14,5 +14,6 @@
     ffmpeg
     pulseaudio
     ungoogled-chromium
+    libreoffice
   ];
 }
